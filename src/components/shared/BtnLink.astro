@@ -1,26 +1,26 @@
 ---
 export interface Props {
-  href: string;
-  text: string;
-  className?: string;
-  variant: "primary" | "secondary";
+  href: string
+  text: string
+  className?: string
+  variant: 'primary' | 'secondary'
 }
 
-const { href, text, className, variant } = Astro.props;
+const { href, text, className, variant } = Astro.props
 
-const getThemeStyle = (variant: "primary" | "secondary") => {
-  if (variant === "primary") {
-    return "bg-primary border-transparent relative after:bg-[#172554] hover:border-[#172554]";
+const getThemeStyle = (variant: 'primary' | 'secondary') => {
+  if (variant === 'primary') {
+    return 'bg-primary border-transparent relative after:bg-[#172554] hover:border-[#172554]'
   }
-  return "text-primary";
-};
+  return 'text-primary'
+}
 
-const getTextColor = (variant: "primary" | "secondary") => {
-  if (variant === "primary") {
-    return "text-white";
+const getTextColor = (variant: 'primary' | 'secondary') => {
+  if (variant === 'primary') {
+    return 'text-white'
   }
-  return "text-primary";
-};
+  return 'text-primary'
+}
 ---
 
 <a

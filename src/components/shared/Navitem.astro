@@ -1,15 +1,15 @@
 ---
 export interface Props {
-  href: string;
-  text: string;
+  href: string
+  text: string
 }
-const { href, text } = Astro.props;
+const { href, text } = Astro.props
 ---
 
 <li>
   <a
     href={href}
-    class="duration-300 font-medium ease-linear hover:text-primary py-3"
+    class='duration-300 font-medium ease-linear hover:text-primary py-3'
   >
     {text}
   </a>

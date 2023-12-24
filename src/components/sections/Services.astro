@@ -1,30 +1,30 @@
 ---
-import Service from "../cards/Service.astro";
-import Container from "../shared/Container.astro";
-import Paragraph from "../shared/Paragraph.astro";
-import Title from "../shared/Title.astro";
-import BtnLink from "../shared/BtnLink.astro";
+import Service from '../cards/Service.astro'
+import Container from '../shared/Container.astro'
+import Paragraph from '../shared/Paragraph.astro'
+import Title from '../shared/Title.astro'
+import BtnLink from '../shared/BtnLink.astro'
 
 type ServicesProps = {
-  title: string;
-  description: string;
-  icon: string;
-  href: string;
-};
+  title: string
+  description: string
+  icon: string
+  href: string
+}
 
-const { size, data } = Astro.props;
+const { size, data } = Astro.props
 ---
 
-<section id="services">
-  <Container className="space-y-10 md:sapce-y-12">
-    <div class="text-center max-w-3xl mx-auto space-y-4">
+<section id='services'>
+  <Container className='space-y-10 md:sapce-y-12'>
+    <div class='text-center max-w-3xl mx-auto space-y-4'>
       <Title>What we offer</Title>
       <Paragraph>
         Startup Brilliance: Crafting Trendsetting SaaS, Online, and Mobile
         Solutions with Expertise.
       </Paragraph>
     </div>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+    <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
       {
         data.slice(0, size).map((service: ServicesProps) => {
           return (
@@ -34,18 +34,18 @@ const { size, data } = Astro.props;
               icon={service.icon}
               href={service.href}
             />
-          );
+          )
         })
       }
     </div>
     <div
-      class={`${size > 6 ? "invisible" : ""} flex items-center justify-center`}
+      class={`${size > 6 ? 'invisible' : ''} flex items-center justify-center`}
     >
       <BtnLink
-        text="Discover More"
-        href="/services"
-        className="flex justify-center w-full sm:w-max"
-        variant="primary"
+        text='Discover More'
+        href='/services'
+        className='flex justify-center w-full sm:w-max'
+        variant='primary'
       />
     </div>
   </Container>

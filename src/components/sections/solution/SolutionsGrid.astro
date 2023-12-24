@@ -1,23 +1,23 @@
 ---
-import Container from "../../shared/Container.astro";
-import Paragraph from "../../shared/Paragraph.astro";
-import Title from "../../shared/Title.astro";
-import BtnLink from "../../shared/BtnLink.astro";
-import Solution from "../../cards/Solution.astro";
+import Container from '../../shared/Container.astro'
+import Paragraph from '../../shared/Paragraph.astro'
+import Title from '../../shared/Title.astro'
+import BtnLink from '../../shared/BtnLink.astro'
+import Solution from '../../cards/Solution.astro'
 
-const { data } = Astro.props;
+const { data } = Astro.props
 ---
 
-<section id="services">
-  <Container className="space-y-10 md:sapce-y-12">
-    <div class="text-center max-w-3xl mx-auto space-y-4">
+<section id='services'>
+  <Container className='space-y-10 md:sapce-y-12'>
+    <div class='text-center max-w-3xl mx-auto space-y-4'>
       <Title>Solutions we offer</Title>
       <Paragraph>
         Startup Brilliance: Crafting Trendsetting SaaS, Online, and Mobile
         Solutions with Expertise.
       </Paragraph>
     </div>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+    <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
       {
         data.map((item: any) => {
           return (
@@ -27,7 +27,7 @@ const { data } = Astro.props;
               description={item.description}
               image={item.image}
             />
-          );
+          )
         })
       }
     </div>

@@ -1,40 +1,40 @@
 ---
-import Paragraph from "../shared/Paragraph.astro";
+import Paragraph from '../shared/Paragraph.astro'
 
 export interface Props {
-  description: string;
-  image: string;
-  key: string;
-  grid: boolean;
+  description: string
+  image: string
+  key: string
+  grid: boolean
 }
 
-const { key, image, description, grid } = Astro.props;
+const { key, image, description, grid } = Astro.props
 ---
 
 {
   grid ? (
     <a href={`/solutions/${key}`}>
-      <div class="slide shadow-2xl flex-shrink-0 w-[100%] h-[calc(70vw*1.5)] md:h-[calc(35vw*1.5)] lg:h-[calc(25vw*1.5)] xl:h-[calc(20vw*1.5)] overflow-clip relative mx-2 snap-center rounded-3xl">
+      <div class='slide shadow-2xl flex-shrink-0 w-[100%] h-[calc(70vw*1.5)] md:h-[calc(35vw*1.5)] lg:h-[calc(25vw*1.5)] xl:h-[calc(20vw*1.5)] overflow-clip relative mx-2 snap-center rounded-3xl'>
         <img
           src={image}
-          alt="Image 1"
-          class="block w-full h-full object-cover object-center absolute right-0 animate-parallax [animation-timeline:view(x)]"
+          alt='Image 1'
+          class='block w-full h-full object-cover object-center absolute right-0 animate-parallax [animation-timeline:view(x)]'
         />
-        <div class="bg-[#ffffff90] dark:bg-blue-950 rounded-3xl backdrop-blur-lg text-center absolute top-[60%] flex items-center bottom-0 left-0 right-0 p-5">
-          <Paragraph className="whitespace-normal">{description}</Paragraph>
+        <div class='bg-[#ffffff90] dark:bg-blue-950 rounded-3xl backdrop-blur-lg text-center absolute top-[60%] flex items-center bottom-0 left-0 right-0 p-5'>
+          <Paragraph className='whitespace-normal'>{description}</Paragraph>
         </div>
       </div>
     </a>
   ) : (
     <a href={`/solutions/${key}`}>
-      <div class="slide shadow-2xl flex-shrink-0 w-[60vw] h-[calc(55vw*1.5)] sm:w-[40vw] sm:h-[calc(35vw*1.5)] md:w-[25vw] md:h-[calc(20vw*1.5)] overflow-clip relative mx-2 snap-center rounded-3xl">
+      <div class='slide shadow-2xl flex-shrink-0 w-[60vw] h-[calc(55vw*1.5)] sm:w-[40vw] sm:h-[calc(35vw*1.5)] md:w-[25vw] md:h-[calc(20vw*1.5)] overflow-clip relative mx-2 snap-center rounded-3xl'>
         <img
           src={image}
-          alt="Image 1"
-          class="block w-full h-full object-cover object-center absolute right-0 animate-parallax [animation-timeline:view(x)]"
+          alt='Image 1'
+          class='block w-full h-full object-cover object-center absolute right-0 animate-parallax [animation-timeline:view(x)]'
         />
-        <div class="bg-[#ffffff90] rounded-3xl backdrop-blur-lg text-center absolute top-[60%] flex items-center bottom-0 left-0 right-0 p-5">
-          <Paragraph className="whitespace-normal">{description}</Paragraph>
+        <div class='bg-[#ffffff90] rounded-3xl backdrop-blur-lg text-center absolute top-[60%] flex items-center bottom-0 left-0 right-0 p-5'>
+          <Paragraph className='whitespace-normal'>{description}</Paragraph>
         </div>
       </div>
     </a>
