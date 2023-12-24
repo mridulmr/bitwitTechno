@@ -2,6 +2,7 @@
   "name": "bitwit-techno-site",
   "type": "module",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "cp .env.production .env && env-cmd",
     "start": "astro dev",
