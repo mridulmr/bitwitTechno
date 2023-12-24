@@ -137,3 +137,7 @@ yarn.lock
 
 .DS_Store
 **/.DS_Store
+
+
+# Custom
+/bitwit-techno-site-firebase-adminsdk-uibm2-5c3d335157.json
