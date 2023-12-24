@@ -1,0 +1,19 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ElevateVision from "../../components/sections/service/ElevateVision.astro";
+import { solution, softwareDevelopmentTab } from "../../utils/data";
+import WhyChooseUs from "../../components/sections/service/WhyChooseUs.astro";
+import HeroSolution from "../../components/sections/solution/HeroSolution.astro";
+import SolutionGrid from "../../components/sections/solution/SolutionsGrid.astro";
+import CTA from "../../components/sections/CTA.astro";
+---
+
+<Layout title="Solution | Bitwit Techno">
+  <main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+    <HeroSolution />
+    <ElevateVision />
+    <SolutionGrid data={solution} />
+    <WhyChooseUs tabList={softwareDevelopmentTab} />
+    <CTA />
+  </main>
+</Layout>

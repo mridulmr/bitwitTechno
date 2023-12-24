@@ -1,0 +1,163 @@
+---
+import Container from "../../shared/Container.astro";
+import Paragraph from "../../shared/Paragraph.astro";
+import Title from "../../shared/Title.astro";
+import ByNumberTraining from "../ByNumberTraining.astro";
+---
+
+<style>
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .tabs .active {
+    border-bottom: 2px solid #1d4ed8;
+  }
+</style>
+
+<Container>
+  <div class="flex flex-wrap flex-col md:flex-row gap-5 md:gap-10">
+    <div class="flex flex-1 flex-col gap-2.5 md:gap-5">
+      <div class="flex-1">
+        <Title>Who we are?</Title>
+        <Paragraph className="mt-4 md:mt-10">
+          Bitwit Techno, formerly a distinguished IT training institute, has
+          evolved into a dynamic force in software development. Our journey is
+          marked by expertise, innovation, and a commitment to excellence.
+        </Paragraph>
+      </div>
+      <div class="flex-1">
+        <div id="panels-image">
+          <div class="panel-1 tab-content active py-5">
+            <img
+              src="/images/training.webp"
+              alt="Hero image"
+              width="100"
+              height="100"
+              class="w-9/12 rounded-3xl object-contain m-auto"
+            />
+          </div>
+          <div class="panel-2 tab-content py-5">
+            <img
+              src="/images/development.webp"
+              alt="Hero image"
+              width="2350"
+              height="2359"
+              class="w-9/12 rounded-3xl object-contain m-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="">
+        <nav class="tabs flex flex-row dark:text-white">
+          <button
+            data-target="panel-1"
+            class="tab active py-4 px-6 block hover:text-blue-800 focus:outline-none"
+          >
+            Training
+          </button><button
+            data-target="panel-2"
+            class="tab ext-gray-600 py-4 px-6 block hover:text-blue-800 focus:outline-none"
+          >
+            Development
+          </button>
+        </nav>
+      </div>
+
+      <div id="panels">
+        <div class="panel-1 tab-content active py-5 dark:text-white">
+          <Paragraph>
+            At Bitwit Techno, we are your one-stop destination for comprehensive
+            IT education and career solutions. Our IT Course Training ensures
+            that you stay ahead in the fast-paced tech landscape, mastering
+            essential skills and emerging technologies. As your career
+            companion, our Placement Services connect your expertise with
+            promising opportunities, fostering a seamless transition into the
+            professional realm.
+          </Paragraph>
+          <Paragraph className="mt-5">
+            Experience the real-world application of your knowledge through our
+            Project Training programs, designed to enhance practical skills and
+            prepare you for industry challenges. For academic excellence, our
+            School Coaching services provide personalized guidance to students,
+            creating a supportive learning environment for success.
+          </Paragraph>
+          <Paragraph className="mt-5">
+            In the comfort of your home, our Home Tutoring services bring
+            education to your doorstep. Our qualified tutors tailor learning
+            experiences, ensuring individualized attention for optimal
+            understanding and growth. At Bitwit Techno, we don't just provide
+            education; we cultivate futures by empowering individuals with the
+            skills and knowledge needed to thrive in the dynamic world of IT.
+          </Paragraph>
+          <ByNumberTraining />
+        </div>
+        <div class="panel-2 tab-content py-5">
+          <Paragraph>
+            Welcome to Bitwit Techno's Software Development Services, where
+            innovation meets execution to transform your digital vision into
+            reality. With a commitment to excellence, we specialize in crafting
+            cutting-edge solutions tailored to your unique business needs.
+          </Paragraph>
+          <Paragraph className="mt-5">
+            Our expert team combines creativity with technical prowess, ensuring
+            that every software project we undertake reflects the highest
+            standards of quality and functionality. From conceptualization to
+            deployment, we leverage the latest technologies and agile
+            methodologies to deliver solutions that not only meet but exceed
+            expectations.
+          </Paragraph>
+          <Paragraph className="mt-5">
+            At Bitwit Techno, we understand that each project is a journey, and
+            we embark on it with a collaborative spirit. Our client-centric
+            approach involves close collaboration to ensure that the developed
+            software not only meets business objectives but resonates with
+            end-users through intuitive design and seamless functionality.
+          </Paragraph>
+          <Paragraph className="mt-5">
+            Whether you're launching a new product, enhancing existing software,
+            or seeking a comprehensive digital transformation, Bitwit Techno is
+            your trusted partner. We thrive on turning complex ideas into
+            user-friendly, scalable, and robust software solutions. Let's
+            innovate together and propel your business into the digital future.
+          </Paragraph>
+        </div>
+      </div>
+    </div>
+  </div>
+</Container>
+<script>
+  const tab = document.querySelectorAll(".tab");
+  const panel = document.querySelectorAll(".tab-content");
+
+  function onTabClick(event: any) {
+    for (let i = 0; i < tab.length; i++) {
+      tab[i].classList.remove("active");
+    }
+
+    for (let i = 0; i < panel.length; i++) {
+      panel[i].classList.remove("active");
+    }
+
+    event.target.classList.add("active");
+    let classString = event.target.getAttribute("data-target");
+    document
+      .getElementById("panels")
+      .getElementsByClassName(classString)[0]
+      .classList.add("active");
+    document
+      .getElementById("panels-image")
+      .getElementsByClassName(classString)[0]
+      .classList.add("active");
+  }
+
+  for (let i = 0; i < tab.length; i++) {
+    tab[i].addEventListener("click", onTabClick, false);
+  }
+</script>

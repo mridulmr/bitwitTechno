@@ -1,0 +1,19 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import HeroService from "../../components/sections/service/HeroService.astro";
+import Services from "../../components/sections/Services.astro";
+import ElevateVision from "../../components/sections/service/ElevateVision.astro";
+import { services, softwareDevelopmentTab } from "../../utils/data";
+import WhyChooseUs from "../../components/sections/service/WhyChooseUs.astro";
+import OurProcess from "../../components/sections/OurProcess.astro";
+---
+
+<Layout title="Services | Bitwit Techno">
+  <main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+    <HeroService />
+    <ElevateVision />
+    <Services data={services} size={services.length} />
+    <WhyChooseUs tabList={softwareDevelopmentTab} />
+    <OurProcess />
+  </main>
+</Layout>

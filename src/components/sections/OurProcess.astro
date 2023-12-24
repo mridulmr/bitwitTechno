@@ -1,0 +1,115 @@
+---
+import { ourProcess } from "../../utils/data";
+import Container from "../shared/Container.astro";
+---
+
+<section>
+  <Container>
+    <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div
+        class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+      >
+        <div>
+          <p
+            class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-blue-900 uppercase rounded-full bg-teal-accent-400"
+          >
+            Our Process
+          </p>
+        </div>
+        <h2
+          class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-950 dark:text-white sm:text-4xl md:mx-auto"
+        >
+          <span class="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="f51618fb-0edb-4bcb-b35a-ffc770941286"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7"></circle>
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#f51618fb-0edb-4bcb-b35a-ffc770941286)"
+                width="52"
+                height="24"></rect>
+            </svg>
+            <span class="relative">User-Centric</span>
+          </span>
+           Agile Development Process
+        </h2>
+        <p class="text-base text-blue-950 dark:text-white md:text-lg">
+          Iterative Agile development prioritizing user experience excellence.
+          Adherence to industry standards, rigorous testing, and strategic
+          enhancements define our approach.
+        </p>
+      </div>
+      <div class="grid gap-8 row-gap-0 lg:grid-cols-3">
+        {
+          ourProcess.map((item, index) => (
+            <div class="relative text-center">
+              <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-20 sm:h-20">
+                <svg
+                  class="w-12 h-12 text-blue-950 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+              <span class="absolute w-52 aspect-[16/3] -skew-x-12 rounded-full bg-gradient-to-tr from-primary to-orange-400 opacity-40 blur-2xl left-0 right-0 top-0 m-auto" />
+              <h6 class="mb-2 text-2xl font-extrabold text-blue-950 dark:text-white">
+                Step {item.step}
+              </h6>
+              <p class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-950 dark:text-white">
+                {item.title}
+              </p>
+              <p class="max-w-md mb-3 text-sm text-gray-500 sm:mx-auto">
+                {item.description}
+              </p>
+              {index === 0 || index === 1 || index === 3 || index === 4 ? (
+                <div class="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
+                  <svg
+                    class="w-8 text-gray-700 transform rotate-90 lg:rotate-0"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <line
+                      fill="none"
+                      stroke-miterlimit="10"
+                      x1="2"
+                      y1="12"
+                      x2="22"
+                      y2="12"
+                    />
+                    <polyline
+                      fill="none"
+                      stroke-miterlimit="10"
+                      points="15,5 22,12 15,19 "
+                    />
+                  </svg>
+                </div>
+              ) : null}
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </Container>
+</section>

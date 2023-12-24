@@ -1,0 +1,30 @@
+---
+import Container from "../../shared/Container.astro";
+import Paragraph from "../../shared/Paragraph.astro";
+import Title from "../../shared/Title.astro";
+---
+
+<section class="relative">
+  <div class="absolute w-full inset-y-0">
+    <span
+      class="absolute right-0 bottom-0 left-0 top-0 w-12/12 h-6/6 bg-primary opacity-5"
+    ></span>
+  </div>
+  <Container>
+    <div class="backdrop-blur-xl py-10 text-center">
+      <Title>
+        Elevate Vision with <br />
+        <span
+          class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-blue-400"
+          >Expert Software Development</span
+        >
+      </Title>
+      <Paragraph className="mt-8">
+        Collaborate with us for groundbreaking innovation and tangible business
+        success. Our expert team delivers custom, production-ready software
+        solutions, transforming your visionary ideas into reality. Schedule a
+        consultation to unlock your organization's full potential.
+      </Paragraph>
+    </div>
+  </Container>
+</section>

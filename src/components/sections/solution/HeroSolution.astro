@@ -1,0 +1,63 @@
+---
+import BtnLink from "../../shared/BtnLink.astro";
+import Container from "../../shared/Container.astro";
+import Paragraph from "../../shared/Paragraph.astro";
+import ByNumber from "../ByNumber.astro";
+---
+
+<section class="relative pt-32 lg:pt-36">
+  <Container
+    className={"flex flex-col items-center lg:flex-row gap-10 lg:gap-12"}
+  >
+    <div class="absolute w-full lg:w-1/2 inset-y-0 lg:right-0">
+      <span
+        class="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-blue-200 blur-xl opacity-60 lg:opacity-95 lg:block hidden"
+      ></span>
+      <span
+        class="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"
+      ></span>
+    </div>
+    <span
+      class="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-primary to-blue-100 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"
+    ></span>
+    <div
+      class="flex flex-col items-center gap-4 md:gap-8 text-center lg:text-left lg:py-7 xl:py-8
+        lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
+    >
+      <h1
+        class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight
+             font-bold text-heading-1"
+      >
+        Our <span
+          class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-blue-400"
+          >Solutions</span
+        >
+      </h1>
+      <Paragraph>
+        With a decade-long legacy, we specialize in crafting user-centric SaaS
+        solutions, online applications, and mobile apps, delivering unparalleled
+        design and development expertise.
+      </Paragraph>
+      <BtnLink
+        text="Contact Us"
+        href="/contact-us"
+        className="flex justify-center w-full sm:w-max"
+        variant="primary"
+      />
+    </div>
+
+    <div
+      class="flex flex-1 justify-center lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl"
+    >
+      <div class="p-5 border rounded-full">
+        <img
+          src="/images/banner.png"
+          alt="Hero image"
+          width="500"
+          height="500"
+          class="lg:w-12/12 lg:h-6/6 rounded-full object-cover lg:max-h-none max-h-96"
+        />
+      </div>
+    </div>
+  </Container>
+</section>

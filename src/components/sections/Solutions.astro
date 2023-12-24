@@ -1,0 +1,42 @@
+---
+import { solution } from "../../utils/data";
+import Solution from "../cards/Solution.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+---
+
+<style>
+  .slides {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  .slides::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+</style>
+
+<section>
+  <div class="text-zinc-50 font-generalSans">
+    <div class="py-8 text-center">
+      <Title>Our Solutions</Title>
+      <Paragraph className="mb-8">
+        Pioneering IT excellence, sculpting success with bespoke tech
+        innovations and expertise.
+      </Paragraph>
+    </div>
+    <div
+      class="slides overflow-scroll pb-16 smooth-scroll w-full whitespace-nowrap touch-pan-x before:shrink-0 after:shrink-0 before:w-[36vw] after:w-[36vw] snap-mandatory flex snap-x"
+    >
+      {
+        solution.map((item) => (
+          <Solution
+            grid={false}
+            key={item.key}
+            description={item.description}
+            image={item.image}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>
