@@ -19,7 +19,7 @@
   "engineStrict": true,
   "engines": {
     "node": ">=16.x.x",
-    "yarn": "1.22.x"
+    "yarn": ">=1.22.x"
   },
   "browserslist": {
     "production": [
@@ -36,9 +36,11 @@
   "devDependencies": {
     "@astrojs/partytown": "^2.0.2",
     "@astrojs/sitemap": "^3.0.3",
+    "@babel/preset-env": "^7.23.6",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "astro-compress": "^2.2.5",
+    "astro-babel": "^0.0.3",
+    "babel-preset-minify": "^0.5.2",
     "env-cmd": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-astro": "0.31.0",
