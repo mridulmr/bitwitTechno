@@ -3,8 +3,9 @@ import tailwind from '@astrojs/tailwind'
 import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
 import babelScripts from 'astro-babel'
-
 import robotsTxt from 'astro-robots-txt'
+
+import compressor from 'astro-compressor'
 
 // https://astro.build/config
 export default defineConfig({
@@ -45,6 +46,7 @@ export default defineConfig({
         ]
       ]
     }),
-    robotsTxt()
+    robotsTxt(),
+    compressor()
   ]
 })
