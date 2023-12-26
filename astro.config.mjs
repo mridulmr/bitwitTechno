@@ -11,12 +11,6 @@ import node from '@astrojs/node'
 export default defineConfig({
   output: 'hybrid',
   site: 'https://bitwit-techno-site.web.app',
-  redirects: {
-    '/': {
-      status: 302,
-      destination: '/404'
-    }
-  },
   integrations: [
     tailwind(),
     partytown({
