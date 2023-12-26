@@ -4,11 +4,12 @@ import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
 import babelScripts from 'astro-babel'
 import robotsTxt from 'astro-robots-txt'
-
 import compressor from 'astro-compressor'
+import node from '@astrojs/node'
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'hybrid',
   site: 'https://bitwit-techno-site.web.app',
   integrations: [
     tailwind(),
@@ -48,5 +49,8 @@ export default defineConfig({
     }),
     robotsTxt(),
     compressor()
-  ]
+  ],
+  adapter: node({
+    mode: 'standalone'
+  })
 })
