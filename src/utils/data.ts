@@ -1,11 +1,83 @@
 export const services = [
   {
     icon: '',
+    title: 'IoT Solutions',
+    type: 'Infrastructure and Emerging Technologies',
+    description:
+      'Bitwit, the leading IoT integrated solution company, unlocks uninterrupted connectivity and enhanced productivity for businesses through innovative IoT solutions.',
+    href: '/services/iot-solutions'
+  },
+  {
+    icon: '',
+    title: 'Web Development',
+    type: 'Design and Development',
+    description:
+      'Bitwit creates fully functional web apps, empowering organizations to embrace innovation and achieve outstanding results in the digital landscape.',
+    href: '/services/web-development'
+  },
+  {
+    icon: '',
+    title: 'Android Application Development',
+    type: 'Technical Expertise',
+    description:
+      "Engage users with immersive Android apps developed by Bitwit's top-rated Android app developers. Unlock the benefits of creative minds for your digital success.",
+    href: '/services/android-app-development'
+  },
+  {
+    icon: '',
+    title: 'Quality Assurance',
+    type: 'Quality Assurance',
+    description:
+      "Ensure excellence in every software solution with Bitwit's specialization in software testing and quality assurance. Safeguard your systems and prevent financial losses through our meticulous QA processes.",
+    href: '/services/quality-assurance'
+  },
+  {
+    icon: '',
+    title: 'ReactJS Developers',
+    type: 'Technical Expertise',
+    description:
+      "Build intuitive mobile and web apps with Bitwit's dedicated ReactJS developers. Affordable solutions that bring creativity and functionality to the forefront.",
+    href: '/services/react-development'
+  },
+  {
+    icon: '',
+    title: 'Desktop Application Development',
+    type: 'Design and Development',
+    description:
+      'Harness the power of desktop applications with Bitwit. Partner with us for expert desktop application development that aligns with your business aspirations.',
+    href: '/services/desktop-application-development'
+  },
+  {
+    icon: '',
+    title: 'Cloud Computing',
+    type: 'Infrastructure and Emerging Technologies',
+    description:
+      "Bitwit's cutting-edge cloud solutions optimize operations, reduce hardware waste, increase system space, enhance mobility, and save costs. Elevate your business with our high-performance solutions.",
+    href: '/services/cloud-computing'
+  },
+  {
+    icon: '',
+    title: 'Product Development Life Cycle',
+    type: 'Project Management',
+    description:
+      'Initiate flawless product development lifecycles with Bitwit. Following international standards, we build digital products that consistently operate at optimum levels for your business success.',
+    href: '/services/product-development-life-cycle'
+  },
+  {
+    icon: '',
     title: 'UI/ UX Design',
     type: 'Design and Development',
     description:
       "Elevate user experiences with Bitwit's specialized team of UI and UX Designers, crafting visually stunning interfaces that captivate and engage users for optimal digital interactions.",
     href: '/services/ui-ux'
+  },
+  {
+    icon: '',
+    title: 'Technical Support',
+    type: 'Technical Expertise',
+    description:
+      "Experience post-launch confidence with Bitwit's comprehensive technical support. Our team troubleshoots issues swiftly, ensuring seamless software performance and minimizing downtime.",
+    href: '/services/technical-support'
   },
   {
     icon: '',
@@ -25,83 +97,11 @@ export const services = [
   },
   {
     icon: '',
-    title: 'Web Development',
-    type: 'Design and Development',
-    description:
-      'Bitwit creates fully functional web apps, empowering organizations to embrace innovation and achieve outstanding results in the digital landscape.',
-    href: '/services/web-development'
-  },
-  {
-    icon: '',
-    title: 'Quality Assurance',
-    type: 'Quality Assurance',
-    description:
-      "Ensure excellence in every software solution with Bitwit's specialization in software testing and quality assurance. Safeguard your systems and prevent financial losses through our meticulous QA processes.",
-    href: '/services/quality-assurance'
-  },
-  {
-    icon: '',
-    title: 'Technical Support',
+    title: 'Node.js Development',
     type: 'Technical Expertise',
     description:
-      "Experience post-launch confidence with Bitwit's comprehensive technical support. Our team troubleshoots issues swiftly, ensuring seamless software performance and minimizing downtime.",
-    href: '/services/technical-support'
-  },
-  {
-    icon: '',
-    title: 'Dedicated Development Team',
-    type: 'Technical Expertise',
-    description:
-      "Overcome technological challenges with Bitwit's access to a diverse pool of software specialists. Whether independent or integrated, our dedicated teams propel your projects to success.",
-    href: '/services/dedicated-development-team'
-  },
-  {
-    icon: '',
-    title: 'Cloud Computing',
-    type: 'Infrastructure and Emerging Technologies',
-    description:
-      "Bitwit's cutting-edge cloud solutions optimize operations, reduce hardware waste, increase system space, enhance mobility, and save costs. Elevate your business with our high-performance solutions.",
-    href: '/services/cloud-computing'
-  },
-  {
-    icon: '',
-    title: 'IoT App Development',
-    type: 'Design and Development',
-    description:
-      "Bitwit's IoT Application Development Services create intelligent apps that seamlessly extend your IoT devices, providing a 360° Customer Experience for enhanced user engagement.",
-    href: '/services/iot-apps-development'
-  },
-  {
-    icon: '',
-    title: 'Desktop Application Development',
-    type: 'Design and Development',
-    description:
-      'Harness the power of desktop applications with Bitwit. Partner with us for expert desktop application development that aligns with your business aspirations.',
-    href: '/services/desktop-application-development'
-  },
-  {
-    icon: '',
-    title: 'Product Development Life Cycle',
-    type: 'Project Management',
-    description:
-      'Initiate flawless product development lifecycles with Bitwit. Following international standards, we build digital products that consistently operate at optimum levels for your business success.',
-    href: '/services/product-development-life-cycle'
-  },
-  {
-    icon: '',
-    title: 'AR/VR Development Solutions',
-    type: 'Design and Development',
-    description:
-      "Immerse users and boost ROI with Bitwit's leading AR/VR development. We help startups and organizations leverage augmented and virtual reality for unparalleled engagement.",
-    href: '/services/ar-vr-development'
-  },
-  {
-    icon: '',
-    title: 'IoT Solutions',
-    type: 'Infrastructure and Emerging Technologies',
-    description:
-      'Bitwit, the leading IoT integrated solution company, unlocks uninterrupted connectivity and enhanced productivity for businesses through innovative IoT solutions.',
-    href: '/services/iot-solutions'
+      "Meet modern business needs with Bitwit's in-depth Node.js expertise. Our vast experience ensures the delivery of top-notch Node.js development services for your projects.",
+    href: '/services/nodejs-development'
   },
   {
     icon: '',
@@ -113,11 +113,19 @@ export const services = [
   },
   {
     icon: '',
-    title: 'ReactJS Developers',
-    type: 'Technical Expertise',
+    title: 'IoT App Development',
+    type: 'Design and Development',
     description:
-      "Build intuitive mobile and web apps with Bitwit's dedicated ReactJS developers. Affordable solutions that bring creativity and functionality to the forefront.",
-    href: '/services/react-development'
+      "Bitwit's IoT Application Development Services create intelligent apps that seamlessly extend your IoT devices, providing a 360° Customer Experience for enhanced user engagement.",
+    href: '/services/iot-apps-development'
+  },
+  {
+    icon: '',
+    title: 'AR/VR Development Solutions',
+    type: 'Design and Development',
+    description:
+      "Immerse users and boost ROI with Bitwit's leading AR/VR development. We help startups and organizations leverage augmented and virtual reality for unparalleled engagement.",
+    href: '/services/ar-vr-development'
   },
   {
     icon: '',
@@ -127,23 +135,8 @@ export const services = [
       'Bitwit offers industry-best HTML5 services through our hired HTML developers. Transform your digital presence effectively, reaching your audience with unparalleled design and functionality.',
     href: '/services/html-developers'
   },
-  {
-    icon: '',
-    title: 'Android Application Development',
-    type: 'Technical Expertise',
-    description:
-      "Engage users with immersive Android apps developed by Bitwit's top-rated Android app developers. Unlock the benefits of creative minds for your digital success.",
-    href: '/services/android-app-development'
-  },
-  {
-    icon: '',
-    title: 'Node.js Development',
-    type: 'Technical Expertise',
-    description:
-      "Meet modern business needs with Bitwit's in-depth Node.js expertise. Our vast experience ensures the delivery of top-notch Node.js development services for your projects.",
-    href: '/services/nodejs-development'
-  }
-]
+];
+
 
 export const companyValues = [
   {
@@ -283,6 +276,186 @@ export const softwareDevelopmentTab = [
 
 export const solution = [
   {
+    id: 15,
+    key: 'tele-communication',
+    title: 'Telecommunication',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Enhance network performance, streamline operations, and ensure data security in Telecommunication. Our IT solution optimizes connectivity, reduces downtime, and enables efficient data management, delivering seamless, reliable services to customers.',
+    image: '/images/solution/telecommunication.png'
+  },
+  {
+    id: 7,
+    key: 'logistics',
+    title: 'Logistics',
+    priority: false,
+    type: 'Industries Solution 1',
+    description:
+      'Streamline logistics operations, enhance efficiency, and ensure real-time visibility across your supply chain. Optimize the movement of goods, reduce costs, and improve customer satisfaction with our IT solution for logistics.',
+    image: '/images/solution/logistics.png'
+  },
+  {
+    id: 22,
+    key: 'devops-services',
+    title: 'DevOps',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our DevOps IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
+    image: '/images/solution/devops-services.png'
+  },
+  {
+    id: 6,
+    key: 'education',
+    title: 'Education',
+    priority: false,
+    type: 'Industries Solution 1',
+    description:
+      'Witness the rise of online education post-COVID. Enable children to use smart devices and educational apps for improved study habits. Our Education solution supports the evolving landscape of digital learning.',
+    image: '/images/solution/education.png'
+  },
+  {
+    id: 26,
+    key: 'digital-transformation-services',
+    title: 'Digital Transformation',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Digital Transformation IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
+    image: '/images/solution/digital-transformation-services.png'
+  },
+  {
+    id: 23,
+    key: 'software-solutions-for-startups',
+    title: 'Software Solutions For Startups',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Deliver seamless user experiences, enable efficient data access, and promote collaboration with our Software Solutions for Startups. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
+    image: '/images/solution/software-solutions-for-startups.png'
+  },
+  {
+    id: 13,
+    key: 'supply-chain',
+    title: 'Supply Chain Management',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Optimize logistics, inventory, and procurement processes in supply chain management. Our IT solution enhances visibility, efficiency, and responsiveness, enabling companies to reduce costs and streamline end-to-end supply chain operations.',
+    image: '/images/solution/supply-chain.png'
+  },
+  {
+    id: 20,
+    key: 'cloud-computing-solution',
+    title: 'Cloud Computing',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Deliver seamless user experiences with our Cloud Computing IT solution. Tailored for your needs, it enables efficient data access and collaboration while ensuring robust security measures are in place. Elevate your online presence with our cloud solution.',
+    image: '/images/solution/cloud-computing-solution.png'
+  },
+  {
+    id: 9,
+    key: 'automotive',
+    title: 'Automotive',
+    priority: false,
+    type: 'Industries Solution 1',
+    description:
+      'Enhance efficiency and innovation across automotive operations. Our Automotive IT solution leverages cutting-edge technologies to optimize production processes, improve vehicle performance, and elevate the overall customer experience.',
+    image: '/images/solution/automotive.png'
+  },
+  {
+    id: 24,
+    key: 'product-engineering-solutions',
+    title: 'Product Engineering',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Product Engineering IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
+    image: '/images/solution/product-engineering-solutions.png'
+  },
+  {
+    id: 18,
+    key: 'web-portals',
+    title: 'Web Portals',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Deliver seamless user experiences with our Web Portals IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, enhances engagement, and ensures robust security measures, elevating your online presence.',
+    image: '/images/solution/web-portals.png'
+  },
+  {
+    id: 17,
+    key: 'energy',
+    title: 'Energy',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Optimize operational efficiency, grid management, and renewable energy integration in the energy sector. Our IT solution leverages advanced technologies like IoT and AI to allocate resources efficiently and enable smart energy monitoring.',
+    image: '/images/solution/energy.png'
+  },
+  {
+    id: 14,
+    key: 'marketing-advertising',
+    title: 'Marketing & Advertising',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Empower businesses with data-driven insights, automation, and precision targeting in Marketing & Advertising. Elevate campaigns, optimize ad spend, and enhance customer engagement with our IT solution for Marketing & Advertising.',
+    image: '/images/solution/marketing-advertising.png'
+  },
+  {
+    id: 11,
+    key: 'banking',
+    title: 'Banking',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Optimize banking operations, enhance security, and improve customer experiences. Our Banking IT solution streamlines processes, ensures compliance, and enables seamless digital banking services with cutting-edge technology.',
+    image: '/images/solution/banking.png'
+  },
+  {
+    id: 10,
+    key: 'retail',
+    title: 'Retail',
+    priority: false,
+    type: 'Industries Solution 2',
+    description:
+      'Deliver seamless efficiency in retail operations, elevating customer experiences. Our Retail IT solution, with tailored software and cutting-edge technology, optimizes sales channels, streamlines processes, and drives growth in the retail industry.',
+    image: '/images/solution/retail.png'
+  },
+  {
+    id: 3,
+    key: 'healthcare',
+    title: 'Healthcare',
+    priority: true,
+    type: 'Industries Solution 1',
+    description:
+      'Take healthcare to the next level with efficient technology. Increase patient involvement through customer-centric applications that simplify their lives and serve as their health coach. Our Healthcare solution enhances the overall healthcare experience.',
+    image: '/images/solution/healthcare.png'
+  },
+  {
+    id: 19,
+    key: 'enterprise-mobility-solutions',
+    title: 'Enterprise Mobility',
+    priority: false,
+    type: 'Technology Solution',
+    description:
+      'Enhance user experiences, enable efficient data access, and promote collaboration with our Enterprise Mobility IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures are in place.',
+    image: '/images/solution/enterprise-mobility-solutions.png'
+  },
+  {
+    id: 5,
+    key: 'business',
+    title: 'Business',
+    priority: true,
+    type: 'Industries Solution 1',
+    description:
+      'Optimize your business processes, tackle challenges, increase productivity, and improve customer service. Our Corporate Mobility Solutions empower businesses to make informed decisions and boost revenue.',
+    image: '/images/solution/business.png'
+  },
+  {
     id: 1,
     key: 'fintech',
     title: 'Fintech',
@@ -303,18 +476,8 @@ export const solution = [
     image: '/images/solution/e-commerce.png'
   },
   {
-    id: 3,
-    key: 'healthcare',
-    title: 'Healthcare',
-    priority: true,
-    type: 'Industries Solution 1',
-    description:
-      'Take healthcare to the next level with efficient technology. Increase patient involvement through customer-centric applications that simplify their lives and serve as their health coach. Our Healthcare solution enhances the overall healthcare experience.',
-    image: '/images/solution/healthcare.png'
-  },
-  {
     id: 4,
-    key: 'realEstate',
+    key: 'real-estate',
     title: 'Real Estate',
     priority: true,
     type: 'Industries Solution 1',
@@ -322,187 +485,8 @@ export const solution = [
       'Provide simple, modern services for buying, selling, or renting properties. Our Real Estate App Development Solutions help you achieve your goals by adopting a contemporary approach to real estate transactions.',
     image: '/images/solution/realEstate.png'
   },
-  {
-    id: 5,
-    key: 'business',
-    title: 'Business',
-    priority: true,
-    type: 'Industries Solution 1',
-    description:
-      'Optimize your business processes, tackle challenges, increase productivity, and improve customer service. Our Corporate Mobility Solutions empower businesses to make informed decisions and boost revenue.',
-    image: '/images/solution/business.png'
-  },
-  {
-    id: 6,
-    key: 'education',
-    title: 'Education',
-    priority: false,
-    type: 'Industries Solution 1',
-    description:
-      'Witness the rise of online education post-COVID. Enable children to use smart devices and educational apps for improved study habits. Our Education solution supports the evolving landscape of digital learning.',
-    image: '/images/solution/education.png'
-  },
-  {
-    id: 7,
-    key: 'logistics',
-    title: 'Logistics',
-    priority: false,
-    type: 'Industries Solution 1',
-    description:
-      'Streamline logistics operations, enhance efficiency, and ensure real-time visibility across your supply chain. Optimize the movement of goods, reduce costs, and improve customer satisfaction with our IT solution for logistics.',
-    image: '/images/solution/logistics.png'
-  },
-  {
-    id: 9,
-    key: 'automotive',
-    title: 'Automotive',
-    priority: false,
-    type: 'Industries Solution 1',
-    description:
-      'Enhance efficiency and innovation across automotive operations. Our Automotive IT solution leverages cutting-edge technologies to optimize production processes, improve vehicle performance, and elevate the overall customer experience.',
-    image: '/images/solution/automotive.png'
-  },
-  {
-    id: 10,
-    key: 'retail',
-    title: 'Retail',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Deliver seamless efficiency in retail operations, elevating customer experiences. Our Retail IT solution, with tailored software and cutting-edge technology, optimizes sales channels, streamlines processes, and drives growth in the retail industry.',
-    image: '/images/solution/retail.png'
-  },
-  {
-    id: 11,
-    key: 'banking',
-    title: 'Banking',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Optimize banking operations, enhance security, and improve customer experiences. Our Banking IT solution streamlines processes, ensures compliance, and enables seamless digital banking services with cutting-edge technology.',
-    image: '/images/solution/banking.png'
-  },
-  {
-    id: 12,
-    key: 'travelHospitality',
-    title: 'Travel & Hospitality',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Experience comprehensive optimization in Travel & Hospitality operations. Our IT solution enhances guest experiences, drives efficiency, and empowers businesses in the industry to thrive with features like reservation management, guest profiling, and real-time analytics.',
-    image: '/images/solution/travelHospitality.png'
-  },
-  {
-    id: 13,
-    key: 'supply-chain',
-    title: 'Supply Chain Management',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Optimize logistics, inventory, and procurement processes in supply chain management. Our IT solution enhances visibility, efficiency, and responsiveness, enabling companies to reduce costs and streamline end-to-end supply chain operations.',
-    image: '/images/solution/supply-chain.png'
-  },
-  {
-    id: 14,
-    key: 'marketing-advertising',
-    title: 'Marketing & Advertising',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Empower businesses with data-driven insights, automation, and precision targeting in Marketing & Advertising. Elevate campaigns, optimize ad spend, and enhance customer engagement with our IT solution for Marketing & Advertising.',
-    image: '/images/solution/marketing-advertising.png'
-  },
-  {
-    id: 15,
-    key: 'telecommunication',
-    title: 'Telecommunication',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Enhance network performance, streamline operations, and ensure data security in Telecommunication. Our IT solution optimizes connectivity, reduces downtime, and enables efficient data management, delivering seamless, reliable services to customers.',
-    image: '/images/solution/telecommunication.png'
-  },
-  {
-    id: 17,
-    key: 'energy',
-    title: 'Energy',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Optimize operational efficiency, grid management, and renewable energy integration in the energy sector. Our IT solution leverages advanced technologies like IoT and AI to allocate resources efficiently and enable smart energy monitoring.',
-    image: '/images/solution/energy.png'
-  },
-  {
-    id: 18,
-    key: 'web-portals',
-    title: 'Web Portals',
-    priority: false,
-    type: 'Industries Solution 2',
-    description:
-      'Deliver seamless user experiences with our Web Portals IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, enhances engagement, and ensures robust security measures, elevating your online presence.',
-    image: '/images/solution/web-portals.png'
-  },
-  {
-    id: 19,
-    key: 'enterprise-mobility-solutions',
-    title: 'Enterprise Mobility',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Enhance user experiences, enable efficient data access, and promote collaboration with our Enterprise Mobility IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures are in place.',
-    image: '/images/solution/enterprise-mobility-solutions.png'
-  },
-  {
-    id: 20,
-    key: 'cloud-computing-solution',
-    title: 'Cloud Computing',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Deliver seamless user experiences with our Cloud Computing IT solution. Tailored for your needs, it enables efficient data access and collaboration while ensuring robust security measures are in place. Elevate your online presence with our cloud solution.',
-    image: '/images/solution/cloud-computing-solution.png'
-  },
-  {
-    id: 22,
-    key: 'devops-services',
-    title: 'DevOps',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our DevOps IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/devops-services.png'
-  },
-  {
-    id: 23,
-    key: 'software-solutions-for-startups',
-    title: 'Software Solutions For Startups',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Deliver seamless user experiences, enable efficient data access, and promote collaboration with our Software Solutions for Startups. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/software-solutions-for-startups.png'
-  },
-  {
-    id: 24,
-    key: 'product-engineering-solutions',
-    title: 'Product Engineering',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Product Engineering IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/product-engineering-solutions.png'
-  },
-  {
-    id: 26,
-    key: 'digital-transformation-services',
-    title: 'Digital Transformation',
-    priority: false,
-    type: 'Technology Solution',
-    description:
-      'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Digital Transformation IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/digital-transformation-services.png'
-  }
-]
+];
+
 
 export const ourProcess = [
   {

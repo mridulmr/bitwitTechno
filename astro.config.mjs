@@ -7,7 +7,6 @@ import robotsTxt from 'astro-robots-txt'
 import compressor from 'astro-compressor'
 import node from '@astrojs/node'
 
-// https://astro.build/config
 export default defineConfig({
   output: 'hybrid',
   site: 'https://bitwit-techno-site.web.app',
