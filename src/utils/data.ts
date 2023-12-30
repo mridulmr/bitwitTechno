@@ -536,23 +536,9 @@ export const technologies = {
     { title: 'figma', image: '/images/technologies/figma.webp' },
     { title: 'xd', image: '/images/technologies/xd.webp' },
     { title: 'appsmith', image: '/images/technologies/appsmith.svg' },
-    { title: 'retool', image: '/images/technologies/retool.png' }
-  ],
-  backend: [
-    { title: 'node', image: '/images/technologies/node.webp' },
-    { title: 'express', image: '/images/technologies/express.webp' },
-    { title: 'socket', image: '/images/technologies/socket.png' }
-  ],
-  server: [
-    { title: 'google', image: '/images/technologies/google.webp' },
-    { title: 'webpack', image: '/images/technologies/webpack.webp' },
-    { title: 'babel', image: '/images/technologies/babel.png' }
-  ],
-  database: [
-    { title: 'mongo', image: '/images/technologies/mongo.png' },
-    { title: 'firebase', image: '/images/technologies/firebase.webp' },
-    { title: 'mysql', image: '/images/technologies/mysql.webp' },
-    { title: 'graphql', image: '/images/technologies/graphql.png' }
+    { title: 'retool', image: '/images/technologies/retool.png' },
+    { title: 'storybook', image: '/images/technologies/storybook.svg' },
+    { title: 'webflow', image: '/images/technologies/webflow.png' }
   ],
   frontend: [
     { title: 'react', image: '/images/technologies/react.webp' },
@@ -566,6 +552,43 @@ export const technologies = {
     { title: 'sass', image: '/images/technologies/sass.webp' },
     { title: 'tailwind', image: '/images/technologies/tailwind.webp' },
     { title: 'bootstrap', image: '/images/technologies/bootstrap.webp' },
-    { title: 'angular', image: '/images/technologies/angular.webp' }
-  ]
+    { title: 'angular', image: '/images/technologies/angular.webp' },
+    { title: 'progressive web app', image: '/images/technologies/pwa.png' },
+    { title: 'php', image: '/images/technologies/php.png' }
+  ],
+  mobile: [
+    { title: 'swift', image: '/images/technologies/swift.webp' },
+    { title: 'android', image: '/images/technologies/android.webp' },
+    { title: 'react native', image: '/images/technologies/react-native.webp' }
+  ],
+  desktop: [{ title: 'electron', image: '/images/technologies/electron.png' }],
+  backend: [
+    { title: 'node', image: '/images/technologies/node.webp' },
+    { title: 'express', image: '/images/technologies/express.webp' },
+    { title: 'socket', image: '/images/technologies/socket.png' }
+  ],
+  server: [
+    { title: 'google', image: '/images/technologies/google.webp' },
+    { title: 'webpack', image: '/images/technologies/webpack.webp' },
+    { title: 'nignix', image: '/images/technologies/nignix.webp' },
+    { title: 'babel', image: '/images/technologies/babel.png' },
+    { title: 'apache', image: '/images/technologies/apache.png' }
+  ],
+  database: [
+    { title: 'mongo', image: '/images/technologies/mongo.png' },
+    { title: 'firebase', image: '/images/technologies/firebase.webp' },
+    { title: 'mysql', image: '/images/technologies/mysql.webp' },
+    { title: 'graphql', image: '/images/technologies/graphql.png' }
+  ],
+  other: [
+    { title: 'artificial intelligence', image: '/images/technologies/ai.webp' },
+    {
+      title: 'augmented reality',
+      image: '/images/technologies/ar.webp'
+    },
+    {
+      title: 'virtual reality',
+      image: '/images/technologies/vr.webp'
+    }
+  ],
 }

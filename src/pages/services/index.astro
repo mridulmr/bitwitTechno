@@ -6,6 +6,7 @@ import ElevateVision from '../../components/sections/service/ElevateVision.astro
 import { services, softwareDevelopmentTab } from '../../utils/data'
 import WhyChooseUs from '../../components/sections/service/WhyChooseUs.astro'
 import OurProcess from '../../components/sections/OurProcess.astro'
+import CTA from '../../components/sections/CTA.astro'
 ---
 
 <Layout title='Services | Bitwit Techno' description='' image=''>
@@ -15,5 +16,6 @@ import OurProcess from '../../components/sections/OurProcess.astro'
     <Services data={services} size={services.length} />
     <WhyChooseUs tabList={softwareDevelopmentTab} />
     <OurProcess />
+    <CTA />
   </main>
 </Layout>
