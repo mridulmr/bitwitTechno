@@ -53,7 +53,7 @@ import Button from '../components/shared/Button.astro'
           />
         </div>
       </Container>
-      <Container className='flex gap-8 mt-8'>
+      <Container className='relative flex flex-col lg:flex-row gap-8 mt-8'>
         <div class='flex-1'>
           <form class='flex flex-col gap-4'>
             <div class='flex-1'>
@@ -113,7 +113,17 @@ import Button from '../components/shared/Button.astro'
             </div>
           </form>
         </div>
-        <div class='flex-1'>Address</div>
+        <div class='flex-1'>
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14316.034856066153!2d73.0361976!3d26.2289064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418d9ec135dded%3A0x47a0fa289898f5ba!2sBitWit%20Techno!5e0!3m2!1sen!2sin!4v1703965220002!5m2!1sen!2sin'
+            width='600'
+            height='450'
+            style='border:0;'
+            class='w-[100%] rounded-3xl shadow-sm'
+            allowfullscreen=''
+            loading='lazy'
+            referrerpolicy='no-referrer-when-downgrade'></iframe>
+        </div>
       </Container>
     </section>
   </main>
