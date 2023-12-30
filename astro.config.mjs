@@ -6,7 +6,9 @@ import babelScripts from 'astro-babel'
 import robotsTxt from 'astro-robots-txt'
 import compressor from 'astro-compressor'
 import node from '@astrojs/node'
+import webmanifest from 'astro-webmanifest'
 
+// https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
   integrations: [
@@ -46,7 +48,18 @@ export default defineConfig({
       ]
     }),
     robotsTxt(),
-    compressor()
+    compressor(),
+    webmanifest({
+      name: 'Bitwit Techno',
+      icon: '/images/favicon.ico',
+      short_name: 'Bitwit',
+      description:
+        "Empower your journey with Bitwit Techno's avant-garde IT solutions, fusing technology and creativity for unparalleled innovation and future-proof success.",
+      start_url: '/',
+      theme_color: '#3367D6',
+      background_color: '#3367D6',
+      display: 'standalone'
+    })
   ],
   adapter: node({
     mode: 'middleware'
