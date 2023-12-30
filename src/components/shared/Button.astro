@@ -3,9 +3,10 @@ export interface Props {
   className?: string
   variant: 'primary' | 'secondary'
   type: any
+  title: string
 }
 
-const { className, variant, type } = Astro.props
+const { className, variant, type, title } = Astro.props
 
 const getThemeStyle = (variant: 'primary' | 'secondary') => {
   if (variant === 'primary') {
@@ -22,6 +23,7 @@ const getThemeStyle = (variant: 'primary' | 'secondary') => {
                       variant
                     )} hover:after:opacity-100 hover:after:scale-[2.5] ${className}`}
   type={type}
+  aria-label={title}
 >
   <slot />
 </button>
