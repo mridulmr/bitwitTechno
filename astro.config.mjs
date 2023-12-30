@@ -8,7 +8,6 @@ import compressor from 'astro-compressor'
 import node from '@astrojs/node'
 
 export default defineConfig({
-  output: 'hybrid',
   site: 'https://bitwit-techno-site.web.app',
   integrations: [
     tailwind(),
@@ -50,6 +49,6 @@ export default defineConfig({
     compressor()
   ],
   adapter: node({
-    mode: 'standalone'
+    mode: 'middleware'
   })
 })
