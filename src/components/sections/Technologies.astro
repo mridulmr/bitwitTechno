@@ -1,0 +1,97 @@
+---
+import Title from '../shared/Title.astro'
+import { technologies } from '../../utils/data'
+---
+
+<section class='bg-gray-50 py-10'>
+  <section class='relative w-100 min-h-[40vh]'>
+    <div class='absolute w-full inset-y-0 lg:right-0 z-0'>
+      <span
+        class='absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-blue-200 blur-xl opacity-60 lg:opacity-95 lg:block hidden'
+      ></span>
+      <span
+        class='absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80'
+      ></span>
+    </div>
+    <div class='relative text-center'>
+      <Title>Platforms</Title>
+      <p class='mt-6 text-base text-blue-950 dark:text-white md:text-lg'>
+        Revolutionize Your Future: Unleash Innovation with Our Advanced Tech
+        Offerings!
+      </p>
+    </div>
+
+    <div class='relative flex flex-col mx-auto mt-10'>
+      <div
+        class='inline-flex flex-wrap items-center justify-center m-auto gap-4 rounded-3xl bg-white px-3 py-2'
+      >
+        {
+          Object.keys(technologies).map((item) => (
+            <button
+              class='bg-white px-5 py-2 rounded-3xl transition shadow-blue-100 hover:bg-blue-100 focus:outline-none'
+              data-tab={item}
+            >
+              {item}
+            </button>
+          ))
+        }
+      </div>
+
+      {
+        Object.keys(technologies).map((item) => (
+          <div
+            id={item}
+            class='flex flex-wrap w-[100%] md:w-[45vw] m-auto gap-5 items-center justify-center tab-content mt-4 p-4 rounded-lg transition duration-300 ease-in-out'
+          >
+            {technologies[item].map(({ title, image }) => (
+              <div class='flex grow-5 gap-3 items-center justify-center bg-white shadow-md hover:shadow-lg cursor-pointer transition px-3 py-1.5 rounded-3xl'>
+                <img class='w-8 h-8' src={image} />
+                <p>{title}</p>
+              </div>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</section>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('button')
+    const tabContents = document.querySelectorAll('.tab-content')
+
+    document.querySelector(`[data-tab="design"]`).classList.add('!bg-primary')
+    document.querySelector(`[data-tab="design"]`).classList.add('shadow-md')
+    document.querySelector(`[data-tab="design"]`).classList.add('text-white')
+
+    tabContents.forEach((content) => content.classList.add('hidden'))
+    document.getElementById('design').classList.remove('hidden')
+
+    const openTab = (tabId) => {
+      buttons.forEach((button) => button.classList.remove('!bg-primary'))
+      buttons.forEach((button) => button.classList.remove('text-white'))
+      buttons.forEach((button) => button.classList.remove('shadow-md'))
+
+      document
+        .querySelector(`[data-tab="${tabId}"]`)
+        .classList.add('!bg-primary')
+
+      document
+        .querySelector(`[data-tab="${tabId}"]`)
+        .classList.add('text-white')
+
+      document.querySelector(`[data-tab="${tabId}"]`).classList.add('shadow-md')
+
+      tabContents.forEach((content) => content.classList.add('hidden'))
+      document.getElementById(tabId).classList.remove('hidden')
+    }
+
+    document.querySelectorAll('button').forEach((button) => {
+      button.addEventListener('click', function () {
+        const tabId = this.getAttribute('data-tab')
+        openTab(tabId)
+      })
+    })
+  })
+</script>

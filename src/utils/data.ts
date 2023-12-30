@@ -134,9 +134,8 @@ export const services = [
     description:
       'Bitwit offers industry-best HTML5 services through our hired HTML developers. Transform your digital presence effectively, reaching your audience with unparalleled design and functionality.',
     href: '/services/html-developers'
-  },
-];
-
+  }
+]
 
 export const companyValues = [
   {
@@ -484,9 +483,8 @@ export const solution = [
     description:
       'Provide simple, modern services for buying, selling, or renting properties. Our Real Estate App Development Solutions help you achieve your goals by adopting a contemporary approach to real estate transactions.',
     image: '/images/solution/realEstate.png'
-  },
-];
-
+  }
+]
 
 export const ourProcess = [
   {
@@ -532,3 +530,42 @@ export const ourProcess = [
   //     "Our dedicated 24/7 product support team provides assistance through phone, chat, and email. Additionally, we maintain an extensive knowledge base to serve customers when offline, ensuring comprehensive information accessibility.",
   // },
 ]
+
+export const technologies = {
+  design: [
+    { title: 'figma', image: '/images/technologies/figma.webp' },
+    { title: 'xd', image: '/images/technologies/xd.webp' },
+    { title: 'appsmith', image: '/images/technologies/appsmith.svg' },
+    { title: 'retool', image: '/images/technologies/retool.png' }
+  ],
+  backend: [
+    { title: 'node', image: '/images/technologies/node.webp' },
+    { title: 'express', image: '/images/technologies/express.webp' },
+    { title: 'socket', image: '/images/technologies/socket.png' }
+  ],
+  server: [
+    { title: 'google', image: '/images/technologies/google.webp' },
+    { title: 'webpack', image: '/images/technologies/webpack.webp' },
+    { title: 'babel', image: '/images/technologies/babel.png' }
+  ],
+  database: [
+    { title: 'mongo', image: '/images/technologies/mongo.png' },
+    { title: 'firebase', image: '/images/technologies/firebase.webp' },
+    { title: 'mysql', image: '/images/technologies/mysql.webp' },
+    { title: 'graphql', image: '/images/technologies/graphql.png' }
+  ],
+  frontend: [
+    { title: 'react', image: '/images/technologies/react.webp' },
+    { title: 'vue', image: '/images/technologies/vue.webp' },
+    { title: 'javascript', image: '/images/technologies/javascript.webp' },
+    { title: 'typescript', image: '/images/technologies/typescript.jpeg' },
+    { title: 'html', image: '/images/technologies/html.webp' },
+    { title: 'css', image: '/images/technologies/css.webp' },
+    { title: 'jquery', image: '/images/technologies/jquery.png' },
+    { title: 'flutter', image: '/images/technologies/flutter.webp' },
+    { title: 'sass', image: '/images/technologies/sass.webp' },
+    { title: 'tailwind', image: '/images/technologies/tailwind.webp' },
+    { title: 'bootstrap', image: '/images/technologies/bootstrap.webp' },
+    { title: 'angular', image: '/images/technologies/angular.webp' }
+  ]
+}
