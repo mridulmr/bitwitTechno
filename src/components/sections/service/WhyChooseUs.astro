@@ -20,56 +20,54 @@ const { tabList } = Astro.props
   }
 </style>
 
-<section>
-  <Container>
-    <div class='text-center max-w-3xl mx-auto space-y-4 mb-16'>
-      <Title>Why choose us</Title>
-      <Paragraph>
-        IT Excellence: Elevate Your Business with Our Cutting-Edge Solutions and
-        Commitment.
-      </Paragraph>
-    </div>
-    <div class='flex flex-row'>
-      <div class='flex-0.3'>
-        <nav class='tabs flex flex-col'>
-          {
-            tabList.map((item: any) => (
-              <button
-                data-target={item.id}
-                class={`${
-                  item.id === 'panel-1' && 'active shadow-inner'
-                } text-start tab py-4 px-4 font-bold block rounded-lg rounded-e-none hover:text-blue-800 dark:text-white focus:outline-none`}
-              >
-                {item.title}
-              </button>
-            ))
-          }
-        </nav>
-      </div>
-
-      <div id='panels' class='flex-1'>
+<Container>
+  <div class='text-center max-w-3xl mx-auto space-y-4 mb-16'>
+    <Title>Why choose us</Title>
+    <Paragraph>
+      IT Excellence: Elevate Your Business with Our Cutting-Edge Solutions and
+      Commitment.
+    </Paragraph>
+  </div>
+  <div class='flex flex-row'>
+    <div class='flex-0.3'>
+      <nav class='tabs flex flex-col'>
         {
           tabList.map((item: any) => (
-            <div
-              class={`${item.id} tab-content ${
-                item.id === 'panel-1' && 'active'
-              } flex-1 h-full relative`}
+            <button
+              data-target={item.id}
+              class={`${
+                item.id === 'panel-1' && 'active shadow-inner'
+              } text-start tab py-4 px-4 font-bold block rounded-lg rounded-e-none hover:text-blue-800 dark:text-white focus:outline-none`}
             >
-              <img
-                class='w-12/12 h-6/6 aspect-video object-cover'
-                src={item.image}
-              />
-              <div class='absolute bottom-0 left-0 right-0 p-5 pt-24 bg-gradient-to-t from-white dark:from-black via-white/70 dark:via-black/70 to-transparent'>
-                <Title>{item.title}</Title>
-                <Paragraph className='mt-8 mb-8'>{item.description}</Paragraph>
-              </div>
-            </div>
+              {item.title}
+            </button>
           ))
         }
-      </div>
+      </nav>
     </div>
-  </Container>
-</section>
+
+    <div id='panels' class='flex-1'>
+      {
+        tabList.map((item: any) => (
+          <div
+            class={`${item.id} tab-content ${
+              item.id === 'panel-1' && 'active'
+            } flex-1 h-full relative`}
+          >
+            <img
+              class='aspect-video object-cover'
+              src={item.image}
+            />
+            <div class='absolute bottom-0 left-0 right-0 p-5 pt-24 bg-gradient-to-t from-white dark:from-black via-white/70 dark:via-black/70 to-transparent'>
+              <Title>{item.title}</Title>
+              <Paragraph className='mt-8 mb-8'>{item.description}</Paragraph>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</Container>
 
 <script>
   const tab = document.querySelectorAll('.tab')

@@ -34,7 +34,7 @@ const { title, description, image } = Astro.props
         creator: '@mridulmr'
       }}
       extend={{
-        link: [{ rel: 'icon', href: '/favicon.svg' }],
+        link: [{ rel: 'icon', href: '/favicon.ico' }],
         meta: [
           {
             name: 'twitter:image',
@@ -53,6 +53,10 @@ const { title, description, image } = Astro.props
     <Navbar />
     <slot />
     <Footer />
+    <button onclick='topFunction()' id='myBtn' class="transition" title='Go to top'>
+      <img src="/images/scroll-to-top.webp" class="w-100 h-100"/>
+    </button>
+
     <script>
       const switchTheme = document.querySelector(
         '[data-switch-theme]'
@@ -132,6 +136,29 @@ const { title, description, image } = Astro.props
         })
       }
     </script>
+    <script is:inline>
+      let mybutton = document.getElementById('myBtn')
+
+      window.onscroll = function () {
+        scrollFunction()
+      }
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = 'block'
+        } else {
+          mybutton.style.display = 'none'
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+      }
+    </script>
     <style is:global>
       :root {
         --color-bg: 255 255 255;
@@ -176,6 +203,38 @@ const { title, description, image } = Astro.props
       [data-nav-overlay][data-is-visible='true'] {
         visibility: visible;
         display: flex;
+      }
+
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #1d4ed8;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        color: white;
+        cursor: pointer;
+      }
+
+      #myBtn:hover {
+        transform: scale(1.1);
       }
     </style>
   </body>

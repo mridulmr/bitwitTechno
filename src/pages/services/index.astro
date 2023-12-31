@@ -7,6 +7,7 @@ import { services, softwareDevelopmentTab } from '../../utils/data'
 import WhyChooseUs from '../../components/sections/service/WhyChooseUs.astro'
 import OurProcess from '../../components/sections/OurProcess.astro'
 import CTA from '../../components/sections/CTA.astro'
+import DevelopmentTeam from '../../components/sections/service/DevelopmentTeam.astro'
 ---
 
 <Layout title='Services | Bitwit Techno' description='' image=''>
@@ -16,6 +17,7 @@ import CTA from '../../components/sections/CTA.astro'
     <Services data={services} size={services.length} />
     <WhyChooseUs tabList={softwareDevelopmentTab} />
     <OurProcess />
+    <DevelopmentTeam />
     <CTA />
   </main>
 </Layout>
