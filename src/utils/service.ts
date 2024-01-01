@@ -1,13 +1,3 @@
-const servicesDetails = Object.values(
-  import.meta.glob(
-    '../../images/animation/services/*.{png,jpg,jpeg,PNG,JPEG,svg,json}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
 export const ServiceDetails = [
   {
     key: 'ui-ux',
@@ -693,104 +683,6 @@ export const ServiceDetails = [
     }
   },
   {
-    key: 'dedicated-development-team',
-    title: 'Dedicated Development Team',
-    metaTitle: 'Hire Dedicated Software Development Team | Bitwit Techno',
-    metaDescription:
-      'Ditch Talent Headaches: Hire Expert Dev Teams - Bitwit Techno. PMs, SWEs, QAs - on-demand for any project. Free quote!',
-    metaKeywords: [
-      'Dedicated development teams',
-      'Offshore development services',
-      'Extended development teams',
-      'Outsourced development teams',
-      'Agile development teams',
-      'Expert development resources',
-      'Scalable development teams',
-      'Full-stack development teams',
-      'Collaborative development teams',
-      'Customized development solutions',
-      'Dedicated project managers',
-      'Remote development teams',
-      'Cross-functional development teams',
-      'Dedicated QA teams',
-      'Continuous delivery teams'
-    ],
-    description:
-      'In a dedicated team model, the client specifies the criteria for engineers to satisfy in order to be hired for a project, while we as the outsourced provider handle recruiting and administrative support.',
-    image: servicesDetails[6],
-    quote: {
-      heading: ['Dedicated Software Development Team'],
-      description:
-        'With a specialised team collaboration model, getting your project off the ground is as easy as.'
-    },
-    chooseUs: {
-      description:
-        "Hiring a dedicated team is the ideal solution for long-term projects requiring gradual and continuous growth. Additionally, it's an efficient technique to give a backup for your in-house programmers when they're overburdened with work or lack the necessary expertise.",
-      types: [
-        {
-          title: 'Cost-efficiency',
-          description:
-            'You are not required to invest in the recruiting process, office space, equipment, or administrative and organisational functions.'
-        },
-        {
-          title: 'Flexibility and scalability',
-          description:
-            "You may simply grow a dedicated team to meet your project's requirements by hiring more developers."
-        },
-        {
-          title: 'Budget control and predictability',
-          description:
-            "In advance, we'll agree on billing terms. Monthly payments will be computed depending on the amount of development hours spent on your project."
-        },
-        {
-          title: 'Quick project kick-off',
-          description:
-            'Software developers may begin work on your project within a few weeks of receiving your request. You are not need to spend time on headhunting.'
-        },
-        {
-          title: 'Transparency',
-          description:
-            "We will not conceal any information from you. You'll have daily contact with a specialised team and get frequent updates on the project's development."
-        },
-        {
-          title: 'Focused approach',
-          description:
-            'External tasks will not divert a committed software development team. Its whole focus will be on your project.'
-        }
-      ]
-    },
-    body: {
-      title: ['What does a dedicated development team mean?'],
-      description:
-        'In a dedicated team model, the client specifies the criteria for engineers to satisfy in order to be hired for a project, while we as the outsourced provider handle recruiting and administrative support.'
-    },
-    steps: {
-      title: ['How does a dedicated team model work?'],
-      list: [
-        {
-          title: 'Send your request',
-          description:
-            'To locate developers for your development project, we need to understand your specific requirements.'
-        },
-        {
-          title: 'Get programmers’ CVs',
-          description:
-            "Following an analysis of your request, we'll provide you the profiles of engineers whose experience and level of skill match your specifications."
-        },
-        {
-          title: 'Interview candidates',
-          description:
-            'Additionally, you may conduct personal interviews with developers who have already been verified by you to ensure they hold the relevant expertise.'
-        },
-        {
-          title: 'You’re all set-up!',
-          description:
-            "Once we've assembled all engineers into a team, we'll sign a contract and you may begin working immediately!"
-        }
-      ]
-    }
-  },
-  {
     key: 'cloud-computing',
     title: 'Cloud Computing',
     metaTitle: 'Leading Cloud Computing Solutions | Bitwit Techno',
@@ -892,7 +784,7 @@ export const ServiceDetails = [
   },
   {
     key: 'iot-apps-development',
-    title: 'IoT App Development',
+    title: 'IoT App Development Services',
     metaTitle: 'IoT App Development Company Services | Bitwit Techno',
     metaDescription:
       "Global IoT & iOS Powerhouse: Bitwit Techno. Unleash Data Driven Success Across Apple & Beyond. Let's Talk!",
@@ -924,6 +816,7 @@ export const ServiceDetails = [
         ' IoT app development is a whole different ballgame as compared to traditional operation development. That’s why our services in this field keep in mind the complications of an IoT ecosystem, as well as the changing tackle and software conditions that enable a flawless UX for IoT operations. We make pall grounded, high speed IoT results that work the tremendous power of our customer’s dat.'
     },
     chooseUs: {
+      title: 'Innovate Your IoT Development Solutions',
       description:
         'We are a software development business specialising in IoT application development. With us, you can create sophisticated IoT applications that interface easily with current hardware. We develop Internet of Things (IoT) technologies for a broad range of use cases and sectors, ranging from smart home solutions to major industrial facilities. Our specialist IoT teams use cutting-edge techniques to assist you in embedding intelligence into devices.',
       types: [
@@ -962,7 +855,8 @@ export const ServiceDetails = [
     body: {
       title: ['What we are offering for IoT app development?'],
       description:
-        'Cutting-edge solutions blending hardware and software expertise. Seamless connectivity, real-time analytics, and innovative IoT applications for your business transformation.'
+        'Cutting-edge solutions blending hardware and software expertise. Seamless connectivity, real-time analytics, and innovative IoT applications for your business transformation.',
+      image: '/images/service/iot-dev.png'
     },
     steps: {
       title: [
@@ -1300,7 +1194,8 @@ export const ServiceDetails = [
     body: {
       title: ['Why you should invest in AR development?'],
       description:
-        'Advanced display tech revived VR studios. Now, VR runs on smartphones, broadening accessibility. As a top VR/AR developer, we create immersive, lifelike experiences for businesses.'
+        'Advanced display tech revived VR studios. Now, VR runs on smartphones, broadening accessibility. As a top VR/AR developer, we create immersive, lifelike experiences for businesses.',
+      image: '/images/service/ar-vr-dev.webp'
     },
     steps: {
       title: ['Benefits of Hiring our AR VR App Development Services'],
@@ -1453,7 +1348,7 @@ export const ServiceDetails = [
   },
   {
     key: 'fullstack-development',
-    title: 'Fullstack Development',
+    title: 'Fullstack Development Services',
     metaTitle: 'Fullstack Development Company Services | Bitwit Techno',
     metaDescription:
       'Level Up Your Web Presence: Bitwit Techno Full-Stack Development. Stunning design, flawless functionality. Start Your Project!',
@@ -1483,7 +1378,7 @@ export const ServiceDetails = [
         'Expertise in frontend and backend technologies, delivering innovative, seamless, and scalable web solutions for diverse business needs.'
     },
     chooseUs: {
-      title: 'Dynamic Fullstack development solutions',
+      title: 'Dynamic Fullstack Development Solutions',
       description:
         'At Bitwit, our fullstack development services include all kinds of tools and frameworks, such as Node.js development, Rapid js, Fullstack, Express, MongoDB, AngularJS development, React, jQuery and more! Our fullstack web developers build robust web applications that help your business unleash its full potential.',
       types: [
@@ -1520,40 +1415,41 @@ export const ServiceDetails = [
       ]
     },
     body: {
-      title: ['Why choose Bitwit as a fullstack development...'],
+      title: ['Why Choose Bitwit as a Fullstack Development...'],
       description:
-        'Bitwit excels in diverse software development, from front-end prototypes to robust back-end services. Achieve rapid development with our skilled fullstack developers.'
+        'Bitwit excels in diverse software development, from front-end prototypes to robust back-end services. Achieve rapid development with our skilled fullstack developers.',
+      image: '/images/service/fullstack-dev.webp'
     },
     steps: {
-      title: ['Reasons to choose Bitwit as your fullstack development partner'],
+      title: ['Reasons to Choose Bitwit as Your Fullstack Development Partner'],
       list: [
         {
-          title: 'Agile methodology',
+          title: 'Agile Methodology',
           description:
             'Application development takes time, but our fullstack web developers make it easy by adopting agile development methodologies.'
         },
         {
-          title: 'Quality output',
+          title: 'Quality Output',
           description:
             'Dedicated to top-quality outcomes. Skilled fullstack developers address customer issues efficiently, ensuring exceptional results and client satisfaction.'
         },
         {
-          title: 'Faster project delivery',
+          title: 'Faster Project Delivery',
           description:
             'App development can be very mundane. As a company with vast experience, we ensure timely delivery of your fullstack development projects.'
         },
         {
-          title: 'Customer satisfaction',
+          title: 'Customer Satisfaction',
           description:
             'Having delivered successful projects to hundreds of clients across industries, we have acquired the expertise to meet every need of clients.'
         },
         {
-          title: 'Customized software solutions',
+          title: 'Customized Software Solutions',
           description:
             'Transforming visions into reality. Expert designers and fullstack developers craft bespoke web and mobile apps, bringing your ideas to life.'
         },
         {
-          title: 'Ongoing support and maintenance',
+          title: 'Ongoing Support and Maintenance',
           description:
             'Continuous support post-delivery. Ongoing communication ensures customer satisfaction, offering timely assistance, support, and maintenance whenever needed.'
         }
@@ -1689,7 +1585,7 @@ export const ServiceDetails = [
       'HTML accessibility solutions'
     ],
     description:
-      'killed professionals proficient in Hypertext Markup Language, creating structured and visually appealing web content for seamless online user experiences.',
+      'Skilled professionals proficient in Hypertext Markup Language, creating structured and visually appealing web content for seamless online user experiences.',
     image: '/images/service/html-developer.webp',
     quote: {
       heading: ['Hire Dedicated HTML Developers'],
@@ -1736,7 +1632,8 @@ export const ServiceDetails = [
     body: {
       title: ['Bitwit-The best place to hire a dedicated HTML5...'],
       description:
-        'Hire skilled HTML developers adept in high-usability techniques. Our experienced UI experts craft tailored solutions, offering long-term benefits. Choose flexible recruitment models and HTML5-based solutions.'
+        'Hire skilled HTML developers adept in high-usability techniques. Our experienced UI experts craft tailored solutions, offering long-term benefits. Choose flexible recruitment models and HTML5-based solutions.',
+      image: '/images/service/html-dev.webp'
     },
     steps: {
       title: ['Leverage the expertise of our HTML developers'],
@@ -1757,7 +1654,7 @@ export const ServiceDetails = [
             'To ensure proper updates and support with business needs, our HTML5 programmers use front-end code standards that vary with needs.'
         },
         {
-          title: 'Real time chat apps',
+          title: 'Real-time chat apps',
           description:
             'We provide affordable websites at reasonable cost savings, hourly costs and fixed markup strategies while managing quality.'
         },
@@ -1881,8 +1778,8 @@ export const ServiceDetails = [
   },
   {
     key: 'nodejs-development',
-    title: 'Node.js Development',
-    metaTitle: 'Node Development Services Company | Bitwit Techno ',
+    title: 'Node.js Development Services',
+    metaTitle: 'Node Development Services Company | Bitwit Techno',
     metaDescription:
       'Scale Up with Ease: Bitwit Node.js Experts. Build agile, high-performance websites. Get a Free Quote!',
     metaKeywords: [
@@ -1911,9 +1808,9 @@ export const ServiceDetails = [
         'Industry leaders in Node.js expertise, delivering cutting-edge solutions, seamless applications, and superior performance for businesses worldwide.'
     },
     chooseUs: {
-      title: 'your next Node development project',
+      title: 'Your Next Node Development Project',
       description:
-        'We have years of experience in handling various Node.js web app development projects. Our expertise lies in developing various applications using Node.js and making our clients happy and satisfied. We are very adept at creating scalable and customer friendly applications as per the various business requirements.',
+        'We have years of experience in handling various Node.js web app development projects. Our expertise lies in developing various applications using Node.js and making our clients happy and satisfied. We are very adept at creating scalable and customer-friendly applications as per the various business requirements.',
       types: [
         {
           title: 'Custom Node.js Application',
@@ -1928,35 +1825,36 @@ export const ServiceDetails = [
         {
           title: 'Node.js Plugin Development',
           description:
-            "We develop and integrate custom Node.js plugins to enhance client's website functionalities and ensure optimum performance. Our Node developers help you create plugin for improved performance of your digital product."
+            "We develop and integrate custom Node.js plugins to enhance the client's website functionalities and ensure optimum performance. Our Node developers help you create a plugin for improved performance of your digital product."
         },
         {
           title: 'Node.js Consulting for Start-ups',
           description:
-            'Our highly experienced Node.js consultants help businesses understand and visualize Node.js web application development services. To get a successful digital product, take first step by reaching out to our Node.js experts.'
+            'Our highly experienced Node.js consultants help businesses understand and visualize Node.js web application development services. To get a successful digital product, take the first step by reaching out to our Node.js experts.'
         },
         {
-          title: 'Tailored backend for enterprises',
+          title: 'Tailored Backend for Enterprises',
           description:
-            'We help to build backend for web with Node.js dashboard tailored to your needs. The flexibility of Node.js combined with our expertise can be used to build enterprise web applications that provide real-time feedback to users.'
+            'We help to build a backend for the web with a Node.js dashboard tailored to your needs. The flexibility of Node.js combined with our expertise can be used to build enterprise web applications that provide real-time feedback to users.'
         },
         {
-          title: 'Ability to handle complex projects',
+          title: 'Ability to Handle Complex Projects',
           description:
-            'As a prominent Node.js development company, we behold dynamic experiences in terms of building beautiful, interactive and fully functional applications. Our developers are highly talented to handle each Node.js development project as per the various requirements of the clients.'
+            'As a prominent Node.js development company, we behold dynamic experiences in terms of building beautiful, interactive, and fully functional applications. Our developers are highly talented to handle each Node.js development project as per the various requirements of the clients.'
         }
       ]
     },
     body: {
-      title: ['Latest Node.js tools and techniques'],
+      title: ['Latest Node.js Tools and Techniques'],
       description:
-        'Leading Node.js experts. Specializing in scalable applications. Our agile approach, state-of-the-art tools ensure industry-specific, cost-efficient Node development solutions.'
+        'Leading Node.js experts. Specializing in scalable applications. Our agile approach, state-of-the-art tools ensure industry-specific, cost-efficient Node development solutions.',
+      image: '/images/service/node.png'
     },
     steps: {
-      title: ['Unlock success through our Node.js development services'],
+      title: ['Unlock Success Through Our Node.js Development Services'],
       list: [
         {
-          title: 'Business analysis',
+          title: 'Business Analysis',
           description:
             'Our analysts strategize online success. Competitor analysis, creative ideas lead to functional Node.js apps, helping you outperform competitors in your industry.'
         },
@@ -1971,21 +1869,21 @@ export const ServiceDetails = [
             'Expert Node.js development. Strategic approach creates robust applications, seizing new opportunities. Tailored functions and modifications align with project needs.'
         },
         {
-          title: 'REST APIs and security checks',
+          title: 'REST APIs and Security Checks',
           description:
             'As a Node.js web development company, we use Node.js technology to build secure and ready-to-use REST APIs from scratch in a short time frame.'
         },
         {
-          title: 'Quality testing',
+          title: 'Quality Testing',
           description:
             'Enhance Node.js products. Integrate with other tools seamlessly. Our team develops APIs to expand functionality, ensuring tailored solutions for you.'
         },
         {
-          title: 'Technical support',
+          title: 'Technical Support',
           description:
-            'We continue to provide technical support post development of lightweight, adaptable and high-performance applications under our Node.js development services.'
+            'We continue to provide technical support post the development of lightweight, adaptable, and high-performance applications under our Node.js development services.'
         }
       ]
     }
-  }
+  },
 ]
