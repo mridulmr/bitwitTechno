@@ -459,7 +459,7 @@ export const ServiceDetails = [
   {
     key: 'quality-assurance',
     title: 'Quality Assurance',
-    metaTitle: 'Quality Assurance Services Company | Bitwit Techno',
+    metaTitle: 'Top Quality Assurance Company Services | Bitwit Techno',
     metaDescription:
       'Bitwit Techno: Your QA dream team. Effortless testing across desktop, web, & mobile. Ship bug-free software, fast.',
     metaKeywords: [
@@ -480,96 +480,98 @@ export const ServiceDetails = [
       'Quality control in software development'
     ],
     description:
-      'Our skilled testers can remove the majority of hazards associated with code errors. A bug-free code base provides several benefits to your project.',
+      "Ensure a bug-free code base and reap the benefits for your project with Bitwit Techno's skilled testers. Experience efficient and quick quality assurance and software testing methods.",
     image: '/images/service/quality-assurance.webp',
     quote: {
-      heading: ['Software Testing and QA Services'],
+      heading: ['Comprehensive Software Testing and QA Services'],
       description:
-        'We recognize the significance of your time and convenience. All of our quality assurance and software testing methods are quick, efficient, and painless.'
+        'Bitwit Techno values your time and convenience. Our quality assurance and software testing methods are quick, efficient, and painless, ensuring flawless products for your digital success.'
     },
     chooseUs: {
+      title: 'Innovate Your QA testing with Bitwit Techno',
       description:
-        'Opt for Bitwit QA services: meticulous testing, robust quality assurance, and unwavering commitment to flawless products ensure your digital success.',
+        'Choose Bitwit Techno for meticulous testing, robust quality assurance, and unwavering commitment to flawless products, ensuring your digital success. Opt for:',
       types: [
         {
-          title: 'Verified software quality',
+          title: 'Verified Software Quality',
           description:
-            'QA testing services enable you to detect any faults in software before to launch, ensuring that the final product is of the highest possible quality.'
+            "Detect faults in software before launch, ensuring the highest possible quality for the final product with Bitwit's QA testing services."
         },
         {
-          title: 'Reduce downtime expenses',
+          title: 'Reduce Downtime Expenses',
           description:
-            'Testing a web or mobile application can assist you in avoiding catastrophic system failures and minimizing the expenses associated with future problems.'
+            'Testing a web or mobile application helps avoid catastrophic system failures and minimizes expenses associated with future problems.'
         },
         {
-          title: 'Lower support costs',
+          title: 'Lower Support Costs',
           description:
-            'Maintaining faultless code is far simpler and less expensive, since it takes less time and needs little assistance from IT personnel.'
+            'Maintain faultless code with ease, reducing time and assistance needed from IT personnel, resulting in lower support costs.'
         },
         {
-          title: 'Quick time-to-market',
+          title: 'Quick Time-to-Market',
           description:
-            'We provide both manual and automated QA testing and can quickly evaluate your product, allowing your developers to concentrate on development.'
+            'Bitwit Techno provides both manual and automated QA testing, enabling a quick evaluation of your product and allowing developers to focus on development.'
         },
         {
-          title: 'Satisfied users',
+          title: 'Satisfied Users',
           description:
-            'Additionally, QA testers may verify the stability, speed, and usability of software, enabling you to optimize these metrics prior to releasing your product to actual consumers.'
+            'QA testers optimize stability, speed, and usability of software, ensuring these metrics are perfected before releasing the product to actual consumers.'
         },
         {
           title: 'Objectivity',
           description:
-            'By outsourcing software testing services, you obtain objective feedback on your solution, ensuring that no detail is missed.'
+            'Outsource software testing services to Bitwit Techno for objective feedback on your solution, ensuring no detail is missed.'
         }
       ]
     },
     body: {
-      title: ['How it Works'],
+      title: ['Efficient Quality Assurance Process'],
       description:
-        'We recognize the significance of your time and convenience. All of our quality assurance and software testing methods are quick, efficient, and painless.'
+        'Bitwit Techno values your time and convenience. Our quality assurance and software testing methods are quick, efficient, and painless, ensuring flawless products for your digital success.',
+      image: '/images/service/qa-testing.png'
     },
     steps: {
-      title: ['What we offer'],
+      title: ['Our Comprehensive QA Offerings'],
       list: [
         {
-          title: 'Smoke testing',
+          title: 'Smoke Testing',
           description:
-            'Aimed at exposing egregious faults in the fundamental operation of software.'
+            "Expose egregious faults in the fundamental operation of software with Bitwit Techno's smoke testing."
         },
         {
-          title: 'Regression testing',
+          title: 'Regression Testing',
           description:
-            'Identifies vulnerabilities in code that have been modified significantly.'
+            'Identify vulnerabilities in code that have been modified significantly, ensuring software stability.'
         },
         {
-          title: 'Acceptance testing',
+          title: 'Acceptance Testing',
           description:
-            'Assists in determining if a solution meets its acceptance criteria.'
+            "Determine if a solution meets its acceptance criteria with Bitwit Techno's thorough acceptance testing."
         },
         {
-          title: 'Functional testing',
+          title: 'Functional Testing',
           description:
-            'Verifies that software adheres to the functional requirements listed in specifications (e.g. installation, setup, login, etc.)'
+            'Verify that software adheres to functional requirements, including installation, setup, login, and more.'
         },
         {
-          title: 'Performance testing',
+          title: 'Performance Testing',
           description:
-            "Analyzes the system's responsiveness, speed, and stability when subjected to a specified workload."
+            "Analyze system responsiveness, speed, and stability under specified workloads with Bitwit Techno's performance testing."
         },
         {
-          title: 'Compatibility testing',
+          title: 'Compatibility Testing',
           description:
-            'Evaluates the effectiveness of a software system on a certain piece of hardware, operating system, or environment.'
+            "Evaluate software effectiveness on specific hardware, operating systems, or environments with Bitwit Techno's compatibility testing."
         },
         {
-          title: 'Security testing',
+          title: 'Security Testing',
           description:
-            'Intended to identify weaknesses and vulnerabilities in the security systems of the system'
+            "Identify weaknesses and vulnerabilities in security systems with Bitwit Techno's thorough security testing."
         },
         {
-          title: 'Usability testing',
+          title: 'Usability Testing',
           description:
-            'Indicates if it is simple for consumers to figure out how to utilise a product in order to get the intended outcome.'
+            "Determine the ease of use for consumers with Bitwit Techno's usability testing, ensuring a positive user experience."
         }
       ]
     }
@@ -998,9 +1000,8 @@ export const ServiceDetails = [
   },
   {
     key: 'desktop-application-development',
-    title: 'Desktop Application Development',
-    metaTitle:
-      'Desktop Application Development Company Services | Bitwit Techno',
+    title: 'Desktop Application',
+    metaTitle: 'Top Desktop Application Development Company | Bitwit Techno',
     metaDescription:
       'Piece by Piece: Craft Your Perfect Desktop App with Bitwit. Tailor-made solutions, expert guidance. Contact us today!',
     metaKeywords: [
@@ -1029,77 +1030,78 @@ export const ServiceDetails = [
         'Desktop app development creates offline software, ensuring user-friendliness and stability. These apps, like Microsoft Office, enhance productivity and serve diverse business and personal needs.'
     },
     chooseUs: {
-      title: 'your next desktop app development',
+      title: 'Your Next Desktop App Development Partner',
       description:
-        'Bitwit is a home to experienced and certified engineers who are destined to deliver highly efficient desktop apps to startups, MSEs and Enterprises. Our team is integrated with quality coders, creative UI and UX designers and accurate testers to build attractive applications with maintainable and secure code.',
+        'Bitwit is home to experienced and certified engineers destined to deliver highly efficient desktop apps to startups, MSEs, and Enterprises. Our team includes quality coders, creative UI and UX designers, and accurate testers to build attractive applications with maintainable and secure code.',
       types: [
         {
-          title: 'Custom desktop applications',
+          title: 'Custom Desktop Applications',
           description:
-            'Bitwit has acquired considerable expertise in developing desktop applications for Windows, Linux and macOS platforms. These include various add-ins for Adobe (Acrobat, InDesign, and Illustrator) and extensions for Microsoft Office, as well as various plugins for many Internet browsers.'
+            'Bitwit excels in developing desktop applications for Windows, Linux, and macOS platforms, including add-ins for Adobe (Acrobat, InDesign, and Illustrator), extensions for Microsoft Office, and plugins for various Internet browsers.'
         },
         {
-          title: 'Well-structured architecture',
+          title: 'Well-Structured Architecture',
           description:
-            'We build well-structured architecture for your desktop application including custom plugins, scripting, custom DSL as well as for encryption software.'
+            'We build a well-structured architecture for your desktop application, covering custom plugins, scripting, custom DSL, and encryption software.'
         },
         {
-          title: 'Intuitive system extensions',
+          title: 'Intuitive System Extensions',
           description:
-            'We have experience in developing innovative and user-friendly system extensions and add-ins for Skype, Outlook, Adobe Acrobat, InDesign, Adobe Photoshop and QuarkXPress. Besides, we can also help you to create extensions for Firefox, Chrome, Apache Libraries and Grails implementations.'
+            'Experience in developing innovative and user-friendly system extensions and add-ins for Skype, Outlook, Adobe Acrobat, InDesign, Adobe Photoshop, and QuarkXPress. We can also help create extensions for Firefox, Chrome, Apache Libraries, and Grails implementations.'
         },
         {
-          title: 'Agile methods',
+          title: 'Agile Methods',
           description:
-            'We use agile as our core software development life-cycle model for projects. Experienced project managers and scrum masters will ensure that your project meets all your requirements, goals and milestones in an orderly manner.'
+            'We use agile as our core software development life-cycle model for projects. Experienced project managers and scrum masters ensure that your project meets all your requirements, goals, and milestones in an orderly manner.'
         },
         {
-          title: 'Full service cycles',
+          title: 'Full Service Cycles',
           description:
-            'Bitwit offers you the full cycle of services you need in one place, from inception to final product, to build applications of any complexity. Our desktop application development services include product requirements analysis, UI/UX design, development, QA, post deliver technical support and regular updates.'
+            'Bitwit offers the full cycle of services needed in one place, from inception to the final product, for applications of any complexity. Our desktop application development services include product requirements analysis, UI/UX design, development, QA, post-delivery technical support, and regular updates.'
         },
         {
-          title: 'High quality for low price',
+          title: 'High Quality for Low Price',
           description:
-            'Southeast Asia, especially India, is known as a leader in the IT sector. Our rates are at least 30% lower than prices in Europe or North America, so you can save money. You can use your savings for marketing, addition new features or on other projects.'
+            'Southeast Asia, especially India, is a leader in the IT sector. Our rates are at least 30% lower than prices in Europe or North America, allowing you to save money for marketing, adding new features, or other projects.'
         }
       ]
     },
     body: {
-      title: ['Why do you need desktop application development?'],
+      title: ['Why Do You Need Desktop Application Development?'],
       description:
-        'Desktop application development is a digital product or software that is capable of running offline. This development service is known to be user-friendly, stable and responsive, making it the go-to solution for many clients. Desktop applications are designed to make our daily lives productive and are used by many businesses for their own needs or those of their customers. Some of the good examples of desktop application is Microsoft Office suite. Word, PowerPoint and Excel are used by millions of people every day.'
+        'Desktop application development is a digital product or software capable of running offline. This service is known for its user-friendliness, stability, and responsiveness, making it the go-to solution for many clients. Desktop applications are designed to make daily lives more productive and are used by businesses for their own needs or those of their customers. Examples include Microsoft Office suite with Word, PowerPoint, and Excel, used by millions of people every day.',
+      image: '/images/service/desktop-app.webp'
     },
     steps: {
-      title: ['Things we do for your desktop application development project'],
+      title: ['Things We Do for Your Desktop Application Development Project'],
       list: [
         {
-          title: 'Desktop application development',
+          title: 'Desktop Application Development',
           description:
             'Ensure peak IoT ecosystem performance through comprehensive testing, adaptive maintenance, and real-time updates, syncing digital and physical devices seamlessly.'
         },
         {
-          title: 'Research and development',
+          title: 'Research and Development',
           description:
             'Need R&D for your innovative idea? Bitwit offers expertise. Achieve technical feats with our advanced desktop software and middleware.'
         },
         {
-          title: 'Desktop software modernization',
+          title: 'Desktop Software Modernization',
           description:
             'Legacy apps hindering productivity and user retention? Outdated software risks security and productivity. Bitwit modernizes or retrofits desktop software effectively.'
         },
         {
-          title: 'UWP application development',
+          title: 'UWP Application Development',
           description:
             'Legacy apps hindering productivity and user retention? Outdated software risks security and productivity. Bitwit modernizes or retrofits desktop software effectively.'
         },
         {
-          title: 'Desktop software integration',
+          title: 'Desktop Software Integration',
           description:
             'Seamless data transfer and workflows are vital for distributed systems. Our expert integration ensures efficient, flawless operations across your business solutions.'
         },
         {
-          title: 'API development',
+          title: 'API Development',
           description:
             'Enhance connectivity with our API development services. Leverage our expertise to integrate your product seamlessly into diverse software ecosystems.'
         }
@@ -1549,10 +1551,10 @@ export const ServiceDetails = [
   },
   {
     key: 'react-development',
-    title: 'ReactJS Developers',
-    metaTitle: 'React Development Company | Bitwit Techno ',
+    title: 'ReactJS Development',
+    metaTitle: 'Top React Development Company | Bitwit Techno',
     metaDescription:
-      'React Revolution: Bitwit Craft Stunning Cross-Platform Apps. ReactJS & Native. Fast, Innovative, Engaging. Contact Us!',
+      'React Revolution: Bitwit Crafts Stunning Cross-Platform Apps. ReactJS & Native. Fast, Innovative, Engaging. Contact Us!',
     metaKeywords: [
       'ReactJS development',
       'ReactJS UI/UX design',
@@ -1579,52 +1581,53 @@ export const ServiceDetails = [
         'Exceptional expertise, tailored solutions, and a commitment to enhancing your digital projects with top-tier ReactJS development.'
     },
     chooseUs: {
-      title: 'ReactJS development services',
+      title: 'Premium ReactJS Development Services',
       description:
-        'At Bitwit, our fullstack development services include all kinds of tools and frameworks, such as Node.js development, Rapid js, Fullstack, Express, MongoDB, AngularJS development, React, jQuery and more! Our fullstack web developers build robust web applications that help your business unleash its full potential.',
+        'At Bitwit, our fullstack development services encompass a comprehensive set of tools and frameworks, including Node.js, Rapid js, Fullstack, Express, MongoDB, AngularJS, React, jQuery, and more. Our fullstack web developers build robust web applications, empowering your business to unleash its full potential.',
       types: [
         {
           title: 'ReactJS UI/UX Development',
           description:
-            'Our developers can help you build interactive UI that’s highly engaging for the users along with latest React.js features.'
+            'Crafting interactive UI with the latest React.js features, our developers ensure highly engaging user experiences.'
         },
         {
           title: 'ReactJS Custom Development',
           description:
-            'Our expert React Native developers create custom applications and solutions for changing business requirements to deliver agility.'
+            'Our expert React Native developers create custom applications and solutions tailored to evolving business requirements, delivering agility.'
         },
         {
-          title: 'ReactJS Maintenance and support services',
+          title: 'ReactJS Maintenance and Support Services',
           description:
-            "Our team provides ReactJS maintenance and support services for applications' continuous and robust performance."
+            'Ensuring continuous and robust performance, our team provides ReactJS maintenance and support services for your applications.'
         },
         {
-          title: 'ReactJS migration and upgrade services',
+          title: 'ReactJS Migration and Upgrade Services',
           description:
-            'We provide comprehensive ReactJS migration services to upgrade existing web applications to the ReactJS framework securely.'
+            'Securely upgrading existing web applications to the ReactJS framework, we offer comprehensive ReactJS migration services.'
         },
         {
-          title: 'ReactJS plug-in',
+          title: 'ReactJS Plug-in Development',
           description:
-            'We enhance the functionality and performance of your web applications with custom plugins and extensions for your ReactJS applications.'
+            'Enhance the functionality and performance of your web applications with custom plugins and extensions for your ReactJS applications.'
         },
         {
           title: 'ReactJS Portal Development',
           description:
-            'Our developers create massive portals that are customizable and extensible with easy access as per the needs of the clients.'
+            'Our developers create massive, customizable, and extensible portals to meet the unique needs of our clients.'
         }
       ]
     },
     body: {
-      title: ['Top-rated ReactJS development company'],
+      title: ['Top-rated ReactJS Development Company'],
       description:
-        'Utilizing ReactJS for dynamic interfaces. Our expert team excels in React.js and React Native, ensuring seamless data updates and system integration.'
+        'Utilizing ReactJS for dynamic interfaces, our expert team excels in React.js and React Native, ensuring seamless data updates and system integration.',
+      image: '/images/service/reactjs.png'
     },
     steps: {
-      title: ['Leaving no stone unturned at every step.'],
+      title: ['Leaving No Stone Unturned at Every Step'],
       list: [
         {
-          title: 'Agile approach',
+          title: 'Agile Approach',
           description:
             'Be flexible throughout the development cycle. Scale your team up and down or augment it with part-time specialists.'
         },
@@ -1634,19 +1637,19 @@ export const ServiceDetails = [
             'Assign a full-time ReactJS team for better collaboration and faster results. We can handpick developers or provide you with a ready-made unit.'
         },
         {
-          title: 'Maximum security',
+          title: 'Maximum Security',
           description:
-            'We embrace React to build enterprise-grade applications and user-oriented web solutions with a high degree of security.'
+            'Embrace React to build enterprise-grade applications and user-oriented web solutions with a high degree of security.'
         },
         {
-          title: 'Quality assurance',
+          title: 'Quality Assurance',
           description:
-            'Our coders use high quality standards that assure flawless delivery of projects. We built mobile and web apps that are tested for high-quality standards.'
+            'Our coders adhere to high-quality standards, ensuring flawless project delivery. We build mobile and web apps tested for top-notch quality.'
         },
         {
-          title: 'Flawless delivery',
+          title: 'Flawless Delivery',
           description:
-            'Active client involvement. Stay informed with project updates. We prioritize transparency, ensuring clients have clear visibility and input in development.'
+            'Active client involvement. Stay informed with project updates. Prioritize transparency, ensuring clients have clear visibility and input in development.'
         }
       ]
     }
