@@ -11,63 +11,64 @@ const servicesDetails = Object.values(
 export const ServiceDetails = [
   {
     key: 'ui-ux',
-    title: 'UI/UX Design',
-    metaTitle: 'Ui/Ux Design Services Company | Bitwit Techno',
+    title: 'UI/UX Design Services',
+    metaTitle: 'Leading UI/UX Design Services Company | Bitwit Techno',
     metaDescription:
-      'Bitwit: Your strategic UX/UI partner. We bridge the gap between tech & humans. Global design expertise.',
+      'Bitwit Techno: Your strategic UX/UI partner. Bridging the gap between technology and human experience with global design expertise.',
     metaKeywords: [
       'UI design solutions',
-      'User experience services',
-      'Web design agency',
-      'Mobile app UX',
-      'Interface design experts',
-      'Graphic design services',
-      'Interactive UX design',
-      'Usability testing',
-      'Visual design solutions',
-      'Wireframing services',
-      'Prototyping experts',
-      'User-centered design',
-      'Responsive design',
-      'Creative UI/UX',
+      'user experience services',
+      'web design agency',
+      'mobile app UX',
+      'interface design experts',
+      'graphic design services',
+      'interactive UX design',
+      'usability testing',
+      'visual design solutions',
+      'wireframing services',
+      'prototyping experts',
+      'user-centered design',
+      'responsive design',
+      'creative UI/UX',
       'UX research services'
     ],
     description:
-      'We have a decade of experience designing and developing user-centric SaaS solutions, online apps, and mobile applications.',
+      'With a decade of experience, Bitwit Techno specializes in designing and developing user-centric SaaS solutions, online apps, and mobile applications.',
     image: '/images/service/ui-ux.webp',
     quote: {
       heading: ['Visually Stunning & ', 'User-Friendly Customer Experience.'],
       description:
-        'At Bitwit, the Design division operates as a separate entity with a specialised team of User Interface (UI) Designers, User Experience (UX) Designers, Graphic Designers, and Animators.'
+        "Bitwit's Design division operates with a specialized team of UI Designers, UX Designers, Graphic Designers, and Animators, ensuring visually stunning and user-friendly experiences."
     },
     chooseUs: {
+      title: 'Innovate Your UI/UX with Bitwit Techno',
       description:
-        'Bitwit well-known UI/UX design legacy meets your demands and offers best-in-class solutions at a reasonable cost all over the world. Here are some of the reasons why we are the finest option for web and mobile app design:',
+        "Bitwit's well-known UI/UX design legacy meets global demands, offering best-in-class solutions at a reasonable cost. Here are some reasons why we are the finest option for web and mobile app design:",
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We leverage cutting-edge frameworks and technologies to provide you with user-friendly, scalable, secure, and innovative business solutions.'
+            'Leveraging cutting-edge frameworks and technologies to provide user-friendly, scalable, secure, and innovative business solutions.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialized staff of UI/UX designers that are skilled in delivering high-end business solutions using a variety of tools and technologies.'
+            'A specialized staff of UI/UX designers skilled in delivering high-end business solutions using various tools and technologies.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and hold scrum events on a regular basis to optimise practises and procedures and give the best outcomes.'
+            'Utilizing the Agile approach and regular scrum events to optimize practices and procedures for the best outcomes.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, give you frequent project updates, and consider your valuable suggestions as and as required.'
+            'Valuing ideas and vision, providing frequent project updates, and considering valuable suggestions as required.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Instead of operating under the inflexible and stringent constraints, we provide our customers with the option of choosing from a variety of engagement and employment options.'
+            'Offering customers the option to choose from a variety of engagement and employment options, avoiding inflexible constraints.'
         },
         {
           title: 'Cross-Platform Compatibility',
@@ -77,42 +78,43 @@ export const ServiceDetails = [
         {
           title: 'Competitive Pricing',
           description:
-            'To ensure the lowest price in our category, we provide an optimal blend of cost-effective rates and exceptional quality.'
+            'Providing an optimal blend of cost-effective rates and exceptional quality to ensure the lowest price in the category.'
         }
       ]
     },
     body: {
-      title: ['We create designs to', 'augment User Experiences'],
+      title: ['Designs to Augment User Experiences'],
       description:
-        'We analyse behavioural patterns in humans and combine them with data science and information architecture to create a truly unique blended experience.'
+        'Analyzing human behavioral patterns and combining them with data science and information architecture to create a unique and blended user experience.',
+      image: '/images/service/ui.webp'
     },
     steps: {
-      title: ['Leaving no stone ', 'unturned at every step'],
+      title: ['Comprehensive UI/UX Design Process'],
       list: [
         {
-          title: 'Empathise',
+          title: 'Empathize',
           description:
-            'We use a tried-and-true empathy-driven human-centered design methodology to create the finest digital solutions that map user preferences.'
+            'Utilizing an empathy-driven human-centered design methodology to create the finest digital solutions that map user preferences.'
         },
         {
           title: 'Define - the Problem',
           description:
-            'Appropriate logic and details are integrated perfectly with aspects such as design functions, features, functionalities, and workflow to resolve complicated difficulties with the fewest possible hiccups.'
+            'Integrating appropriate logic and details with design functions, features, functionalities, and workflow to resolve complex difficulties with minimal hiccups.'
         },
         {
           title: 'Ideation',
           description:
-            "We create roadmaps while charting your company's journey to interpret human-focused issue statements using proven ideation methodologies and a client-centric methodology."
+            'Creating roadmaps and interpreting human-focused issue statements using proven ideation methodologies and a client-centric approach.'
         },
         {
           title: 'Prototype',
           description:
-            'On the basis of many studies, we construct a results-driven prototype aimed at establishing a genuine digital link with the maximum degree of detail and quality.'
+            'Constructing a results-driven prototype based on studies, establishing a genuine digital link with maximum detail and quality.'
         },
         {
           title: 'Testing',
           description:
-            'We fine-tune our designs utilising cutting-edge testing approaches by evaluating the entire usability of the product across several channels in order to provide a clear large picture of design experience benchmarks, blueprints, personas, and path maps for ideal customers.'
+            'Fine-tuning designs using cutting-edge testing approaches, evaluating usability across channels to provide clear benchmarks, personas, and path maps for ideal customers.'
         }
       ]
     }
@@ -785,98 +787,99 @@ export const ServiceDetails = [
   {
     key: 'cloud-computing',
     title: 'Cloud Computing',
-    metaTitle: 'Top Cloud Computing Services Provider | Bitwit Techno',
+    metaTitle: 'Leading Cloud Computing Solutions | Bitwit Techno',
     metaDescription:
-      'Bitwit Techno: Elevate Your IT - Leading Cloud Solutions. Ditch Servers, Scale with Ease. Get a Free Quote!',
+      'Bitwit Techno offers top-tier cloud computing services for secure data hosting and maintenance. Elevate your IT with our industry-leading cloud solutions. Get a free quote!',
     metaKeywords: [
-      'Cloud computing solutions',
-      'Cloud infrastructure services',
-      'Cloud migration services',
-      'Public cloud services',
-      'Private cloud solutions',
-      'Hybrid cloud architecture',
-      'Cloud storage solutions',
-      'Cloud security services',
-      'Cloud performance optimization',
-      'Cloud-based application development',
-      'Multi-cloud management',
-      'Infrastructure as a Service (IaaS)',
-      'Platform as a Service (PaaS)',
-      'Software as a Service (SaaS)',
-      'Cloud consulting services'
+      'cloud computing solutions provider',
+      'cloud infrastructure services',
+      'cloud migration services',
+      'public cloud services',
+      'private cloud solutions',
+      'hybrid cloud architecture',
+      'cloud storage solutions',
+      'cloud security services',
+      'cloud performance optimization',
+      'cloud-based application development',
+      'multi-cloud management',
+      'IaaS',
+      'PaaS',
+      'SaaS',
+      'cloud consulting services'
     ],
     description:
-      'We provide secure cloud computing solutions for the hosting and maintenance of your data.',
+      'Bitwit Techno provides cutting-edge and secure cloud computing solutions, specializing in the hosting and maintenance of your valuable data.',
     image: '/images/service/cloud-computing.webp',
     quote: {
-      heading: ['Cloud Computing Hosting', ' And maintenance of your data'],
+      heading: ['Cloud Computing Hosting', ' And Maintenance of Your Data'],
       description:
-        'Transform your business with our cloud solutions: seamless access to tools, worry-free infrastructure hosting, and cost-effective application management.'
+        "Transform your business with Bitwit's cloud solutions—seamless access to tools, worry-free infrastructure hosting, and cost-effective application management."
     },
     chooseUs: {
-      title: 'Cloud Computing Solutions',
+      title: 'Tailored Cloud Computing Solutions',
       description:
-        'Bitwit is a cloud computing solutions company that caters to businesses of all sizes and industries. Our solution-oriented approach ensures that we can assist you in building a cloud strategy that will aid in the growth of your organisation. Consider the following reasons to use our industry-leading cloud computing solutions:',
+        'Bitwit is a leading cloud computing solutions company, catering to businesses of all sizes and industries. Our solution-oriented approach ensures the development of a growth-centric cloud strategy. Consider the following reasons to choose our industry-leading cloud computing solutions:',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions acclimatized to your specific requirements.'
+            'Utilizing cutting-edge frameworks and technologies, we offer user-friendly, scalable, secure, and innovative business solutions tailored to your specific requirements.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to insure that we produce the best outcomes possible.'
+            'Following the Agile approach, we conduct regular scrum events to optimize practices and processes, ensuring the delivery of the best possible outcomes.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialised development team that is experienced in developing high-end business solutions using a variety of frameworks and technologies.'
+            'Our specialized development team is experienced in creating high-end business solutions using a variety of frameworks and technologies.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.'
+            'We value your ideas and vision, communicate every minor project detail to you frequently, and consider your valuable input as necessary.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.'
+            'Offering customers a variety of engagement and recruiting methods, we avoid rigid and restrictive constraints to meet diverse business needs.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.'
+            'Our flexible engagement and recruiting methods provide customers with competitive pricing options, ensuring cost-effectiveness.'
         }
       ]
     },
     body: {
-      title: ['Types of cloud Services for you'],
+      title: ['Tailored Cloud Services'],
       description:
-        'Discover Cloud Solutions choose from public for cost-efficiency, private for enhanced security, or hybrid for flexibility. Tailored cloud services to elevate your digital infrastructure.'
+        'Explore our cloud solutions: choose public for cost-efficiency, private for enhanced security, or hybrid for flexibility. Tailored cloud services to elevate your digital infrastructure.',
+      image: '/images/service/cloud-compute.webp'
     },
     steps: {
-      title: ['How Would you Benefit with our cloudComputing Services'],
+      title: ['Benefits of Our Cloud Computing Services'],
       list: [
         {
-          title: 'Affordable',
+          title: 'Affordability',
           description:
-            'By using cloud infrastructure, you avoid the high costs associated with acquiring equipment and operating a data centre.'
+            'Utilize cloud infrastructure to avoid the high costs associated with acquiring equipment and operating a data center.'
         },
         {
           title: 'Data Security',
           description:
-            'Cloud computing has several sophisticated data security safeguards that ensure the security of your data while it is being stored and handled.'
+            'Experience sophisticated data security safeguards in cloud computing, ensuring the protection of your data during storage and handling.'
         },
         {
           title: 'Better Mobility',
           description:
-            'Cloud computing enables mobile access to data and apps through smart phones and tablets from anywhere in the globe.'
+            'Enable mobile access to data and apps through smartphones and tablets worldwide with our cloud computing services.'
         },
         {
           title: 'Competitive Edge',
           description:
-            'Businesses who use cloud-based solutions discover several advantages. Cloud computing has a favourable influence on your organisation, putting you ahead of your competition.'
+            'Gain a competitive advantage with cloud-based solutions that positively impact your organization, positioning you ahead of your competition.'
         }
       ]
     }
@@ -1110,89 +1113,91 @@ export const ServiceDetails = [
   },
   {
     key: 'product-development-life-cycle',
-    title: 'Product Development Life Cycle',
-    metaTitle: 'Product Development Life Cycle Stages | Bitwit Techno',
+    title: 'Product Development Life Cycle Services',
+    metaTitle:
+      'Comprehensive Product Development Life Cycle Stages | Bitwit Techno',
     metaDescription:
-      'Boost Web & Mobile App Development with Agile at Bitwit. Faster Delivery, Increased Adaptability. Get a Free Quote!',
+      'Bitwit Techno accelerates Web & Mobile App Development with Agile methodologies. Achieve faster delivery and increased adaptability. Request a Free Quote!',
     metaKeywords: [
-      'Product development lifecycle',
-      'Product strategy and planning',
-      'Market research services',
+      'product development lifecycle stages',
+      'product strategy and planning',
+      'market research services',
       'MVP development',
-      'Product design and prototyping',
-      'Agile product development',
-      'Iterative product improvement',
-      'Product testing and QA',
-      'Product launch strategies',
-      'Post-launch support',
-      'Product lifecycle management',
-      'Continuous product innovation',
-      'Product roadmap development',
-      'Competitive analysis in product development',
-      'User feedback and product enhancement'
+      'product design and prototyping',
+      'agile product development',
+      'iterative product improvement',
+      'product testing and QA',
+      'product launch strategies',
+      'post-launch support',
+      'product lifecycle management',
+      'continuous product innovation',
+      'product roadmap development',
+      'competitive analysis in product development',
+      'user feedback and product enhancement'
     ],
     description:
-      'Efficiently navigate product development: ideate, design, develop, test, and deploy, ensuring seamless processes and successful project outcomes.',
+      'Efficiently navigate the product development life cycle: ideate, design, develop, test, and deploy. Ensure seamless processes and achieve successful project outcomes with Bitwit Techno.',
     image: '/images/service/product-development.webp',
     quote: {
       heading: ['Streamline Product Development Life Cycle'],
       description:
-        "In the management phase, testers identify missed bugs, ensuring a smooth user experience. Regular quality checks maintain your digital product's optimal performance."
+        "In the management phase, our testers identify overlooked bugs, ensuring a smooth user experience. Regular quality checks maintain your digital product's optimal performance."
     },
     chooseUs: {
-      title: 'Product Development Life Cycle Stages at Jarvisbits',
+      title: 'Product Development Life Cycle Stages at Bitwit Techno',
       description:
-        "At Bitwit, the product development life cycle stages revolve around six main phases. This process is important when you are developing new apps. Knowing what needs to be done in the SDLC process can help product managers meet the entire team. It also helps you understand milestones and communicate progress to stakeholders. Let's jump!",
+        "Bitwit Techno follows a comprehensive product development life cycle with six main phases. This process is crucial for app development, helping product managers guide the entire team, understand milestones, and communicate progress to stakeholders. Let's delve into the stages:",
       types: [
         {
           title: 'Planning and Analysis',
           description:
-            'The first phase of the product development life cycle consists of the planning phase where you are gathering requirements from your customer or stakeholders and the requirements analysis phase where you determine the feasibility of making the product, the revenue potential, the cost of the product, the needs of the users, etc.'
+            'The initial phase involves gathering requirements from stakeholders and analyzing the feasibility, revenue potential, and user needs, setting the foundation for the product development life cycle.'
         },
         {
           title: 'Design',
           description:
-            'The original plan and vision are elaborated into the basic structure of the product, including system design, programming languages, templates, platforms to be used, and application security measures. This is where you can flowchart how the product reacts to user actions.'
+            "Translate the initial plan and vision into the product's basic structure, including system design, programming languages, templates, platforms, and application security measures. Flowchart the product's reactions to user actions."
         },
         {
           title: 'Development',
           description:
-            'The actual development phase is where the development team turns product specifications and business requirements into code that builds the product. This SDLC phase can take a long time. It is important to have defined timelines and milestones so that the product developers understand the expectations and you can keep track of progress during these phases.'
+            'The development team transforms product specifications into code during this phase. Defined timelines and milestones ensure expectations are met, allowing progress tracking.'
         },
         {
           title: 'Testing',
           description:
-            "Before a product is taken to market, it's important for your quality assurance team to test it to make sure it's working properly and does what it's supposed to. The testing process can help eliminate any major user experience issues and security issues."
+            'Quality assurance is crucial before product launch, ensuring proper functionality and eliminating user experience and security issues.'
         },
         {
           title: 'Maintenance',
           description:
-            'If you are following the waterfall structure of the product development process, the maintenance phase is the last phase of the PDLC. However, the industry is moving towards a more agile product development approach where maintenance is just a stage for further improvement.'
+            'In the agile development approach, maintenance is a stage for continuous improvement, departing from the traditional waterfall structure.'
         }
       ]
     },
     body: {
-      title: ['Managing your product development life'],
+      title: ['Optimizing Your Product Development Life Cycle'],
       description:
-        "In the management phase, our testers catch overlooked bugs, ensuring a smooth user experience. Quality checks maintain your digital product's peak performance."
+        "In the management phase, our testers catch overlooked bugs, ensuring a smooth user experience. Quality checks maintain your digital product's peak performance.",
+      image: '/images/service/product.webp'
     },
     steps: {
-      title: ['The Essential Role of Product Development Life Cycle'],
+      title: ['Key Aspects of the Product Development Life Cycle'],
       list: [
         {
           title: 'Optimize Resources',
           description:
-            'Streamline resource allocation by clearly defining project phases, tasks, and responsibilities, ensuring efficient use of time and talent.'
+            'Efficiently allocate resources by defining project phases, tasks, and responsibilities, ensuring optimal use of time and talent.'
         },
         {
           title: 'Mitigate Risks',
           description:
-            'Identify potential issues early, enabling proactive problem-solving and risk management, reducing unexpected setbacks during development.'
+            'Early identification of potential issues enables proactive problem-solving and risk management, reducing unexpected setbacks during development.'
         },
         {
           title: 'Enhance Quality',
           description:
-            'Promote rigorous testing and validation at every stage, ensuring high-quality products that meet industry standards and customer expectations.'
+            'Promote rigorous testing and validation at every stage, ensuring high-quality products that meet industry standards and exceed customer expectations.'
         },
         {
           title: 'Improve Time-to-Market',
@@ -1212,7 +1217,7 @@ export const ServiceDetails = [
         {
           title: 'Achieve Customer Satisfaction',
           description:
-            'Deliver products that align with customer needs and preferences, fostering satisfaction and building brand loyalty.'
+            'Deliver products aligned with customer needs and preferences, fostering satisfaction and building brand loyalty.'
         }
       ]
     }
