@@ -1,7 +1,42 @@
 ---
+import HeroPolicies from '../components/sections/HeroPolicies.astro'
+import Container from '../components/shared/Container.astro'
+import Paragraph from '../components/shared/Paragraph.astro'
 import Layout from '../layouts/Layout.astro'
+import { privacyPolicy, privacyPolicyListing } from '../utils/policies'
+
+const privacy = privacyPolicy
+const privacyList = privacyPolicyListing
 ---
 
 <Layout title='Privacy & Policies | Bitwit Techno' description='' image=''>
-  <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'></main>
+  <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
+    <HeroPolicies title='Privacy & Policies' image='/images/privacy.webp' />
+    <Container>
+      <Paragraph className='mb-8'>
+        {privacy.description}
+      </Paragraph>
+      {
+        Object.keys(privacyList).map((data) => (
+          <section class='mb-8'>
+            <h3 class='text-lg mb-4 font-bold text-blue-950 dark:text-white'>
+              {data}
+            </h3>
+            {privacyList[data].map((item) => (
+              <ul class='dark:text-white list-disc list-inside'>
+                {item.title && <li class='mb-2.5'>{item.title}</li>}
+                <ul class='ml-5 mb-5 list-disc'>
+                  {item.content && <li class='mb-2.5'>{item.content}</li>}
+                  {item.additionalContent && <li>{item.additionalContent}</li>}
+                </ul>
+              </ul>
+            ))}
+          </section>
+        ))
+      }
+      <p class='small text-end mt-5'>
+        Updated {privacy.lastUpdated}
+      </p>
+    </Container>
+  </main>
 </Layout>
