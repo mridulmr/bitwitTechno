@@ -1,183 +1,3 @@
-const servicesUiUx = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/uiuxDesign/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesFullCycle = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/fullCycleProductDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesMobileApp = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/mobileAppDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesWebDevelopment = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/webDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesQualityAssurance = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/qualityAssurance/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesTechnicalSupport = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/technicalSupport/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesDedicatedDevelopment = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/dedicatedDevelopmentTeam/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesCloudComputing = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/cloudComputing/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesIotApp = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/iotAppDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesDesktopApp = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/desktopApplicationDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesProductLifeCycle = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/productDevelopmentLifeCycle/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesArVrDevelopment = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/arVrDevelopmentSolutions/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesIotSolution = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/iotSolution/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesFullStackDev = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/fullStackDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesReactJsDevelopers = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/reactjsDevelopers/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesHtmlDevelopers = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/htmlDevelopers/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesAndroidApp = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/androidAppDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
-const servicesNodeJsDevelopment = Object.values(
-  import.meta.glob(
-    '../../images/services/innerPageIcons/nodejsDevelopment/*.{png,jpg,jpeg,PNG,JPEG,svg}',
-    {
-      eager: true,
-      as: 'url'
-    }
-  )
-)
-
 const servicesDetails = Object.values(
   import.meta.glob(
     '../../images/animation/services/*.{png,jpg,jpeg,PNG,JPEG,svg,json}',
@@ -227,44 +47,37 @@ export const ServiceDetails = [
         {
           title: 'Customer Satisfaction',
           description:
-            'We leverage cutting-edge frameworks and technologies to provide you with user-friendly, scalable, secure, and innovative business solutions.',
-          icon: servicesUiUx[0]
+            'We leverage cutting-edge frameworks and technologies to provide you with user-friendly, scalable, secure, and innovative business solutions.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialized staff of UI/UX designers that are skilled in delivering high-end business solutions using a variety of tools and technologies.',
-          icon: servicesUiUx[1]
+            'We have a specialized staff of UI/UX designers that are skilled in delivering high-end business solutions using a variety of tools and technologies.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and hold scrum events on a regular basis to optimise practises and procedures and give the best outcomes.',
-          icon: servicesUiUx[2]
+            'We use the Agile approach and hold scrum events on a regular basis to optimise practises and procedures and give the best outcomes.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, give you frequent project updates, and consider your valuable suggestions as and as required.',
-          icon: servicesUiUx[3]
+            'We value your ideas and vision, give you frequent project updates, and consider your valuable suggestions as and as required.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Instead of operating under the inflexible and stringent constraints, we provide our customers with the option of choosing from a variety of engagement and employment options.',
-          icon: servicesUiUx[4]
+            'Instead of operating under the inflexible and stringent constraints, we provide our customers with the option of choosing from a variety of engagement and employment options.'
         },
         {
           title: 'Cross-Platform Compatibility',
           description:
-            'Designs optimized for various devices and platforms, ensuring a consistent and delightful user experience across all screens.',
-          icon: servicesUiUx[5]
+            'Designs optimized for various devices and platforms, ensuring a consistent and delightful user experience across all screens.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'To ensure the lowest price in our category, we provide an optimal blend of cost-effective rates and exceptional quality.',
-          icon: servicesUiUx[6]
+            'To ensure the lowest price in our category, we provide an optimal blend of cost-effective rates and exceptional quality.'
         }
       ]
     },
@@ -342,50 +155,42 @@ export const ServiceDetails = [
         {
           title: 'Industry Standard Methods',
           description:
-            'We adhere to industry standards and conventions to create service delivery methods and Standard Operating Procedures (SOP) that outline operating, reporting, and other activities throughout our complete cycle of product development.',
-          icon: servicesFullCycle[0]
+            'We adhere to industry standards and conventions to create service delivery methods and Standard Operating Procedures (SOP) that outline operating, reporting, and other activities throughout our complete cycle of product development.'
         },
         {
           title: 'Tailored Solutions',
           description:
-            'We understand that every project is unique. Our approach is customized to meet your specific needs, guaranteeing a solution that fits seamlessly into your business ecosystem.',
-          icon: servicesFullCycle[1]
+            'We understand that every project is unique. Our approach is customized to meet your specific needs, guaranteeing a solution that fits seamlessly into your business ecosystem.'
         },
         {
           title: 'Agile Methodology',
           description:
-            'Adaptability is key in the digital landscape. We follow agile methodologies, enabling us to respond swiftly to changes, keeping your project on track and on time.',
-          icon: servicesFullCycle[2]
+            'Adaptability is key in the digital landscape. We follow agile methodologies, enabling us to respond swiftly to changes, keeping your project on track and on time.'
         },
         {
           title: 'Consumer-Centric Technologies',
           description:
-            'We provide the most recent web 2.0 stack, resulting in a high-touch, high-performance, cross-device scalable architecture to increase consumer stickiness.',
-          icon: servicesFullCycle[3]
+            'We provide the most recent web 2.0 stack, resulting in a high-touch, high-performance, cross-device scalable architecture to increase consumer stickiness.'
         },
         {
           title: 'In-house Solution Accelerators',
           description:
-            'Our software development team is committed to providing excellence by creating solution accelerators such as reusable frameworks and components to enable faster time-to-market.',
-          icon: servicesFullCycle[4]
+            'Our software development team is committed to providing excellence by creating solution accelerators such as reusable frameworks and components to enable faster time-to-market.'
         },
         {
           title: 'Quality Assurance',
           description:
-            'Rigorous testing and quality checks are ingrained in our process. Your product undergoes meticulous scrutiny, ensuring it functions flawlessly and stands up to industry standards.',
-          icon: servicesFullCycle[5]
+            'Rigorous testing and quality checks are ingrained in our process. Your product undergoes meticulous scrutiny, ensuring it functions flawlessly and stands up to industry standards.'
         },
         {
           title: 'Transparent Communication',
           description:
-            'We believe in transparent communication. You’ll be kept in the loop at every stage, ensuring you have a clear understanding of the progress and milestones achieved.',
-          icon: servicesFullCycle[6]
+            'We believe in transparent communication. You’ll be kept in the loop at every stage, ensuring you have a clear understanding of the progress and milestones achieved.'
         },
         {
           title: 'Post-Launch Support',
           description:
-            'Our commitment doesn’t end with the product launch. We offer continuous support, addressing any concerns and ensuring your product performs optimally in the long run.',
-          icon: servicesFullCycle[7]
+            'Our commitment doesn’t end with the product launch. We offer continuous support, addressing any concerns and ensuring your product performs optimally in the long run.'
         }
       ]
     },
@@ -473,44 +278,37 @@ export const ServiceDetails = [
         {
           title: 'Expert Team',
           description:
-            'Skilled developers crafting custom apps, ensuring precision, functionality, and seamless user interactions.',
-          icon: servicesMobileApp[0]
+            'Skilled developers crafting custom apps, ensuring precision, functionality, and seamless user interactions.'
         },
         {
           title: 'Innovative Solutions',
           description:
-            'Cutting-edge technologies and creative strategies redefine your app, setting new industry standards and captivating your audience.',
-          icon: servicesMobileApp[1]
+            'Cutting-edge technologies and creative strategies redefine your app, setting new industry standards and captivating your audience.'
         },
         {
           title: 'User-Centric Design',
           description:
-            'Intuitive, visually appealing designs guarantee an exceptional user experience, fostering customer satisfaction and brand loyalty.',
-          icon: servicesMobileApp[2]
+            'Intuitive, visually appealing designs guarantee an exceptional user experience, fostering customer satisfaction and brand loyalty.'
         },
         {
           title: 'Agile Development',
           description:
-            'Agile methodologies ensure swift development, enabling quick adaptations to market demands and seamless integration of new features.',
-          icon: servicesMobileApp[3]
+            'Agile methodologies ensure swift development, enabling quick adaptations to market demands and seamless integration of new features.'
         },
         {
           title: 'Quality Assurance',
           description:
-            'Thorough testing protocols guarantee bug-free, reliable apps, providing users with a flawless experience across devices and platforms.',
-          icon: servicesMobileApp[4]
+            'Thorough testing protocols guarantee bug-free, reliable apps, providing users with a flawless experience across devices and platforms.'
         },
         {
           title: 'Support & Maintenance',
           description:
-            'Dedicated support post-launch, ensuring your app evolves alongside your business, with updates, optimizations, and 24/7 technical assistance.',
-          icon: servicesMobileApp[5]
+            'Dedicated support post-launch, ensuring your app evolves alongside your business, with updates, optimizations, and 24/7 technical assistance.'
         },
         {
           title: 'Transparent Communication',
           description:
-            'Open and transparent communication keeps you informed at every step, fostering trust and ensuring your vision translates seamlessly into your app.',
-          icon: servicesMobileApp[6]
+            'Open and transparent communication keeps you informed at every step, fostering trust and ensuring your vision translates seamlessly into your app.'
         }
       ]
     },
@@ -556,9 +354,9 @@ export const ServiceDetails = [
   {
     key: 'web-development',
     title: 'Web Development',
-    metaTitle: 'Best Web Development Company | Bitwit Techno',
+    metaTitle: 'Leading Web Development Company | Bitwit Techno',
     metaDescription:
-      'Build the web you dream of with Bitwit. Expert web development for optimal performance & user engagement.',
+      'Build your dream website with Bitwit Techno, the best web development company. Expert web development for optimal performance and user engagement.',
     metaKeywords: [
       'Web development solutions',
       'Custom website development',
@@ -577,67 +375,63 @@ export const ServiceDetails = [
       'SEO-friendly website development'
     ],
     description:
-      'Expert mobile app development for IT services, enhancing efficiency and user experience, tailored solutions for providers.',
+      'Experience expert mobile app development for IT services, enhancing efficiency and user experience with tailored solutions from Bitwit Techno.',
     image: '/images/service/web-development.webp',
     quote: {
-      heading: ['Web Development Services'],
+      heading: ['Comprehensive Web Development Services'],
       description:
-        'We assure both optimal speed and an increased user experience for your solution by providing end-to-end custom web development services.'
+        'Bitwit Techno ensures optimal speed and an enhanced user experience for your solution through end-to-end custom web development services.'
     },
     chooseUs: {
+      title: 'Innovate Your Web Development with Bitwit Techno',
       description:
-        'As a well-known web application development firm, Bitwit is well-known for meeting current business demands and offering best-in-class solutions at a reasonable price to clients worldwide. Here are some reasons why we are the best option for website and app development:',
+        'As a renowned web application development firm, Bitwit Techno meets current business demands with best-in-class solutions at a reasonable price globally. Here are some reasons why we stand out in website and app development:',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions acclimatized to your specific requirements.',
-          icon: servicesWebDevelopment[0]
+            'Bitwit Techno uses cutting-edge frameworks and technologies to deliver user-friendly, scalable, secure, and innovative business solutions tailored to your specific requirements.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to insure that we produce the best outcomes possible.',
-          icon: servicesWebDevelopment[1]
+            'Embracing the Agile approach, Bitwit Techno conducts regular scrum events to optimize practices and processes, ensuring the best possible outcomes for your projects.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialised team of web application developers that are adept at developing high-end business solutions using a variety of frameworks and technologies.',
-          icon: servicesWebDevelopment[2]
+            'Bitwit Techno boasts a specialized team of web application developers proficient in creating high-end business solutions using a variety of frameworks and technologies.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.',
-          icon: servicesWebDevelopment[3]
+            'We value your ideas and vision, communicate every project detail regularly, and consider your valuable input to ensure transparency and integrity throughout the development process.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Rather of working under the inflexible and stringent boundaries, we offer our customers to choose from a variety of engagement and recruiting methods.',
-          icon: servicesWebDevelopment[4]
+            'Instead of rigid boundaries, Bitwit Techno offers a variety of engagement and recruiting methods, providing flexibility to our clients for a more personalized development experience.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'We provide an excellent blend of affordable prices and exceptional quality to ensure the most competitive pricing in our market.',
-          icon: servicesWebDevelopment[5]
+            'Bitwit Techno offers an excellent blend of affordable prices and exceptional quality, ensuring the most competitive pricing in the market for our clients.'
         }
       ]
     },
     body: {
-      title: ['Our Web-Development Services'],
+      title: ['Our Comprehensive Web Development Services'],
       description:
-        'We assure both optimal speed and an increased user experience for your solution by providing end-to-end custom web development services.'
+        'Bitwit Techno ensures optimal speed and an enhanced user experience for your solution through end-to-end custom web development services.',
+      image: '/images/service/web-dev.webp'
     },
     steps: {
-      title: ['Key Benefits of having a Website for your Business'],
+      title: ['Key Benefits of Having a Website for Your Business'],
       list: [
         {
-          title: 'Builds Creditability ',
+          title: 'Builds Credibility',
           description:
-            'Having a website enables firms to expand their flexibility and establish credibility. In the United States, 84 percent of clients believe that a firm with a website is more legitimate than one with merely a social media profile.'
+            'A website enables firms to expand their flexibility and establish credibility. In the United States, 84 percent of clients believe that a firm with a website is more legitimate than one with merely a social media profile.'
         },
         {
           title: 'Wider Audience Reach',
@@ -700,38 +494,32 @@ export const ServiceDetails = [
         {
           title: 'Verified software quality',
           description:
-            'QA testing services enable you to detect any faults in software before to launch, ensuring that the final product is of the highest possible quality.',
-          icon: servicesQualityAssurance[0]
+            'QA testing services enable you to detect any faults in software before to launch, ensuring that the final product is of the highest possible quality.'
         },
         {
           title: 'Reduce downtime expenses',
           description:
-            'Testing a web or mobile application can assist you in avoiding catastrophic system failures and minimizing the expenses associated with future problems.',
-          icon: servicesQualityAssurance[1]
+            'Testing a web or mobile application can assist you in avoiding catastrophic system failures and minimizing the expenses associated with future problems.'
         },
         {
           title: 'Lower support costs',
           description:
-            'Maintaining faultless code is far simpler and less expensive, since it takes less time and needs little assistance from IT personnel.',
-          icon: servicesQualityAssurance[2]
+            'Maintaining faultless code is far simpler and less expensive, since it takes less time and needs little assistance from IT personnel.'
         },
         {
           title: 'Quick time-to-market',
           description:
-            'We provide both manual and automated QA testing and can quickly evaluate your product, allowing your developers to concentrate on development.',
-          icon: servicesQualityAssurance[3]
+            'We provide both manual and automated QA testing and can quickly evaluate your product, allowing your developers to concentrate on development.'
         },
         {
           title: 'Satisfied users',
           description:
-            'Additionally, QA testers may verify the stability, speed, and usability of software, enabling you to optimize these metrics prior to releasing your product to actual consumers.',
-          icon: servicesQualityAssurance[4]
+            'Additionally, QA testers may verify the stability, speed, and usability of software, enabling you to optimize these metrics prior to releasing your product to actual consumers.'
         },
         {
           title: 'Objectivity',
           description:
-            'By outsourcing software testing services, you obtain objective feedback on your solution, ensuring that no detail is missed.',
-          icon: servicesQualityAssurance[5]
+            'By outsourcing software testing services, you obtain objective feedback on your solution, ensuring that no detail is missed.'
         }
       ]
     },
@@ -824,38 +612,32 @@ export const ServiceDetails = [
         {
           title: 'Lower support costs',
           description:
-            'Hiring our programmers on a project-by-project basis is a more cost-effective choice than retaining a full-time in-house staff.',
-          icon: servicesTechnicalSupport[0]
+            'Hiring our programmers on a project-by-project basis is a more cost-effective choice than retaining a full-time in-house staff.'
         },
         {
           title: 'Elimination of recurring issues',
           description:
-            "We can identify the faults that are causing recurrent system failures and eliminate them by making necessary modifications to a program's code.",
-          icon: servicesTechnicalSupport[1]
+            "We can identify the faults that are causing recurrent system failures and eliminate them by making necessary modifications to a program's code."
         },
         {
           title: 'Reduced time of problem resolution',
           description:
-            'We design professional looking yet simple Logo. Our designs are user friendly and search engine.',
-          icon: servicesTechnicalSupport[2]
+            'We design professional looking yet simple Logo. Our designs are user friendly and search engine.'
         },
         {
           title: 'Resistance against cyber attacks',
           description:
-            'By conducting a cyber risk assessment and fixing system protection issues, our team can assist you in preventing data breaches and other security mishaps (if any).',
-          icon: servicesTechnicalSupport[3]
+            'By conducting a cyber risk assessment and fixing system protection issues, our team can assist you in preventing data breaches and other security mishaps (if any).'
         },
         {
           title: 'Uninterrupted system functioning',
           description:
-            'Our staff can assure the proper operation of your programme by performing detailed performance tests.',
-          icon: servicesTechnicalSupport[4]
+            'Our staff can assure the proper operation of your programme by performing detailed performance tests.'
         },
         {
           title: 'Positive user experience',
           description:
-            'A high-performing information technology system constantly provides a favourable user experience. We can ensure that your software runs flawlessly and meets user expectations.',
-          icon: servicesTechnicalSupport[5]
+            'A high-performing information technology system constantly provides a favourable user experience. We can ensure that your software runs flawlessly and meets user expectations.'
         }
       ]
     },
@@ -938,38 +720,32 @@ export const ServiceDetails = [
         {
           title: 'Cost-efficiency',
           description:
-            'You are not required to invest in the recruiting process, office space, equipment, or administrative and organisational functions.',
-          icon: servicesDedicatedDevelopment[0]
+            'You are not required to invest in the recruiting process, office space, equipment, or administrative and organisational functions.'
         },
         {
           title: 'Flexibility and scalability',
           description:
-            "You may simply grow a dedicated team to meet your project's requirements by hiring more developers.",
-          icon: servicesDedicatedDevelopment[1]
+            "You may simply grow a dedicated team to meet your project's requirements by hiring more developers."
         },
         {
           title: 'Budget control and predictability',
           description:
-            "In advance, we'll agree on billing terms. Monthly payments will be computed depending on the amount of development hours spent on your project.",
-          icon: servicesDedicatedDevelopment[2]
+            "In advance, we'll agree on billing terms. Monthly payments will be computed depending on the amount of development hours spent on your project."
         },
         {
           title: 'Quick project kick-off',
           description:
-            'Software developers may begin work on your project within a few weeks of receiving your request. You are not need to spend time on headhunting.',
-          icon: servicesDedicatedDevelopment[3]
+            'Software developers may begin work on your project within a few weeks of receiving your request. You are not need to spend time on headhunting.'
         },
         {
           title: 'Transparency',
           description:
-            "We will not conceal any information from you. You'll have daily contact with a specialised team and get frequent updates on the project's development.",
-          icon: servicesDedicatedDevelopment[4]
+            "We will not conceal any information from you. You'll have daily contact with a specialised team and get frequent updates on the project's development."
         },
         {
           title: 'Focused approach',
           description:
-            'External tasks will not divert a committed software development team. Its whole focus will be on your project.',
-          icon: servicesDedicatedDevelopment[5]
+            'External tasks will not divert a committed software development team. Its whole focus will be on your project.'
         }
       ]
     },
@@ -1043,38 +819,32 @@ export const ServiceDetails = [
         {
           title: 'Customer Satisfaction',
           description:
-            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions acclimatized to your specific requirements.',
-          icon: servicesCloudComputing[0]
+            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions acclimatized to your specific requirements.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to insure that we produce the best outcomes possible.',
-          icon: servicesCloudComputing[1]
+            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to insure that we produce the best outcomes possible.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialised development team that is experienced in developing high-end business solutions using a variety of frameworks and technologies.',
-          icon: servicesCloudComputing[2]
+            'We have a specialised development team that is experienced in developing high-end business solutions using a variety of frameworks and technologies.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.',
-          icon: servicesCloudComputing[3]
+            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.',
-          icon: servicesCloudComputing[4]
+            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.',
-          icon: servicesCloudComputing[5]
+            'Instead of operating under the rigid and restrictive constraints, we provide our customers with the option of a variety of engagement and recruiting methods.'
         }
       ]
     },
@@ -1149,38 +919,32 @@ export const ServiceDetails = [
         {
           title: 'Specialized IoT Teams',
           description:
-            "Years of industry experience and exposure to projects across different verticals have equipped the Bitwit's IoT team with extensive knowledge of a wide variety of industries and project needs.",
-          icon: servicesIotApp[0]
+            "Years of industry experience and exposure to projects across different verticals have equipped the Bitwit's IoT team with extensive knowledge of a wide variety of industries and project needs."
         },
         {
           title: 'Expertise in IoT Devices & Solutions',
           description:
-            "Our portfolio encompasses industrial and consumer IoT development. We've partnered with innovative Internet of Things companies and organisations across a range of verticals, from consumer products to industrial.",
-          icon: servicesIotApp[1]
+            "Our portfolio encompasses industrial and consumer IoT development. We've partnered with innovative Internet of Things companies and organisations across a range of verticals, from consumer products to industrial."
         },
         {
           title: 'Technology Stack',
           description:
-            'Our hands-on expertise with established and future technology stacks simplifies, accelerates, and reduces the cost of developing new products and services.',
-          icon: servicesIotApp[2]
+            'Our hands-on expertise with established and future technology stacks simplifies, accelerates, and reduces the cost of developing new products and services.'
         },
         {
           title: 'Secure Practices of IoT Solutions',
           description:
-            "Bitwit's whole development process is extremely safe and efficient as a result of the company's stringent adherence to data governance and security principles at every stage.",
-          icon: servicesIotApp[3]
+            "Bitwit's whole development process is extremely safe and efficient as a result of the company's stringent adherence to data governance and security principles at every stage."
         },
         {
           title: 'Compatible & Integrated IoT Mobile App Solutions',
           description:
-            'Create applications that work across a range of devices, operating systems, and screen resolutions. Integrate your smart applications with a variety of third-party applications through safe APIs.',
-          icon: servicesIotApp[4]
+            'Create applications that work across a range of devices, operating systems, and screen resolutions. Integrate your smart applications with a variety of third-party applications through safe APIs.'
         },
         {
           title: 'Data Analytics For Smart Devices',
           description:
-            'Build robust infrastructure for diverse device data. Process, analyze, and visualize IoT data. Gain valuable insights through beautiful, intuitive dashboards.',
-          icon: servicesIotApp[5]
+            'Build robust infrastructure for diverse device data. Process, analyze, and visualize IoT data. Gain valuable insights through beautiful, intuitive dashboards.'
         }
       ]
     },
@@ -1272,38 +1036,32 @@ export const ServiceDetails = [
         {
           title: 'Custom desktop applications',
           description:
-            'Bitwit has acquired considerable expertise in developing desktop applications for Windows, Linux and macOS platforms. These include various add-ins for Adobe (Acrobat, InDesign, and Illustrator) and extensions for Microsoft Office, as well as various plugins for many Internet browsers.',
-          icon: servicesDesktopApp[0]
+            'Bitwit has acquired considerable expertise in developing desktop applications for Windows, Linux and macOS platforms. These include various add-ins for Adobe (Acrobat, InDesign, and Illustrator) and extensions for Microsoft Office, as well as various plugins for many Internet browsers.'
         },
         {
           title: 'Well-structured architecture',
           description:
-            'We build well-structured architecture for your desktop application including custom plugins, scripting, custom DSL as well as for encryption software.',
-          icon: servicesDesktopApp[1]
+            'We build well-structured architecture for your desktop application including custom plugins, scripting, custom DSL as well as for encryption software.'
         },
         {
           title: 'Intuitive system extensions',
           description:
-            'We have experience in developing innovative and user-friendly system extensions and add-ins for Skype, Outlook, Adobe Acrobat, InDesign, Adobe Photoshop and QuarkXPress. Besides, we can also help you to create extensions for Firefox, Chrome, Apache Libraries and Grails implementations.',
-          icon: servicesDesktopApp[2]
+            'We have experience in developing innovative and user-friendly system extensions and add-ins for Skype, Outlook, Adobe Acrobat, InDesign, Adobe Photoshop and QuarkXPress. Besides, we can also help you to create extensions for Firefox, Chrome, Apache Libraries and Grails implementations.'
         },
         {
           title: 'Agile methods',
           description:
-            'We use agile as our core software development life-cycle model for projects. Experienced project managers and scrum masters will ensure that your project meets all your requirements, goals and milestones in an orderly manner.',
-          icon: servicesDesktopApp[3]
+            'We use agile as our core software development life-cycle model for projects. Experienced project managers and scrum masters will ensure that your project meets all your requirements, goals and milestones in an orderly manner.'
         },
         {
           title: 'Full service cycles',
           description:
-            'Bitwit offers you the full cycle of services you need in one place, from inception to final product, to build applications of any complexity. Our desktop application development services include product requirements analysis, UI/UX design, development, QA, post deliver technical support and regular updates.',
-          icon: servicesDesktopApp[4]
+            'Bitwit offers you the full cycle of services you need in one place, from inception to final product, to build applications of any complexity. Our desktop application development services include product requirements analysis, UI/UX design, development, QA, post deliver technical support and regular updates.'
         },
         {
           title: 'High quality for low price',
           description:
-            'Southeast Asia, especially India, is known as a leader in the IT sector. Our rates are at least 30% lower than prices in Europe or North America, so you can save money. You can use your savings for marketing, addition new features or on other projects.',
-          icon: servicesDesktopApp[5]
+            'Southeast Asia, especially India, is known as a leader in the IT sector. Our rates are at least 30% lower than prices in Europe or North America, so you can save money. You can use your savings for marketing, addition new features or on other projects.'
         }
       ]
     },
@@ -1387,32 +1145,27 @@ export const ServiceDetails = [
         {
           title: 'Planning and Analysis',
           description:
-            'The first phase of the product development life cycle consists of the planning phase where you are gathering requirements from your customer or stakeholders and the requirements analysis phase where you determine the feasibility of making the product, the revenue potential, the cost of the product, the needs of the users, etc.',
-          icon: servicesProductLifeCycle[0]
+            'The first phase of the product development life cycle consists of the planning phase where you are gathering requirements from your customer or stakeholders and the requirements analysis phase where you determine the feasibility of making the product, the revenue potential, the cost of the product, the needs of the users, etc.'
         },
         {
           title: 'Design',
           description:
-            'The original plan and vision are elaborated into the basic structure of the product, including system design, programming languages, templates, platforms to be used, and application security measures. This is where you can flowchart how the product reacts to user actions.',
-          icon: servicesProductLifeCycle[1]
+            'The original plan and vision are elaborated into the basic structure of the product, including system design, programming languages, templates, platforms to be used, and application security measures. This is where you can flowchart how the product reacts to user actions.'
         },
         {
           title: 'Development',
           description:
-            'The actual development phase is where the development team turns product specifications and business requirements into code that builds the product. This SDLC phase can take a long time. It is important to have defined timelines and milestones so that the product developers understand the expectations and you can keep track of progress during these phases.',
-          icon: servicesProductLifeCycle[2]
+            'The actual development phase is where the development team turns product specifications and business requirements into code that builds the product. This SDLC phase can take a long time. It is important to have defined timelines and milestones so that the product developers understand the expectations and you can keep track of progress during these phases.'
         },
         {
           title: 'Testing',
           description:
-            "Before a product is taken to market, it's important for your quality assurance team to test it to make sure it's working properly and does what it's supposed to. The testing process can help eliminate any major user experience issues and security issues.",
-          icon: servicesProductLifeCycle[3]
+            "Before a product is taken to market, it's important for your quality assurance team to test it to make sure it's working properly and does what it's supposed to. The testing process can help eliminate any major user experience issues and security issues."
         },
         {
           title: 'Maintenance',
           description:
-            'If you are following the waterfall structure of the product development process, the maintenance phase is the last phase of the PDLC. However, the industry is moving towards a more agile product development approach where maintenance is just a stage for further improvement.',
-          icon: servicesProductLifeCycle[4]
+            'If you are following the waterfall structure of the product development process, the maintenance phase is the last phase of the PDLC. However, the industry is moving towards a more agile product development approach where maintenance is just a stage for further improvement.'
         }
       ]
     },
@@ -1502,38 +1255,32 @@ export const ServiceDetails = [
         {
           title: 'Customized VR Services',
           description:
-            'To provide personalized immersive solutions to meet the demands of the evolving digital space. Our spatially aware, cloud-based and cross-platform AR, VR and MR services enable 3D modelling, rendering, texturing, content development and systems integration. In short, our team of experts will create a custom solution precisely tailored to your unique needs.',
-          icon: servicesArVrDevelopment[0]
+            'To provide personalized immersive solutions to meet the demands of the evolving digital space. Our spatially aware, cloud-based and cross-platform AR, VR and MR services enable 3D modelling, rendering, texturing, content development and systems integration. In short, our team of experts will create a custom solution precisely tailored to your unique needs.'
         },
         {
           title: 'VR App Development',
           description:
-            'A leader in designing reliable applications in AR VR technology from iOS, Android to head-mounted displays. Our focused technical capabilities and expertise in application development can transform the possibilities of your digital ecosystem.',
-          icon: servicesArVrDevelopment[1]
+            'A leader in designing reliable applications in AR VR technology from iOS, Android to head-mounted displays. Our focused technical capabilities and expertise in application development can transform the possibilities of your digital ecosystem.'
         },
         {
           title: 'VR Training Module Development',
           description:
-            'Significant ability to develop engaging and efficient training modules for your businesses across various verticals. Our innovative AR, VR development solutions provide convincing, realistic and in-depth training modules that meet user expectations.',
-          icon: servicesArVrDevelopment[2]
+            'Significant ability to develop engaging and efficient training modules for your businesses across various verticals. Our innovative AR, VR development solutions provide convincing, realistic and in-depth training modules that meet user expectations.'
         },
         {
           title: 'Live and on-demand video streaming',
           description:
-            'Live 360° video streaming using the latest strategies and technologies for an intense and immersive viewing experience. We can easily provide a cross-platform end-to-end live video streaming SDK supporting multiple VR HMDs.',
-          icon: servicesArVrDevelopment[3]
+            'Live 360° video streaming using the latest strategies and technologies for an intense and immersive viewing experience. We can easily provide a cross-platform end-to-end live video streaming SDK supporting multiple VR HMDs.'
         },
         {
           title: 'VR Game Development',
           description:
-            'We create HD Visuals along with interactive animations to boost up the ultimate gaming experiences. Our talented VR experts can provide robust solutions for a rich, seamless and exceptional gaming experience.',
-          icon: servicesArVrDevelopment[4]
+            'We create HD Visuals along with interactive animations to boost up the ultimate gaming experiences. Our talented VR experts can provide robust solutions for a rich, seamless and exceptional gaming experience.'
         },
         {
           title: 'VR technology in social media',
           description:
-            'Providing new and comprehensive opportunities with the latest integration and interactive content in terms of user interests. Our practical solutions can expand the potential of social media platforms with the latest lenses, filters and effects.',
-          icon: servicesArVrDevelopment[5]
+            'Providing new and comprehensive opportunities with the latest integration and interactive content in terms of user interests. Our practical solutions can expand the potential of social media platforms with the latest lenses, filters and effects.'
         }
       ]
     },
@@ -1581,9 +1328,9 @@ export const ServiceDetails = [
   {
     key: 'iot-solutions',
     title: 'IoT Solutions',
-    metaTitle: 'IoT Integrated Solutions Company | Bitwit Techno',
+    metaTitle: 'Bitwit Techno: Leading IoT Integrated Solutions Company',
     metaDescription:
-      'Fast-Track Your IoT Ecosystem: Bitwit Techno. Seamless integrations, API experts. Build connected magic. Contact Us!',
+      "Empower your business with Bitwit Techno's IoT integrated solutions. Seamless integrations, API expertise, and connected magic for a smarter future. Contact Us!",
     metaKeywords: [
       'IoT solutions development',
       'Internet of Things services',
@@ -1602,95 +1349,91 @@ export const ServiceDetails = [
       'Wearable IoT solutions'
     ],
     description:
-      'IoT solutions revolutionize connectivity: smart devices, seamless data exchange. Enhance efficiency, automation, and insights, empowering businesses for a smarter, connected future.',
+      "Revolutionize connectivity with Bitwit Techno's IoT integrated solutions. Experience the synergy of smart devices and seamless data exchange, enhancing efficiency, automation, and insights. Empower your business for a smarter, connected future.",
     image: '/images/service/iot.webp',
     quote: {
       heading: [
-        'Unlock the Power of Next-Gen Technologies with Our IoT Solutions'
+        'Unlock the Power of Next-Gen Technologies',
+        'with Our IoT Solutions'
       ],
       description:
-        'Unleash next-gen potential: explore IoT solutions. Enhance connectivity, efficiency, and insights, driving innovation and transforming businesses worldwide.'
+        'Embark on the future with cutting-edge IoT solutions from Bitwit Techno. Transform global businesses by elevating connectivity, boosting efficiency, and gaining profound insights. Embrace the power of IoT to redefine industries, fostering limitless possibilities and unprecedented growth.'
     },
     chooseUs: {
-      title: 'Innovate your business operations',
+      title: 'Innovate Your Business Operations with Bitwit Techno',
       description:
-        'The power of connectivity and the aim of delivering the best end-to-end IoT integrated solutions have inspired us to work on customized IoT solutions. Bitwit is leading as one of the renowned IoT solution providers in India that focuses on interoperability along with effective protection of data transferred through custom-built connected IoT devices.',
+        'Bitwit Techno, a leading IoT solution provider in India, focuses on delivering customized IoT solutions with a focus on interoperability and effective data protection. Experience the power of connectivity and the best end-to-end IoT integrated solutions tailored to your business needs.',
       types: [
         {
-          title: 'IoT integration',
+          title: 'IoT Integration',
           description:
-            'IoT solutions provide integration of business logic and strategies across connected devices and cloud systems. The smarter the devices, the smarter the scalability and flexibility of business decisions.',
-          icon: servicesIotSolution[0]
+            "Bitwit Techno's IoT solutions provide seamless integration of business logic and strategies across connected devices and cloud systems. Enhance scalability and flexibility for smarter business decisions."
         },
         {
-          title: 'Manifold device integration',
+          title: 'Manifold Device Integration',
           description:
-            'IoT based solutions are implemented in manifold work areas to increase business productivity; Helps keep equipment in check, meets specific objectives.',
-          icon: servicesIotSolution[1]
+            "Implement IoT-based solutions across manifold work areas to increase business productivity. Keep equipment in check and meet specific objectives with Bitwit Techno's expertise."
         },
         {
           title: 'Optimized IoT Integration',
           description:
-            'Ensuring the security of data, we provide customized IoT framework for clients to use it with complete security.',
-          icon: servicesIotSolution[2]
+            "Ensure data security with Bitwit Techno's customized IoT framework. Our solutions prioritize the confidentiality and integrity of transferred data."
         },
         {
           title: 'Comprehensive IoT Solutions',
           description:
-            'Effective IoT solutions and services are tailored for functional outputs from integrated IoT systems. The architectural framing of IoT designing is done according to the functionality and operational requirements.',
-          icon: servicesIotSolution[3]
+            'Bitwit Techno delivers effective IoT solutions tailored for functional outputs from integrated systems. Architectural framing aligns with functionality and operational requirements.'
         },
         {
-          title: 'IoT security',
+          title: 'IoT Security',
           description:
-            'IoT systems deal with IoT analytics and real-time data insights that help enhance computing, forecasting, and decision-making capabilities.',
-          icon: servicesIotSolution[4]
+            "Bitwit Techno's IoT systems handle analytics and real-time data insights, enhancing computing, forecasting, and decision-making capabilities with a focus on security."
         },
         {
           title: 'IoT Maintenance',
           description:
-            'Technical system maintenance is critical for any IoT based product. IoT operational efficiency is ensured with maximum understanding.',
-          icon: servicesIotSolution[5]
+            "Ensure the operational efficiency of your IoT-based product with Bitwit Techno's technical system maintenance. Maximize understanding and longevity of your IoT systems."
         }
       ]
     },
     body: {
-      title: ['Needs of IoT solutions for your business'],
+      title: ['The Crucial Role of IoT Solutions for Your Business'],
       description:
-        "Embrace IoT's growth. Simplify operations, boost efficiency. For mobility and agility, IoT is essential. Bitwit offers top-notch IoT services using cutting-edge tools."
+        'Embrace the growth of IoT to simplify operations and boost efficiency. For mobility and agility, trust Bitwit Techno to provide top-notch IoT services using cutting-edge tools.',
+      image: '/images/service/need-iot.webp'
     },
     steps: {
-      title: ['Reasons to select Bitwit as your IoT service provider'],
+      title: ['Reasons to Choose Us', 'as Your IoT Service Provider'],
       list: [
         {
-          title: 'IoT implementation',
+          title: 'Seamless IoT Implementation',
           description:
-            'Seamless IoT implementation. Easy access to operations, data insights, and functionalities. Ensuring smooth and efficient system operation.'
+            'Bitwit Techno ensures seamless IoT implementation, providing easy access to operations, data insights, and functionalities for smooth and efficient system operation.'
         },
         {
-          title: 'Cloud computing',
+          title: 'Cloud Computing',
           description:
-            'The provision of a cloud storage system for data received, accessed and managed is a prerequisite for integrated business logic and workflow.'
+            "Benefit from Bitwit Techno's cloud storage system, a prerequisite for integrated business logic and workflow, ensuring secure and efficient data management."
         },
         {
-          title: 'Real-time analytics',
+          title: 'Real-Time Analytics',
           description:
-            'Utilize IoT sensors for real-time analytics. Empower customers with actionable business insights, enabling informed decision-making through accurate data analysis.'
+            'Utilize IoT sensors for real-time analytics with Bitwit Techno. Empower customers with actionable business insights, enabling informed decision-making through accurate data analysis.'
         },
         {
-          title: 'Easy monitoring',
+          title: 'Easy Monitoring',
           description:
-            "IoT creates a unified environment for all your devices, making it easy to monitor what's happening in your workplace."
+            'Bitwit Techno creates a unified environment for all your devices, making it easy to monitor activities in your workplace and ensuring a streamlined operational process.'
         },
         {
-          title: 'Customer experience',
+          title: 'Enhanced Customer Experience',
           description:
-            'IoT can offer real-time diagnostics and analyse past data that enables businesses to deliver delightful customer experiences.'
+            'Leverage IoT to offer real-time diagnostics and analyze past data with Bitwit Techno. Deliver delightful customer experiences based on comprehensive insights and data-driven decision-making.'
         },
         {
-          title: 'Reduce costs',
+          title: 'Cost Reduction',
           description:
-            'Smart IoT sensors prevent faults, preserving workflows and production. Proactive detection saves on maintenance costs, prevents costly downtimes.'
+            "Bitwit Techno's smart IoT sensors prevent faults, preserving workflows and production. Proactive detection helps in saving on maintenance costs and prevents costly downtimes, ensuring operational efficiency."
         }
       ]
     }
@@ -1734,38 +1477,32 @@ export const ServiceDetails = [
         {
           title: 'React',
           description:
-            'A JavaScript library, React helps create top-notch user interfaces. Most of the expert developers prefer React.js development, as it provides robust client-side and server-side results.',
-          icon: servicesFullStackDev[0]
+            'A JavaScript library, React helps create top-notch user interfaces. Most of the expert developers prefer React.js development, as it provides robust client-side and server-side results.'
         },
         {
           title: 'Backbone.js',
           description:
-            'Backbone.js helps structure web applications by integrating custom values and events for advanced fullstack development. Many developers preferred this technology due to easy customizations.',
-          icon: servicesFullStackDev[1]
+            'Backbone.js helps structure web applications by integrating custom values and events for advanced fullstack development. Many developers preferred this technology due to easy customizations.'
         },
         {
           title: 'Angular and Node.js',
           description:
-            'AngularJS is popular because it brings flexibility to all types of web application development. While on the other note, Node.js is probably the best platform for rapidly developing a network of scalable applications. With these cross-browser frameworks, developers can build scalable solutions.',
-          icon: servicesFullStackDev[2]
+            'AngularJS is popular because it brings flexibility to all types of web application development. While on the other note, Node.js is probably the best platform for rapidly developing a network of scalable applications. With these cross-browser frameworks, developers can build scalable solutions.'
         },
         {
           title: 'PHP',
           description:
-            'With its simple programming, PHP development is used to create dynamic web pages. Commonly known as server-side scripting framework, PHP is used to build robust back-end.',
-          icon: servicesFullStackDev[3]
+            'With its simple programming, PHP development is used to create dynamic web pages. Commonly known as server-side scripting framework, PHP is used to build robust back-end.'
         },
         {
           title: '.Net stack',
           description:
-            'Used to assemble programs in C# and other programming languages, the .NET development stack is a server-side, cross-platform framework used for custom application development.',
-          icon: servicesFullStackDev[4]
+            'Used to assemble programs in C# and other programming languages, the .NET development stack is a server-side, cross-platform framework used for custom application development.'
         },
         {
           title: 'Java',
           description:
-            'Java can work on both a single server and multiple servers. It is great for all-round programming, and has many advantages when combined with a fullstack development project.',
-          icon: servicesFullStackDev[5]
+            'Java can work on both a single server and multiple servers. It is great for all-round programming, and has many advantages when combined with a fullstack development project.'
         }
       ]
     },
@@ -1775,9 +1512,7 @@ export const ServiceDetails = [
         'Bitwit excels in diverse software development, from front-end prototypes to robust back-end services. Achieve rapid development with our skilled fullstack developers.'
     },
     steps: {
-      title: [
-        'Reasons to choose Bitwit as your fullstack development partner'
-      ],
+      title: ['Reasons to choose Bitwit as your fullstack development partner'],
       list: [
         {
           title: 'Agile methodology',
@@ -1851,38 +1586,32 @@ export const ServiceDetails = [
         {
           title: 'ReactJS UI/UX Development',
           description:
-            'Our developers can help you build interactive UI that’s highly engaging for the users along with latest React.js features.',
-          icon: servicesReactJsDevelopers[0]
+            'Our developers can help you build interactive UI that’s highly engaging for the users along with latest React.js features.'
         },
         {
           title: 'ReactJS Custom Development',
           description:
-            'Our expert React Native developers create custom applications and solutions for changing business requirements to deliver agility.',
-          icon: servicesReactJsDevelopers[1]
+            'Our expert React Native developers create custom applications and solutions for changing business requirements to deliver agility.'
         },
         {
           title: 'ReactJS Maintenance and support services',
           description:
-            "Our team provides ReactJS maintenance and support services for applications' continuous and robust performance.",
-          icon: servicesReactJsDevelopers[2]
+            "Our team provides ReactJS maintenance and support services for applications' continuous and robust performance."
         },
         {
           title: 'ReactJS migration and upgrade services',
           description:
-            'We provide comprehensive ReactJS migration services to upgrade existing web applications to the ReactJS framework securely.',
-          icon: servicesReactJsDevelopers[3]
+            'We provide comprehensive ReactJS migration services to upgrade existing web applications to the ReactJS framework securely.'
         },
         {
           title: 'ReactJS plug-in',
           description:
-            'We enhance the functionality and performance of your web applications with custom plugins and extensions for your ReactJS applications.',
-          icon: servicesReactJsDevelopers[4]
+            'We enhance the functionality and performance of your web applications with custom plugins and extensions for your ReactJS applications.'
         },
         {
           title: 'ReactJS Portal Development',
           description:
-            'Our developers create massive portals that are customizable and extensible with easy access as per the needs of the clients.',
-          icon: servicesReactJsDevelopers[5]
+            'Our developers create massive portals that are customizable and extensible with easy access as per the needs of the clients.'
         }
       ]
     },
@@ -1961,38 +1690,32 @@ export const ServiceDetails = [
         {
           title: 'HTML5 Application Development',
           description:
-            'Our HTML developers can offer solutions for the web application domain using our HTML5 and CSS expertise. We provide Enterprise HTML 5 Application Development, HTML 5 Social Media Application Development and HTML 5 Game Development.',
-          icon: servicesHtmlDevelopers[0]
+            'Our HTML developers can offer solutions for the web application domain using our HTML5 and CSS expertise. We provide Enterprise HTML 5 Application Development, HTML 5 Social Media Application Development and HTML 5 Game Development.'
         },
         {
           title: 'HTML5 Mobile Application Development',
           description:
-            'Our HTML developers are expert in HTML5 based hybrid mobile app development. Having experience with the latest CSS3 features for animation and graphics, our web designers can deliver an immersive app experience for both Android and iOS users.',
-          icon: servicesHtmlDevelopers[1]
+            'Our HTML developers are expert in HTML5 based hybrid mobile app development. Having experience with the latest CSS3 features for animation and graphics, our web designers can deliver an immersive app experience for both Android and iOS users.'
         },
         {
           title: 'HTML5 UI widget development',
           description:
-            'Our HTML developers can create interactive data visualizations using HTML5 and JavaScript, which can be implemented into rich web applications that look native on any gadget or platform.',
-          icon: servicesHtmlDevelopers[2]
+            'Our HTML developers can create interactive data visualizations using HTML5 and JavaScript, which can be implemented into rich web applications that look native on any gadget or platform.'
         },
         {
           title: 'Migrating to a CMS framework',
           description:
-            'Our experienced HTML5 programmers can help you migrate to a CMS framework to be flexible to cope with various technological changes. Hire our developers to migrate you to HTML 5 as we specialize in custom migration services.',
-          icon: servicesHtmlDevelopers[3]
+            'Our experienced HTML5 programmers can help you migrate to a CMS framework to be flexible to cope with various technological changes. Hire our developers to migrate you to HTML 5 as we specialize in custom migration services.'
         },
         {
           title: 'HTML5 support and maintenance',
           description:
-            'Our reliable support and maintenance HTML5 development team has acquired great expertise in maintaining web applications. Retention is vital to run a profitable business for long in the midst of a competitive world.',
-          icon: servicesHtmlDevelopers[4]
+            'Our reliable support and maintenance HTML5 development team has acquired great expertise in maintaining web applications. Retention is vital to run a profitable business for long in the midst of a competitive world.'
         },
         {
           title: 'Progressive web-apps',
           description:
-            'Hire dedicated HTML5 developers who have experience building cost-effective and scalable progressive web applications that run seamlessly across devices.',
-          icon: servicesHtmlDevelopers[5]
+            'Hire dedicated HTML5 developers who have experience building cost-effective and scalable progressive web applications that run seamlessly across devices.'
         }
       ]
     },
@@ -2039,10 +1762,10 @@ export const ServiceDetails = [
   },
   {
     key: 'android-app-development',
-    title: 'Android Application Development',
+    title: 'Android Application',
     metaTitle: 'Top Android App Development Company Services | Bitwit Techno',
     metaDescription:
-      'Unleash Your Android Vision: Bitwit Techno Delivers. User-Friendly Apps, Boosted Engagement. Start Your Project Now!',
+      "Unleash your Android vision with Bitwit Techno's top-rated Android app development services. User-friendly apps, boosted engagement. Start your project now!",
     metaKeywords: [
       'Android app development',
       'Native Android applications',
@@ -2061,76 +1784,71 @@ export const ServiceDetails = [
       'Android app performance tuning'
     ],
     description:
-      'Expert creation of versatile, user-friendly, and innovative mobile applications for Android devices, enhancing user experiences and meeting diverse business needs.',
+      'Bitwit Techno specializes in expert creation of versatile, user-friendly, and innovative mobile applications for Android devices, enhancing user experiences and meeting diverse business needs.',
     image: '/images/service/application-development.webp',
     quote: {
       heading: ['Top Rated Android App Development'],
       description:
-        'Exceptional expertise, innovative solutions, and user-centric designs, delivering high-quality and top-performing Android applications for businesses and users alike.'
+        'Experience exceptional expertise, innovative solutions, and user-centric designs with Bitwit Techno. We deliver high-quality and top-performing Android applications for businesses and users alike.'
     },
     chooseUs: {
-      title: 'your Android app development',
+      title: 'Innovate Your App Development with Bitwit Techno',
       description:
-        'We are leaders in the field of mobile application development for several important reasons. The many reasons why you should choose Bitwit include:',
+        'Bitwit Techno stands out as a leader in mobile application development for several important reasons. Choose Bitwit for:',
       types: [
         {
           title: 'Experience with Credibility',
           description:
-            'Being in the industry for more than a decade, we have developed a trusted repo among industrial facilitators. Our skilled developers have more than half a decade of experience in flawless Android apps that engage users.',
-          icon: servicesAndroidApp[0]
+            'With over a decade in the industry, Bitwit Techno has developed a trusted reputation. Our skilled developers have extensive experience in creating flawless Android apps that engage users.'
         },
         {
           title: 'Operational Expertise and Quality',
           description:
-            "Our team members have experience and technical expertise beyond all your expectations. Team members' systematic approach helps them identify, assess and resolve any technical issues your company may face, while adhering to your business values.",
-          icon: servicesAndroidApp[1]
+            'Our team members possess experience and technical expertise beyond expectations. A systematic approach allows us to identify, assess, and resolve any technical issues while adhering to your business values.'
         },
         {
-          title: 'Fully functional apps',
+          title: 'Fully Functional Apps',
           description:
-            'Android app development services at Bitwit are designed to provide high-end security and performance-first. Our mobile application testing comprises functional, compatibility, usability, performance, security testing types. Our mobile app testers perform manual and automated testing by using different testing tools including Appium, and UI Automator.',
-          icon: servicesAndroidApp[2]
+            "Bitwit Techno's Android app development services prioritize high-end security and performance. Our comprehensive testing includes functional, compatibility, usability, performance, and security testing using tools like Appium and UI Automator."
         },
         {
           title: 'Cost Effective',
           description:
-            'We provide high quality Android app development services at affordable prices. We are always one step ahead, planning for the future with the help of latest technology. This saves you money in the short and long term.',
-          icon: servicesAndroidApp[3]
+            'Bitwit Techno provides high-quality Android app development services at affordable prices. Our forward-thinking approach with the latest technology saves you money in both the short and long term.'
         },
         {
           title: 'Security',
           description:
-            'Your business app is secure with our expert mobile app developers. We deliver our top-class Android app with confidence, protecting your critical data and your business. You retain all rights to the source code. Of course, we can sign NDA.',
-          icon: servicesAndroidApp[4]
+            'Your business app is secure with our expert mobile app developers. Bitwit delivers top-class Android apps, protecting your critical data and your business. You retain all rights to the source code, and we can sign NDA if needed.'
         },
         {
           title: 'Custom Android App Development',
           description:
-            'Our Android application developers have expertise in building robust, scalable Android solutions. We build custom Android software for many industries around the world. We help you build a solution that represents your authentic brand in Play store.',
-          icon: servicesAndroidApp[5]
+            "Bitwit Techno's Android application developers excel in building robust, scalable solutions. We create custom Android software for various industries, representing your authentic brand in the Play store."
         }
       ]
     },
     body: {
-      title: ['Hire highly skilled Android app developers'],
+      title: ['Hire Highly Skilled Android App Developers'],
       description:
-        'We use time-tested Android application development software as our primary technology stack to deliver easy-to-use, intuitive applications. Our skilled Android app developers know the secret formula for developing apps that see over one million downloads on the Google Play Store. Android is considered to be the perfect choice for startups and emerging companies. Our We are an Android development company that ensures scalability with expertise in everything related to Android app development.'
+        'Bitwit Techno utilizes time-tested Android application development software as the primary technology stack, delivering easy-to-use, intuitive applications. Our skilled Android app developers know the formula for developing apps with over one million downloads on the Google Play Store. Android is the perfect choice for startups and emerging companies, and we ensure scalability with expertise in all aspects of Android app development.',
+      image: '/images/service/android-app.webp'
     },
     steps: {
-      title: ['Our Android app development process'],
+      title: ['Our Android App Development Process'],
       list: [
         {
-          title: 'Business analysis',
+          title: 'Business Analysis',
           description:
-            'Android specialists tailored to your needs. Reliable app development ensuring high user retention. Expertise in every aspect of the Android platform.'
+            'Tailored Android specialists for your needs. Reliable app development ensuring high user retention. Expertise in every aspect of the Android platform.'
         },
         {
-          title: 'App designing and prototype',
+          title: 'App Designing and Prototype',
           description:
             "Crafting robust Android apps for seamless user experience. Utilizing Android's versatility, our designers create innovative, user-friendly interfaces for diverse businesses."
         },
         {
-          title: 'Custom app development',
+          title: 'Custom App Development',
           description:
             'Tailored Android apps for diverse sectors. Our developers create unique, standout apps meeting organizational needs promptly and effectively.'
         },
@@ -2140,7 +1858,7 @@ export const ServiceDetails = [
             'Thorough manual and automated testing with Appium ensures bug-free software. Our quality control guarantees a seamless Android app experience.'
         },
         {
-          title: 'Play Store submission and maintenance',
+          title: 'Play Store Submission and Maintenance',
           description:
             'Trusted Android app developers. Smooth Play Store submissions. We craft versatile solutions for mobile, watch, and TV apps across industries.'
         }
@@ -2186,38 +1904,32 @@ export const ServiceDetails = [
         {
           title: 'Custom Node.js Application',
           description:
-            'We build Node.js applications to develop real-time web and mobile applications, desktop applications, and more for business benefits.',
-          icon: servicesNodeJsDevelopment[0]
+            'We build Node.js applications to develop real-time web and mobile applications, desktop applications, and more for business benefits.'
         },
         {
           title: 'Flawless Node.js API Integrations',
           description:
-            'Extend the functionality of web applications to achieve your core goals with Node.js API integration services. You can easily upgrade your current apps and make it more functional with the help of Node.js integrations.',
-          icon: servicesNodeJsDevelopment[1]
+            'Extend the functionality of web applications to achieve your core goals with Node.js API integration services. You can easily upgrade your current apps and make it more functional with the help of Node.js integrations.'
         },
         {
           title: 'Node.js Plugin Development',
           description:
-            "We develop and integrate custom Node.js plugins to enhance client's website functionalities and ensure optimum performance. Our Node developers help you create plugin for improved performance of your digital product.",
-          icon: servicesNodeJsDevelopment[2]
+            "We develop and integrate custom Node.js plugins to enhance client's website functionalities and ensure optimum performance. Our Node developers help you create plugin for improved performance of your digital product."
         },
         {
           title: 'Node.js Consulting for Start-ups',
           description:
-            'Our highly experienced Node.js consultants help businesses understand and visualize Node.js web application development services. To get a successful digital product, take first step by reaching out to our Node.js experts.',
-          icon: servicesNodeJsDevelopment[3]
+            'Our highly experienced Node.js consultants help businesses understand and visualize Node.js web application development services. To get a successful digital product, take first step by reaching out to our Node.js experts.'
         },
         {
           title: 'Tailored backend for enterprises',
           description:
-            'We help to build backend for web with Node.js dashboard tailored to your needs. The flexibility of Node.js combined with our expertise can be used to build enterprise web applications that provide real-time feedback to users.',
-          icon: servicesNodeJsDevelopment[4]
+            'We help to build backend for web with Node.js dashboard tailored to your needs. The flexibility of Node.js combined with our expertise can be used to build enterprise web applications that provide real-time feedback to users.'
         },
         {
           title: 'Ability to handle complex projects',
           description:
-            'As a prominent Node.js development company, we behold dynamic experiences in terms of building beautiful, interactive and fully functional applications. Our developers are highly talented to handle each Node.js development project as per the various requirements of the clients.',
-          icon: servicesNodeJsDevelopment[5]
+            'As a prominent Node.js development company, we behold dynamic experiences in terms of building beautiful, interactive and fully functional applications. Our developers are highly talented to handle each Node.js development project as per the various requirements of the clients.'
         }
       ]
     },
