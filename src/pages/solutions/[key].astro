@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { ServiceDetails } from '../../utils/service'
+
+export async function getStaticPaths() {
+  return ServiceDetails.map((item) => ({
+    params: { key: item.key },
+    props: {
+      data: ServiceDetails.filter((data) => data.key === item.key)
+    }
+  }))
+}
+
+const { data } = Astro.props
+if (!data) return Astro.redirect('/404')
+---
+
+{
+  data.map((item) => (
+    <Layout
+      title={`${item.metaTitle}`}
+      description={item.metaDescription}
+      image={item.image}
+    >
+      <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'></main>
+    </Layout>
+  ))
+}
