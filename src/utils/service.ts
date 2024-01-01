@@ -121,48 +121,49 @@ export const ServiceDetails = [
   },
   {
     key: 'full-cycle-production-development',
-    title: 'Full-Cycle Product Development',
-    metaTitle: 'Full Cycle Product Development | Bitwit Techno',
+    title: 'Full-Cycle Product Development Services',
+    metaTitle: 'Expert Full Cycle Product Development | Bitwit Techno',
     metaDescription:
-      "Every product's path: Universal phases for full-cycle success, whatever your dev approach.",
+      'Bitwit Techno offers comprehensive IT product development services from ideation to deployment, tailored for seamless solutions by expert IT service providers.',
     metaKeywords: [
-      'Full-cycle product development',
+      'full-cycle product development',
       'UI/UX design and development',
-      'Product strategy services',
-      'Agile development process',
-      'End-to-end product solutions',
-      'Prototyping and testing',
-      'Product lifecycle management',
-      'User-centric product design',
-      'Feature-rich product development',
-      'Cross-platform development',
-      'Quality assurance in product development',
-      'Scalable product architecture',
-      'Responsive UI/UX for products',
-      'Iterative development approach',
-      'Continuous product improvement'
+      'product strategy services',
+      'agile development process',
+      'end-to-end product solutions',
+      'prototyping and testing',
+      'product lifecycle management',
+      'user-centric product design',
+      'feature-rich product development',
+      'cross-platform development',
+      'quality assurance in product development',
+      'scalable product architecture',
+      'responsive UI/UX for products',
+      'iterative development approach',
+      'continuous product improvement'
     ],
     description:
       'Comprehensive IT product development services from ideation to deployment, tailored for seamless solutions by expert IT service providers.',
     image: '/images/service/full-cycle-product.webp',
     quote: {
-      heading: ['Full-Cycle Product Development'],
+      heading: ['Expert Full-Cycle Product Development'],
       description:
         'Transforming visions into visually stunning, user-friendly interfaces. Our Full-Cycle Product Development crafts immersive customer experiences, enhancing engagement and satisfaction.'
     },
     chooseUs: {
+      title: 'Manage Your Product Cycle with Bitwit Techno',
       description:
         'At Bitwit, we redefine innovation through our comprehensive Full-Cycle Product Development services.',
       types: [
         {
           title: 'Industry Standard Methods',
           description:
-            'We adhere to industry standards and conventions to create service delivery methods and Standard Operating Procedures (SOP) that outline operating, reporting, and other activities throughout our complete cycle of product development.'
+            'Adhering to industry standards and conventions to create service delivery methods and Standard Operating Procedures (SOP) that outline operating, reporting, and other activities throughout our complete cycle of product development.'
         },
         {
           title: 'Tailored Solutions',
           description:
-            'We understand that every project is unique. Our approach is customized to meet your specific needs, guaranteeing a solution that fits seamlessly into your business ecosystem.'
+            'Understanding that every project is unique. Our approach is customized to meet your specific needs, guaranteeing a solution that fits seamlessly into your business ecosystem.'
         },
         {
           title: 'Agile Methodology',
@@ -172,7 +173,7 @@ export const ServiceDetails = [
         {
           title: 'Consumer-Centric Technologies',
           description:
-            'We provide the most recent web 2.0 stack, resulting in a high-touch, high-performance, cross-device scalable architecture to increase consumer stickiness.'
+            'Providing the most recent web 2.0 stack, resulting in a high-touch, high-performance, cross-device scalable architecture to increase consumer stickiness.'
         },
         {
           title: 'In-house Solution Accelerators',
@@ -197,9 +198,10 @@ export const ServiceDetails = [
       ]
     },
     body: {
-      title: ['Our expertise'],
+      title: ['Our Expertise in Full-Cycle Product Development'],
       description:
-        'Custom software that meets the demands of the business and aids in its growth is critical. Our highly qualified programmers can develop reliable, scalable, and high-performance solutions that can help you grow your company.'
+        'Custom software that meets the demands of the business and aids in its growth is critical. Our highly qualified programmers can develop reliable, scalable, and high-performance solutions that can help you grow your company.',
+      image: '/images/service/full-cycle.png'
     },
     steps: {
       title: ['How Your Idea Becomes a Reality'],
@@ -244,26 +246,26 @@ export const ServiceDetails = [
   },
   {
     key: 'mobile-app-development',
-    title: 'Mobile App Development',
+    title: 'Mobile App Development Services',
     metaTitle: 'Top Mobile App Development Company Services | Bitwit Techno',
     metaDescription:
       'Bitwit Techno: Global leaders in mobile app development. Affordable, world-class solutions for your business. Get a free quote!',
     metaKeywords: [
-      'Mobile app development',
+      'mobile app development',
       'iOS app development',
       'Android app development',
-      'Cross-platform app development',
-      'Native mobile app solutions',
-      'Mobile UI/UX design',
-      'App prototyping and testing',
-      'App deployment and optimization',
-      'App maintenance services',
-      'Enterprise mobile solutions',
-      'Hybrid app development',
-      'Mobile app security',
+      'cross-platform app development',
+      'native mobile app solutions',
+      'mobile UI/UX design',
+      'app prototyping and testing',
+      'app deployment and optimization',
+      'app maintenance services',
+      'enterprise mobile solutions',
+      'hybrid app development',
+      'mobile app security',
       'IoT app development',
-      'Wearable app development',
-      'Augmented Reality (AR) app development'
+      'wearable app development',
+      'augmented reality (AR) app development'
     ],
     description:
       'Expert mobile app development for IT services, enhancing efficiency and user experience, tailored solutions for providers.',
@@ -274,6 +276,7 @@ export const ServiceDetails = [
         'We craft visually stunning and user-friendly mobile apps, ensuring an immersive customer experience with intuitive interfaces and seamless navigation.'
     },
     chooseUs: {
+      title: 'Innovate Your Mobile App with Bitwit Techno',
       description:
         "For many years, our team has served as a technical partner to both new and existing businesses. We understand the difficulties they confront when it comes to mobile app development and can simply accommodate the client's individual requirements.",
       types: [
@@ -317,7 +320,8 @@ export const ServiceDetails = [
     body: {
       title: ['Mobile Technologies'],
       description:
-        'Meeting the requirements of our customers has always been our top priority. We can create a great mobile application for whatever platform you choose.'
+        'Meeting the requirements of our customers has always been our top priority. We can create a great mobile application for whatever platform you choose.',
+      image: '/images/service/mobile.webp'
     },
     steps: {
       title: ['What you get with Bitwit’s mobile app development'],
@@ -580,78 +584,80 @@ export const ServiceDetails = [
   },
   {
     key: 'technical-support',
-    title: 'Technical Support',
-    metaTitle: 'Technical Support Services Company | Bitwit Techno',
+    title: 'Technical Support Services',
+    metaTitle: 'Expert Technical Support Services Company | Bitwit Techno',
     metaDescription:
-      'Ditch the Robot! Bitwit: Personalized Tech Support. Expert tech gurus know your products inside-out. Fast fixes, 24/7.  Click for a free consultation!',
+      'Bitwit Techno provides personalized tech support with expert tech gurus who know your products inside-out. Fast fixes available 24/7. Click for a free consultation!',
     metaKeywords: [
-      'Technical support solutions',
+      'technical support solutions',
       'IT helpdesk services',
-      'Remote assistance',
-      'Software troubleshooting',
-      'Network support',
-      'Helpdesk ticketing systems',
+      'remote assistance',
+      'software troubleshooting',
+      'network support',
+      'helpdesk ticketing systems',
       'IT infrastructure support',
-      'Customer support solutions',
-      'End-user support',
+      'customer support solutions',
+      'end-user support',
       'IT service management',
       '24/7 technical assistance',
-      'Incident resolution',
+      'incident resolution',
       'IT support outsourcing',
-      'Proactive technical support',
+      'proactive technical support',
       'IT security support'
     ],
     description:
       'Our skilled testers can remove the majority of hazards associated with code errors. A bug-free code base provides several benefits to your project.',
     image: '/images/service/technical-support.webp',
     quote: {
-      heading: ['Technical Support Services'],
+      heading: ['Expert Technical Support Services'],
       description:
-        'We have earned a good reputation for providing high-quality technical help to organisations of all sizes. This enables us to be adaptable to your unique needs, limits, and priorities.'
+        'Bitwit Techno has earned a good reputation for providing high-quality technical help to organizations of all sizes, ensuring adaptability to unique needs, limits, and priorities.'
     },
     chooseUs: {
+      title: 'For Technical Support with Bitwit Techno',
       description:
-        'Our skilled specialists will guarantee that your IT infrastructure operates flawlessly, freeing up your time and resources to focus on more critical business activities.',
+        'Our skilled specialists guarantee flawless operation of your IT infrastructure, freeing up your time and resources to focus on more critical business activities.',
       types: [
         {
-          title: 'Lower support costs',
+          title: 'Lower Support Costs',
           description:
             'Hiring our programmers on a project-by-project basis is a more cost-effective choice than retaining a full-time in-house staff.'
         },
         {
-          title: 'Elimination of recurring issues',
+          title: 'Elimination of Recurring Issues',
           description:
-            "We can identify the faults that are causing recurrent system failures and eliminate them by making necessary modifications to a program's code."
+            "Identifying faults causing recurrent system failures and eliminating them by making necessary modifications to a program's code."
         },
         {
-          title: 'Reduced time of problem resolution',
+          title: 'Reduced Time of Problem Resolution',
           description:
-            'We design professional looking yet simple Logo. Our designs are user friendly and search engine.'
+            'Designing professional-looking yet simple logos. Our designs are user-friendly and search engine.'
         },
         {
-          title: 'Resistance against cyber attacks',
+          title: 'Resistance Against Cyber Attacks',
           description:
-            'By conducting a cyber risk assessment and fixing system protection issues, our team can assist you in preventing data breaches and other security mishaps (if any).'
+            'Conducting a cyber risk assessment and fixing system protection issues to assist you in preventing data breaches and other security mishaps.'
         },
         {
-          title: 'Uninterrupted system functioning',
+          title: 'Uninterrupted System Functioning',
           description:
-            'Our staff can assure the proper operation of your programme by performing detailed performance tests.'
+            'Assuring the proper operation of your program by performing detailed performance tests.'
         },
         {
-          title: 'Positive user experience',
+          title: 'Positive User Experience',
           description:
-            'A high-performing information technology system constantly provides a favourable user experience. We can ensure that your software runs flawlessly and meets user expectations.'
+            'A high-performing information technology system constantly provides a favorable user experience. We ensure that your software runs flawlessly and meets user expectations.'
         }
       ]
     },
     body: {
-      title: ['Our expertise in technical support'],
+      title: ['Our Expertise in Technical Support'],
       description:
-        'We have earned a good reputation for providing high-quality technical help to organisations of all sizes. This enables us to be adaptable to your unique needs, limits, and priorities.'
+        'Bitwit Techno has earned a good reputation for providing high-quality technical help to organizations of all sizes, ensuring adaptability to unique needs, limits, and priorities.',
+      image: '/images/service/technical.webp'
     },
     steps: {
-      title: ['How its Works'],
+      title: ['How It Works'],
       list: [
         {
           title: 'Debugging',
@@ -661,25 +667,25 @@ export const ServiceDetails = [
         {
           title: 'Troubleshooting',
           description:
-            ' Methodical approach to diagnose and resolve technical issues promptly, guaranteeing uninterrupted operation and optimal performance of systems and software.'
+            'Methodical approach to diagnose and resolve technical issues promptly, guaranteeing uninterrupted operation and optimal performance of systems and software.'
         },
         {
-          title: 'Updating and upgrading software',
+          title: 'Updating and Upgrading Software',
           description:
-            ' Implementing latest features and security enhancements, ensuring software remains efficient, secure, and compatible with evolving technologies.'
+            'Implementing latest features and security enhancements, ensuring software remains efficient, secure, and compatible with evolving technologies.'
         },
         {
-          title: 'Checking and ensuring the system compliance',
+          title: 'Checking and Ensuring System Compliance',
           description:
             'Rigorous evaluations to ensure systems meet industry standards, regulations, and security protocols, ensuring reliability and trustworthiness.'
         },
         {
-          title: 'Resolving security and performance issues',
+          title: 'Resolving Security and Performance Issues',
           description:
             'Swift action to fix security breaches and performance glitches, safeguarding data integrity and ensuring seamless user experience.'
         },
         {
-          title: 'System diagnostics',
+          title: 'System Diagnostics',
           description:
             'In-depth analysis pinpointing system weaknesses, enabling precise troubleshooting and enhancing overall performance and reliability.'
         }
