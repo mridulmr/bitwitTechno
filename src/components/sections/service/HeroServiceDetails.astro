@@ -1,4 +1,5 @@
 ---
+import Breadcrumb from '../../shared/Breadcrumb.astro';
 import Container from '../../shared/Container.astro'
 import Paragraph from '../../shared/Paragraph.astro'
 
@@ -24,7 +25,7 @@ const { title, description, image } = Astro.props
       class='flex flex-col items-center gap-4 md:gap-8 text-center lg:text-left lg:py-7 xl:py-8
         lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2'
     >
-      Breadcrumb
+      <Breadcrumb />
       <h1
         class='text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight
              font-bold text-heading-1'

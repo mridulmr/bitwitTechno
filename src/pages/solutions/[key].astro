@@ -1,12 +1,13 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import { ServiceDetails } from '../../utils/service'
+import HeroServiceDetails from '../../components/sections/service/HeroServiceDetails.astro'
+import Layout from '../../layouts/Layout.astro'
+import { solutionDetailsList } from '../../utils/solution'
 
 export async function getStaticPaths() {
-  return ServiceDetails.map((item) => ({
+  return solutionDetailsList.map((item) => ({
     params: { key: item.key },
     props: {
-      data: ServiceDetails.filter((data) => data.key === item.key)
+      data: solutionDetailsList.filter((data) => data.key === item.key)
     }
   }))
 }
@@ -20,9 +21,15 @@ if (!data) return Astro.redirect('/404')
     <Layout
       title={`${item.metaTitle}`}
       description={item.metaDescription}
-      image={item.image}
+      image={item.bannerImage}
     >
-      <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'></main>
+      <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
+        <HeroServiceDetails
+          title={item.title}
+          description={item.description}
+          image={item.bannerImage}
+        />
+      </main>
     </Layout>
   ))
 }
