@@ -2,9 +2,9 @@ export const solutionDetailsList = [
   {
     key: 'fintech',
     title: 'Fintech',
-    metaTitle: 'Fintech Revolution | Innovate with JarvisBitz Tech',
+    metaTitle: 'Fintech Revolution | Innovate with Bitwit Techno',
     metaDescription:
-      "Discover unparalleled financial agility and efficiency with JarvisBitz Tech's bespoke Fintech solutions, tailored to elevate your business to new heights.",
+      "Discover unparalleled financial agility and efficiency with Bitwit Techno's bespoke Fintech solutions, tailored to elevate your business to new heights.",
     metaKeywords: [
       'Fintech solutions',
       'Financial technology services',
@@ -27,7 +27,7 @@ export const solutionDetailsList = [
       'Financial technology solutions, encompass a broad array of innovative technologies and software applications designed to transform and enhance the delivery of financial services.',
     chooseUs: {
       description:
-        'Choosing JarvisBitz for fintech solutions offers several compelling advantages that make it a preferred option for individuals and businesses seeking innovative and reliable financial technology services. ',
+        'Choosing Bitwit for fintech solutions offers several compelling advantages that make it a preferred option for individuals and businesses seeking innovative and reliable financial technology services. ',
       types: [
         {
           title: 'Customer Satisfaction',
@@ -181,9 +181,9 @@ export const solutionDetailsList = [
   {
     key: 'ecommerce',
     title: 'E-commerce',
-    metaTitle: 'Revolutionize Retail: JarvisBitz Tech Ecomm Solutions',
+    metaTitle: 'Revolutionize Retail: Bitwit Techno Ecomm Solutions',
     metaDescription:
-      'Ecomm Evolution: JarvisBitz Tech Software. Seamless Transactions, Happy Customers. Build your online empire. Get a Free Demo!',
+      'Ecomm Evolution: Bitwit Techno Software. Seamless Transactions, Happy Customers. Build your online empire. Get a Free Demo!',
     metaKeywords: [
       'E-commerce solutions',
       'Online retail software',
@@ -206,7 +206,7 @@ export const solutionDetailsList = [
       'E-commerce solutions enable online businesses by providing tools for transactions, payments, inventory management, and customer interactions, fostering digital sales.',
     chooseUs: {
       description:
-        'JarvisBitz offers superior E-commerce solutions: seamless transactions, secure payments, robust inventory management, and exceptional customer support.',
+        'Bitwit offers superior E-commerce solutions: seamless transactions, secure payments, robust inventory management, and exceptional customer support.',
       types: [
         {
           title: 'Expertise in Seamless Transactions',
@@ -329,7 +329,7 @@ export const solutionDetailsList = [
           "Discover tailored IT solutions: web development, digital marketing, and more, crafted for your business's unique success and growth."
       },
       {
-        question: 'Is my data secure with JarvisBitz?',
+        question: 'Is my data secure with Bitwit?',
         answer:
           'Yes, we prioritize data security, employing advanced measures to safeguard your information and ensure confidentiality.'
       },
@@ -358,9 +358,9 @@ export const solutionDetailsList = [
   {
     key: 'healthcare',
     title: 'Healthcare',
-    metaTitle: 'Revolutionize Care: JarvisBitz Tech Healthcare Software',
+    metaTitle: 'Revolutionize Care: Bitwit Techno Healthcare Software',
     metaDescription:
-      "Enhance patient care and streamline operations with JarvisBitz Tech's innovative healthcare solutions, delivering efficiency and precision in every aspect.",
+      "Enhance patient care and streamline operations with Bitwit Techno's innovative healthcare solutions, delivering efficiency and precision in every aspect.",
     metaKeywords: [
       'E-healthcare solutions',
       'Telemedicine software',
@@ -383,7 +383,7 @@ export const solutionDetailsList = [
       'We specialize in delivering cutting-edge healthcare solutions. Our services include innovative software development, data security, and seamless integration for efficient healthcare management.',
     chooseUs: {
       description:
-        'Revolutionizing Healthcare with JarvisBitz: Your Trusted Partner in Innovative Solutions. Empowering Healthcare Excellence Through Cutting-Edge Technology and Unparalleled Expertise',
+        'Revolutionizing Healthcare with Bitwit: Your Trusted Partner in Innovative Solutions. Empowering Healthcare Excellence Through Cutting-Edge Technology and Unparalleled Expertise',
       types: [
         {
           title: 'Expert Consultation',
@@ -514,12 +514,12 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'How can JarvisBitz help our healthcare facility?',
+        question: 'How can Bitwit help our healthcare facility?',
         answer:
           'We offer tailored IT solutions, enhancing efficiency, data security, and patient care.'
       },
       {
-        question: 'Is our patient data secure with JarvisBitz?',
+        question: 'Is our patient data secure with Bitwit?',
         answer:
           'Absolutely. We implement robust security measures, ensuring confidentiality and compliance with healthcare regulations.'
       },
@@ -549,9 +549,9 @@ export const solutionDetailsList = [
     key: 'real-estate',
     title: 'Real Estate',
     metaTitle:
-      "Elevate Real Estate Ventures with JarvisBitz Tech's Dynamic Software Solutions",
+      "Elevate Real Estate Ventures with Bitwit Techno's Dynamic Software Solutions",
     metaDescription:
-      "Unlock the potential of your real estate endeavors with JarvisBitz Tech's tailored software services, optimizing processes and maximizing success.",
+      "Unlock the potential of your real estate endeavors with Bitwit Techno's tailored software services, optimizing processes and maximizing success.",
     metaKeywords: [
       'Real estate software',
       'Property management systems',
@@ -574,7 +574,7 @@ export const solutionDetailsList = [
       'Tailored real estate solutions: Expert guidance, seamless transactions, your dream property awaits.',
     chooseUs: {
       description:
-        'Elevate Your Real Estate Journey with JarvisBitz. Discover Excellence in Every Property Transaction.',
+        'Elevate Your Real Estate Journey with Bitwit. Discover Excellence in Every Property Transaction.',
       types: [
         {
           title: 'Expert Guidance',
@@ -694,12 +694,12 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What does JarvisBitz specialize in?',
+        question: 'What does Bitwit specialize in?',
         answer:
           'We specialize in high-end real estate services, offering tailored solutions for luxury property transactions.'
       },
       {
-        question: 'How can I contact JarvisBitz for assistance?',
+        question: 'How can I contact Bitwit for assistance?',
         answer:
           "You can reach us through our website's contact form or call our 24/7 customer support."
       },
@@ -714,9 +714,9 @@ export const solutionDetailsList = [
     key: 'business',
     title: 'Business',
     metaTitle:
-      "Drive Business Success with JarvisBitz Tech's Innovative Software Solutions",
+      "Drive Business Success with Bitwit Techno's Innovative Software Solutions",
     metaDescription:
-      'Unlock Business Growth: JarvisBitz Tech Expertise. Optimize every process, elevate your brand. Start Your Project Now!',
+      'Unlock Business Growth: Bitwit Techno Expertise. Optimize every process, elevate your brand. Start Your Project Now!',
     metaKeywords: [
       'Business solutions',
       'Enterprise software',
@@ -739,7 +739,7 @@ export const solutionDetailsList = [
       'Comprehensive IT services and solutions provider, optimizing businesses with cutting-edge technology, reliable support, and innovative strategies.',
     chooseUs: {
       description:
-        'Unlock Success with JarvisBitz: Your Trusted Partner for Comprehensive Business Solutions. Discover the Power of Seamless IT Services Tailored for Your Business Needs.',
+        'Unlock Success with Bitwit: Your Trusted Partner for Comprehensive Business Solutions. Discover the Power of Seamless IT Services Tailored for Your Business Needs.',
       types: [
         {
           title: 'Expert Guidance',
@@ -849,27 +849,27 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What services does JarvisBitz provide?',
+        question: 'What services does Bitwit provide?',
         answer:
           'We offers tailored IT solutions, including consulting, development, support, cyber security, and innovative software applications.'
       },
       {
-        question: 'How secure are JarvisBitz solutions?',
+        question: 'How secure are Bitwit solutions?',
         answer:
           'Our employs state-of-the-art security measures, safeguarding your data and digital assets with advanced threat detection systems.'
       },
       {
-        question: 'Can JarvisBitz customize solutions for my business?',
+        question: 'Can Bitwit customize solutions for my business?',
         answer:
           'Absolutely! We specialize in personalized solutions, adapting our services to meet your unique business requirements effectively.'
       },
       {
-        question: 'What industries does JarvisBitz cater to?',
+        question: 'What industries does Bitwit cater to?',
         answer:
           'We serves diverse industries, including healthcare, finance, retail, and more, tailoring solutions to specific sector needs.'
       },
       {
-        question: ' How can I get started with JarvisBitz services?',
+        question: ' How can I get started with Bitwit services?',
         answer:
           'Contact us via phone or email. Our team will assess your needs and craft a tailored plan for your business success.'
       }
@@ -879,9 +879,9 @@ export const solutionDetailsList = [
     key: 'education',
     title: 'Education',
     metaTitle:
-      "Empowering Education with JarvisBitz Tech's Transformative Software Solutions",
+      "Empowering Education with Bitwit Techno's Transformative Software Solutions",
     metaDescription:
-      'Transform Education: JarvisBitz Tech. Engaging Learning, Streamlined Admin. Build your future-proof school. Get a Free Demo!',
+      'Transform Education: Bitwit Techno. Engaging Learning, Streamlined Admin. Build your future-proof school. Get a Free Demo!',
     metaKeywords: [
       'Education software solutions',
       'Learning management systems (LMS)',
@@ -904,7 +904,7 @@ export const solutionDetailsList = [
       'Comprehensive IT education solutions for service providers, fostering growth, expertise, and seamless technology integration.',
     chooseUs: {
       description:
-        'Empowering Futures, Transforming Education: Choose JarvisBitz for Innovative Learning Solutions.',
+        'Empowering Futures, Transforming Education: Choose Bitwit for Innovative Learning Solutions.',
       types: [
         {
           title: 'Tailored Learning Approaches',
@@ -1005,32 +1005,32 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: ' What does JarvisBitz specialize in?',
+        question: ' What does Bitwit specialize in?',
         answer:
-          'JarvisBitz provides cutting-edge education solutions, including personalized learning platforms, expert curriculum development, and 24/7 technical support.'
+          'Bitwit provides cutting-edge education solutions, including personalized learning platforms, expert curriculum development, and 24/7 technical support.'
       },
       {
-        question: 'How can JarvisBitz enhance my educational programs?',
+        question: 'How can Bitwit enhance my educational programs?',
         answer:
           'We tailor solutions, offer secure assessments, provide robust learning resources, and empower educators through professional development workshops.'
       },
       {
         question: 'Is technical support available around the clock?',
         answer:
-          'Yes, JarvisBitz ensures 24/7 technical assistance, ensuring uninterrupted access to educational resources for seamless learning experiences.'
+          'Yes, Bitwit ensures 24/7 technical assistance, ensuring uninterrupted access to educational resources for seamless learning experiences.'
       },
       {
-        question: 'Can JarvisBitz help design customized curricula?',
+        question: 'Can Bitwit help design customized curricula?',
         answer:
           'Absolutely, our experts develop industry-aligned curricula to enhance the quality and relevance of educational offerings, fostering student success.'
       },
       {
-        question: 'What makes JarvisBitz assessments secure?',
+        question: 'What makes Bitwit assessments secure?',
         answer:
           'Our platforms feature advanced anti-cheating measures, preserving assessment integrity and creating a fair evaluation environment for all students.'
       },
       {
-        question: 'How do JarvisBitz solutions promote interactive learning?',
+        question: 'How do Bitwit solutions promote interactive learning?',
         answer:
           'We offer innovative resources like virtual labs and simulations, fostering hands-on, practical knowledge acquisition for an engaging and enriching learning experience.'
       }
@@ -1039,9 +1039,9 @@ export const solutionDetailsList = [
   {
     key: 'logistics',
     title: 'Logistics',
-    metaTitle: 'Revolutionize Delivery: JarvisBitz Tech Logistics Power',
+    metaTitle: 'Revolutionize Delivery: Bitwit Techno Logistics Power',
     metaDescription:
-      'Supply Chain Powerhouse: JarvisBitz Tech. Optimize, Automate, Save. Get a Free Supply Chain Analysis!',
+      'Supply Chain Powerhouse: Bitwit Techno. Optimize, Automate, Save. Get a Free Supply Chain Analysis!',
     metaKeywords: [
       'Logistics software solutions',
       'Supply chain management',
@@ -1064,7 +1064,7 @@ export const solutionDetailsList = [
       'Efficient IT logistics solution: streamline hardware/software delivery, installation, and support for seamless IT services and provider operations.',
     chooseUs: {
       description:
-        'Choose JarvisBitz for seamless IT logistics: expert support, tailored solutions, and innovative strategies ensure efficient, reliable, and customized services.',
+        'Choose Bitwit for seamless IT logistics: expert support, tailored solutions, and innovative strategies ensure efficient, reliable, and customized services.',
       types: [
         {
           title: 'Expertise',
@@ -1174,9 +1174,9 @@ export const solutionDetailsList = [
   {
     key: 'automotive',
     title: 'Automotive',
-    metaTitle: 'Shift Ahead with Tech: JarvisBitz Autosoft Solutions',
+    metaTitle: 'Shift Ahead with Tech: Bitwit Autosoft Solutions',
     metaDescription:
-      'Unleash Automotive Power: JarvisBitz Tech Expertise. Future-Proof Operations, Accelerate Growth. Start Your Project Now!',
+      'Unleash Automotive Power: Bitwit Techno Expertise. Future-Proof Operations, Accelerate Growth. Start Your Project Now!',
     metaKeywords: [
       'Automotive software solutions',
       'Vehicle fleet management',
@@ -1328,7 +1328,7 @@ export const solutionDetailsList = [
           'Certainly. We specialize in seamless integration, preserving your current investments while upgrading your capabilities.'
       },
       {
-        question: 'What sets JarvisBitz apart?',
+        question: 'What sets Bitwit apart?',
         answer:
           'Our expertise, innovative solutions, and commitment to excellence distinguish us, ensuring your automotive business thrives.'
       }
@@ -1338,9 +1338,9 @@ export const solutionDetailsList = [
     key: 'retail',
     title: 'Retail',
     metaTitle:
-      "Elevate Retail Excellence with JarvisBitz Tech's Cutting-Edge Software Solutions",
+      "Elevate Retail Excellence with Bitwit Techno's Cutting-Edge Software Solutions",
     metaDescription:
-      'Retail Revolution: JarvisBitz Tech Software. Optimize, Engage, Thrive. Get a Free Retail Audit!',
+      'Retail Revolution: Bitwit Techno Software. Optimize, Engage, Thrive. Get a Free Retail Audit!',
     metaKeywords: [
       'Retail software solutions',
       'Point of sale (POS) systems',
@@ -1363,7 +1363,7 @@ export const solutionDetailsList = [
       'Tailored retail IT solutions optimize operations, enhance customer experience, and boost sales for service provider.',
     chooseUs: {
       description:
-        'Choose JarvisBitz for retail solutions due to innovative technology, customized solutions, and unparalleled expertise, ensuring seamless and successful business transformations.',
+        'Choose Bitwit for retail solutions due to innovative technology, customized solutions, and unparalleled expertise, ensuring seamless and successful business transformations.',
       types: [
         {
           title: 'Innovative Technology',
@@ -1404,7 +1404,7 @@ export const solutionDetailsList = [
         {
           title: 'Proven Track Record',
           description:
-            'Join a roster of satisfied clients who have transformed their retail landscape with JarvisBitz, trusting us for innovation, reliability, and results.',
+            'Join a roster of satisfied clients who have transformed their retail landscape with Bitwit, trusting us for innovation, reliability, and results.',
           icon: ''
         }
       ]
@@ -1480,12 +1480,12 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What services does JarvisBitz provide?',
+        question: 'What services does Bitwit provide?',
         answer:
           'We offers high-end retail solutions, including personalized customer engagement, advanced inventory management, and AI-driven analytics.'
       },
       {
-        question: ' How can JarvisBitz enhance my online presence?',
+        question: ' How can Bitwit enhance my online presence?',
         answer:
           'We design elegant, user-friendly e-commerce platforms, ensuring secure transactions and seamless customer experiences.'
       },
@@ -1495,17 +1495,17 @@ export const solutionDetailsList = [
           'Yes, our expert support team is available 24/7 to assist you with any queries or concerns.'
       },
       {
-        question: 'Can JarvisBitz integrate with existing systems?',
+        question: 'Can Bitwit integrate with existing systems?',
         answer:
           'Absolutely, we seamlessly integrate our solutions with your existing systems, ensuring a smooth transition and minimal disruptions.'
       },
       {
-        question: 'What sets JarvisBitz apart from competitors?',
+        question: 'What sets Bitwit apart from competitors?',
         answer:
           "Our high-end services blend innovation, expertise, and personalized support, ensuring your retail business excels in today's competitive market."
       },
       {
-        question: 'How can I get started with JarvisBitz services?',
+        question: 'How can I get started with Bitwit services?',
         answer:
           'Simply contact us via phone or email, and our team will guide you through the process, tailoring solutions to your specific needs.'
       }
@@ -1515,9 +1515,9 @@ export const solutionDetailsList = [
     key: 'banking',
     title: 'Banking',
     metaTitle:
-      "Unlock Banking Brilliance with JarvisBitz Tech's Advanced Software Solutions",
+      "Unlock Banking Brilliance with Bitwit Techno's Advanced Software Solutions",
     metaDescription:
-      'Unlock Financial Growth: JarvisBitz Tech Expertise. Streamline Operations, Elevate Your Brand. Start Your Project Now!',
+      'Unlock Financial Growth: Bitwit Techno Expertise. Streamline Operations, Elevate Your Brand. Start Your Project Now!',
     metaKeywords: [
       'Banking software solutions',
       'Core banking systems',
@@ -1540,7 +1540,7 @@ export const solutionDetailsList = [
       'Banking solutions for IT service providers streamline financial operations, enhance security, and optimize client transactions for efficient service delivery.',
     chooseUs: {
       description:
-        'Choosing JarvisBitz for banking solution means selecting expertise in fintech, tailored and secure services, streamlined operations, 24/7 support, and scalable, flexible solutions. We empower your financial services with innovation and reliability.',
+        'Choosing Bitwit for banking solution means selecting expertise in fintech, tailored and secure services, streamlined operations, 24/7 support, and scalable, flexible solutions. We empower your financial services with innovation and reliability.',
       types: [
         {
           title: 'Expertise in Fintech',
@@ -1666,9 +1666,9 @@ export const solutionDetailsList = [
     key: 'travel-hospitality',
     title: 'Travel & Hospitality',
     metaTitle:
-      "Transform Travel Experiences with JarvisBitz Tech's Leading Software Solutions",
+      "Transform Travel Experiences with Bitwit Techno's Leading Software Solutions",
     metaDescription:
-      'Ditch Friction, Boost Bookings: JarvisBitz Solutions. Unforgettable Journeys, Happy Guests. Contact Us Today!',
+      'Ditch Friction, Boost Bookings: Bitwit Solutions. Unforgettable Journeys, Happy Guests. Contact Us Today!',
     metaKeywords: [
       'Travel software solutions',
       'Hospitality management systems',
@@ -1691,7 +1691,7 @@ export const solutionDetailsList = [
       'Tailored IT solutions enhance travel & hospitality efficiency, offering seamless experiences for providers and travelers alike.',
     chooseUs: {
       description:
-        'Choose JarvisBitz for cutting-edge Travel & Hospitality Solutions, ensuring superior technology, seamless experiences, and unparalleled customer satisfaction.',
+        'Choose Bitwit for cutting-edge Travel & Hospitality Solutions, ensuring superior technology, seamless experiences, and unparalleled customer satisfaction.',
       types: [
         {
           title: 'Expertise in Travel Tech',
@@ -1810,7 +1810,7 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'Is our data safe with JarvisBitz?',
+        question: 'Is our data safe with Bitwit?',
         answer:
           'Absolutely. We prioritize data security, employing robust measures to safeguard your information and ensure confidentiality.'
       },
@@ -1830,9 +1830,9 @@ export const solutionDetailsList = [
     key: 'supply-chain',
     title: 'Supply Chain Management',
     metaTitle:
-      "Optimize Your Supply Chain with JarvisBitz Tech's Precision Software Solutions",
+      "Optimize Your Supply Chain with Bitwit Techno's Precision Software Solutions",
     metaDescription:
-      'Unlock Supply Chain Growth: JarvisBitz Tech Expertise. Smarter Flow, Cost-Effective Delivery. Start Your Project Now!',
+      'Unlock Supply Chain Growth: Bitwit Techno Expertise. Smarter Flow, Cost-Effective Delivery. Start Your Project Now!',
     metaKeywords: [
       'Supply chain software solutions',
       'Logistics management systems',
@@ -1855,7 +1855,7 @@ export const solutionDetailsList = [
       'Streamlined IT supply chain solutions optimize efficiency, minimize costs, and enhance service delivery for IT service providers.',
     chooseUs: {
       description:
-        'Choose JarvisBitz for Supply Chain Management Solutions because of our expertise, tailored solutions, and commitment to seamless operations',
+        'Choose Bitwit for Supply Chain Management Solutions because of our expertise, tailored solutions, and commitment to seamless operations',
       types: [
         {
           title: 'Proven Expertise',
@@ -1976,7 +1976,7 @@ export const solutionDetailsList = [
           'SCM ensures streamlined operations, reduced costs, and increased customer satisfaction, vital for competitive advantage.'
       },
       {
-        question: 'How does JarvisBitz customize SCM solutions?',
+        question: 'How does Bitwit customize SCM solutions?',
         answer:
           'We tailor solutions based on your unique needs, optimizing your supply chain for maximum efficiency.'
       },
@@ -2000,9 +2000,9 @@ export const solutionDetailsList = [
   {
     key: 'marketing-advertising',
     title: 'Marketing & Advertising',
-    metaTitle: 'Marketing Powerhouse: JarvisBitz - Ignite Success',
+    metaTitle: 'Marketing Powerhouse: Bitwit - Ignite Success',
     metaDescription:
-      "Supercharge your campaigns with JarvisBitz Tech's innovative software services, optimizing marketing and advertising efforts for maximum impact and ROI.",
+      "Supercharge your campaigns with Bitwit Techno's innovative software services, optimizing marketing and advertising efforts for maximum impact and ROI.",
     metaKeywords: [
       'Marketing software solutions',
       'Advertising technology',
@@ -2025,7 +2025,7 @@ export const solutionDetailsList = [
       'Marketing and advertising solutions encompass a variety of strategies and techniques designed to promote products, services, or brands to a target audience.',
     chooseUs: {
       description:
-        "JarvisBitz's experts excel in modern marketing, crafting innovative, tailored strategies that align precisely with your business requirements and industry trends.",
+        "Bitwit's experts excel in modern marketing, crafting innovative, tailored strategies that align precisely with your business requirements and industry trends.",
       types: [
         {
           title: 'Experienced Professionals',
@@ -2131,12 +2131,12 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What services does JarvisBitz offer?',
+        question: 'What services does Bitwit offer?',
         answer:
           'Comprehensive marketing and advertising solutions tailored to your business needs.'
       },
       {
-        question: 'How does JarvisBitz ensure data security?',
+        question: 'How does Bitwit ensure data security?',
         answer:
           'We employ robust encryption methods, ensuring your data remains confidential and secure.'
       }
@@ -2145,9 +2145,9 @@ export const solutionDetailsList = [
   {
     key: 'tele-communication',
     title: 'Telecommunication',
-    metaTitle: 'Next-Gen Connectivity: JarvisBitz Software Solutions',
+    metaTitle: 'Next-Gen Connectivity: Bitwit Software Solutions',
     metaDescription:
-      'Ditch Connectivity Headaches, Boost Efficiency: JarvisBitz Solutions. Future-Proof Networks, Happy Customers. Contact Us Today!',
+      'Ditch Connectivity Headaches, Boost Efficiency: Bitwit Solutions. Future-Proof Networks, Happy Customers. Contact Us Today!',
     metaKeywords: [
       'Telecommunication software',
       'Telecom network management',
@@ -2170,7 +2170,7 @@ export const solutionDetailsList = [
       'TelecommunicationSolution refer to the various technologies, services, and equipment used for transmitting information, such as voice, data, and multimedia, over long distances.',
     chooseUs: {
       description:
-        'Choose JarvisBitz for Telecommunication Solutions for cutting-edge technology, reliability, seamless communication, and exceptional customer support, ensuring unparalleled connectivity.',
+        'Choose Bitwit for Telecommunication Solutions for cutting-edge technology, reliability, seamless communication, and exceptional customer support, ensuring unparalleled connectivity.',
       types: [
         {
           title: 'Innovative Solutions',
@@ -2250,9 +2250,9 @@ export const solutionDetailsList = [
     key: 'energy',
     title: 'Energy',
     metaTitle:
-      "Empowering Energy Excellence: JarvisBitz Tech's Advanced Software Solutions",
+      "Empowering Energy Excellence: Bitwit Techno's Advanced Software Solutions",
     metaDescription:
-      'Energy Tech Powerhouse: JarvisBitz. Optimize, Save, Sustain. Get a Free Energy Audit!',
+      'Energy Tech Powerhouse: Bitwit. Optimize, Save, Sustain. Get a Free Energy Audit!',
     metaKeywords: [
       'Energy management software',
       'Smart grid technology',
@@ -2275,7 +2275,7 @@ export const solutionDetailsList = [
       'We transform energy usage with innovative energy solutions, catering to diverse needs, ensuring a greener, sustainable future for businesses and communities.',
     chooseUs: {
       description:
-        'At JarvisBitz, we redefine energy solution. Our expertise, innovation, and dedication ensure unparalleled efficiency, sustainability, and a brighter future.',
+        'At Bitwit, we redefine energy solution. Our expertise, innovation, and dedication ensure unparalleled efficiency, sustainability, and a brighter future.',
       types: [
         {
           title: 'Innovation',
@@ -2402,9 +2402,9 @@ export const solutionDetailsList = [
   {
     key: 'web-portals',
     title: 'Web Portals',
-    metaTitle: 'Portal UX Powerhouse: JarvisBitz - Effortless & Engaging',
+    metaTitle: 'Portal UX Powerhouse: Bitwit - Effortless & Engaging',
     metaDescription:
-      'Portal Powerhouse: JarvisBitz - User-First, Business-Boosting. Get a Free Portal Design Consultation!',
+      'Portal Powerhouse: Bitwit - User-First, Business-Boosting. Get a Free Portal Design Consultation!',
     metaKeywords: [
       'Web portal development',
       'Portal design services',
@@ -2427,7 +2427,7 @@ export const solutionDetailsList = [
       'We prioritize user experience, ensuring that your web portal is not only visually appealing but also highly intuitive.',
     chooseUs: {
       description:
-        'Experience seamless innovation with JarvisBitz. Elevate your business with our tailored web portal solution.',
+        'Experience seamless innovation with Bitwit. Elevate your business with our tailored web portal solution.',
       types: [
         {
           title: 'Tailored Solutions',
@@ -2469,9 +2469,9 @@ export const solutionDetailsList = [
     },
     utilize: {
       description_one:
-        'Enhance success with our secure Web Portals Solutions. Tailored for efficient business processes in the digital era. Choose JarvisBitz.',
+        'Enhance success with our secure Web Portals Solutions. Tailored for efficient business processes in the digital era. Choose Bitwit.',
       description_two:
-        'Optimize business efficiency with secure web portals. Accelerate processes, enhance productivity. Experience seamless solutions with JarvisBitz.',
+        'Optimize business efficiency with secure web portals. Accelerate processes, enhance productivity. Experience seamless solutions with Bitwit.',
       details: [
         {
           title: 'Tailored Experiences',
@@ -2507,7 +2507,7 @@ export const solutionDetailsList = [
     },
     business: {
       description_one:
-        'Enhance your business with tailor-made web portals by JarvisBitz. Crafted for your unique needs, ensuring seamless operations and exceptional user experiences.',
+        'Enhance your business with tailor-made web portals by Bitwit. Crafted for your unique needs, ensuring seamless operations and exceptional user experiences.',
       description_two:
         'Our top-tier web portals integrate smoothly, enhancing communication, simplifying business tasks, and maximizing productivity by connecting seamlessly with existing systems.',
       description_three:
@@ -2572,9 +2572,9 @@ export const solutionDetailsList = [
   {
     key: 'enterprise-mobility-solutions',
     title: 'Enterprise Mobility',
-    metaTitle: 'Work Anywhere, Win Everywhere: JarvisBitz Mobility Tech',
+    metaTitle: 'Work Anywhere, Win Everywhere: Bitwit Mobility Tech',
     metaDescription:
-      "Unlock Tomorrow's Business Today: JarvisBitz Tech Expertise. AI-Powered Mobility, Future-Proof Growth. Start Your Project Now!",
+      "Unlock Tomorrow's Business Today: Bitwit Techno Expertise. AI-Powered Mobility, Future-Proof Growth. Start Your Project Now!",
     metaKeywords: [
       'Enterprise Mobility Solutions',
       'Mobile Application Development',
@@ -2597,7 +2597,7 @@ export const solutionDetailsList = [
       'Elevate business mobility with our solutions—innovative software driving efficiency, collaboration, and growth.',
     chooseUs: {
       description:
-        'JarvisBitz is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
+        'Bitwit is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
       types: [
         {
           title: 'Dedicated Team',
@@ -2641,7 +2641,7 @@ export const solutionDetailsList = [
       description_one:
         'Our skilled team of app developers have extensive and in-depth understanding of business mobility solutions and is capable of providing unrivaled services. The following are just a few of our corporate application development services:',
       description_two:
-        'JarvisBitz is a reputable mobile application design and development business that specialises in offering corporate mobility solutions. Our mobility services assist you in automating 90% of corporate procedures and facilitating the organisation of productive workflows. Our mobile application development services have aided firms in scaling up operations and automating repetitive tasks.',
+        'Bitwit is a reputable mobile application design and development business that specialises in offering corporate mobility solutions. Our mobility services assist you in automating 90% of corporate procedures and facilitating the organisation of productive workflows. Our mobile application development services have aided firms in scaling up operations and automating repetitive tasks.',
       details: [
         {
           title: 'Elevate Engagement',
@@ -2681,7 +2681,7 @@ export const solutionDetailsList = [
       description_two:
         'Jarvisbitz delivers top-notch enterprise mobility solutions, simplifying business complexities. Our services enable efficient communication, real-time data access, and enhanced decision-making, promoting agility and growth.',
       description_three:
-        'At JarvisBitz, we think that corporate applications make complete sense. They can assist you in resolving difficult business challenges and streamlining the process. The following are the primary advantages of corporate application development:',
+        'At Bitwit, we think that corporate applications make complete sense. They can assist you in resolving difficult business challenges and streamlining the process. The following are the primary advantages of corporate application development:',
       details: [
         {
           title: 'Custom Enterprise App Development',
@@ -2743,7 +2743,7 @@ export const solutionDetailsList = [
     key: 'cloud-computing-solution',
     title: 'Cloud Computing',
     metaTitle:
-      'Empowering Success with Innovative Services and Solution | JarvisBitz Tech',
+      'Empowering Success with Innovative Services and Solution | Bitwit Techno',
     metaDescription:
       'Jarvisbitz: Your Tech Powerhouse. Unleash Potential with Custom Solutions & Cutting-Edge Innovation. Get a Free Consultation!',
     metaKeywords: [
@@ -2912,9 +2912,9 @@ export const solutionDetailsList = [
     key: 'devops-services',
     title: 'DevOps',
     metaTitle:
-      'Empower Your IT Operations with Cutting-Edge DevOps Solutions | JarvisBitz Tech',
+      'Empower Your IT Operations with Cutting-Edge DevOps Solutions | Bitwit Techno',
     metaDescription:
-      'Ditch DevOps Headaches, Skyrocket Efficiency: JarvisBitz Solutions. Seamless Workflows, Happy Teams, Results. Contact Us Today!',
+      'Ditch DevOps Headaches, Skyrocket Efficiency: Bitwit Solutions. Seamless Workflows, Happy Teams, Results. Contact Us Today!',
     metaKeywords: [
       'DevOps solutions',
       'IT automation',
@@ -2975,7 +2975,7 @@ export const solutionDetailsList = [
       description_one:
         'DevOps has grown in popularity as a result of its ability to produce faster and more innovatively. Several significant advantages of using DevOps technologies include the following:',
       description_two:
-        "Today, there is a growing demand for enterprises to incorporate digital technology that accelerates the software development process while also improving the program's quality. At JarvisBitz, we provide full DevOps services in order to provide highly scalable, agile, and technologically driven IT solutions for your organization.",
+        "Today, there is a growing demand for enterprises to incorporate digital technology that accelerates the software development process while also improving the program's quality. At Bitwit, we provide full DevOps services in order to provide highly scalable, agile, and technologically driven IT solutions for your organization.",
       details: [
         {
           title: 'Faster Development Cycle',
@@ -3065,7 +3065,7 @@ export const solutionDetailsList = [
       {
         question: 'What are the benefits of outsourcing DevOps services?',
         answer:
-          'Outsource DevOps to JarvisBitz for cost-efficiency, flexibility, experienced developers, faster delivery, assured quality, state-of-the-art technology, and a deep understanding of diverse platforms.'
+          'Outsource DevOps to Bitwit for cost-efficiency, flexibility, experienced developers, faster delivery, assured quality, state-of-the-art technology, and a deep understanding of diverse platforms.'
       }
     ]
   },
@@ -3073,9 +3073,9 @@ export const solutionDetailsList = [
     key: 'software-solutions-for-startups',
     title: 'Software Solutions For Startups',
     metaTitle:
-      'Empowering Startups with Innovative Software Solutions | JarvisBitz Tech',
+      'Empowering Startups with Innovative Software Solutions | Bitwit Techno',
     metaDescription:
-      'Startup Rocket Fuel: JarvisBitz Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!',
+      'Startup Rocket Fuel: Bitwit Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!',
     metaKeywords: [
       'Startup software solutions',
       'Innovative IT services',
@@ -3093,7 +3093,7 @@ export const solutionDetailsList = [
       'Boost Your Startup With Our Top-Class App Development Solutions',
     chooseUs: {
       description:
-        'JarvisBitz is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
+        'Bitwit is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
       types: [
         {
           title: 'Dedicated Team',
@@ -3157,7 +3157,7 @@ export const solutionDetailsList = [
         {
           title: 'Experienced Deployment Team',
           description:
-            'JarvisBitz assembles a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality.'
+            'Bitwit assembles a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality.'
         },
         {
           title: 'Budget-friendly solutions',
@@ -3173,11 +3173,11 @@ export const solutionDetailsList = [
     },
     business: {
       description_one:
-        'High-end software solutions for startups by JarvisBitz are meticulously crafted, offering tailored innovations to simplify and streamline diverse business operations.',
+        'High-end software solutions for startups by Bitwit are meticulously crafted, offering tailored innovations to simplify and streamline diverse business operations.',
       description_two:
         'Elevate your startup with our high-end software services. Experience amplified efficiency as we simplify complex business tasks with cutting-edge solutions and seamless integrations.',
       description_three:
-        'JarvisBitz provides startups with high-end software solutions, strategically simplifying business processes. Our services are designed to optimize workflows, enhance productivity, and drive success.',
+        'Bitwit provides startups with high-end software solutions, strategically simplifying business processes. Our services are designed to optimize workflows, enhance productivity, and drive success.',
       details: [
         {
           title: 'Custom Mobile App Development',
@@ -3237,9 +3237,9 @@ export const solutionDetailsList = [
   {
     key: 'product-engineering-solutions',
     title: 'Product Engineering',
-    metaTitle: 'Engineering Revolution: JarvisBitz - Transform Your Products',
+    metaTitle: 'Engineering Revolution: Bitwit - Transform Your Products',
     metaDescription:
-      'Unlock SaaS Success: JarvisBitz Tech Expertise. AI-Powered Solutions, Streamlined Experiences. Start Your Project Now!',
+      'Unlock SaaS Success: Bitwit Techno Expertise. AI-Powered Solutions, Streamlined Experiences. Start Your Project Now!',
     metaKeywords: [
       'Product engineering solutions',
       'Software innovation',
@@ -3257,7 +3257,7 @@ export const solutionDetailsList = [
       'We are a diverse digital centre specialising in product design and development services.',
     chooseUs: {
       description:
-        'Being a well-known product engineering firm, JarvisBitz is recognized for meeting current business demands and offering the best-in-class solutions at a competitive cost around the globe. Here’s why we can be the finest choice when it comes to attaining corporate objectives through digital product development:',
+        'Being a well-known product engineering firm, Bitwit is recognized for meeting current business demands and offering the best-in-class solutions at a competitive cost around the globe. Here’s why we can be the finest choice when it comes to attaining corporate objectives through digital product development:',
       types: [
         {
           title: 'Customer Satisfaction',
@@ -3398,14 +3398,14 @@ export const solutionDetailsList = [
         question:
           'What are the benefits of outsourcing product design and development?',
         answer:
-          'Outsource product development to JarvisBitz for cost-effectiveness, flexibility, experienced developers, faster delivery, quality assurance, cutting-edge technology, and platform expertise.'
+          'Outsource product development to Bitwit for cost-effectiveness, flexibility, experienced developers, faster delivery, quality assurance, cutting-edge technology, and platform expertise.'
       }
     ]
   },
   {
     key: 'digital-transformation-services',
     title: 'Digital Transformation',
-    metaTitle: 'Go Digital, Win Big: JarvisBitz Experts || Optimize Success.',
+    metaTitle: 'Go Digital, Win Big: Bitwit Experts || Optimize Success.',
     metaDescription:
       'Unlock the full potential of your business with our comprehensive Digital Transformation Solutions. Elevate your IT strategy and drive innovation.',
     metaKeywords: [
@@ -3424,7 +3424,7 @@ export const solutionDetailsList = [
     description: 'We are a trend-setter in digital transformation solutions.',
     chooseUs: {
       description:
-        'JarvisBitz, a well-known digital transformation firm, is known for meeting current company demands and offering best-in-class solutions at a competitive cost all over the world. Here are some of the reasons why we are the ideal choice for accomplishing business goals through digital business transformation:',
+        'Bitwit, a well-known digital transformation firm, is known for meeting current company demands and offering best-in-class solutions at a competitive cost all over the world. Here are some of the reasons why we are the ideal choice for accomplishing business goals through digital business transformation:',
       types: [
         {
           title: 'Customer Satisfaction',
@@ -3562,16 +3562,16 @@ export const solutionDetailsList = [
         question:
           'What are the benefits of outsourcing digital transformation services?',
         answer:
-          'Outsource digital transformation to JarvisBitz for cost efficiency, flexible time-zone collaboration, experienced developers, faster delivery, quality assurance, and advanced technology expertise'
+          'Outsource digital transformation to Bitwit for cost efficiency, flexible time-zone collaboration, experienced developers, faster delivery, quality assurance, and advanced technology expertise'
       }
     ]
   },
   {
     key: 'human-resources-management-software',
     title: 'Human Resources Management Software',
-    metaTitle: 'Human Resources Management Software || JarvisBitz Tech',
+    metaTitle: 'Human Resources Management Software || Bitwit Techno',
     metaDescription:
-      'Level Up Your HR: Custom Software | JarvisBitz Tech. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
+      'Level Up Your HR: Custom Software | Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
     metaKeywords: [
       'HR software solutions',
       'Custom HR software',
@@ -3587,14 +3587,14 @@ export const solutionDetailsList = [
       'Employee performance analytics',
       'HR process automation',
       'Workforce management software',
-      'JarvisBitz Tech services'
+      'Bitwit Techno services'
     ],
     bannerImage: '',
     description:
-      'Level Up Your HR: Custom Software | JarvisBitz Tech. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
+      'Level Up Your HR: Custom Software | Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
     chooseUs: {
       description:
-        'Choose JarvisBitz as your strategic partner for HR Management Software. Our expertise ensures tailored, seamless solutions, integrating with your existing framework. With user-centric design, customizable options, and robust data security, we optimize HR processes. Experience ongoing support, keeping your HR software at the forefront of industry standards.',
+        'Choose Bitwit as your strategic partner for HR Management Software. Our expertise ensures tailored, seamless solutions, integrating with your existing framework. With user-centric design, customizable options, and robust data security, we optimize HR processes. Experience ongoing support, keeping your HR software at the forefront of industry standards.',
       types: [
         {
           title: 'Expertise in HR Tech',
