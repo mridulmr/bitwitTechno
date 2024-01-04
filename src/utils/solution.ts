@@ -1,10 +1,11 @@
 export const solutionDetailsList = [
   {
     key: 'fintech',
-    title: 'Fintech',
-    metaTitle: 'Fintech Revolution | Innovate with Bitwit Techno',
+    title: 'Fintech Solutions',
+    metaTitle:
+      "Empower Your Business with Bitwit Techno's Cutting-Edge Fintech Revolution",
     metaDescription:
-      "Discover unparalleled financial agility and efficiency with Bitwit Techno's bespoke Fintech solutions, tailored to elevate your business to new heights.",
+      "Unlock unparalleled financial agility and efficiency through Bitwit Techno's tailored Fintech solutions. Elevate your business with innovative technologies designed to transform and enhance the delivery of financial services.",
     metaKeywords: [
       'Fintech solutions',
       'Financial technology services',
@@ -24,59 +25,54 @@ export const solutionDetailsList = [
     ],
     bannerImage: '',
     description:
-      'Financial technology solutions, encompass a broad array of innovative technologies and software applications designed to transform and enhance the delivery of financial services.',
+      'Explore advanced financial technology solutions that encompass a broad array of innovative technologies and software applications. Bitwit Techno is dedicated to transforming and enhancing the delivery of financial services for unparalleled business growth.',
     chooseUs: {
       description:
-        'Choosing Bitwit for fintech solutions offers several compelling advantages that make it a preferred option for individuals and businesses seeking innovative and reliable financial technology services. ',
+        'Selecting Bitwit Techno for fintech solutions provides compelling advantages, making it the preferred choice for individuals and businesses seeking innovative and reliable financial technology services.',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We leverage cutting-edge frameworks and technologies to provide you with user-friendly, scalable, secure, and innovative business solutions.',
-          icon: ''
+            'Leverage cutting-edge frameworks and technologies to provide user-friendly, scalable, secure, and innovative business solutions.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialized staff of UI/UX designers that are skilled in delivering high-end business solutions using a variety of tools and technologies.',
-          icon: ''
+            'Benefit from a specialized staff of UI/UX designers skilled in delivering high-end business solutions using a variety of tools and technologies.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'Regular Agile and scrum events optimize processes, enhancing product efficiency, flexibility, and quality, ensuring optimal outcomes for clients.',
-          icon: ''
+            'Optimize processes through regular Agile and scrum events, enhancing product efficiency, flexibility, and quality for optimal outcomes.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'We adopt flexible methods, tailoring client engagement to project needs. This offers versatile collaboration, resource use, and project management.',
-          icon: ''
+            'Adopt flexible methods, tailoring client engagement to project needs for versatile collaboration, resource use, and project management.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'To ensure the lowest price in our category, we provide an optimal blend of cost-effective rates and exceptional quality.',
-          icon: ''
+            'Ensure the lowest price in the category with an optimal blend of cost-effective rates and exceptional quality.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, give you frequent project updates, and consider your valuable suggestions as and as required.',
-          icon: ''
+            'Value ideas and vision, provide frequent project updates, and consider valuable suggestions to ensure integrity and transparency.'
         }
       ]
     },
     utilize: {
+      image: '/images/solution/fintech-utilize.webp',
       description_one:
-        'Leveraging robust and secure fintech solutions can significantly enhance and expedite your business processes. By integrating advanced financial technologies, you can streamline operations, improve efficiency, and ensure the security of your financial transactions.',
+        'Leverage robust and secure fintech solutions to significantly enhance and expedite your business processes. By integrating advanced financial technologies, streamline operations, improve efficiency, and ensure the security of financial transactions.',
       description_two:
         "Here's how you can utilize these solutions to accelerate your business processes:",
       details: [
         {
           title: 'Faster Development Cycle',
           description:
-            'With a shortened development period, you may launch a product to the market 60% quicker.'
+            'Shorten development periods to launch products to the market 60% quicker.'
         },
         {
           title: 'Enhance the Performance',
@@ -86,12 +82,12 @@ export const solutionDetailsList = [
         {
           title: 'Save your Money',
           description:
-            "Make your consumers' digital banking and investing experiences as easy as possible, free of annoyances such as banking lengthy queues."
+            "Make consumers' digital banking and investing experiences as easy as possible, free of annoyances such as lengthy queues."
         },
         {
           title: 'Real Estate',
           description:
-            'Fintech innovations revolutionize real estate, streamlining transactions, financing, and management for enhanced efficiency, transparency, and convenience to buyers and sellers.'
+            'Revolutionize real estate with fintech innovations, streamlining transactions, financing, and management for enhanced efficiency, transparency, and convenience.'
         },
         {
           title: 'Better Collaboration',
@@ -114,32 +110,25 @@ export const solutionDetailsList = [
         'Enables businesses to provide mobile wallets and contactless payments, enhancing transaction convenience and improving customer experience amid rising digital payment demand.',
       details: [
         {
-          title: 'Efficient Payment Solutions',
-          icon: ''
+          title: 'Efficient Payment Solutions'
         },
         {
-          title: 'Simplified Transactions',
-          icon: ''
+          title: 'Simplified Transactions'
         },
         {
-          title: 'Insightful Intelligence',
-          icon: ''
+          title: 'Insightful Intelligence'
         },
         {
-          title: 'Automated Financial Reporting',
-          icon: ''
+          title: 'Automated Financial Reporting'
         },
         {
-          title: 'Secure Transactions',
-          icon: ''
+          title: 'Secure Transactions'
         },
         {
-          title: 'Advanced Data Analytics',
-          icon: ''
+          title: 'Advanced Data Analytics'
         },
         {
-          title: 'Testing & Security',
-          icon: ''
+          title: 'Testing & Security'
         }
       ]
     },
@@ -178,6 +167,7 @@ export const solutionDetailsList = [
       }
     ]
   },
+
   {
     key: 'ecommerce',
     title: 'E-commerce',

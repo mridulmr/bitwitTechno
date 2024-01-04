@@ -1,5 +1,8 @@
 ---
 import HeroServiceDetails from '../../components/sections/service/HeroServiceDetails.astro'
+import Container from '../../components/shared/Container.astro'
+import Paragraph from '../../components/shared/Paragraph.astro'
+import Title from '../../components/shared/Title.astro'
 import Layout from '../../layouts/Layout.astro'
 import { solutionDetailsList } from '../../utils/solution'
 
@@ -29,7 +32,181 @@ if (!data) return Astro.redirect('/404')
           description={item.description}
           image={item.bannerImage}
         />
+
+        <Container id='choose-us' className='text-center'>
+          <Title>
+            Why Choose Bitwit Techno for
+            <br />
+            {item.title}?
+          </Title>
+          <Paragraph className='my-8'> {item.chooseUs.description}</Paragraph>
+          <div class='flex items-center justify-center w-full h-full'>
+            <div class='w-full relative flex items-center justify-center'>
+              <button
+                aria-label='slide backward'
+                class='absolute z-30 left-0 ml-0 md:-ml-5 lg:-ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer'
+                id='prev'
+              >
+                <svg
+                  class='dark:text-white'
+                  width='8'
+                  height='14'
+                  viewBox='0 0 8 14'
+                  fill='none'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path
+                    d='M7 1L1 7L7 13'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                  />
+                </svg>
+              </button>
+              <div class='w-full h-full mx-auto overflow-x-hidden overflow-y-hidden'>
+                <div
+                  id='slider'
+                  class='h-full flex lg:gap-6 md:gap-4 gap-12 items-center justify-start transition ease-out duration-700'
+                >
+                  {item.chooseUs.types.map((choose) => (
+                    <div class='flex flex-col flex-shrink-0 w-full sm:w-auto py-6 px-2 transition-all hover:scale-110'>
+                      <div class='flex flex-col items-center justify-around bg-white dark:bg-box-bg bg-opacity-30 w-[90%] m-auto md:w-64 h-full p-6 rounded-lg shadow-lg'>
+                        <h2 class='lg:text-xl font-semibold leading-4 text-base lg:leading-5 text-blue-950 dark:text-white mb-8'>
+                          {choose.title}
+                        </h2>
+                        <div class='flex h-full items-end'>
+                          <h3 class='text-sm lg:text-md leading-5 lg:leading-6 text-blue-950 dark:text-gray-500'>
+                            {choose.description}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <button
+                aria-label='slide forward'
+                class='absolute z-30 right-0 mr-0 md:-mr-5 lg:-mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400'
+                id='next'
+              >
+                <svg
+                  class='dark:text-white'
+                  width='8'
+                  height='14'
+                  viewBox='0 0 8 14'
+                  fill='none'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path
+                    d='M1 1L7 7L1 13'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </Container>
+
+        <section>
+          <Container className='flex flex-col lg:flex-row items-center justify-center gap-10'>
+            <div class='flex-1'>
+              <Title>
+                Leverage the Resilient and Secure <br /> {item.title} to
+                Expedite
+                <br />
+                Your Business Processes
+              </Title>
+              <Paragraph className='my-8'>
+                {item.utilize.description_one} {item.utilize.description_two}
+              </Paragraph>
+            </div>
+            <div class='flex-1'>
+              <img
+                src={item.utilize.image}
+                alt={item.utilize.image}
+                class='animate-parallax'
+              />
+            </div>
+          </Container>
+          <section class='bg-gray-50 dark:bg-box-bg mt-20 py-10'>
+            <Container>
+              <ul class='grid sm:grid-cols-12 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                {item.utilize.details.map((utilize, index) => (
+                  <li class='mb-5 bg-transparent rounded-xl p-5 shadow-xl'>
+                    <span class='flex items-center gap-3'>
+                      <p class='w-[50px] h-[50px] rounded-full bg-blue-950 text-white flex items-center justify-center'>
+                        {index + 1}
+                      </p>
+                      <p class='whitespace-nowrap text-lg font-bold text-blue-950 dark:text-white'>
+                        {utilize.title}
+                      </p>
+                    </span>
+                    <hr class='mt-2 mb-2' />
+                    <p class='text-gray-800 dark:text-gray-500'>
+                      {utilize.description}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </Container>
+          </section>
+        </section>
+
+        <section>
+          <Container className='flex flex-col lg:flex-row items-center justify-center gap-10'>
+            <div class='flex-1'>
+              <img
+                src={item.utilize.image}
+                alt={item.utilize.image}
+                class='animate-parallax'
+              />
+            </div>
+            <div class='flex-1'>
+              <Title>High-end {item.title} to Simplify Your Business</Title>
+              <Paragraph className='my-8'>
+                {item.business.description_one} {item.business.description_two}{' '}
+                {item.business.description_three}
+              </Paragraph>
+            </div>
+          </Container>
+          <section class='bg-gray-50 dark:bg-box-bg mt-20 py-10'>
+            <Container>
+              <ul class='grid sm:grid-cols-12 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                {item.business.details.map((business) => (
+                  <li class='mb-5 bg-transparent rounded-xl p-5 shadow-xl'>
+                    <p class='whitespace-nowrap text-lg font-bold text-blue-950 dark:text-white'>
+                      {business.title}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </Container>
+          </section>
+        </section>
       </main>
     </Layout>
   ))
 }
+
+<script is:inline>
+  let defaultTransform = 0
+  function goNext() {
+    defaultTransform = defaultTransform - 398
+    var slider = document.getElementById('slider')
+    if (Math.abs(defaultTransform) >= slider.scrollWidth / 1.7)
+      defaultTransform = 0
+    slider.style.transform = 'translateX(' + defaultTransform + 'px)'
+  }
+  next.addEventListener('click', goNext)
+  function goPrev() {
+    var slider = document.getElementById('slider')
+    if (Math.abs(defaultTransform) === 0) defaultTransform = 0
+    else defaultTransform = defaultTransform + 398
+    slider.style.transform = 'translateX(' + defaultTransform + 'px)'
+  }
+  prev.addEventListener('click', goPrev)
+</script>
