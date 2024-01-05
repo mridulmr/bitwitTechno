@@ -872,29 +872,29 @@ export const solutionDetailsList = [
   },
   {
     key: 'education',
-    title: 'Education',
+    title: 'Education Solutions',
     metaTitle:
       "Empowering Education with Bitwit Techno's Transformative Software Solutions",
     metaDescription:
       'Transform Education: Bitwit Techno. Engaging Learning, Streamlined Admin. Build your future-proof school. Get a Free Demo!',
     metaKeywords: [
-      'Education software solutions',
-      'Learning management systems (LMS)',
-      'E-learning platforms',
-      'Online education tools',
-      'Student information systems',
-      'Virtual classroom solutions',
-      'Educational technology services',
-      'Interactive learning software',
-      'Academic management systems',
-      'School administration software',
-      'Distance learning solutions',
-      'EdTech services',
-      'Adaptive learning platforms',
-      'Educational app development',
-      'Classroom collaboration tools'
+      'Education Software Solutions',
+      'Learning Management Systems (LMS)',
+      'E-learning Platforms',
+      'Online Education Tools',
+      'Student Information Systems',
+      'Virtual Classroom Solutions',
+      'Educational Technology Services',
+      'Interactive Learning Software',
+      'Academic Management Systems',
+      'School Administration Software',
+      'Distance Learning Solutions',
+      'EdTech Services',
+      'Adaptive Learning Platforms',
+      'Educational App Development',
+      'Classroom Collaboration Tools'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/education-banner.webp',
     description:
       'Comprehensive IT education solutions for service providers, fostering growth, expertise, and seamless technology integration.',
     chooseUs: {
@@ -928,6 +928,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/education-utilize.webp',
       description_one:
         'Utilize Robust and Secure Education Solutions, Leverage powerful, reliable education tools to enhance efficiency, security, and speed in your business operations.',
       description_two:
