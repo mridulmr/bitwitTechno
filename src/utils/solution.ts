@@ -1518,29 +1518,29 @@ export const solutionDetailsList = [
   },
   {
     key: 'banking',
-    title: 'Banking',
+    title: 'Banking Solutions',
     metaTitle:
       "Unlock Banking Brilliance with Bitwit Techno's Advanced Software Solutions",
     metaDescription:
       'Unlock Financial Growth: Bitwit Techno Expertise. Streamline Operations, Elevate Your Brand. Start Your Project Now!',
     metaKeywords: [
-      'Banking software solutions',
-      'Core banking systems',
-      'Online banking platforms',
-      'Mobile banking applications',
-      'Financial technology services',
-      'Digital banking solutions',
-      'Banking security solutions',
-      'Payment processing software',
-      'Anti-money laundering (AML) solutions',
-      'Fraud detection in banking',
-      'Blockchain in banking',
-      'Open banking solutions',
-      'Risk management in banking',
-      'Customer relationship management (CRM) for banks',
-      'Automated teller machine (ATM) software'
+      'Banking Software Solutions',
+      'Core Banking Systems',
+      'Online Banking Platforms',
+      'Mobile Banking Applications',
+      'Financial Technology Services',
+      'Digital Banking Solutions',
+      'Banking Security Solutions',
+      'Payment Processing Software',
+      'Anti-Money Laundering (AML) Solutions',
+      'Fraud Detection in Banking',
+      'Blockchain in Banking',
+      'Open Banking Solutions',
+      'Risk Management in Banking',
+      'Customer Relationship Management (CRM) for Banks',
+      'Automated Teller Machine (ATM) Software'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/banking-banner.webp',
     description:
       'Banking solutions for IT service providers streamline financial operations, enhance security, and optimize client transactions for efficient service delivery.',
     chooseUs: {
@@ -1586,6 +1586,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/banking-utilize.webp',
       description_one:
         'Leverage secure banking solution for swift business processes. Our advanced tech guarantees safety, efficiency, and rapid growth, enhancing operations seamlessly.',
       description_two:
@@ -1633,7 +1634,10 @@ export const solutionDetailsList = [
           title: 'Premium Account Management',
           icon: ''
         },
-        { title: 'Secure Online Banking', icon: '' },
+        {
+          title: 'Secure Online Banking',
+          icon: ''
+        },
         {
           title: 'Advanced Payment Solutions',
           icon: ''
@@ -1648,7 +1652,7 @@ export const solutionDetailsList = [
       {
         question: 'What banking services do you offer?',
         answer:
-          'We offers personalized account management, secure online banking, customized business loans, advanced payments, expert financial advice, real-time monitoring, and dedicated support.'
+          'We offer personalized account management, secure online banking, customized business loans, advanced payments, expert financial advice, real-time monitoring, and dedicated support.'
       },
       {
         question: 'Is online banking secure?',
@@ -1669,29 +1673,29 @@ export const solutionDetailsList = [
   },
   {
     key: 'travel-hospitality',
-    title: 'Travel & Hospitality',
+    title: 'Travel/Hospitality Solutions',
     metaTitle:
       "Transform Travel Experiences with Bitwit Techno's Leading Software Solutions",
     metaDescription:
       'Ditch Friction, Boost Bookings: Bitwit Solutions. Unforgettable Journeys, Happy Guests. Contact Us Today!',
     metaKeywords: [
-      'Travel software solutions',
-      'Hospitality management systems',
-      'Hotel booking platforms',
-      'Reservation management',
-      'Online travel agencies (OTA) technology',
-      'Tourism technology services',
-      'Cruise management software',
-      'Event management solutions',
-      'Travel mobile applications',
-      'Guest experience platforms',
-      'Airport management systems',
-      'Vacation rental software',
+      'Travel Software Solutions',
+      'Hospitality Management Systems',
+      'Hotel Booking Platforms',
+      'Reservation Management',
+      'Online Travel Agencies (OTA) Technology',
+      'Tourism Technology Services',
+      'Cruise Management Software',
+      'Event Management Solutions',
+      'Travel Mobile Applications',
+      'Guest Experience Platforms',
+      'Airport Management Systems',
+      'Vacation Rental Software',
       'Travel CRM',
-      'Tour operator software',
-      'Digital concierge services'
+      'Tour Operator Software',
+      'Digital Concierge Services'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/travel-banner.webp',
     description:
       'Tailored IT solutions enhance travel & hospitality efficiency, offering seamless experiences for providers and travelers alike.',
     chooseUs: {
@@ -1743,6 +1747,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/travel-utilize.webp',
       description_one:
         'Elevate your business with our high-end Travel & Hospitality services, streamlining operations, enhancing guest experiences, and ensuring seamless management for unparalleled success.',
       description_two:
@@ -1782,9 +1787,9 @@ export const solutionDetailsList = [
     },
     business: {
       description_one:
-        'Streamline operations with our Travel & Hospitality Services, integrating seamless bookings, personalized guest experiences, and efficient management for enhanced customer satisfaction.',
+        'Streamline operations with our Travel & Hospitality Solutions, integrating seamless bookings, personalized guest experiences, and efficient management for enhanced customer satisfaction.',
       description_two:
-        'Elevate your business with our high-end Travel & Hospitality Services. Streamlining operations, enhancing guest experiences, and ensuring seamless management for unparalleled success.',
+        'Elevate your business with our high-end Travel & Hospitality Solutions. Streamlining operations, enhancing guest experiences, and ensuring seamless management for unparalleled success.',
       description_three: '',
       details: [
         {
@@ -1804,7 +1809,7 @@ export const solutionDetailsList = [
           icon: ''
         },
         {
-          title: 'Data-Driven Analytic',
+          title: 'Data-Driven Analytics',
           icon: ''
         },
         {
@@ -1833,29 +1838,29 @@ export const solutionDetailsList = [
   },
   {
     key: 'supply-chain',
-    title: 'Supply Chain Management',
+    title: 'Supply Chain Management Solutions',
     metaTitle:
       "Optimize Your Supply Chain with Bitwit Techno's Precision Software Solutions",
     metaDescription:
       'Unlock Supply Chain Growth: Bitwit Techno Expertise. Smarter Flow, Cost-Effective Delivery. Start Your Project Now!',
     metaKeywords: [
-      'Supply chain software solutions',
-      'Logistics management systems',
-      'Inventory optimization',
-      'Demand forecasting software',
-      'Supplier relationship management (SRM)',
-      'Warehouse automation solutions',
-      'Procurement software',
-      'Freight management technology',
-      'Order fulfillment systems',
-      'Distribution network optimization',
-      'Supply chain analytics',
-      'Cold chain logistics solutions',
-      'Sustainable supply chain technology',
-      'Real-time tracking in supply chain',
-      'Vendor management systems (VMS)'
+      'Supply Chain Software Solutions',
+      'Logistics Management Systems',
+      'Inventory Optimization',
+      'Demand Forecasting Software',
+      'Supplier Relationship Management (SRM)',
+      'Warehouse Automation Solutions',
+      'Procurement Software',
+      'Freight Management Technology',
+      'Order Fulfillment Systems',
+      'Distribution Network Optimization',
+      'Supply Chain Analytics',
+      'Cold Chain Logistics Solutions',
+      'Sustainable Supply Chain Technology',
+      'Real-Time Tracking in Supply Chain',
+      'Vendor Management Systems (VMS)'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/supply-banner.webp',
     description:
       'Streamlined IT supply chain solutions optimize efficiency, minimize costs, and enhance service delivery for IT service providers.',
     chooseUs: {
@@ -1872,12 +1877,6 @@ export const solutionDetailsList = [
           title: 'Customized Solutions',
           description:
             'Tailored supply chain solutions designed to fit your unique business needs, maximizing efficiency and minimizing costs.',
-          icon: ''
-        },
-        {
-          title: 'Robust Reservation Systems',
-          description:
-            'Efficient, real-time booking platforms ensuring seamless reservations, maximizing occupancy rates and revenue for your properties.',
           icon: ''
         },
         {
@@ -1901,6 +1900,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/supply-utilize.webp',
       description_one:
         'Enhance your business efficiency and security by adopting strong, dependable supply chain management solutions. Accelerate processes and boost productivity with confidence.',
       description_two:
@@ -1950,7 +1950,10 @@ export const solutionDetailsList = [
           title: 'Strategic Optimization',
           icon: ''
         },
-        { title: 'Tech Integration', icon: '' },
+        {
+          title: 'Tech Integration',
+          icon: ''
+        },
         {
           title: 'Supplier Management',
           icon: ''
@@ -1986,17 +1989,17 @@ export const solutionDetailsList = [
           'We tailor solutions based on your unique needs, optimizing your supply chain for maximum efficiency.'
       },
       {
-        title: 'Can SCM solutions integrate with existing systems?',
+        question: 'Can SCM solutions integrate with existing systems?',
         answer:
           'Yes, our solutions seamlessly integrate with various platforms, ensuring smooth collaboration and data flow.'
       },
       {
-        title: ' What industries benefit from SCM services?',
+        question: 'What industries benefit from SCM services?',
         answer:
           'SCM benefits diverse sectors, from manufacturing and retail to healthcare, enhancing efficiency and profitability.'
       },
       {
-        title: 'How does SCM enhance supply chain visibility?',
+        question: 'How does SCM enhance supply chain visibility?',
         answer:
           'SCM provides real-time tracking, enabling businesses to monitor shipments, predict delays, and optimize routes.'
       }

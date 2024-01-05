@@ -483,6 +483,24 @@ export const solution = [
     description:
       'Provide simple, modern services for buying, selling, or renting properties. Our Real Estate App Development Solutions help you achieve your goals by adopting a contemporary approach to real estate transactions.',
     image: '/images/solution/realEstate.png'
+  },
+  {
+    id: 28,
+    key: 'travel-hospitality',
+    title: "",
+    priority: true,
+    type: 'Industries Solution 1',
+    description: '',
+    image: '/images/solution/travel.png'
+  },
+  {
+    id: 27,
+    key: "human-resources-management-software",
+    title: "Human Resources Management Software",
+    priority: false,
+    type: 'Industries Solution 1',
+    description: "Develop software for HR processes, including recruitment, employee management, payroll, and performance evaluation.",
+    image: '/images/solution/hrms.png'
   }
 ]
 
