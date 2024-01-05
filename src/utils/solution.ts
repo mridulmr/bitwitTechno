@@ -23,7 +23,7 @@ export const solutionDetailsList = [
       'Regtech solutions',
       'Insurtech services'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/fintech-banner.webp',
     description:
       'Explore advanced financial technology solutions that encompass a broad array of innovative technologies and software applications. Bitwit Techno is dedicated to transforming and enhancing the delivery of financial services for unparalleled business growth.',
     chooseUs: {
@@ -167,7 +167,6 @@ export const solutionDetailsList = [
       }
     ]
   },
-
   {
     key: 'ecommerce',
     title: 'E-commerce',
@@ -191,7 +190,7 @@ export const solutionDetailsList = [
       'E-commerce security',
       'Customer relationship management in e-commerce'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/ecommerce-banner.webp',
     description:
       'E-commerce solutions enable online businesses by providing tools for transactions, payments, inventory management, and customer interactions, fostering digital sales.',
     chooseUs: {
@@ -237,6 +236,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/ecommerce-utilize.webp',
       description_one:
         'Harness secure, powerful e-commerce solutions to speed up your business operations and enhance efficiency effectively.',
       description_two:
@@ -368,7 +368,7 @@ export const solutionDetailsList = [
       'Patient engagement tools',
       'Healthtech solutions'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/health-banner.webp',
     description:
       'We specialize in delivering cutting-edge healthcare solutions. Our services include innovative software development, data security, and seamless integration for efficient healthcare management.',
     chooseUs: {
@@ -420,6 +420,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/health-utilize.webp',
       description_one:
         'Implement our strong and secure healthcare solutions to optimize business processes, ensuring efficiency, data integrity, and exceptional patient care.',
       description_two: '',
@@ -559,7 +560,7 @@ export const solutionDetailsList = [
       'Real estate transaction management',
       'Commercial real estate technology'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/realstate-banner.webp',
     description:
       'Tailored real estate solutions: Expert guidance, seamless transactions, your dream property awaits.',
     chooseUs: {
@@ -605,6 +606,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/realstate-utilize.webp',
       description_one:
         'Optimize tasks with robust real estate solutions, speeding up processes and enhancing overall operational efficiency.',
       description_two:

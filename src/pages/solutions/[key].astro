@@ -129,7 +129,7 @@ if (!data) return Astro.redirect('/404')
               <img
                 src={item.utilize.image}
                 alt={item.utilize.image}
-                class='animate-parallax'
+                class='animate-parallax w-full'
               />
             </div>
           </Container>
@@ -139,10 +139,10 @@ if (!data) return Astro.redirect('/404')
                 {item.utilize.details.map((utilize, index) => (
                   <li class='mb-5 bg-transparent rounded-xl p-5 shadow-xl'>
                     <span class='flex items-center gap-3'>
-                      <p class='w-[50px] h-[50px] rounded-full bg-blue-950 text-white flex items-center justify-center'>
+                      <p class='flex-shrink-0 w-[50px] h-[50px] rounded-full bg-blue-950 text-white flex items-center justify-center'>
                         {index + 1}
                       </p>
-                      <p class='whitespace-nowrap text-lg font-bold text-blue-950 dark:text-white'>
+                      <p class='text-lg font-bold text-blue-950 dark:text-white'>
                         {utilize.title}
                       </p>
                     </span>
@@ -163,7 +163,7 @@ if (!data) return Astro.redirect('/404')
               <img
                 src={item.utilize.image}
                 alt={item.utilize.image}
-                class='animate-parallax'
+                class='animate-parallax w-full'
               />
             </div>
             <div class='flex-1'>
@@ -177,9 +177,9 @@ if (!data) return Astro.redirect('/404')
           <section class='bg-gray-50 dark:bg-box-bg mt-20 py-10'>
             <Container>
               <ul class='grid sm:grid-cols-12 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-                {item.business.details.map((business) => (
-                  <li class='mb-5 bg-transparent rounded-xl p-5 shadow-xl'>
-                    <p class='whitespace-nowrap text-lg font-bold text-blue-950 dark:text-white'>
+                {item.business.details.map((business: any) => (
+                  <li class='mb-5 bg-transparent rounded-xl p-5 shadow-xl flex justify-center items-center'>
+                    <p class='text-center text-lg font-bold text-blue-950 dark:text-white'>
                       {business.title}
                     </p>
                   </li>
