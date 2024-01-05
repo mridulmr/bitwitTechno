@@ -1034,28 +1034,28 @@ export const solutionDetailsList = [
   },
   {
     key: 'logistics',
-    title: 'Logistics',
+    title: 'Logistics Solutions',
     metaTitle: 'Revolutionize Delivery: Bitwit Techno Logistics Power',
     metaDescription:
       'Supply Chain Powerhouse: Bitwit Techno. Optimize, Automate, Save. Get a Free Supply Chain Analysis!',
     metaKeywords: [
-      'Logistics software solutions',
-      'Supply chain management',
-      'Transportation management systems',
-      'Warehouse management software',
-      'Freight management solutions',
-      'Route optimization',
-      'Inventory tracking systems',
-      'Last-mile delivery solutions',
-      'Cold chain logistics software',
-      'Order fulfillment software',
-      'Global logistics solutions',
-      'Freight forwarding technology',
-      'Container tracking systems',
-      'Logistics analytics',
-      'Cross-border logistics solutions'
+      'Logistics Software Solutions',
+      'Supply Chain Management',
+      'Transportation Management Systems',
+      'Warehouse Management Software',
+      'Freight Management Solutions',
+      'Route Optimization',
+      'Inventory Tracking Systems',
+      'Last-Mile Delivery Solutions',
+      'Cold Chain Logistics Software',
+      'Order Fulfillment Software',
+      'Global Logistics Solutions',
+      'Freight Forwarding Technology',
+      'Container Tracking Systems',
+      'Logistics Analytics',
+      'Cross-Border Logistics Solutions'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/logistics.webp',
     description:
       'Efficient IT logistics solution: streamline hardware/software delivery, installation, and support for seamless IT services and provider operations.',
     chooseUs: {
@@ -1101,6 +1101,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/logistics-utilize.webp',
       description_one:
         'Leverage our robust, secure logisticsSolution for accelerated business processes. Streamlined operations, advanced technology, and unwavering security drive efficiency and growth.',
       description_two: '',
@@ -1148,7 +1149,10 @@ export const solutionDetailsList = [
           title: 'Precision Inventory Control',
           icon: ''
         },
-        { title: 'Tech-Driven Optimization', icon: '' },
+        {
+          title: 'Tech-Driven Optimization',
+          icon: ''
+        },
         {
           title: 'Efficient Reverse Logistics',
           icon: ''
@@ -1169,30 +1173,30 @@ export const solutionDetailsList = [
   },
   {
     key: 'automotive',
-    title: 'Automotive',
+    title: 'Automotive Solutions',
     metaTitle: 'Shift Ahead with Tech: Bitwit Autosoft Solutions',
     metaDescription:
       'Unleash Automotive Power: Bitwit Techno Expertise. Future-Proof Operations, Accelerate Growth. Start Your Project Now!',
     metaKeywords: [
-      'Automotive software solutions',
-      'Vehicle fleet management',
-      'Connected car technology',
-      'Telematics systems',
-      'Automotive ERP software',
-      'Auto repair management',
-      'Dealership management systems',
-      'Vehicle tracking solutions',
-      'Automotive IoT solutions',
-      'Vehicle diagnostics software',
-      'Automotive cybersecurity',
-      'Car rental software',
-      'Digital showroom solutions',
+      'Automotive Software Solutions',
+      'Vehicle Fleet Management',
+      'Connected Car Technology',
+      'Telematics Systems',
+      'Automotive ERP Software',
+      'Auto Repair Management',
+      'Dealership Management Systems',
+      'Vehicle Tracking Solutions',
+      'Automotive IoT Solutions',
+      'Vehicle Diagnostics Software',
+      'Automotive Cybersecurity',
+      'Car Rental Software',
+      'Digital Showroom Solutions',
       'Automotive CRM',
-      'Predictive maintenance for vehicles'
+      'Predictive Maintenance for Vehicles'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/automotive-banner.webp',
     description:
-      'Tailored IT solutions for automotive sector, enhancing efficiency, connectivity, and innovation for service providers.',
+      'Tailored IT solutions for the automotive sector, enhancing efficiency, connectivity, and innovation for service providers.',
     chooseUs: {
       description:
         'Innovative Automotive Solutions Tailored for Excellence. Empowering Your Drive with Cutting-Edge Technology and Seamless Services.',
@@ -1236,6 +1240,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/automotive-utilize.webp',
       description_one:
         'Utilize powerful and secure automotive solutions to enhance your business operations and streamline processes effectively and efficiently.',
       description_two:
@@ -1316,7 +1321,7 @@ export const solutionDetailsList = [
       {
         question: 'Do you offer post-implementation support?',
         answer:
-          'Yes, we provide 24/7 technical assistance and maintenance services to ensure '
+          'Yes, we provide 24/7 technical assistance and maintenance services to ensure uninterrupted operations.'
       },
       {
         question: 'Can you integrate existing systems?',
@@ -1332,31 +1337,31 @@ export const solutionDetailsList = [
   },
   {
     key: 'retail',
-    title: 'Retail',
+    title: 'Retail Solutions',
     metaTitle:
       "Elevate Retail Excellence with Bitwit Techno's Cutting-Edge Software Solutions",
     metaDescription:
       'Retail Revolution: Bitwit Techno Software. Optimize, Engage, Thrive. Get a Free Retail Audit!',
     metaKeywords: [
-      'Retail software solutions',
-      'Point of sale (POS) systems',
-      'E-commerce platforms',
-      'Inventory management software',
-      'Retail analytics',
-      'Omni-channel retail solutions',
-      'Customer loyalty programs',
-      'Digital storefronts',
+      'Retail Software Solutions',
+      'Point of Sale (POS) Systems',
+      'E-commerce Platforms',
+      'Inventory Management Software',
+      'Retail Analytics',
+      'Omni-channel Retail Solutions',
+      'Customer Loyalty Programs',
+      'Digital Storefronts',
       'Retail CRM',
-      'Mobile commerce solutions',
-      'In-store technology',
-      'Retail payment processing',
-      'Merchandising software',
-      'Retail supply chain management',
-      'Personalized shopping experiences'
+      'Mobile Commerce Solutions',
+      'In-store Technology',
+      'Retail Payment Processing',
+      'Merchandising Software',
+      'Retail Supply Chain Management',
+      'Personalized Shopping Experiences'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/retail-banner.webp',
     description:
-      'Tailored retail IT solutions optimize operations, enhance customer experience, and boost sales for service provider.',
+      'Tailored retail IT solutions optimize operations, enhance customer experience, and boost sales for service providers.',
     chooseUs: {
       description:
         'Choose Bitwit for retail solutions due to innovative technology, customized solutions, and unparalleled expertise, ensuring seamless and successful business transformations.',
@@ -1406,6 +1411,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/retail-utilize.webp',
       description_one:
         'Utilizing robust and secure retail solutions involves deploying powerful, reliable technologies designed to enhance operational efficiency, data protection, and customer experiences.',
       description_two:
@@ -1455,7 +1461,10 @@ export const solutionDetailsList = [
           title: 'Personalized Customer Engagement',
           icon: ''
         },
-        { title: 'Advanced Inventory Management', icon: '' },
+        {
+          title: 'Advanced Inventory Management',
+          icon: ''
+        },
         {
           title: 'AI-Driven Sales Analytics',
           icon: ''
@@ -1478,10 +1487,10 @@ export const solutionDetailsList = [
       {
         question: 'What services does Bitwit provide?',
         answer:
-          'We offers high-end retail solutions, including personalized customer engagement, advanced inventory management, and AI-driven analytics.'
+          'We offer high-end retail solutions, including personalized customer engagement, advanced inventory management, and AI-driven analytics.'
       },
       {
-        question: ' How can Bitwit enhance my online presence?',
+        question: 'How can Bitwit enhance my online presence?',
         answer:
           'We design elegant, user-friendly e-commerce platforms, ensuring secure transactions and seamless customer experiences.'
       },
