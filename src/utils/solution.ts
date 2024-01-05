@@ -170,67 +170,68 @@ export const solutionDetailsList = [
   {
     key: 'ecommerce',
     title: 'E-commerce',
-    metaTitle: 'Revolutionize Retail: Bitwit Techno Ecomm Solutions',
+    metaTitle:
+      "Empower Your Retail Revolution with Bitwit Techno's E-commerce Solutions",
     metaDescription:
-      'Ecomm Evolution: Bitwit Techno Software. Seamless Transactions, Happy Customers. Build your online empire. Get a Free Demo!',
+      'Unlock E-commerce Evolution with Bitwit Techno Software. Seamless Transactions, Delighted Customers. Build Your Online Empire. Request a Free Demo!',
     metaKeywords: [
-      'E-commerce solutions',
-      'Online retail software',
-      'E-commerce platform',
-      'Digital storefronts',
-      'Shopping cart software',
-      'Secure online transactions',
-      'Mobile commerce solutions',
-      'E-commerce website development',
-      'Payment gateway integration',
-      'Responsive e-commerce design',
-      'Inventory management systems',
-      'Order processing software',
-      'User-friendly online shopping',
-      'E-commerce security',
-      'Customer relationship management in e-commerce'
+      'Comprehensive E-commerce Solutions',
+      'Online Retail Software',
+      'E-commerce Platform',
+      'Digital Storefronts',
+      'Shopping Cart Software',
+      'Secure Online Transactions',
+      'Mobile Commerce Solutions',
+      'E-commerce Website Development',
+      'Payment Gateway Integration',
+      'Responsive E-commerce Design',
+      'Inventory Management Systems',
+      'Order Processing Software',
+      'User-friendly Online Shopping',
+      'E-commerce Security',
+      'Customer Relationship Management in E-commerce'
     ],
     bannerImage: '/images/solution/ecommerce-banner.webp',
     description:
-      'E-commerce solutions enable online businesses by providing tools for transactions, payments, inventory management, and customer interactions, fostering digital sales.',
+      'Empower your online business with E-commerce solutions by Bitwit Techno. Our tools facilitate seamless transactions, secure payments, efficient inventory management, and exceptional customer interactions, fostering digital sales.',
     chooseUs: {
       description:
-        'Bitwit offers superior E-commerce solutions: seamless transactions, secure payments, robust inventory management, and exceptional customer support.',
+        'Choose Bitwit for superior E-commerce solutions, ensuring seamless transactions, secure payments, robust inventory management, and exceptional customer support.',
       types: [
         {
           title: 'Expertise in Seamless Transactions',
           description:
-            'Dependable systems ensure seamless online transactions, boost customer satisfaction, and fuel sales growth effectively, promoting a positive customer experience.',
+            'Rely on dependable systems for seamless online transactions, boosting customer satisfaction and fueling effective sales growth, creating a positive customer experience.',
           icon: ''
         },
         {
           title: 'Secure Payment Gateways',
           description:
-            'Strong encryption secures customer data, transactions, building trust and security for seamless online payments, ensuring a safe digital experience.',
+            'Utilize strong encryption to secure customer data and transactions, building trust and security for seamless online payments, ensuring a safe digital experience.',
           icon: ''
         },
         {
           title: 'Tailored Inventory Management',
           description:
-            "Tailored inventory solutions optimize stock, cut costs, and guarantee products' availability, enhancing customer satisfaction through consistent supply.",
+            'Optimize stock with tailored inventory solutions, cutting costs, and guaranteeing product availability, enhancing customer satisfaction through consistent supply.',
           icon: ''
         },
         {
           title: 'Exceptional Customer Support',
           description:
-            'Continuous 24/7 support resolves queries, ensuring loyalty, enhancing shopping experience, fostering lasting customer relationships, and promoting overall satisfaction.',
+            'Benefit from continuous 24/7 support to resolve queries, ensuring loyalty, enhancing shopping experiences, fostering lasting customer relationships, and promoting overall satisfaction.',
           icon: ''
         },
         {
           title: 'Mobile-Optimized Shopping',
           description:
-            'Responsive designs ensure easy mobile shopping, captivating customers across devices, enhancing accessibility, and boosting sales for a seamless experience.',
+            'Utilize responsive designs for easy mobile shopping, captivating customers across devices, enhancing accessibility, and boosting sales for a seamless experience.',
           icon: ''
         },
         {
           title: 'Data-Driven Insights',
           description:
-            'Sophisticated analytics offer insights, steer decisions, and maximize e-commerce growth potential, empowering strategic choices for business expansion effectively.',
+            'Gain sophisticated analytics for valuable insights, guiding decisions, and maximizing e-commerce growth potential, empowering strategic choices for business expansion.',
           icon: ''
         }
       ]
@@ -238,9 +239,9 @@ export const solutionDetailsList = [
     utilize: {
       image: '/images/solution/ecommerce-utilize.webp',
       description_one:
-        'Harness secure, powerful e-commerce solutions to speed up your business operations and enhance efficiency effectively.',
+        'Harness secure, powerful e-commerce solutions to expedite business operations and enhance efficiency effectively.',
       description_two:
-        'Leverage robust, secure e-commerce solutions to streamline and expedite your business processes. Enhance efficiency, ensure data protection, and provide seamless customer experiences, driving growth and success in the competitive digital marketplace.',
+        'Leverage robust, secure e-commerce solutions to streamline and expedite business processes. Enhance efficiency, ensure data protection, and provide seamless customer experiences, driving growth and success in the competitive digital marketplace.',
       details: [
         {
           title: 'Order Management',
@@ -283,7 +284,7 @@ export const solutionDetailsList = [
         'Unleash the potential of your business with high-end e-commerce services, simplifying processes and ensuring smooth, hassle-free operations for sustainable growth.',
       details: [
         {
-          title: 'Premium webDevelopment',
+          title: 'Premium Web Development',
           icon: ''
         },
         {
@@ -348,37 +349,38 @@ export const solutionDetailsList = [
   {
     key: 'healthcare',
     title: 'Healthcare',
-    metaTitle: 'Revolutionize Care: Bitwit Techno Healthcare Software',
+    metaTitle:
+      "Revolutionize Healthcare: Bitwit Techno's Innovative Healthcare Software",
     metaDescription:
-      "Enhance patient care and streamline operations with Bitwit Techno's innovative healthcare solutions, delivering efficiency and precision in every aspect.",
+      "Elevate patient care and optimize operations with Bitwit Techno's cutting-edge healthcare solutions, ensuring efficiency and precision at every level.",
     metaKeywords: [
-      'E-healthcare solutions',
-      'Telemedicine software',
-      'Health information technology',
-      'Electronic health records (EHR)',
-      'Healthcare management systems',
-      'Remote patient monitoring',
-      'Digital health solutions',
-      'Telehealth services',
-      'Health data analytics',
-      'Teleconsultation platforms',
-      'Medical software development',
-      'Mobile health applications',
-      'E-prescription systems',
-      'Patient engagement tools',
-      'Healthtech solutions'
+      'E-healthcare Solutions',
+      'Telemedicine Software',
+      'Health Information Technology',
+      'Electronic Health Records (EHR)',
+      'Healthcare Management Systems',
+      'Remote Patient Monitoring',
+      'Digital Health Solutions',
+      'Telehealth Services',
+      'Health Data Analytics',
+      'Teleconsultation Platforms',
+      'Medical Software Development',
+      'Mobile Health Applications',
+      'E-prescription Systems',
+      'Patient Engagement Tools',
+      'Healthtech Solutions'
     ],
     bannerImage: '/images/solution/health-banner.webp',
     description:
-      'We specialize in delivering cutting-edge healthcare solutions. Our services include innovative software development, data security, and seamless integration for efficient healthcare management.',
+      'Specializing in delivering advanced healthcare solutions, Bitwit Techno offers innovative software development, robust data security, and seamless integration for efficient healthcare management.',
     chooseUs: {
       description:
-        'Revolutionizing Healthcare with Bitwit: Your Trusted Partner in Innovative Solutions. Empowering Healthcare Excellence Through Cutting-Edge Technology and Unparalleled Expertise',
+        'Revolutionize Healthcare with Bitwit: Your Trusted Partner in Innovative Solutions. Empowering Healthcare Excellence Through Cutting-Edge Technology and Unparalleled Expertise',
       types: [
         {
           title: 'Expert Consultation',
           description:
-            'Expert guidance to optimize healthcare systems, ensuring efficient operations and quality patient care.',
+            'Receive expert guidance to optimize healthcare systems, ensuring efficient operations and quality patient care.',
           icon: ''
         },
         {
@@ -422,7 +424,7 @@ export const solutionDetailsList = [
     utilize: {
       image: '/images/solution/health-utilize.webp',
       description_one:
-        'Implement our strong and secure healthcare solutions to optimize business processes, ensuring efficiency, data integrity, and exceptional patient care.',
+        'Implement our robust and secure healthcare solutions to optimize business processes, ensuring efficiency, data integrity, and exceptional patient care.',
       description_two: '',
       details: [
         {
@@ -522,7 +524,7 @@ export const solutionDetailsList = [
       {
         question: 'What healthcare software do you offer?',
         answer:
-          'We provide advanced EHR, telemedicine, and billing solutions, streamlining patient management and financial processes..'
+          'We provide advanced EHR, telemedicine, and billing solutions, streamlining patient management and financial processes.'
       },
       {
         question: 'Do you offer training for our staff?',
@@ -544,25 +546,25 @@ export const solutionDetailsList = [
     metaDescription:
       "Unlock the potential of your real estate endeavors with Bitwit Techno's tailored software services, optimizing processes and maximizing success.",
     metaKeywords: [
-      'Real estate software',
-      'Property management systems',
-      'Real estate CRM',
-      'Online property listings',
-      'Real estate website development',
-      'Property search platforms',
-      'Virtual property tours',
-      'Real estate analytics',
-      'Lease management software',
-      'Construction project management',
-      'Rental management solutions',
-      'Real estate mobile apps',
-      'Property valuation software',
-      'Real estate transaction management',
-      'Commercial real estate technology'
+      'Real Estate Software',
+      'Property Management Systems',
+      'Real Estate CRM',
+      'Online Property Listings',
+      'Real Estate Website Development',
+      'Property Search Platforms',
+      'Virtual Property Tours',
+      'Real Estate Analytics',
+      'Lease Management Software',
+      'Construction Project Management',
+      'Rental Management Solutions',
+      'Real Estate Mobile Apps',
+      'Property Valuation Software',
+      'Real Estate Transaction Management',
+      'Commercial Real Estate Technology'
     ],
     bannerImage: '/images/solution/realstate-banner.webp',
     description:
-      'Tailored real estate solutions: Expert guidance, seamless transactions, your dream property awaits.',
+      'Experience tailored real estate solutions: Expert guidance, seamless transactions, and your dream property awaits.',
     chooseUs: {
       description:
         'Elevate Your Real Estate Journey with Bitwit. Discover Excellence in Every Property Transaction.',
@@ -704,29 +706,29 @@ export const solutionDetailsList = [
   },
   {
     key: 'business',
-    title: 'Business',
+    title: 'Business Solutions',
     metaTitle:
       "Drive Business Success with Bitwit Techno's Innovative Software Solutions",
     metaDescription:
       'Unlock Business Growth: Bitwit Techno Expertise. Optimize every process, elevate your brand. Start Your Project Now!',
     metaKeywords: [
-      'Business solutions',
-      'Enterprise software',
-      'Corporate IT services',
-      'Business process optimization',
-      'Workflow automation',
-      'Business intelligence solutions',
-      'CRM software',
-      'ERP systems',
-      'Cloud-based business solutions',
-      'Strategic consulting services',
-      'Data analytics for business',
-      'IT infrastructure solutions',
-      'Cybersecurity services',
-      'Project management software',
-      'Collaborative business tools'
+      'Business Solutions',
+      'Enterprise Software',
+      'Corporate IT Services',
+      'Business Process Optimization',
+      'Workflow Automation',
+      'Business Intelligence Solutions',
+      'CRM Software',
+      'ERP Systems',
+      'Cloud-based Business Solutions',
+      'Strategic Consulting Services',
+      'Data Analytics for Business',
+      'IT Infrastructure Solutions',
+      'Cybersecurity Services',
+      'Project Management Software',
+      'Collaborative Business Tools'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/business-banner.webp',
     description:
       'Comprehensive IT services and solutions provider, optimizing businesses with cutting-edge technology, reliable support, and innovative strategies.',
     chooseUs: {
@@ -772,6 +774,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/business-utilize.webp',
       description_one:
         'Harness powerful, secure business solutions to streamline processes, boosting efficiency and accelerating growth confidently.',
       description_two:
@@ -843,7 +846,7 @@ export const solutionDetailsList = [
       {
         question: 'What services does Bitwit provide?',
         answer:
-          'We offers tailored IT solutions, including consulting, development, support, cyber security, and innovative software applications.'
+          'We offer tailored IT solutions, including consulting, development, support, cybersecurity, and innovative software applications.'
       },
       {
         question: 'How secure are Bitwit solutions?',
@@ -858,7 +861,7 @@ export const solutionDetailsList = [
       {
         question: 'What industries does Bitwit cater to?',
         answer:
-          'We serves diverse industries, including healthcare, finance, retail, and more, tailoring solutions to specific sector needs.'
+          'We serve diverse industries, including healthcare, finance, retail, and more, tailoring solutions to specific sector needs.'
       },
       {
         question: ' How can I get started with Bitwit services?',
