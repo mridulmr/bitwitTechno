@@ -2007,28 +2007,28 @@ export const solutionDetailsList = [
   },
   {
     key: 'marketing-advertising',
-    title: 'Marketing & Advertising',
+    title: 'Marketing/Advertising Solutions',
     metaTitle: 'Marketing Powerhouse: Bitwit - Ignite Success',
     metaDescription:
       "Supercharge your campaigns with Bitwit Techno's innovative software services, optimizing marketing and advertising efforts for maximum impact and ROI.",
     metaKeywords: [
-      'Marketing software solutions',
-      'Advertising technology',
-      'Digital marketing platforms',
-      'Social media management',
-      'Campaign analytics',
-      'Customer engagement tools',
-      'Marketing automation',
-      'Content marketing solutions',
-      'Ad targeting technology',
-      'Brand management software',
-      'Email marketing platforms',
-      'Search engine optimization (SEO) tools',
-      'Data-driven marketing',
-      'Video marketing solutions',
-      'Omnichannel marketing'
+      'Marketing Software Solutions',
+      'Advertising Technology',
+      'Digital Marketing Platforms',
+      'Social Media Management',
+      'Campaign Analytics',
+      'Customer Engagement Tools',
+      'Marketing Automation',
+      'Content Marketing Solutions',
+      'Ad Targeting Technology',
+      'Brand Management Software',
+      'Email Marketing Platforms',
+      'Search Engine Optimization (SEO) Tools',
+      'Data-Driven Marketing',
+      'Video Marketing Solutions',
+      'Omnichannel Marketing'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/marketing-banner.webp',
     description:
       'Marketing and advertising solutions encompass a variety of strategies and techniques designed to promote products, services, or brands to a target audience.',
     chooseUs: {
@@ -2074,6 +2074,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/marketing-utilize.webp',
       description_one:
         'Streamlining complex marketing, our services simplify your business. High-end strategies ensure efficiency and impactful advertising.',
       description_two:
@@ -2152,33 +2153,33 @@ export const solutionDetailsList = [
   },
   {
     key: 'tele-communication',
-    title: 'Telecommunication',
+    title: 'Telecommunication Solutions',
     metaTitle: 'Next-Gen Connectivity: Bitwit Software Solutions',
     metaDescription:
       'Ditch Connectivity Headaches, Boost Efficiency: Bitwit Solutions. Future-Proof Networks, Happy Customers. Contact Us Today!',
     metaKeywords: [
-      'Telecommunication software',
-      'Telecom network management',
-      'VoIP solutions',
-      'Mobile network optimization',
-      'Telecommunication billing systems',
-      'Unified communications',
+      'Telecommunication Software',
+      'Telecom Network Management',
+      'VoIP Solutions',
+      'Mobile Network Optimization',
+      'Telecommunication Billing Systems',
+      'Unified Communications',
       'Telecom CRM',
-      'Network security solutions',
-      'Satellite communication technology',
-      '5G infrastructure',
-      'Telecommunication analytics',
-      'Broadband management systems',
-      'IoT in telecommunication',
-      'Telecommunication compliance',
-      'Telecommunication project management'
+      'Network Security Solutions',
+      'Satellite Communication Technology',
+      '5G Infrastructure',
+      'Telecommunication Analytics',
+      'Broadband Management Systems',
+      'IoT in Telecommunication',
+      'Telecommunication Compliance',
+      'Telecommunication Project Management'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/tele-banner.webp',
     description:
-      'TelecommunicationSolution refer to the various technologies, services, and equipment used for transmitting information, such as voice, data, and multimedia, over long distances.',
+      'Telecommunication Solutions encompass various technologies, services, and equipment for transmitting information, such as voice, data, and multimedia, over long distances.',
     chooseUs: {
       description:
-        'Choose Bitwit for Telecommunication Solutions for cutting-edge technology, reliability, seamless communication, and exceptional customer support, ensuring unparalleled connectivity.',
+        'Choose Bitwit for cutting-edge Telecommunication Solutions, offering innovative technology, reliability, seamless communication, and exceptional customer support, ensuring unparalleled connectivity.',
       types: [
         {
           title: 'Innovative Solutions',
@@ -2201,8 +2202,9 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/tele-utilize.webp',
       description_one:
-        'Optimize operations with our strong telecommunication solutions. Swift data transfer, seamless collaboration, and real-time communication enhance business efficiency.',
+        'Optimize operations with our robust telecommunication solutions. Swift data transfer, seamless collaboration, and real-time communication enhance business efficiency.',
       description_two:
         'Shield your business. Our advanced telecom solutions employ top-notch security, ensuring protected conversations and transactions for confident, accelerated growth.',
       details: [
@@ -2230,7 +2232,7 @@ export const solutionDetailsList = [
     },
     business: {
       description_one:
-        'Simplify data management with our advanced telecom. Secure storage, real-time analytics, and easy access empower informed decision-making processes effortlessly.',
+        'Simplify data management with our advanced telecom solutions. Secure storage, real-time analytics, and easy access empower informed decision-making processes effortlessly.',
       description_two: '',
       description_three: '',
       details: [
@@ -2247,7 +2249,7 @@ export const solutionDetailsList = [
           icon: ''
         },
         {
-          title: ' Enhanced Security Protocols',
+          title: 'Enhanced Security Protocols',
           icon: ''
         }
       ]
