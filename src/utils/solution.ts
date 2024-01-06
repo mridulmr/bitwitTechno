@@ -3091,145 +3091,171 @@ export const solutionDetailsList = [
     ]
   },
   {
-    "key": "software-solutions-for-startups",
-    "title": "Innovative Software Solutions for Startups",
-    "metaTitle": "Empowering Startups with Innovative Software Solutions | Bitwit Techno",
-    "metaDescription": "Startup Rocket Fuel: Bitwit Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!",
-    "metaKeywords": [
-      "Startup software solutions",
-      "Innovative IT services",
-      "Custom software development",
-      "Growth-oriented technology solutions",
-      "Software support for startups",
-      "Tailored IT solutions",
-      "Startup technology consulting",
-      "Scalable software for emerging businesses",
-      "Digital solutions for startups",
-      "Tech support for new ventures"
+    key: 'software-solutions-for-startups',
+    title: 'Innovative Software Solutions for Startups',
+    metaTitle:
+      'Empowering Startups with Innovative Software Solutions | Bitwit Techno',
+    metaDescription:
+      'Startup Rocket Fuel: Bitwit Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!',
+    metaKeywords: [
+      'Startup software solutions',
+      'Innovative IT services',
+      'Custom software development',
+      'Growth-oriented technology solutions',
+      'Software support for startups',
+      'Tailored IT solutions',
+      'Startup technology consulting',
+      'Scalable software for emerging businesses',
+      'Digital solutions for startups',
+      'Tech support for new ventures'
     ],
-    "bannerImage": "/images/solution/software-banner.webp",
-    "description": "Fuel your startup's growth with our top-class app development solutions.",
-    "chooseUs": {
-      "description": "Choose Bitwit for cost-effective solutions enabling mobile business transformation, boosting productivity, and ensuring security. Opt for our agile development strategy to meet project deadlines. Reasons to select Bitwit for your startup:",
-      "types": [
+    bannerImage: '/images/solution/software-banner.webp',
+    description:
+      "Fuel your startup's growth with our top-class app development solutions.",
+    chooseUs: {
+      description:
+        'Choose Bitwit for cost-effective solutions enabling mobile business transformation, boosting productivity, and ensuring security. Opt for our agile development strategy to meet project deadlines. Reasons to select Bitwit for your startup:',
+      types: [
         {
-          "title": "Dedicated Team",
-          "description": "Experience a professional enterprise application development team delivering high-end business solutions with various frameworks and technologies.",
-          "icon": ""
+          title: 'Dedicated Team',
+          description:
+            'Experience a professional enterprise application development team delivering high-end business solutions with various frameworks and technologies.',
+          icon: ''
         },
         {
-          "title": "Flexible Engagement Models",
-          "description": "Escape inflexible boundaries and opt for a variety of engagement and recruiting methods tailored to your business needs.",
-          "icon": ""
+          title: 'Flexible Engagement Models',
+          description:
+            'Escape inflexible boundaries and opt for a variety of engagement and recruiting methods tailored to your business needs.',
+          icon: ''
         },
         {
-          "title": "Flexibility in Time Zones",
-          "description": "Access skilled developers working in your country's time zone for seamless collaboration.",
-          "icon": ""
+          title: 'Flexibility in Time Zones',
+          description:
+            "Access skilled developers working in your country's time zone for seamless collaboration.",
+          icon: ''
         },
         {
-          "title": "On Time Delivery",
-          "description": "Utilize cutting-edge technology and an agile approach for a 95% on-time project completion rate.",
-          "icon": ""
+          title: 'On Time Delivery',
+          description:
+            'Utilize cutting-edge technology and an agile approach for a 95% on-time project completion rate.',
+          icon: ''
         },
         {
-          "title": "Cost-effective Solution",
-          "description": "Achieve an excellent blend of affordable prices and exceptional quality, ensuring the most competitive pricing in the market.",
-          "icon": ""
+          title: 'Cost-effective Solution',
+          description:
+            'Achieve an excellent blend of affordable prices and exceptional quality, ensuring the most competitive pricing in the market.',
+          icon: ''
         },
         {
-          "title": "Maintenance and Support",
-          "description": "Rely on our dependable maintenance and support teams throughout the development and delivery process.",
-          "icon": ""
+          title: 'Maintenance and Support',
+          description:
+            'Rely on our dependable maintenance and support teams throughout the development and delivery process.',
+          icon: ''
         }
       ]
     },
-    "utilize": {
-      "image": "/images/solution/software-utilize.webp",
-      "description_one": "Position your startup among industry titans like Uber, Airbnb, or Amazon. A skilled app development team can transform your unique business concept into a success story. Bitwit, with expertise in various app development technologies, offers a range of startup application development services:",
-      "description_two": "From idea discussion to efficient deployment, Bitwit's professional developers can meet your budget and project deadline. Our startup application development services include:",
-      "details": [
+    utilize: {
+      image: '/images/solution/software-utilize.webp',
+      description_one:
+        'Position your startup among industry titans like Uber, Airbnb, or Amazon. A skilled app development team can transform your unique business concept into a success story. Bitwit, with expertise in various app development technologies, offers a range of startup application development services:',
+      description_two:
+        "From idea discussion to efficient deployment, Bitwit's professional developers can meet your budget and project deadline. Our startup application development services include:",
+      details: [
         {
-          "title": "Love to hear unique ideas",
-          "description": "Engage in impactful discussions on business opportunities, ensuring confidentiality and fostering a deep understanding of your firm and its market."
+          title: 'Love to hear unique ideas',
+          description:
+            'Engage in impactful discussions on business opportunities, ensuring confidentiality and fostering a deep understanding of your firm and its market.'
         },
         {
-          "title": "Validating the idea",
-          "description": "Validate and verify your business concept's practicality, extensively assessing it to ensure it effectively addresses an issue."
+          title: 'Validating the idea',
+          description:
+            "Validate and verify your business concept's practicality, extensively assessing it to ensure it effectively addresses an issue."
         },
         {
-          "title": "Developing the MVP",
-          "description": "Efficiently develop a Minimum Viable Product (MVP) to maximize scalability and validate concepts with essential features."
+          title: 'Developing the MVP',
+          description:
+            'Efficiently develop a Minimum Viable Product (MVP) to maximize scalability and validate concepts with essential features.'
         },
         {
-          "title": "Experienced Deployment Team",
-          "description": "Assemble a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality."
+          title: 'Experienced Deployment Team',
+          description:
+            'Assemble a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality.'
         },
         {
-          "title": "Budget-friendly solutions",
-          "description": "Tailor cost-effective software solutions without compromising quality, ensuring your budget remains intact for other business priorities."
+          title: 'Budget-friendly solutions',
+          description:
+            'Tailor cost-effective software solutions without compromising quality, ensuring your budget remains intact for other business priorities.'
         },
         {
-          "title": "Phase-wise development",
-          "description": "Meticulously navigate each development step for a flawless release, whether for mobile or web apps."
+          title: 'Phase-wise development',
+          description:
+            'Meticulously navigate each development step for a flawless release, whether for mobile or web apps.'
         }
       ]
     },
-    "business": {
-      "description_one": "Bitwit offers meticulously crafted, high-end software solutions for startups, simplifying and streamlining diverse business operations.",
-      "description_two": "Elevate your startup's efficiency with our high-end software services, simplifying complex business tasks with cutting-edge solutions and seamless integrations.",
-      "description_three": "Bitwit provides startups with high-end software solutions, strategically simplifying business processes. Our services optimize workflows, enhance productivity, and drive success.",
-      "details": [
+    business: {
+      description_one:
+        'Bitwit offers meticulously crafted, high-end software solutions for startups, simplifying and streamlining diverse business operations.',
+      description_two:
+        "Elevate your startup's efficiency with our high-end software services, simplifying complex business tasks with cutting-edge solutions and seamless integrations.",
+      description_three:
+        'Bitwit provides startups with high-end software solutions, strategically simplifying business processes. Our services optimize workflows, enhance productivity, and drive success.',
+      details: [
         {
-          "title": "Custom Mobile App Development",
-          "icon": ""
+          title: 'Custom Mobile App Development',
+          icon: ''
         },
         {
-          "title": "Cross-platform App Development",
-          "icon": ""
+          title: 'Cross-platform App Development',
+          icon: ''
         },
         {
-          "title": "Web App Development",
-          "icon": ""
+          title: 'Web App Development',
+          icon: ''
         },
         {
-          "title": "Consulting And Prototyping",
-          "icon": ""
+          title: 'Consulting And Prototyping',
+          icon: ''
         },
         {
-          "title": "Automated QA Services",
-          "icon": ""
+          title: 'Automated QA Services',
+          icon: ''
         },
         {
-          "title": "Maintenance and Support",
-          "icon": ""
+          title: 'Maintenance and Support',
+          icon: ''
         }
       ]
     },
-    "askedQuestions": [
+    askedQuestions: [
       {
-        "question": "What are the benefits of having a mobile app for startups?",
-        "answer": "Startups benefit from efficient communication with clients, increased company accessibility, immediate delivery of product and service updates, and increased brand exposure."
+        question: 'What are the benefits of having a mobile app for startups?',
+        answer:
+          'Startups benefit from efficient communication with clients, increased company accessibility, immediate delivery of product and service updates, and increased brand exposure.'
       },
       {
-        "question": "How to select the right startup app development company?",
-        "answer": "Consider elements like development technique, years of experience, the company's strength, and customer feedback when selecting a development firm for your startup app."
+        question: 'How to select the right startup app development company?',
+        answer:
+          "Consider elements like development technique, years of experience, the company's strength, and customer feedback when selecting a development firm for your startup app."
       },
       {
-        "question": "How much does it cost for startup app development?",
-        "answer": "For a precise estimate on your startup app's development cost, consider factors like platform, category, complexity, and features. Contact us for detailed consultation."
+        question: 'How much does it cost for startup app development?',
+        answer:
+          "For a precise estimate on your startup app's development cost, consider factors like platform, category, complexity, and features. Contact us for detailed consultation."
       },
       {
-        "question": "How long does it take to build an app for a startup?",
-        "answer": "The app development time for your startup depends on factors like platform, design complexity, developer expertise, features, and testing. Contact us for a time frame estimate."
+        question: 'How long does it take to build an app for a startup?',
+        answer:
+          'The app development time for your startup depends on factors like platform, design complexity, developer expertise, features, and testing. Contact us for a time frame estimate.'
       },
       {
-        "question": "What are the benefits of outsourcing startup app development?",
-        "answer": "Outsource your startup app development to Bitwit for cost efficiency, flexibility, experienced developers, faster delivery, quality assurance, and cutting-edge technology."
+        question:
+          'What are the benefits of outsourcing startup app development?',
+        answer:
+          'Outsource your startup app development to Bitwit for cost efficiency, flexibility, experienced developers, faster delivery, quality assurance, and cutting-edge technology.'
       }
     ]
-  }
-  ,
+  },
   {
     key: 'product-engineering-solutions',
     title: 'Product Engineering',
