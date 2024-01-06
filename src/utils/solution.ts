@@ -2930,7 +2930,7 @@ export const solutionDetailsList = [
   },
   {
     key: 'devops-services',
-    title: 'DevOps',
+    title: 'DevOps Services',
     metaTitle:
       'Empower Your IT Operations with Cutting-Edge DevOps Solutions | Bitwit Techno',
     metaDescription:
@@ -2946,89 +2946,90 @@ export const solutionDetailsList = [
       'Release management',
       'Scalable IT solutions'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/dev-banner.webp',
     description:
-      "Delivering cutting-edge DevOps consulting services to address development's primary concerns.",
+      "Delivering advanced DevOps consulting services to address development's primary concerns.",
     chooseUs: {
       description:
-        'We guarantee that your IT strategy is effective and that you get a high-end DevOps solution for rapid company development by doing an in-depth review of your whole IT operation and infrastructure. Several reasons to use our DevOps services include the following.',
+        'Ensure an effective IT strategy and rapid company development with our in-depth review of your entire IT operation and infrastructure. Choose Bitwit for high-end DevOps solutions with reasons including:',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions tailored to your specific requirements.',
+            'Deliver user-friendly, scalable, secure, and innovative business solutions using cutting-edge frameworks and technologies tailored to your specific requirements.',
           icon: ''
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to ensure that we produce the best outcomes possible.',
+            'Optimize practices and processes using the Agile approach and regular scrum events to ensure the best possible outcomes.',
           icon: ''
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialised development team that is experienced in developing high-end business solutions using a variety of frameworks and technologies.',
+            'Experience a specialized development team skilled in delivering high-end business solutions using various frameworks and technologies.',
           icon: ''
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.',
+            'Value your ideas, communicate project details frequently, and consider your valuable input for project success.',
           icon: ''
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Rather of operating under the inflexible and stringent constraints, we provide our customers with the option of a variety of engagement and recruiting methods.',
+            'Choose from a variety of engagement and recruiting methods instead of operating under inflexible constraints.',
           icon: ''
         },
         {
           title: 'Competitive Pricing',
           description:
-            'We provide an excellent blend of affordable prices and exceptional quality to ensure the most competitive pricing in our market.',
+            'Blend affordable prices with exceptional quality to ensure the most competitive pricing in the market.',
           icon: ''
         }
       ]
     },
     utilize: {
+      image: '/images/solution/dev-utilize.webp',
       description_one:
-        'DevOps has grown in popularity as a result of its ability to produce faster and more innovatively. Several significant advantages of using DevOps technologies include the following:',
+        'DevOps gains popularity for faster and more innovative development. Key advantages of DevOps technologies include:',
       description_two:
-        "Today, there is a growing demand for enterprises to incorporate digital technology that accelerates the software development process while also improving the program's quality. At Bitwit, we provide full DevOps services in order to provide highly scalable, agile, and technologically driven IT solutions for your organization.",
+        'Address the growing demand for digital technology that accelerates software development and improves program quality. Bitwit provides full DevOps services for highly scalable, agile, and technologically driven IT solutions.',
       details: [
         {
           title: 'Faster Development Cycle',
           description:
-            'With a shortened development period, you may launch a product to the market 60% quicker.'
+            'Launch products to the market 60% quicker with a shortened development period.'
         },
         {
-          title: 'Enhance the Performance',
+          title: 'Enhance Performance',
           description:
-            'By embracing a DevOps culture, businesses may boost their performance and get an edge over their competition.'
+            'Boost business performance and gain a competitive edge by embracing a DevOps culture.'
         },
         {
-          title: 'Save your Money',
+          title: 'Cost Savings',
           description:
-            'Continuous rollbacks may strengthen your development process and, combined with automation, can help you save money.'
+            'Continuous rollbacks strengthen the development process, coupled with automation, leading to cost savings.'
         },
         {
           title: 'Better Collaboration',
           description:
-            'DevOps enables cooperation by dismantling silos between development and operations teams and encouraging them to collaborate.'
+            'DevOps breaks down silos between development and operations teams, encouraging collaboration for improved outcomes.'
         },
         {
           title: 'Customer Satisfaction',
           description:
-            'We understand that most businesses operate on a shoestring budget, which is why we create a cost-effective strategy for developing your software with unmatched quality. Our costs will not put a strain on your wallet..'
+            'Craft a cost-effective strategy for software development with unmatched quality to suit businesses operating on a shoestring budget.'
         }
       ]
     },
     business: {
       description_one:
-        'We specialise in providing bespoke DevOps services and have extensive experience with end-to-end automated deployment, continuous integration, testing, and infrastructure management.',
+        'Specializing in bespoke DevOps services, we bring extensive experience in end-to-end automated deployment, continuous integration, testing, and infrastructure management.',
       description_two:
-        "From analysis through design and building, effective automation, and deployment, we provide best-in-class DevOps services that increase your business's capabilities while lowering development and operating costs. Several of the significant DevOps solutions and services that we offer include the following:",
+        'From analysis to design, building, effective automation, and deployment, Bitwit offers best-in-class DevOps services. Enhance your business capabilities while reducing development and operating costs. Significant DevOps solutions and services include:',
       description_three: '',
       details: [
         {
@@ -3063,7 +3064,7 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What are the difference between Agile and DevOps?',
+        question: 'What are the differences between Agile and DevOps?',
         answer:
           'Agile and DevOps ensure timely, high-quality software delivery. DevOps merges development and operations for continuous integration, while Agile optimizes the development lifecycle.'
       },
@@ -3090,170 +3091,145 @@ export const solutionDetailsList = [
     ]
   },
   {
-    key: 'software-solutions-for-startups',
-    title: 'Software Solutions For Startups',
-    metaTitle:
-      'Empowering Startups with Innovative Software Solutions | Bitwit Techno',
-    metaDescription:
-      'Startup Rocket Fuel: Bitwit Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!',
-    metaKeywords: [
-      'Startup software solutions',
-      'Innovative IT services',
-      'Custom software development',
-      'Growth-oriented technology solutions',
-      'Software support for startups',
-      'Tailored IT solutions',
-      'Startup technology consulting',
-      'Scalable software for emerging businesses',
-      'Digital solutions for startups',
-      'Tech support for new ventures'
+    "key": "software-solutions-for-startups",
+    "title": "Innovative Software Solutions for Startups",
+    "metaTitle": "Empowering Startups with Innovative Software Solutions | Bitwit Techno",
+    "metaDescription": "Startup Rocket Fuel: Bitwit Tailored Software. Scale Fast, Elevate Smart. Get a Free MVP Consultation!",
+    "metaKeywords": [
+      "Startup software solutions",
+      "Innovative IT services",
+      "Custom software development",
+      "Growth-oriented technology solutions",
+      "Software support for startups",
+      "Tailored IT solutions",
+      "Startup technology consulting",
+      "Scalable software for emerging businesses",
+      "Digital solutions for startups",
+      "Tech support for new ventures"
     ],
-    bannerImage: '',
-    description:
-      'Boost Your Startup With Our Top-Class App Development Solutions',
-    chooseUs: {
-      description:
-        'Bitwit is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
-      types: [
+    "bannerImage": "/images/solution/software-banner.webp",
+    "description": "Fuel your startup's growth with our top-class app development solutions.",
+    "chooseUs": {
+      "description": "Choose Bitwit for cost-effective solutions enabling mobile business transformation, boosting productivity, and ensuring security. Opt for our agile development strategy to meet project deadlines. Reasons to select Bitwit for your startup:",
+      "types": [
         {
-          title: 'Dedicated Team',
-          description:
-            'We have a professional enterprise application development team that is experienced in providing high-end business solutions using a variety of frameworks and technologies.',
-          icon: ''
+          "title": "Dedicated Team",
+          "description": "Experience a professional enterprise application development team delivering high-end business solutions with various frameworks and technologies.",
+          "icon": ""
         },
         {
-          title: 'Flexible Engagement Models',
-          description:
-            'Rather of working under the inflexible and stringent boundaries, we allow our customers to choose from a variety of engagement and recruiting methods.',
-          icon: ''
+          "title": "Flexible Engagement Models",
+          "description": "Escape inflexible boundaries and opt for a variety of engagement and recruiting methods tailored to your business needs.",
+          "icon": ""
         },
         {
-          title: 'Flexibility in Time Zones',
-          description:
-            "We are always available to work in your country's time zone. Employ our skilled developers to do the task in your time zone.",
-          icon: ''
+          "title": "Flexibility in Time Zones",
+          "description": "Access skilled developers working in your country's time zone for seamless collaboration.",
+          "icon": ""
         },
         {
-          title: 'On Time Delivery',
-          description:
-            'Our designers and developers use cutting-edge technology and an agile approach to ensure that we complete 95 percent of projects on schedule.',
-          icon: ''
+          "title": "On Time Delivery",
+          "description": "Utilize cutting-edge technology and an agile approach for a 95% on-time project completion rate.",
+          "icon": ""
         },
         {
-          title: 'Cost-effective Solution',
-          description:
-            'We provide an excellent blend of affordable prices and exceptional quality to ensure the most competitive pricing in our market.',
-          icon: ''
+          "title": "Cost-effective Solution",
+          "description": "Achieve an excellent blend of affordable prices and exceptional quality, ensuring the most competitive pricing in the market.",
+          "icon": ""
         },
         {
-          title: 'Maintenance and Support',
-          description:
-            'Utilize our dependable maintenance and support teams to help you throughout the development and delivery process.',
-          icon: ''
+          "title": "Maintenance and Support",
+          "description": "Rely on our dependable maintenance and support teams throughout the development and delivery process.",
+          "icon": ""
         }
       ]
     },
-    utilize: {
-      description_one:
-        "Do you want to have your name mentioned among industry titans such as Uber, Airbnb, or Amazon? To be sure, you may also be at the very top. The mobile application has the ability and capacity to transform your one-of-a-kind company concept into a runaway success story. You just need to connect with a highly skilled app development business and a team that can adequately cater to your startup's needs.",
-      description_two:
-        'With our unmatched knowledge in a variety of app development technologies, we can assist entrepreneurs in accomplishing great things. Whether you want a local or cloud-based solution, our professional developers can always meet your budget and project deadline. We provide a range of startup application development services, including the following:',
-      details: [
+    "utilize": {
+      "image": "/images/solution/software-utilize.webp",
+      "description_one": "Position your startup among industry titans like Uber, Airbnb, or Amazon. A skilled app development team can transform your unique business concept into a success story. Bitwit, with expertise in various app development technologies, offers a range of startup application development services:",
+      "description_two": "From idea discussion to efficient deployment, Bitwit's professional developers can meet your budget and project deadline. Our startup application development services include:",
+      "details": [
         {
-          title: 'Love to hear unique ideas',
-          description:
-            'We welcome your ideas for an impactful discussion on business opportunities, fostering a deep understanding of your firm and its market. Confidentiality assured.'
+          "title": "Love to hear unique ideas",
+          "description": "Engage in impactful discussions on business opportunities, ensuring confidentiality and fostering a deep understanding of your firm and its market."
         },
         {
-          title: 'Validating the idea',
-          description:
-            'After being acquainted with your company concept, we begin to validate and verify its practicality. We extensively assess it to ensure that it is really aimed at resolving an issue.'
+          "title": "Validating the idea",
+          "description": "Validate and verify your business concept's practicality, extensively assessing it to ensure it effectively addresses an issue."
         },
         {
-          title: 'Developing the MVP',
-          description:
-            'Next, we develop a Minimum Viable Product, maximizing scalability and validating concepts with essential features efficiently.'
+          "title": "Developing the MVP",
+          "description": "Efficiently develop a Minimum Viable Product (MVP) to maximize scalability and validate concepts with essential features."
         },
         {
-          title: 'Experienced Deployment Team',
-          description:
-            'Bitwit assembles a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality.'
+          "title": "Experienced Deployment Team",
+          "description": "Assemble a skilled team of developers, designers, project managers, and testers to transform your business ideas into reality."
         },
         {
-          title: 'Budget-friendly solutions',
-          description:
-            'We tailor cost-effective software solutions without compromising quality, ensuring your budget remains intact for other business priorities.'
+          "title": "Budget-friendly solutions",
+          "description": "Tailor cost-effective software solutions without compromising quality, ensuring your budget remains intact for other business priorities."
         },
         {
-          title: 'Phase-wise development',
-          description:
-            'Whether for mobile or web apps, we meticulously navigate each development step for a flawless release.'
+          "title": "Phase-wise development",
+          "description": "Meticulously navigate each development step for a flawless release, whether for mobile or web apps."
         }
       ]
     },
-    business: {
-      description_one:
-        'High-end software solutions for startups by Bitwit are meticulously crafted, offering tailored innovations to simplify and streamline diverse business operations.',
-      description_two:
-        'Elevate your startup with our high-end software services. Experience amplified efficiency as we simplify complex business tasks with cutting-edge solutions and seamless integrations.',
-      description_three:
-        'Bitwit provides startups with high-end software solutions, strategically simplifying business processes. Our services are designed to optimize workflows, enhance productivity, and drive success.',
-      details: [
+    "business": {
+      "description_one": "Bitwit offers meticulously crafted, high-end software solutions for startups, simplifying and streamlining diverse business operations.",
+      "description_two": "Elevate your startup's efficiency with our high-end software services, simplifying complex business tasks with cutting-edge solutions and seamless integrations.",
+      "description_three": "Bitwit provides startups with high-end software solutions, strategically simplifying business processes. Our services optimize workflows, enhance productivity, and drive success.",
+      "details": [
         {
-          title: 'Custom Mobile App Development',
-          icon: ''
+          "title": "Custom Mobile App Development",
+          "icon": ""
         },
         {
-          title: 'Cross-platform App Development',
-          icon: ''
+          "title": "Cross-platform App Development",
+          "icon": ""
         },
         {
-          title: 'Web App Development',
-          icon: ''
+          "title": "Web App Development",
+          "icon": ""
         },
         {
-          title: 'Consulting And Prototyping',
-          icon: ''
+          "title": "Consulting And Prototyping",
+          "icon": ""
         },
         {
-          title: 'Automated QA Services',
-          icon: ''
+          "title": "Automated QA Services",
+          "icon": ""
         },
         {
-          title: 'Maintenance and Support',
-          icon: ''
+          "title": "Maintenance and Support",
+          "icon": ""
         }
       ]
     },
-    askedQuestions: [
+    "askedQuestions": [
       {
-        question: 'What are the benefits of having mobile app for startups?',
-        answer:
-          'Startups may get a slew of advantages from having an app, including an efficient communication channel with clients, increased company accessibility, immediate delivery of the new product and service updates, and increased brand exposure.'
+        "question": "What are the benefits of having a mobile app for startups?",
+        "answer": "Startups benefit from efficient communication with clients, increased company accessibility, immediate delivery of product and service updates, and increased brand exposure."
       },
       {
-        question: 'How to select the right startup app development company?',
-        answer:
-          "While selecting a development firm for your startup app, you should consider numerous elements such as development technique, years of experience, the company's strength, and customer feedback."
+        "question": "How to select the right startup app development company?",
+        "answer": "Consider elements like development technique, years of experience, the company's strength, and customer feedback when selecting a development firm for your startup app."
       },
       {
-        question: 'How much does it cost for startup app development?',
-        answer:
-          "For a precise estimate on your startup app's development cost, consider factors like platform, category, complexity, and features. Contact us for detailed consultation."
+        "question": "How much does it cost for startup app development?",
+        "answer": "For a precise estimate on your startup app's development cost, consider factors like platform, category, complexity, and features. Contact us for detailed consultation."
       },
       {
-        question: 'How long does it take to build an app for startup?',
-        answer:
-          'Determining the app development time for your startup considers platform, design complexity, developer expertise, features, and testing. Contact us for a time frame estimate.'
+        "question": "How long does it take to build an app for a startup?",
+        "answer": "The app development time for your startup depends on factors like platform, design complexity, developer expertise, features, and testing. Contact us for a time frame estimate."
       },
       {
-        question:
-          'What are the benefits of outsourcing startup app development?',
-        answer:
-          'Outsource your startup app development to JarvisBitzs for cost efficiency, flexibility, experienced developers, faster delivery, quality assurance, and cutting-edge technology.'
+        "question": "What are the benefits of outsourcing startup app development?",
+        "answer": "Outsource your startup app development to Bitwit for cost efficiency, flexibility, experienced developers, faster delivery, quality assurance, and cutting-edge technology."
       }
     ]
-  },
+  }
+  ,
   {
     key: 'product-engineering-solutions',
     title: 'Product Engineering',
