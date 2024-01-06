@@ -487,19 +487,21 @@ export const solution = [
   {
     id: 28,
     key: 'travel-hospitality',
-    title: "",
+    title: 'Travel Hospitality',
     priority: true,
     type: 'Industries Solution 1',
-    description: '',
+    description:
+      'Explore exceptional travel experiences with Bitwit Techno. Redefining travel technology for seamless, innovative, and personalized services in hospitality.',
     image: '/images/solution/travel.png'
   },
   {
     id: 27,
-    key: "human-resources-management-software",
-    title: "Human Resources Management Software",
+    key: 'human-resources-management-software',
+    title: 'Human Resources Management Software',
     priority: false,
     type: 'Industries Solution 1',
-    description: "Develop software for HR processes, including recruitment, employee management, payroll, and performance evaluation.",
+    description:
+      'Develop software for HR processes, including recruitment, employee management, payroll, and performance evaluation.',
     image: '/images/solution/hrms.png'
   }
 ]
@@ -608,5 +610,5 @@ export const technologies = {
       title: 'virtual reality',
       image: '/images/technologies/vr.webp'
     }
-  ],
+  ]
 }
