@@ -189,35 +189,36 @@ if (!data) return Astro.redirect('/404')
           </section>
         </section>
 
-        <Container>
-          <div class='text-center'>
-            <Title>Frequently asked questions</Title>
-            <Paragraph className='mt-8'>
-              Explore commonly asked questions to find detailed answers about
-              Bitwit Techno's services, solutions, and expertise. Gain insights,
-              clear uncertainties, and make informed decisions with our
-              comprehensive FAQs.
-            </Paragraph>
-            <div class='w-full md:w-8/12 mx-auto mt-12'>
-              {item.askedQuestions.map((item: any, index: number) => (
-                <div class='rounded-md transition hover:bg-blue-50'>
-                  <div class='accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16'>
-                    <span class='bg-blue-950 text-white w-10 h-10 flex items-center justify-center rounded-md'>
-                      {index + 1}
-                    </span>
-                    <h3 class='font-bold'>{item.question}</h3>
+        {item.askedQuestions.length > 0 && (
+          <Container>
+            <div class='text-center'>
+              <Title>Frequently asked questions</Title>
+              <Paragraph className='mt-8'>
+                Explore commonly asked questions to find detailed answers about
+                Bitwit Techno's services, solutions, and expertise. Gain
+                insights, clear uncertainties, and make informed decisions with
+                our comprehensive FAQs.
+              </Paragraph>
+              <div class='w-full md:w-8/12 mx-auto mt-12'>
+                {item.askedQuestions.map((item: any, index: number) => (
+                  <div class='rounded-md transition hover:bg-blue-50'>
+                    <div class='accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16'>
+                      <span class='bg-blue-950 text-white w-10 h-10 flex items-center justify-center rounded-md'>
+                        {index + 1}
+                      </span>
+                      <h3 class='font-bold'>{item.question}</h3>
+                    </div>
+                    <div class='accordion-content px-5 pt-0 overflow-hidden max-h-0'>
+                      <p class='leading-6 font-light pl-9 pb-5 text-justify'>
+                        {item.answer}
+                      </p>
+                    </div>
                   </div>
-                  <div class='accordion-content px-5 pt-0 overflow-hidden max-h-0'>
-                    <p class='leading-6 font-light pl-9 pb-5 text-justify'>
-                      {item.answer}
-                    </p>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        </Container>
-
+          </Container>
+        )}
         <CTA />
       </main>
     </Layout>
