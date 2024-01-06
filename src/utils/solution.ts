@@ -3092,7 +3092,7 @@ export const solutionDetailsList = [
   },
   {
     key: 'software-solutions-for-startups',
-    title: 'Innovative Software Solutions for Startups',
+    title: 'Software Solutions for Startups',
     metaTitle:
       'Empowering Startups with Innovative Software Solutions | Bitwit Techno',
     metaDescription:
@@ -3274,56 +3274,51 @@ export const solutionDetailsList = [
       'Digital transformation solutions',
       'Custom software engineering'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/product-banner.webp',
     description:
-      'We are a diverse digital centre specialising in product design and development services.',
+      'Empowering businesses through diverse digital capabilities, specializing in cutting-edge product design and development services.',
     chooseUs: {
       description:
-        'Being a well-known product engineering firm, Bitwit is recognized for meeting current business demands and offering the best-in-class solutions at a competitive cost around the globe. Here’s why we can be the finest choice when it comes to attaining corporate objectives through digital product development:',
+        'Choose Bitwit as your trusted product engineering partner, renowned for meeting global business demands with best-in-class solutions. Explore why we stand out in digital product development:',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We work on the newest frameworks and technologies to provide you user-friendly, scalable, secure, and innovative business solutions as per your demand.',
-          icon: ''
+            'Leverage the latest frameworks and technologies for user-friendly, scalable, secure, and innovative business solutions tailored to your needs.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We operate on the Agile approach and perform regular scrum events for optimizing the practices and processes and giving the finest outcomes.',
-          icon: ''
+            'Operate on the Agile approach, conducting regular scrum events to optimize practices and processes, ensuring superior outcomes.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialized team of developers that are highly knowledgeable in producing high-end business solutions on many frameworks and technologies.',
-          icon: ''
+            'Tap into our specialized team of developers proficient in delivering high-end business solutions across various frameworks and technologies.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We respect your ideas and vision, present you every tiny project detail periodically, and consider your good advise as and as needed.',
-          icon: ''
+            'Respect for your ideas and vision, providing regular updates on every project detail, and valuing your input throughout the process.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Instead of working on undesirable tight and stringent boundaries, we give flexibility to our clients to pick from several engagement and recruiting methods.',
-          icon: ''
+            'Escape rigid boundaries with the flexibility to choose from various engagement and recruiting methods, tailored to your preferences.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'We offer a great blend of cost-effective rates with wonderful quality to make sure the lowest pricing in our category.',
-          icon: ''
+            'Experience a perfect blend of cost-effectiveness and exceptional quality, ensuring the most competitive pricing in our domain.'
         }
       ]
     },
     utilize: {
+      image: '/images/solution/product-utilize.webp',
       description_one:
-        'Employ our robust and secure product engineering solutions to enhance the speed and efficiency of your business operations, ensuring optimal performance.',
+        'Harness our robust and secure product engineering solutions to elevate the speed and efficiency of your business operations, ensuring optimal performance.',
       description_two:
-        'Utilize our product engineering solutions to fortify your business processes, prioritizing security measures to safeguard data and maintain operational integrity.',
+        'Fortify your business processes with our product engineering solutions, emphasizing security measures to safeguard data and maintain operational integrity.',
       details: [
         {
           title: 'Efficient Product Development',
@@ -3333,37 +3328,37 @@ export const solutionDetailsList = [
         {
           title: 'Scalable Engineering Infrastructure',
           description:
-            'Adapt to changing demands effortlessly. Our product engineering solutions offer a scalable infrastructure, allowing your business to grow without compromising performance or security.'
+            'Adapt effortlessly to changing demands with our product engineering solutions offering scalable infrastructure, enabling business growth without compromising performance or security.'
         },
         {
           title: 'Cost-Effective Solutions',
           description:
-            'Optimize costs with our product engineering services. Efficient resource allocation ensures you receive tailored solutions without exceeding your budget.'
+            'Optimize costs through our product engineering services with efficient resource allocation, ensuring tailored solutions without exceeding your budget.'
         },
         {
           title: 'Enhanced Collaboration',
           description:
-            'Foster collaboration among teams with our product engineering solutions. Achieve seamless communication and coordination, ensuring a cohesive and efficient development process.'
+            'Foster collaboration among teams with our product engineering solutions, achieving seamless communication and coordination for a cohesive and efficient development process.'
         },
         {
           title: 'Quality Assurance and Security',
           description:
-            'Prioritize product quality and security. Our engineering solutions implement robust measures to ensure the integrity of your products and safeguard against potential risks.'
+            'Prioritize product quality and security with our engineering solutions, implementing robust measures to ensure product integrity and safeguard against potential risks.'
         },
         {
           title: 'Client-Centric Innovation',
           description:
-            'Collaborate with us for client-focused product innovation. We tailor our engineering solutions to meet your specific needs, ensuring a personalized and impactful product development experience.'
+            'Collaborate with us for client-focused product innovation, tailoring our engineering solutions to meet your specific needs, ensuring a personalized and impactful product development experience.'
         }
       ]
     },
     business: {
       description_one:
-        'Experience high-end product engineering solutions crafted for your business. We simplify complexities, ensuring efficiency and excellence in your product development.',
+        'Experience high-end product engineering solutions crafted for your business, simplifying complexities to ensure efficiency and excellence in your product development.',
       description_two:
-        'Our targeted approach to digital product development enables our team of skilled developers to manage the whole product engineering lifecycle, from idea to deployment, including the complete range of product development solutions. We provide a full range of product engineering and development services to a variety of sectors.',
+        'Our targeted approach to digital product development empowers our skilled developers to manage the entire product engineering lifecycle, from idea to deployment, offering a complete range of product development solutions across various sectors.',
       description_three:
-        'Unlock business potential with our high-end product engineering services. Tailored to your needs, we simplify operations, enhancing your overall business efficiency and success.',
+        'Unlock business potential with our high-end product engineering services, tailored to simplify operations, enhance overall business efficiency, and drive success.',
       details: [
         {
           title: 'Experience Design for Product',
@@ -3397,9 +3392,9 @@ export const solutionDetailsList = [
     },
     askedQuestions: [
       {
-        question: 'What is product engineering service?',
+        question: 'What is a product engineering service?',
         answer:
-          'The product engineering services may be characterized as a futuristic technology that employs the ingraining software and IT service solutions together with hardware components to create and manufacture a product.'
+          'Product engineering services involve employing software and IT service solutions along with hardware components to create and manufacture futuristic products.'
       },
       {
         question: 'What are the various phases of product engineering?',
@@ -3407,14 +3402,14 @@ export const solutionDetailsList = [
           'Explore our product engineering phases: ideation, planning, design, development, quality testing, launch, and ongoing technical support for seamless software solutions.'
       },
       {
-        question: 'How much does it cost for developing a digital product?',
+        question: 'How much does it cost to develop a digital product?',
         answer:
-          'The cost of building a digital product relies on several aspects such as the development platform, categories, complexity, nation of developer and amount of features you need in your product. Contact us with your need to receive the project development cost.'
+          "The cost of building a digital product depends on factors such as the development platform, categories, complexity, the developer's location, and the features required. Contact us to receive a detailed project development cost estimate."
       },
       {
         question: 'How long does it take to build a digital product?',
         answer:
-          'Figuring out how long it takes to produce a product will rely on numerous elements like development platform, the expertise level of developer, the complexity of the design, features and functionality, testing, and many more. Contact us with your demand to get the expected time.'
+          'The time to produce a product varies based on factors like the development platform, the expertise level of the developer, design complexity, features, functionality, testing, and more. Contact us with your requirements for an estimated timeline.'
       },
       {
         question:
@@ -3442,55 +3437,51 @@ export const solutionDetailsList = [
       'Future-proofing strategies',
       'Custom digital solutions'
     ],
-    bannerImage: '',
-    description: 'We are a trend-setter in digital transformation solutions.',
+    bannerImage: '/images/solution/digital-banner.webp',
+    description:
+      'Pioneer in digital transformation solutions, empowering businesses with strategic, technology-driven advancements.',
     chooseUs: {
       description:
-        'Bitwit, a well-known digital transformation firm, is known for meeting current company demands and offering best-in-class solutions at a competitive cost all over the world. Here are some of the reasons why we are the ideal choice for accomplishing business goals through digital business transformation:',
+        'Bitwit, a renowned digital transformation firm, excels in meeting global business demands by providing best-in-class solutions worldwide. Explore why we are the ideal choice for achieving business goals through digital transformation:',
       types: [
         {
           title: 'Customer Satisfaction',
           description:
-            'We use cutting-edge frameworks and technologies to offer user-friendly, scalable, secure, and innovative business solutions tailored to your specific requirements.',
-          icon: ''
+            'Utilize cutting-edge frameworks and technologies for user-friendly, scalable, secure, and innovative business solutions tailored to your specific requirements.'
         },
         {
           title: 'Agile Procedure',
           description:
-            'We use the Agile approach and have regular scrum events to optimise our practises and processes and to ensure that we produce the best outcomes possible.',
-          icon: ''
+            'Adopt the Agile approach, conducting regular scrum events to optimize practices and processes, ensuring the delivery of superior outcomes.'
         },
         {
           title: 'Dedicated Teams',
           description:
-            'We have a specialised development team that is experienced in developing high-end business solutions using a variety of frameworks and technologies.',
-          icon: ''
+            'Engage with our specialized development team, experienced in delivering high-end business solutions across various frameworks and technologies.'
         },
         {
           title: 'Integrity & Transparency',
           description:
-            'We value your ideas and vision, communicate every minor project detail to you on a frequent basis, and consider your valuable input as required.',
-          icon: ''
+            'Value your ideas and vision, providing regular updates on every project detail, and incorporating your valuable input as required.'
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Rather of operating under the inflexible and stringent constraints, we provide our customers with the option of a variety of engagement and recruiting methods.',
-          icon: ''
+            'Escape rigid constraints, offering flexibility with a variety of engagement and recruiting methods tailored to your preferences.'
         },
         {
           title: 'Competitive Pricing',
           description:
-            'We provide an excellent blend of affordable prices and exceptional quality to ensure the most competitive pricing in our market.',
-          icon: ''
+            'Experience a perfect blend of cost-effectiveness and exceptional quality, ensuring the most competitive pricing in our domain.'
         }
       ]
     },
     utilize: {
+      image: '/images/solution/digital-utilize.webp',
       description_one:
-        'Employ our secure digital transformation solutions to enhance business processes, ensuring resilience and efficiency in the dynamic IT landscape.',
+        'Harness our secure digital transformation solutions to enhance business processes, ensuring resilience and efficiency in the dynamic IT landscape.',
       description_two:
-        'Utilize our digital transformation solutions to fortify your business, prioritizing security measures for a future-ready and agile operational environment.',
+        'Fortify your business with our digital transformation solutions, prioritizing security measures for a future-ready and agile operational environment.',
       details: [
         {
           title: 'Efficiency Maximization',
@@ -3562,7 +3553,7 @@ export const solutionDetailsList = [
       {
         question: 'What is digital transformation?',
         answer:
-          'The process of employing digital technology to establish or change corporate processes that fundamentally increase efficiency and offer better customer experiences is known as digital transformation.'
+          'Digital transformation is the process of employing digital technology to establish or change corporate processes that fundamentally increase efficiency and offer better customer experiences.'
       },
       {
         question:
@@ -3571,7 +3562,7 @@ export const solutionDetailsList = [
           'Digital transformation boosts consumer experience, digitizes processes, saving time and money. Enhances employee engagement, fostering agility, and creativity.'
       },
       {
-        question: 'What ate the three components of digital transformation?',
+        question: 'What are the three components of digital transformation?',
         answer:
           'Essentials of digital transformation: Recreate processes, transform operations, and overhaul customer relationships for a comprehensive and impactful organizational change.'
       },
@@ -3584,7 +3575,7 @@ export const solutionDetailsList = [
         question:
           'What are the benefits of outsourcing digital transformation services?',
         answer:
-          'Outsource digital transformation to Bitwit for cost efficiency, flexible time-zone collaboration, experienced developers, faster delivery, quality assurance, and advanced technology expertise'
+          'Outsource digital transformation to Bitwit for cost efficiency, flexible time-zone collaboration, experienced developers, faster delivery, quality assurance, and advanced technology expertise.'
       }
     ]
   },
@@ -3593,13 +3584,13 @@ export const solutionDetailsList = [
     title: 'Human Resources Management Software',
     metaTitle: 'Human Resources Management Software || Bitwit Techno',
     metaDescription:
-      'Level Up Your HR: Custom Software | Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
+      'Elevate Your HR Processes: Custom Software by Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
     metaKeywords: [
       'HR software solutions',
       'Custom HR software',
-      'AI - powered recruitment',
+      'AI-powered recruitment',
       'Seamless payroll automation',
-      'Data - driven performance reviews',
+      'Data-driven performance reviews',
       'HR automation technology',
       'Employee management software',
       'Workforce optimization tools',
@@ -3611,52 +3602,47 @@ export const solutionDetailsList = [
       'Workforce management software',
       'Bitwit Techno services'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/hr-banner.webp',
     description:
-      'Level Up Your HR: Custom Software | Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
+      'Empower Your HR Operations with Custom Software by Bitwit Techno. AI-Powered Recruitment, Seamless Payroll, Data-Driven Performance Reviews. Automate Now!',
     chooseUs: {
       description:
-        'Choose Bitwit as your strategic partner for HR Management Software. Our expertise ensures tailored, seamless solutions, integrating with your existing framework. With user-centric design, customizable options, and robust data security, we optimize HR processes. Experience ongoing support, keeping your HR software at the forefront of industry standards.',
+        'Select Bitwit as your strategic partner for HR Management Software. Our expertise ensures tailored, seamless solutions, integrating with your existing framework. With user-centric design, customizable options, and robust data security, we optimize HR processes. Experience ongoing support, keeping your HR software at the forefront of industry standards.',
       types: [
         {
           title: 'Expertise in HR Tech',
           description:
-            'Leverage our HR software expertise for tailored solutions, optimizing processes and ensuring efficient management of human resources.',
-          icon: ''
+            'Leverage our HR software expertise for tailored solutions, optimizing processes and ensuring efficient management of human resources.'
         },
         {
           title: 'Seamless Integration',
           description:
-            'Integrate our HR solutions seamlessly into your existing framework, enhancing compatibility and ensuring a smooth transition for your team.',
-          icon: ''
+            'Integrate our HR solutions seamlessly into your existing framework, enhancing compatibility and ensuring a smooth transition for your team.'
         },
         {
           title: 'Customizable Solutions',
           description:
-            'Tailor our HR management software to your unique needs, providing flexibility and scalability to adapt to your evolving organizational requirements.',
-          icon: ''
+            'Tailor our HR management software to your unique needs, providing flexibility and scalability to adapt to your evolving organizational requirements.'
         },
         {
           title: 'User-Centric Design',
           description:
-            'Crafted with a user-centric approach, our HR solutions ensure a positive and intuitive experience for both HR professionals and employees.',
-          icon: ''
+            'Crafted with a user-centric approach, our HR solutions ensure a positive and intuitive experience for both HR professionals and employees.'
         },
         {
           title: 'Data Security Assurance',
           description:
-            'Trust in robust data security measures. Our HR software prioritizes the protection of sensitive HR information, ensuring confidentiality and compliance.',
-          icon: ''
+            'Trust in robust data security measures. Our HR software prioritizes the protection of sensitive HR information, ensuring confidentiality and compliance.'
         },
         {
           title: 'Ongoing Support',
           description:
-            'Benefit from continuous support and updates. Our team ensures your HR software remains cutting-edge, addressing evolving needs and industry changes.',
-          icon: ''
+            'Benefit from continuous support and updates. Our team ensures your HR software remains cutting-edge, addressing evolving needs and industry changes.'
         }
       ]
     },
     utilize: {
+      image: '/images/solution/hr-utilize.webp',
       description_one:
         'Optimize your human resources with our robust and secure software, streamlining processes for heightened efficiency and productivity.',
       description_two:
