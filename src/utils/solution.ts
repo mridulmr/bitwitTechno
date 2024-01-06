@@ -2760,7 +2760,7 @@ export const solutionDetailsList = [
   },
   {
     key: 'cloud-computing-solution',
-    title: 'Cloud Computing',
+    title: 'Cloud Computing Solutions',
     metaTitle:
       'Empowering Success with Innovative Services and Solution | Bitwit Techno',
     metaDescription:
@@ -2777,56 +2777,57 @@ export const solutionDetailsList = [
       'Tailored business services',
       'Success-driven solutions'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/cloud-banner.webp',
     description:
-      'We provide secure cloud computing solutions for the hosting and maintenance of your data.',
+      'Secure your data with our cutting-edge cloud computing solutions designed for hosting and maintenance.',
     chooseUs: {
       description:
-        'Choose Jarvisbitz for Cloud Computing Solutions to harness unparalleled scalability, security, and efficiency. Our expertise ensures seamless integration, optimizing your business operations in the cloud.',
+        'Choose Jarvisbitz for Cloud Computing Solutions and experience unparalleled scalability, security, and efficiency. Our expertise ensures seamless integration, optimizing your business operations in the cloud.',
       types: [
         {
           title: 'Digital Strategy',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         },
         {
           title: 'Social Media Marketing',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         },
         {
           title: 'Display Marketing',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         },
         {
           title: 'Email Marketing',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         },
         {
           title: 'Pay-per Click',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         },
         {
           title: 'SEO',
           description:
-            'We design professional looking yet simple Logo. Our designs are search engine and user friendly.',
+            'Crafting professional and simple logos, our designs are search engine and user-friendly.',
           icon: ''
         }
       ]
     },
     utilize: {
+      image: '/images/solution/cloud-utilize.webp',
       description_one:
-        'Employ our robust and secure cloud computing solutions to enhance the speed and efficiency of your business operations, ensuring optimal performance.',
+        'Enhance the speed and efficiency of your business operations with our robust and secure cloud computing solutions, ensuring optimal performance.',
       description_two:
-        'Utilize our cloud computing solutions to fortify your business processes, prioritizing security measures to safeguard data and maintain operational integrity.',
+        'Fortify your business processes with our cloud computing solutions, prioritizing security measures to safeguard data and maintain operational integrity.',
       details: [
         {
           title: 'Efficient Data Management',
@@ -2862,7 +2863,7 @@ export const solutionDetailsList = [
     },
     business: {
       description_one:
-        'We have a team of specialists that develop a variety of cloud-based automated solutions that enable you to migrate your business, client-centric, and corporate applications to the cloud quickly, easily, and securely. Additionally, you may contact us for assistance with the cloud migration of your applications, databases, and servers.',
+        'Our team of specialists develops a variety of cloud-based automated solutions, enabling quick, easy, and secure migration of your business, client-centric, and corporate applications to the cloud. Contact us for assistance with the cloud migration of your applications, databases, and servers.',
       description_two:
         'Leverage our cloud computing services for streamlined app usage, seamless data sharing, secure storage, and universal accessibility from any internet-connected device.',
       description_three:
