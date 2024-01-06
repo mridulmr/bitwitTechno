@@ -2258,34 +2258,34 @@ export const solutionDetailsList = [
   },
   {
     key: 'energy',
-    title: 'Energy',
+    title: 'Energy Solutions',
     metaTitle:
       "Empowering Energy Excellence: Bitwit Techno's Advanced Software Solutions",
     metaDescription:
       'Energy Tech Powerhouse: Bitwit. Optimize, Save, Sustain. Get a Free Energy Audit!',
     metaKeywords: [
-      'Energy management software',
-      'Smart grid technology',
-      'Renewable energy solutions',
-      'Energy efficiency software',
-      'Utility billing systems',
-      'Demand response technology',
-      'Energy analytics platforms',
-      'IoT in energy management',
-      'Asset performance management',
-      'Energy trading platforms',
-      'Grid optimization technology',
-      'Energy storage solutions',
-      'Electric vehicle (EV) charging software',
-      'Carbon footprint tracking',
-      'Energy audit tools'
+      'Energy Management Software',
+      'Smart Grid Technology',
+      'Renewable Energy Solutions',
+      'Energy Efficiency Software',
+      'Utility Billing Systems',
+      'Demand Response Technology',
+      'Energy Analytics Platforms',
+      'IoT in Energy Management',
+      'Asset Performance Management',
+      'Energy Trading Platforms',
+      'Grid Optimization Technology',
+      'Energy Storage Solutions',
+      'Electric Vehicle (EV) Charging Software',
+      'Carbon Footprint Tracking',
+      'Energy Audit Tools'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/energy-banner.webp',
     description:
-      'We transform energy usage with innovative energy solutions, catering to diverse needs, ensuring a greener, sustainable future for businesses and communities.',
+      'Bitwit Techno transforms energy usage with innovative solutions, catering to diverse needs, ensuring a greener, sustainable future for businesses and communities.',
     chooseUs: {
       description:
-        'At Bitwit, we redefine energy solution. Our expertise, innovation, and dedication ensure unparalleled efficiency, sustainability, and a brighter future.',
+        'At Bitwit, we redefine energy solutions. Our expertise, innovation, and dedication ensure unparalleled efficiency, sustainability, and a brighter future.',
       types: [
         {
           title: 'Innovation',
@@ -2302,13 +2302,13 @@ export const solutionDetailsList = [
         {
           title: 'Expertise',
           description:
-            'Benefit from our profound knowledge and experience, ensuring top-tier energy solution tailored to your unique needs.',
+            'Benefit from our profound knowledge and experience, ensuring top-tier energy solutions tailored to your unique needs.',
           icon: ''
         },
         {
           title: 'Customization',
           description:
-            'Our energy solution are customizable, addressing diverse sectors with precision, ensuring seamless integration into your existing infrastructure.',
+            'Our energy solutions are customizable, addressing diverse sectors with precision, ensuring seamless integration into your existing infrastructure.',
           icon: ''
         },
         {
@@ -2320,10 +2320,11 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/energy-utilize.webp',
       description_one:
-        'Utilize our robust energy solution to optimize operations, ensuring efficiency and security, and fast-track your business processes effortlessly.',
+        'Optimize operations with our robust energy solutions. Swift data transfer, seamless collaboration, and real-time communication enhance business efficiency.',
       description_two:
-        'Leverage our secure energy solution for seamless integration, accelerating your business processes with reliability and ease.',
+        'Leverage our secure energy solutions for seamless integration, accelerating your business processes with reliability and ease.',
       details: [
         {
           title: 'Smart Grid Control',
@@ -2347,7 +2348,7 @@ export const solutionDetailsList = [
         {
           title: 'Renewable Integration',
           description:
-            ' Harness Nature’s Power: Sustainable Energy Solutions for Eco-Conscious Businesses.'
+            'Harness Nature’s Power: Sustainable Energy Solutions for Eco-Conscious Businesses.'
         },
         {
           title: 'Energy Analytics',
@@ -2367,7 +2368,10 @@ export const solutionDetailsList = [
           title: 'Efficient Lighting',
           icon: ''
         },
-        { title: 'Smart Grid Integration', icon: '' },
+        {
+          title: 'Smart Grid Integration',
+          icon: ''
+        },
         {
           title: 'Data Center Cooling Solutions',
           icon: ''
@@ -2390,7 +2394,7 @@ export const solutionDetailsList = [
       {
         question: 'What services do you offer?',
         answer:
-          'We provide innovative energy solution for diverse sectors, tailored for efficiency and sustainability.'
+          'We provide innovative energy solutions for diverse sectors, tailored for efficiency and sustainability.'
       },
       {
         question: 'Are your solutions eco-friendly?',
@@ -2411,30 +2415,30 @@ export const solutionDetailsList = [
   },
   {
     key: 'web-portals',
-    title: 'Web Portals',
+    title: 'Web Portals Solutions',
     metaTitle: 'Portal UX Powerhouse: Bitwit - Effortless & Engaging',
     metaDescription:
       'Portal Powerhouse: Bitwit - User-First, Business-Boosting. Get a Free Portal Design Consultation!',
     metaKeywords: [
-      'Web portal development',
-      'Portal design services',
-      'User experience (UX) portals',
-      'Content management portals',
-      'Secure portal solutions',
-      'Business portal integration',
-      'Customer portal development',
-      'Employee intranet portals',
-      'Enterprise collaboration portals',
-      'Mobile-friendly portals',
-      'Web portal security',
-      'Real-time data portals',
-      'Cloud-based portal solutions',
-      'Vendor portal development',
-      'Portal customization services'
+      'Web Portal Development',
+      'Portal Design Services',
+      'User Experience (UX) Portals',
+      'Content Management Portals',
+      'Secure Portal Solutions',
+      'Business Portal Integration',
+      'Customer Portal Development',
+      'Employee Intranet Portals',
+      'Enterprise Collaboration Portals',
+      'Mobile-Friendly Portals',
+      'Web Portal Security',
+      'Real-Time Data Portals',
+      'Cloud-Based Portal Solutions',
+      'Vendor Portal Development',
+      'Portal Customization Services'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/web-banner.webp',
     description:
-      'We prioritize user experience, ensuring that your web portal is not only visually appealing but also highly intuitive.',
+      'Prioritizing user experience, Bitwit ensures your web portal is not only visually appealing but also highly intuitive.',
     chooseUs: {
       description:
         'Experience seamless innovation with Bitwit. Elevate your business with our tailored web portal solution.',
@@ -2478,6 +2482,7 @@ export const solutionDetailsList = [
       ]
     },
     utilize: {
+      image: '/images/solution/web-utilize.webp',
       description_one:
         'Enhance success with our secure Web Portals Solutions. Tailored for efficient business processes in the digital era. Choose Bitwit.',
       description_two:
@@ -2501,7 +2506,7 @@ export const solutionDetailsList = [
         {
           title: 'Workflow Automation',
           description:
-            'Automate repetitive tasks, optimize processes, and increase productivity with our intuitive and scalable workflow solutions..'
+            'Automate repetitive tasks, optimize processes, and increase productivity with our intuitive and scalable workflow solutions.'
         },
         {
           title: 'Mobile Access',
@@ -2527,7 +2532,10 @@ export const solutionDetailsList = [
           title: 'Custom Portal Development',
           icon: ''
         },
-        { title: 'E-commerce Portals', icon: '' },
+        {
+          title: 'E-commerce Portals',
+          icon: ''
+        },
         {
           title: 'Mobile App Integration',
           icon: ''
@@ -2581,7 +2589,7 @@ export const solutionDetailsList = [
   },
   {
     key: 'enterprise-mobility-solutions',
-    title: 'Enterprise Mobility',
+    title: 'Enterprise Mobility Solutions',
     metaTitle: 'Work Anywhere, Win Everywhere: Bitwit Mobility Tech',
     metaDescription:
       "Unlock Tomorrow's Business Today: Bitwit Techno Expertise. AI-Powered Mobility, Future-Proof Growth. Start Your Project Now!",
@@ -2602,61 +2610,62 @@ export const solutionDetailsList = [
       'Employee Mobility Solutions',
       'Mobile App Lifecycle Management'
     ],
-    bannerImage: '',
+    bannerImage: '/images/solution/enterprise-banner.webp',
     description:
-      'Elevate business mobility with our solutions—innovative software driving efficiency, collaboration, and growth.',
+      'Elevate business mobility with our innovative software solutions, driving efficiency, collaboration, and growth.',
     chooseUs: {
       description:
-        'Bitwit is a great, option since we use cost-effective solutions that enable businesses to become mobile while increasing productivity and security. We use an agile development strategy for enterprise application development in order to meet project deadlines. Here are a few reasons why you should select MindInventory for your corporate application:',
+        'Choose Bitwit for cost-effective enterprise mobility solutions, enabling businesses to become mobile while increasing productivity and security. Benefit from our dedicated team, flexible engagement models, and on-time delivery.',
       types: [
         {
           title: 'Dedicated Team',
           description:
-            'We have a professional enterprise application development team that is experienced in providing high-end business solutions using a variety of frameworks and technologies.',
+            'Our professional enterprise application development team provides high-end business solutions using various frameworks and technologies.',
           icon: ''
         },
         {
           title: 'Flexible Engagement Models',
           description:
-            'Rather of working under the inflexible and stringent boundaries, we allow our customers to choose from a variety of engagement and recruiting methods.',
+            'Choose from a variety of engagement and recruiting methods to fit your business requirements.',
           icon: ''
         },
         {
           title: 'Flexibility in Time Zones',
           description:
-            "We are always available to work in your country's time zone. Employ our skilled developers to do the task in your time zone.",
+            "We work in your country's time zone, providing skilled developers to accomplish tasks in your preferred time zone.",
           icon: ''
         },
         {
           title: 'On Time Delivery',
           description:
-            'Our designers and developers use cutting-edge technology and an agile approach to ensure that we complete 95 percent of projects on schedule.',
+            'Utilizing cutting-edge technology and an agile approach, we ensure on-time completion of 95 percent of projects.',
           icon: ''
         },
         {
           title: 'Cost-effective Solution',
           description:
-            'We provide an excellent blend of affordable prices and exceptional quality to ensure the most competitive pricing in our market.',
+            'Experience an excellent blend of affordable prices and exceptional quality, ensuring the most competitive pricing.',
           icon: ''
         },
         {
           title: 'Maintenance and Support',
           description:
-            'Utilize our dependable maintenance and support teams to help you throughout the development and delivery process.',
+            'Rely on our dependable maintenance and support teams throughout the development and delivery process.',
           icon: ''
         }
       ]
     },
     utilize: {
+      image: '/images/solution/enterprise-utilize.webp',
       description_one:
-        'Our skilled team of app developers have extensive and in-depth understanding of business mobility solutions and is capable of providing unrivaled services. The following are just a few of our corporate application development services:',
+        'Empower your business with our skilled team of app developers, providing extensive understanding of business mobility solutions. Benefit from services that automate corporate procedures, organize workflows, and scale up operations.',
       description_two:
-        'Bitwit is a reputable mobile application design and development business that specialises in offering corporate mobility solutions. Our mobility services assist you in automating 90% of corporate procedures and facilitating the organisation of productive workflows. Our mobile application development services have aided firms in scaling up operations and automating repetitive tasks.',
+        'Bitwit, a reputable mobile application design and development business, specializes in offering corporate mobility solutions. Our services assist in automating 90% of corporate procedures, scaling up operations, and automating repetitive tasks.',
       details: [
         {
           title: 'Elevate Engagement',
           description:
-            'Empower employees with job knowledge and effective communication. Educated and connected teams foster job satisfaction and sustained high productivity.'
+            'Empower employees with job knowledge and effective communication, fostering job satisfaction and sustained high productivity.'
         },
         {
           title: 'Automate Processes',
@@ -2671,27 +2680,27 @@ export const solutionDetailsList = [
         {
           title: 'Improve Customer Experience',
           description:
-            'Apps enable personnel to be available at all times to answer to customer service inquiries.'
+            'Apps enable personnel to be available at all times to respond to customer service inquiries.'
         },
         {
           title: 'Lower Costs',
           description:
-            'By partnering with an enterprise application development business, you may significantly lower the cost of establishing a mobile app for your staff.'
+            'Partner with an enterprise application development business to significantly lower the cost of establishing a mobile app for your staff.'
         },
         {
           title: 'Technical Supports',
           description:
-            'If you have any issues with your corporate application, please contact us and our technical support staff will assist you in resolving the issue.'
+            'Contact our technical support staff if you encounter any issues with your corporate application, and they will assist you in resolving the issue.'
         }
       ]
     },
     business: {
       description_one:
-        "Empower your enterprise with Jarvisbitz's high-end mobility solutions. Streamline business processes, enhance productivity, and stay connected on the go, ensuring seamless operations and improved efficiency.",
+        "Empower your enterprise with Bitwit's high-end mobility solutions. Streamline business processes, enhance productivity, and stay connected on the go, ensuring seamless operations and improved efficiency.",
       description_two:
-        'Jarvisbitz delivers top-notch enterprise mobility solutions, simplifying business complexities. Our services enable efficient communication, real-time data access, and enhanced decision-making, promoting agility and growth.',
+        'Bitwit delivers top-notch enterprise mobility solutions, simplifying business complexities. Our services enable efficient communication, real-time data access, and enhanced decision-making, promoting agility and growth.',
       description_three:
-        'At Bitwit, we think that corporate applications make complete sense. They can assist you in resolving difficult business challenges and streamlining the process. The following are the primary advantages of corporate application development:',
+        'At Bitwit, we believe that corporate applications make complete sense. They can assist you in resolving difficult business challenges and streamlining processes. Explore the primary advantages of corporate application development:',
       details: [
         {
           title: 'Custom Enterprise App Development',
@@ -2728,24 +2737,24 @@ export const solutionDetailsList = [
       {
         question: 'How to select the right enterprise app development company?',
         answer:
-          "There are several elements to consider when choosing a development business for your corporate application, including development technique, years of expertise, the organization's strength, and customer feedback."
+          'Consider elements such as development technique, years of expertise, organizational strength, and customer feedback when choosing a development business for your corporate application.'
       },
       {
         question:
           'What are the latest trends in enterprise application development?',
         answer:
-          'Latest trends in corporate app development leverage cutting-edge tech like Blockchain and AI. Embracing omnichannel strategies, businesses ensure a seamless, consistent employee experience across diverse engagement platforms.'
+          'Latest trends leverage cutting-edge tech like Blockchain and AI, embracing omnichannel strategies to ensure a seamless, consistent employee experience across diverse engagement platforms.'
       },
       {
         question: 'How much does it cost to develop an enterprise app?',
         answer:
-          "The cost of developing an enterprise application is determined by the application's requirements and complexity. Additionally, it is dependent on the features and technologies that will be employed to construct it."
+          "The cost is determined by the application's requirements, complexity, features, and technologies employed for construction."
       },
       {
         question:
           'What are the benefits of outsourcing enterprise app development?',
         answer:
-          'Outsource your enterprise app development for cost-effectiveness, flexible time-zone collaboration, access to skilled developers, faster development, assured quality, cutting-edge technology, and platform expertise, optimizing business efficiency.'
+          'Outsourcing offers cost-effectiveness, flexible time-zone collaboration, access to skilled developers, faster development, assured quality, cutting-edge technology, and platform expertise, optimizing business efficiency.'
       }
     ]
   },
