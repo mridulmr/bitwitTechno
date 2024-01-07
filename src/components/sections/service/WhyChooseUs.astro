@@ -6,19 +6,7 @@ import Title from '../../shared/Title.astro'
 const { tabList } = Astro.props
 ---
 
-<style>
-  .tab-content {
-    display: none;
-  }
-
-  .tab-content.active {
-    display: block;
-  }
-
-  .tabs .active {
-    color: #1d4ed8;
-  }
-</style>
+<style></style>
 
 <Container>
   <div class='text-center max-w-3xl mx-auto space-y-4 mb-16'>
@@ -28,105 +16,23 @@ const { tabList } = Astro.props
       Commitment.
     </Paragraph>
   </div>
-  <div class='flex flex-row'>
-    <div class='flex-0.3'>
-      <nav class='tabs flex flex-col'>
-        {
-          tabList.map((item: any) => (
-            <button
-              data-target={item.id}
-              class={`${
-                item.id === 'panel-1' && 'active shadow-inner'
-              } text-start tab py-4 px-4 font-bold block rounded-lg rounded-e-none hover:text-blue-800 dark:text-white focus:outline-none`}
-            >
-              {item.title}
-            </button>
-          ))
-        }
-      </nav>
-    </div>
 
-    <div id='panels' class='flex-1'>
-      {
-        tabList.map((item: any) => (
-          <div
-            class={`${item.id} tab-content ${
-              item.id === 'panel-1' && 'active'
-            } flex-1 h-full relative`}
-          >
-            <img
-              class='aspect-video object-cover'
-              src={item.image}
-            />
-            <div class='absolute bottom-0 left-0 right-0 p-5 pt-24 bg-gradient-to-t from-white dark:from-black via-white/70 dark:via-black/70 to-transparent'>
-              <Title>{item.title}</Title>
-              <Paragraph className='mt-8 mb-8'>{item.description}</Paragraph>
-            </div>
+  <div class='why-us grid grid-cols-6 lg:grid-cols-4 gap-5'>
+    {
+      tabList.map((item: any, index: number) => (
+        <div class='shadow-lg rounded-lg relative overflow-hidden cursor-pointer'>
+          <div class='backdrop-blur-sm bg-white bg-opacity-50 h-full p-5 hover:backdrop-blur-none transition-all'>
+            <span class='text-4xl font-thin block text-right'>{index + 1}</span>
+            <h4 class='text-xl font-bold block text-right'>{item.title}</h4>
+            <p class='text-start mt-5'>{item.description}</p>
           </div>
-        ))
-      }
-    </div>
+          <img
+            src={item.image}
+            alt={item.image}
+            class='w-[120%] h-[120%] rounded-lg absolute top-0 left-0 bottom-0 right-0 -z-10'
+          />
+        </div>
+      ))
+    }
   </div>
 </Container>
-
-<script>
-  const tab = document.querySelectorAll('.tab')
-  const panel = document.querySelectorAll('.tab-content')
-  let currentIndex = 0
-  let intervalId: string | number | NodeJS.Timeout | undefined
-
-  function onTabClick(event: {
-    target: {
-      classList: { add: (arg0: string) => void }
-      getAttribute: (arg0: string) => any
-    }
-  }) {
-    for (let i = 0; i < tab.length; i++) {
-      tab[i].classList.remove('active')
-      tab[i].classList.remove('shadow-inner')
-    }
-
-    for (let i = 0; i < panel.length; i++) {
-      panel[i].classList.remove('active')
-    }
-
-    event.target.classList.add('active')
-    event.target.classList.add('shadow-inner')
-    let classString = event.target.getAttribute('data-target')
-    document
-      .getElementById('panels')
-      .getElementsByClassName(classString)[0]
-      .classList.add('active')
-
-    document
-      .getElementById('panels-image')
-      .getElementsByClassName(classString)[0]
-      .classList.add('active')
-  }
-
-  function autoChangeTab() {
-    const nextIndex = (currentIndex + 1) % tab.length
-    tab[nextIndex].click()
-    currentIndex = nextIndex
-  }
-
-  function stopInterval() {
-    clearInterval(intervalId)
-  }
-
-  function startInterval() {
-    intervalId = setInterval(autoChangeTab, 3000)
-  }
-
-  for (let i = 0; i < tab.length; i++) {
-    tab[i].addEventListener('click', onTabClick, false)
-  }
-
-  startInterval()
-
-  document.getElementById('panels').addEventListener('mouseenter', stopInterval)
-
-  document
-    .getElementById('panels')
-    .addEventListener('mouseleave', startInterval)
-</script>
