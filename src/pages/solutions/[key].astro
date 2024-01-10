@@ -201,15 +201,15 @@ if (!data) return Astro.redirect('/404')
               </Paragraph>
               <div class='w-full md:w-8/12 mx-auto mt-12'>
                 {item.askedQuestions.map((item: any, index: number) => (
-                  <div class='rounded-md transition hover:bg-blue-50'>
+                  <div class='rounded-md transition bg-blue-50 dark:bg-box-bg hover:bg-blue-100'>
                     <div class='accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16'>
                       <span class='bg-blue-950 text-white w-10 h-10 flex items-center justify-center rounded-md'>
                         {index + 1}
                       </span>
-                      <h3 class='font-bold'>{item.question}</h3>
+                      <h3 class='font-bold dark:text-white'>{item.question}</h3>
                     </div>
-                    <div class='accordion-content px-5 pt-0 overflow-hidden max-h-0'>
-                      <p class='leading-6 font-light pl-9 pb-5 text-justify'>
+                    <div class='accordion-content transition-all px-5 pt-0 overflow-hidden max-h-0'>
+                      <p class='leading-6 font-light pl-9 pb-5 text-justify dark:text-white'>
                         {item.answer}
                       </p>
                     </div>
@@ -255,14 +255,8 @@ if (!data) return Astro.redirect('/404')
         accordionContent.style.maxHeight = `${
           accordionContent.scrollHeight + 32
         }px`
-        header.querySelector('.fas').classList.remove('fa-plus')
-        header.querySelector('.fas').classList.add('fa-minus')
-        header.parentElement.classList.add('bg-indigo-50')
       } else {
         accordionContent.style.maxHeight = `0px`
-        header.querySelector('.fas').classList.add('fa-plus')
-        header.querySelector('.fas').classList.remove('fa-minus')
-        header.parentElement.classList.remove('bg-indigo-50')
       }
     })
   })
