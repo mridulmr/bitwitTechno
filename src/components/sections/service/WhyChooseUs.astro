@@ -15,14 +15,18 @@ const { tabList } = Astro.props
     </Paragraph>
   </div>
 
-  <div class='why-us grid grid-cols-6 lg:grid-cols-4 gap-5'>
+  <div class='why-us grid grid-cols-6 lg:grid-cols-3 gap-5'>
     {
       tabList.map((item: any, index: number) => (
         <div class='shadow-lg rounded-lg relative overflow-hidden cursor-pointer'>
-          <div class='backdrop-blur-sm bg-white bg-opacity-50 h-full p-5 hover:backdrop-blur-none transition-all'>
-            <span class='text-4xl font-thin block text-right'>{index + 1}</span>
-            <h4 class='text-xl font-bold block text-right'>{item.title}</h4>
-            <p class='text-start mt-5'>{item.description}</p>
+          <div class='backdrop-blur-md bg-opacity-50 bg-white dark:bg-black dark:bg-opacity-50 h-full p-5 hover:backdrop-blur-sm transition-all'>
+            <span class='text-4xl font-thin block text-right dark:text-white'>
+              {index + 1}
+            </span>
+            <h4 class='text-xl font-bold block text-right dark:text-white'>
+              {item.title}
+            </h4>
+            <p class='text-start mt-5 dark:text-white'>{item.description}</p>
           </div>
           <img
             src={item.image}
