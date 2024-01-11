@@ -1,8 +1,7 @@
 ---
-import Button from '../shared/Button.astro'
+import BtnLink from '../shared/BtnLink.astro'
 import Container from '../shared/Container.astro'
 import Paragraph from '../shared/Paragraph.astro'
-import ByNumber from './ByNumber.astro'
 ---
 
 <section class='relative pt-32 lg:pt-36'>
@@ -31,12 +30,18 @@ import ByNumber from './ByNumber.astro'
           >Work</span
         >
       </h1>
-      <Paragraph className='mt-8'>
+      <Paragraph className='mt-8 mb-8'>
         Discover our impressive portfolio featuring standout projects that
         exemplify our expertise and innovation. Explore the diverse range of
         successful ventures that showcase our commitment to excellence and
         creativity.
       </Paragraph>
+      <BtnLink
+        text='Bring us on board'
+        href='/hire-us'
+        className='flex justify-center w-full sm:w-max'
+        variant='primary'
+      />
     </div>
 
     <div
