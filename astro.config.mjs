@@ -11,7 +11,10 @@ import webmanifest from 'astro-webmanifest'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
-  experimental: { assets: true },
+  experimental: {
+    contentCollectionCache: true,
+    optimizeHoistedScript: true
+  },
   integrations: [
     tailwind(),
     partytown({
@@ -52,7 +55,7 @@ export default defineConfig({
     compressor(),
     webmanifest({
       name: 'Bitwit Techno',
-      icon: '/images/favicon.ico',
+      icon: 'public/logos/bitwit-logo.png',
       short_name: 'Bitwit',
       description:
         "Empower your journey with Bitwit Techno's avant-garde IT solutions, fusing technology and creativity for unparalleled innovation and future-proof success.",
