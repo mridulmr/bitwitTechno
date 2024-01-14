@@ -3,14 +3,16 @@ import Footer from '../components/elements/Footer.astro'
 import Navbar from '../components/elements/Navbar.astro'
 import { GoogleFontsOptimizer } from 'astro-google-fonts-optimizer'
 import { SEO } from 'astro-seo'
+import GetInTouch from '../components/shared/GetInTouch.astro'
 
 export interface Props {
   title: string
   description: string
   image: string
+  formFalse?: boolean
 }
 
-const { title, description, image } = Astro.props
+const { title, description, image, formFalse = true } = Astro.props
 ---
 
 <!doctype html>
@@ -52,9 +54,15 @@ const { title, description, image } = Astro.props
   <body class='overflow-hidden overflow-y-auto bg-body'>
     <Navbar />
     <slot />
+    {formFalse && <GetInTouch />}
     <Footer />
-    <button onclick='topFunction()' id='myBtn' class="transition" title='Go to top'>
-      <img src="/images/scroll-to-top.webp" class="w-100 h-100"/>
+    <button
+      onclick='topFunction()'
+      id='myBtn'
+      class='transition'
+      title='Go to top'
+    >
+      <img src='/images/scroll-to-top.webp' class='w-100 h-100' />
     </button>
 
     <script>
