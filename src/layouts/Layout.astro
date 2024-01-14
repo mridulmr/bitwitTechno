@@ -4,6 +4,7 @@ import Navbar from '../components/elements/Navbar.astro'
 import { GoogleFontsOptimizer } from 'astro-google-fonts-optimizer'
 import { SEO } from 'astro-seo'
 import GetInTouch from '../components/shared/GetInTouch.astro'
+import { Image } from 'astro:assets'
 
 export interface Props {
   title: string
@@ -67,7 +68,15 @@ const {
       class='transition'
       title='Go to top'
     >
-      <img src='/images/scroll-to-top.webp' class='w-100 h-100' />
+      <Image
+        width={100}
+        height={100}
+        src='/images/scroll-to-top.webp'
+        alt='/images/scroll-to-top.webp'
+        class='w-100 h-100'
+        loading='lazy'
+        decoding='async'
+      />
     </button>
 
     <script>
