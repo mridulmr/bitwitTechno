@@ -12,7 +12,12 @@ export interface Props {
   formFalse?: boolean
 }
 
-const { title, description, image, formFalse = true } = Astro.props
+const {
+  title,
+  description = "Empower your journey with Bitwit Techno's avant-garde IT solutions, fusing technology and creativity for unparalleled innovation and future-proof success.",
+  image,
+  formFalse = true
+} = Astro.props
 ---
 
 <!doctype html>
