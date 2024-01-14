@@ -11,6 +11,7 @@ import webmanifest from 'astro-webmanifest'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
+  experimental: { assets: true },
   integrations: [
     tailwind(),
     partytown({
