@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import Container from '../shared/Container.astro'
 import Title from '../shared/Title.astro'
 ---
@@ -10,7 +11,7 @@ import Title from '../shared/Title.astro'
     </div>
     <div class='flex justify-center flex-wrap gap-4'>
       <div class='p-4 sm:p-5 rounded-xl bg-body border border-box-border group'>
-        <img
+        <Image
           src='/logos/spotify.png'
           width='100'
           height='60'
@@ -19,7 +20,7 @@ import Title from '../shared/Title.astro'
         />
       </div>
       <div class='p-4 sm:p-5 rounded-xl bg-body border border-box-border group'>
-        <img
+        <Image
           src='/logos/slack.png'
           width='100'
           height='60'
@@ -28,7 +29,7 @@ import Title from '../shared/Title.astro'
         />
       </div>
       <div class='p-4 sm:p-5 rounded-xl bg-body border border-box-border group'>
-        <img
+        <Image
           src='/logos/paypallogo.png'
           width='100'
           height='60'

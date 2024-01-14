@@ -1,6 +1,7 @@
 ---
 import Title from '../shared/Title.astro'
 import { technologies } from '../../utils/data'
+import { Image } from 'astro:assets'
 ---
 
 <section class='bg-gray-50 dark:bg-box-bg py-10'>
@@ -45,7 +46,13 @@ import { technologies } from '../../utils/data'
           >
             {technologies[item].map(({ title, image }) => (
               <div class='flex grow-5 gap-3 items-center justify-center bg-white dark:bg-blue-950 dark:text-white shadow-md hover:shadow-lg cursor-pointer transition px-3 py-1.5 rounded-3xl'>
-                <img class='w-8 h-8 aspect-square' src={image} alt={title} />
+                <Image
+                  width={8}
+                  height={8}
+                  class='w-8 h-8 aspect-auto'
+                  src={image}
+                  alt={title}
+                />
                 <p>{title}</p>
               </div>
             ))}

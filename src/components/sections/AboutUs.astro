@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import Info from '../cards/Info.astro'
 import Container from '../shared/Container.astro'
 import Paragraph from '../shared/Paragraph.astro'
@@ -23,8 +24,8 @@ import Title from '../shared/Title.astro'
         <span
           class='absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-tr from-primary to-blue-400 opacity-40 blur-2xl left-0 bottom-0'
         ></span>
-        <img
-          src={'/images/business.webp'}
+        <Image
+          src='/images/business.webp'
           alt='banner image'
           width='1240'
           height='1385'
