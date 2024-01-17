@@ -2,18 +2,137 @@
 import Layout from '../../layouts/Layout.astro'
 import HeroTaining from '../../components/sections/training/HeroTraining.astro'
 import Container from '../../components/shared/Container.astro'
+import { Image } from 'astro:assets'
+import Title from '../../components/shared/Title.astro'
+import Paragraph from '../../components/shared/Paragraph.astro'
+import AboutUs from '../../components/sections/training/AboutUs.astro'
+import TrustedBy from '../../components/sections/training/TrustedBy.astro'
 ---
 
 <Layout title='Training | Bitwit Techno' description='' image=''>
   <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
     <HeroTaining />
-    <section class="bg-gray-50 dark:bg-box-bg">
-      <Container className='flex'>
-        <div class="flex-1">
-          Imges
+    <AboutUs />
+    <TrustedBy />
+
+    <section
+      class="feature-area bg-[url('../images/all-img/section-bg-1.png')] bg-cover bg-no-repeat bg-center section-padding"
+    >
+      <Container>
+        <div class='mb-4'>
+          <div
+            class='mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12'
+          >
+            <p
+              class='text-base font-semibold uppercase tracking-wide text-primary dark:text-blue-200'
+            >
+              Core Feature
+            </p>
+            <h2
+              class='font-heading mb-4 font-bold tracking-tight text-blue-950 dark:text-white text-3xl sm:text-5xl'
+            >
+              Why Choose Bitwit
+            </h2>
+            <p
+              class='mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400'
+            >
+              Our door is always open for a good cup of coffee.
+            </p>
+          </div>
         </div>
-        <div class="flex-1">
-          Content
+        <div
+          class='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] pt-10'
+        >
+          <div
+            class='bg-white shadow-box rounded-[8px] p-10 group hover:bg-primary transition duration-150 hover:-translate-y-1'
+          >
+            <div
+              class='h-[72px] w-[72px] rounded-full flex flex-col items-center justify-center text-secondary bg-green-paste mb-8
+                    text-5xl group-hover:bg-black group-hover:bg-opacity-[0.1] group-hover:text-white transition duration-150'
+            >
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='1em'
+                height='1em'
+                viewBox='0 0 16 16'
+                ><path
+                  fill='currentColor'
+                  fill-rule='evenodd'
+                  d='M8.5 1a6.5 6.5 0 1 1 0 13a6.5 6.5 0 0 1 0-13m4.894 4a5.527 5.527 0 0 0-3.053-2.676c.444.84.765 1.74.953 2.676zm.582 2.995A5.11 5.11 0 0 0 14 7.5a5.464 5.464 0 0 0-.213-1.5h-2.342c.032.331.055.664.055 1a10.114 10.114 0 0 1-.206 2h2.493c.095-.329.158-.665.19-1.005zm-3.535 0l.006-.051A9.04 9.04 0 0 0 10.5 7a8.994 8.994 0 0 0-.076-1H6.576A8.82 8.82 0 0 0 6.5 7a8.98 8.98 0 0 0 .233 2h3.534c.077-.332.135-.667.174-1.005M10.249 5a8.974 8.974 0 0 0-1.255-2.97C8.83 2.016 8.666 2 8.5 2a3.62 3.62 0 0 0-.312.015l-.182.015L8 2.04A8.97 8.97 0 0 0 6.751 5zM5.706 5a9.959 9.959 0 0 1 .966-2.681A5.527 5.527 0 0 0 3.606 5zM3.213 6A5.48 5.48 0 0 0 3 7.5A5.48 5.48 0 0 0 3.213 9h2.493A10.016 10.016 0 0 1 5.5 7c0-.336.023-.669.055-1zm2.754 4h-2.36a5.515 5.515 0 0 0 3.819 2.893A10.023 10.023 0 0 1 5.967 10M8.5 12.644A8.942 8.942 0 0 0 9.978 10H7.022A8.943 8.943 0 0 0 8.5 12.644M11.033 10a10.024 10.024 0 0 1-1.459 2.893A5.517 5.517 0 0 0 13.393 10z'
+                  clip-rule='evenodd'></path></svg
+              >
+            </div>
+            <h4
+              class='lg:text-2xl text-[22px] leading-[30px] mb-4 transition duration-150 group-hover:text-white'
+            >
+              Learn More Anywhere
+            </h4>
+            <div class='transition duration-150 group-hover:text-white'>
+              Learn from anywhere in world on desktop, mobile or tablet with an
+              Internet connection.
+            </div>
+          </div>
+
+          <div
+            class='bg-white shadow-box rounded-[8px] p-10 group hover:bg-primary transition duration-150 hover:-translate-y-1'
+          >
+            <div
+              class='h-[72px] w-[72px] rounded-full flex flex-col items-center justify-center text-secondary bg-green-paste mb-8
+                    text-5xl group-hover:bg-black group-hover:bg-opacity-[0.1] group-hover:text-white transition duration-150'
+            >
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='1em'
+                height='1em'
+                viewBox='0 0 48 48'
+                ><g fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'
+                  ><path
+                    d='M6 6v28h22.387v-2H8V8h27v2.12h2V6zm31 10a2 2 0 1 1-4 0a2 2 0 0 1 4 0m2 0a4 4 0 1 1-8 0a4 4 0 0 1 8 0'
+                  ></path><path
+                    d='M30.093 21.83a3 3 0 0 1 2.07-.83h4.082c1.464 0 2.827.498 3.877 1.49c1.01.954 1.536 2.177 1.751 3.336c.338 1.822-.012 3.813-.873 5.578V39.5a2.5 2.5 0 0 1-4.966.411l-.534-3.204l-.534 3.204A2.5 2.5 0 0 1 30 39.5v-9.407a3 3 0 0 1-1.5.402h-5.102a3 3 0 0 1 0-6h3.9zM32 33.475V39.5a.5.5 0 0 0 .993.082l1.043-6.256a1 1 0 0 1 .986-.836h.956a1 1 0 0 1 .986.836l1.043 6.256A.5.5 0 0 0 39 39.5v-8.333a1 1 0 0 1 .112-.46c.772-1.491 1.053-3.124.795-4.516c-.157-.846-.524-1.648-1.158-2.247c-.647-.611-1.505-.944-2.504-.944h-4.081c-.257 0-.505.099-.691.276l-3.084 2.942a1 1 0 0 1-.69.277h-4.301a1 1 0 0 0 0 2H28.5a1 1 0 0 0 .69-.277l1.12-1.068a1 1 0 0 1 1.69.724z'
+                  ></path></g
+                ></svg
+              >
+            </div>
+            <h4
+              class='lg:text-2xl text-[22px] leading-[30px] mb-4 transition duration-150 group-hover:text-white'
+            >
+              Expert Instructor
+            </h4>
+            <div class='transition duration-150 group-hover:text-white'>
+              Learn from anywhere in world on desktop, mobile or tablet with an
+              Internet connection.
+            </div>
+          </div>
+
+          <div
+            class='bg-white shadow-box rounded-[8px] p-10 group hover:bg-primary transition duration-150 hover:-translate-y-1'
+          >
+            <div
+              class='h-[72px] w-[72px] rounded-full flex flex-col items-center justify-center text-secondary bg-green-paste mb-8
+                    text-5xl group-hover:bg-black group-hover:bg-opacity-[0.1] group-hover:text-white transition duration-150'
+            >
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='1em'
+                height='1em'
+                viewBox='0 0 32 32'
+                ><path
+                  fill='currentColor'
+                  d='m28.32 15.91l-.61-.62l-.25-.24A11.08 11.08 0 0 0 28 12a8 8 0 0 0-8-8h-3.68c-.415 0-.823.1-1.19.29c-.448-.11-.902-.19-1.36-.24H13a8 8 0 0 0-8 8v2.1L3.81 15.3A2.76 2.76 0 0 0 5.76 20c.116.01.233.01.35 0c.124.463.365.886.7 1.23a2.75 2.75 0 0 0 1.71.77a2.77 2.77 0 0 0 .79 1.71a2.66 2.66 0 0 0 1.71.78a2.71 2.71 0 0 0 .78 1.71a2.74 2.74 0 0 0 3.68.19l.82.81a2.75 2.75 0 0 0 3.9 0a2.66 2.66 0 0 0 .8-1.72a2.66 2.66 0 0 0 1.71-.78a2.77 2.77 0 0 0 .77-1.7a2.77 2.77 0 0 0 1.71-.79a2.7 2.7 0 0 0 .73-1.33a2.67 2.67 0 0 0 2.4-.8a2.94 2.94 0 0 0 0-4.17M16.32 6H20a6 6 0 0 1 6 6a7.912 7.912 0 0 1-.18 1.41l-4.11-4.12A1.001 1.001 0 0 0 21 9h-4.48a1 1 0 0 0-.62.21l-2 1.53a1.21 1.21 0 0 1-1.49-1.9l3.45-2.7a.66.66 0 0 1 .46-.14M5.22 17.79a.78.78 0 0 1 0-1.08l1.49-1.49a.75.75 0 0 1 .54-.22a.73.73 0 0 1 .53.22a.76.76 0 0 1 0 1.08L6.3 17.79a.8.8 0 0 1-1.08 0M8 19.25a.72.72 0 0 1 .23-.53l1.48-1.49a.76.76 0 0 1 1.08 1.07L9.3 19.79a.77.77 0 0 1-1.242-.246A.73.73 0 0 1 8 19.25m2.72 2l1.49-1.49a.75.75 0 0 1 .54-.22a.73.73 0 0 1 .53.22a.76.76 0 0 1 0 1.08l-1.48 1.45a.764.764 0 0 1-1.08-1.08zm2.5 3.57a.76.76 0 0 1 0-1.08l1.48-1.48a.78.78 0 0 1 .54-.23a.76.76 0 0 1 .756.765a.77.77 0 0 1-.216.535l-1.49 1.49a.77.77 0 0 1-1.07-.04zm13-5.88a2.34 2.34 0 0 1-1-.56v-.05l-2-2a1.004 1.004 0 1 0-1.42 1.42l2 2a.76.76 0 0 1-1.07 1.07a1.001 1.001 0 1 0-1.42 1.41a.75.75 0 0 1 0 1.07a.76.76 0 0 1-1.08 0a1 1 0 0 0-1.41 0a1 1 0 0 0 0 1.41a.76.76 0 0 1-1.07 1.08l-.8-.8l.28-.27a2.76 2.76 0 0 0 0-3.91a2.71 2.71 0 0 0-1.75-.81a2.71 2.71 0 0 0-.78-1.71a2.77 2.77 0 0 0-1.7-.77a2.77 2.77 0 0 0-.79-1.71A2.74 2.74 0 0 0 9.9 15A2.7 2.7 0 0 0 7 13v-1a6 6 0 0 1 5.83-6l-1.6 1.25a3.21 3.21 0 0 0 3.95 5.06L16.86 11h3.73l3.94 4l2.37 2.36a1 1 0 0 1 0 1.34a.69.69 0 0 1-.7.2z'
+                ></path></svg
+              >
+            </div>
+            <h4
+              class='lg:text-2xl text-[22px] leading-[30px] mb-4 transition duration-150 group-hover:text-white'
+            >
+              24/7 Strong Support
+            </h4>
+            <div class='transition duration-150 group-hover:text-white'>
+              Learn from anywhere in world on desktop, mobile or tablet with an
+              Internet connection.
+            </div>
+          </div>
         </div>
       </Container>
     </section>
