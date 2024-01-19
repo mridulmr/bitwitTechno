@@ -20,7 +20,7 @@ const { name, label, placeholder, type, className, error } = Astro.props
     name={name}
     type={type}
     placeholder={placeholder}
-    class='transition-all w-full p-4 border rounded-lg bg-transparent backdrop-blur-sm outline-none outline-offset-0 focus:outline-1 focus:outline-blue-500 focus:border-blue-700 appearance-none'
+    class=`transition-all w-full p-4 border rounded-lg bg-transparent backdrop-blur-sm outline-none outline-offset-0 focus:outline-1 focus:outline-blue-500 focus:border-blue-700 appearance-none ${className}`
   />
   {error && <p class='text-sm text-end'>{error}</p>}
 </div>
