@@ -191,7 +191,7 @@ export const ServiceDetails = [
       title: ['Our Expertise in Full-Cycle Product Development'],
       description:
         'Custom software that meets the demands of the business and aids in its growth is critical. Our highly qualified programmers can develop reliable, scalable, and high-performance solutions that can help you grow your company.',
-      image: '/images/service/full-cycle.png'
+      image: '/images/service/full-cycle.webp'
     },
     steps: {
       title: ['How Your Idea Becomes a Reality'],
@@ -524,7 +524,7 @@ export const ServiceDetails = [
       title: ['Efficient Quality Assurance Process'],
       description:
         'Bitwit Techno values your time and convenience. Our quality assurance and software testing methods are quick, efficient, and painless, ensuring flawless products for your digital success.',
-      image: '/images/service/qa-testing.png'
+      image: '/images/service/qa-testing.webp'
     },
     steps: {
       title: ['Our Comprehensive QA Offerings'],
@@ -856,7 +856,7 @@ export const ServiceDetails = [
       title: ['What we are offering for IoT app development?'],
       description:
         'Cutting-edge solutions blending hardware and software expertise. Seamless connectivity, real-time analytics, and innovative IoT applications for your business transformation.',
-      image: '/images/service/iot-dev.png'
+      image: '/images/service/iot-dev.webp'
     },
     steps: {
       title: [
@@ -1528,7 +1528,7 @@ export const ServiceDetails = [
       title: ['Top-rated ReactJS Development Company'],
       description:
         'Utilizing ReactJS for dynamic interfaces, our expert team excels in React.js and React Native, ensuring seamless data updates and system integration.',
-      image: '/images/service/reactjs.png'
+      image: '/images/service/reactjs.webp'
     },
     steps: {
       title: ['Leaving No Stone Unturned at Every Step'],
@@ -1848,7 +1848,7 @@ export const ServiceDetails = [
       title: ['Latest Node.js Tools and Techniques'],
       description:
         'Leading Node.js experts. Specializing in scalable applications. Our agile approach, state-of-the-art tools ensure industry-specific, cost-efficient Node development solutions.',
-      image: '/images/service/node.png'
+      image: '/images/service/node.webp'
     },
     steps: {
       title: ['Unlock Success Through Our Node.js Development Services'],
@@ -1885,5 +1885,5 @@ export const ServiceDetails = [
         }
       ]
     }
-  },
+  }
 ]
