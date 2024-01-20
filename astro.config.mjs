@@ -11,6 +11,7 @@ import webmanifest from 'astro-webmanifest'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
+  output: 'hybrid',
   experimental: {
     contentCollectionCache: true,
     optimizeHoistedScript: true

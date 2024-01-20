@@ -10,9 +10,9 @@
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
-    "@astrojs/node": "^7.0.2",
-    "@astrojs/tailwind": "5.0.3",
-    "astro": "4.0.6",
+    "@astrojs/node": "^8.0.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.2.1",
     "astro-compress": "^2.2.7",
     "astro-compressor": "^0.4.1",
     "astro-google-fonts-optimizer": "^0.2.2",
@@ -21,6 +21,7 @@
     "astro-webmanifest": "^1.0.0",
     "firebase": "10.7.1",
     "firebase-admin": "12.0.0",
+    "moment": "^2.30.1",
     "tailwindcss": "3.3.6"
   },
   "engineStrict": true,
@@ -41,8 +42,8 @@
     ]
   },
   "devDependencies": {
-    "@astrojs/partytown": "^2.0.2",
-    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/partytown": "^2.0.4",
+    "@astrojs/sitemap": "^3.0.5",
     "@babel/preset-env": "^7.23.6",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
