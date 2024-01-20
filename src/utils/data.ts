@@ -555,50 +555,50 @@ export const technologies = {
   design: [
     { title: 'figma', image: '/images/technologies/figma.webp' },
     { title: 'xd', image: '/images/technologies/xd.webp' },
-    { title: 'appsmith', image: '/images/technologies/appsmith.svg' },
-    { title: 'retool', image: '/images/technologies/retool.png' },
-    { title: 'storybook', image: '/images/technologies/storybook.svg' },
-    { title: 'webflow', image: '/images/technologies/webflow.png' }
+    { title: 'appsmith', image: '/images/technologies/appsmith.webp' },
+    { title: 'retool', image: '/images/technologies/retool.webp' },
+    { title: 'storybook', image: '/images/technologies/storybook.webp' },
+    { title: 'webflow', image: '/images/technologies/webflow.webp' }
   ],
   frontend: [
     { title: 'react', image: '/images/technologies/react.webp' },
     { title: 'vue', image: '/images/technologies/vue.webp' },
     { title: 'javascript', image: '/images/technologies/javascript.webp' },
-    { title: 'typescript', image: '/images/technologies/typescript.jpeg' },
+    { title: 'typescript', image: '/images/technologies/typescript.webp' },
     { title: 'html', image: '/images/technologies/html.webp' },
     { title: 'css', image: '/images/technologies/css.webp' },
-    { title: 'jquery', image: '/images/technologies/jquery.png' },
+    { title: 'jquery', image: '/images/technologies/jquery.webp' },
     { title: 'flutter', image: '/images/technologies/flutter.webp' },
     { title: 'sass', image: '/images/technologies/sass.webp' },
     { title: 'tailwind', image: '/images/technologies/tailwind.webp' },
     { title: 'bootstrap', image: '/images/technologies/bootstrap.webp' },
     { title: 'angular', image: '/images/technologies/angular.webp' },
-    { title: 'progressive web app', image: '/images/technologies/pwa.png' },
-    { title: 'php', image: '/images/technologies/php.png' }
+    { title: 'progressive web app', image: '/images/technologies/pwa.webp' },
+    { title: 'php', image: '/images/technologies/php.webp' }
   ],
   mobile: [
     { title: 'swift', image: '/images/technologies/swift.webp' },
     { title: 'android', image: '/images/technologies/android.webp' },
     { title: 'react native', image: '/images/technologies/react-native.webp' }
   ],
-  desktop: [{ title: 'electron', image: '/images/technologies/electron.png' }],
+  desktop: [{ title: 'electron', image: '/images/technologies/electron.webp' }],
   backend: [
     { title: 'node', image: '/images/technologies/node.webp' },
     { title: 'express', image: '/images/technologies/express.webp' },
-    { title: 'socket', image: '/images/technologies/socket.png' }
+    { title: 'socket', image: '/images/technologies/socket.webp' }
   ],
   server: [
     { title: 'google', image: '/images/technologies/google.webp' },
     { title: 'webpack', image: '/images/technologies/webpack.webp' },
     { title: 'nignix', image: '/images/technologies/nignix.webp' },
-    { title: 'babel', image: '/images/technologies/babel.png' },
-    { title: 'apache', image: '/images/technologies/apache.png' }
+    { title: 'babel', image: '/images/technologies/babel.webp' },
+    { title: 'apache', image: '/images/technologies/apache.webp' }
   ],
   database: [
-    { title: 'mongo', image: '/images/technologies/mongo.png' },
+    { title: 'mongo', image: '/images/technologies/mongo.webp' },
     { title: 'firebase', image: '/images/technologies/firebase.webp' },
     { title: 'mysql', image: '/images/technologies/mysql.webp' },
-    { title: 'graphql', image: '/images/technologies/graphql.png' }
+    { title: 'graphql', image: '/images/technologies/graphql.webp' }
   ],
   other: [
     { title: 'artificial intelligence', image: '/images/technologies/ai.webp' },
