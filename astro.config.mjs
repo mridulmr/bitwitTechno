@@ -55,7 +55,7 @@ export default defineConfig({
     compressor(),
     webmanifest({
       name: 'Bitwit Techno',
-      icon: 'public/logos/bitwit-logo.png',
+      icon: 'public/logos/bitwit-logo.webp',
       short_name: 'Bitwit',
       description:
         "Empower your journey with Bitwit Techno's avant-garde IT solutions, fusing technology and creativity for unparalleled innovation and future-proof success.",
