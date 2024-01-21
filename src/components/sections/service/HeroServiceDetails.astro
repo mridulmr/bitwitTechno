@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import Breadcrumb from '../../shared/Breadcrumb.astro';
 import Container from '../../shared/Container.astro'
 import Paragraph from '../../shared/Paragraph.astro'
@@ -45,7 +46,7 @@ const { title, description, image } = Astro.props
       class='flex flex-1 justify-center lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl'
     >
       <div class='p-5 rounded-full'>
-        <img
+        <Image
           src={image}
           alt={image}
           width='500'

@@ -1055,7 +1055,7 @@ export const solutionDetailsList = [
       'Logistics Analytics',
       'Cross-Border Logistics Solutions'
     ],
-    bannerImage: '/images/solution/logistics.webp',
+    bannerImage: '/images/solution/logistics-banner.webp',
     description:
       'Efficient IT logistics solution: streamline hardware/software delivery, installation, and support for seamless IT services and provider operations.',
     chooseUs: {

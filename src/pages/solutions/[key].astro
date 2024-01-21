@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import CTA from '../../components/sections/CTA.astro'
 import HeroServiceDetails from '../../components/sections/service/HeroServiceDetails.astro'
 import Container from '../../components/shared/Container.astro'
@@ -126,7 +127,9 @@ if (!data) return Astro.redirect('/404')
               </Paragraph>
             </div>
             <div class='flex-1'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src={item.utilize.image}
                 alt={item.utilize.image}
                 class='animate-parallax w-full'
@@ -160,7 +163,9 @@ if (!data) return Astro.redirect('/404')
         <section>
           <Container className='flex flex-col lg:flex-row items-center justify-center gap-10'>
             <div class='flex-1'>
-              <img
+              <Image
+                width={100}
+                height={100}
                 src={item.utilize.image}
                 alt={item.utilize.image}
                 class='animate-parallax w-full'

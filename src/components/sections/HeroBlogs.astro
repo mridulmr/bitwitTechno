@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import Breadcrumb from '../shared/Breadcrumb.astro'
 import Container from '../shared/Container.astro'
 import Paragraph from '../shared/Paragraph.astro'
@@ -40,7 +41,7 @@ const { breadcrumb = false } = Astro.props
     <div
       class='flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl'
     >
-      <img
+      <Image
         src='/images/blogs.webp'
         alt='Hero image'
         width='2350'

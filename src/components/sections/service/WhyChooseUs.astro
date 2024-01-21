@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import Container from '../../shared/Container.astro'
 import Paragraph from '../../shared/Paragraph.astro'
 import Title from '../../shared/Title.astro'
@@ -28,7 +29,9 @@ const { tabList } = Astro.props
             </h4>
             <p class='mt-5 text-right dark:text-white'>{item.description}</p>
           </div>
-          <img
+          <Image
+            width={100}
+            height={100}
             src={item.image}
             alt={item.image}
             class='w-[120%] h-[120%] rounded-lg absolute top-0 left-0 bottom-0 right-0 -z-10'

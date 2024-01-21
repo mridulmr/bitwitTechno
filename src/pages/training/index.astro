@@ -6,6 +6,7 @@ import TrustedBy from '../../components/sections/training/TrustedBy.astro'
 import WhyChooseUs from '../../components/sections/training/WhyChooseUs.astro'
 import Container from '../../components/shared/Container.astro'
 import BtnLink from '../../components/shared/BtnLink.astro'
+import { Image } from 'astro:assets'
 ---
 
 <Layout title='Training | Bitwit Techno' description='' image=''>
@@ -43,9 +44,11 @@ import BtnLink from '../../components/shared/BtnLink.astro'
             [...Array(6)].map((item) => (
               <div class='shadow-lg rounded-[8px] transition duration-100 hover:shadow-sm'>
                 <div class='h-[248px] rounded-t-[8px] relative'>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     src='/images/inhouse.webp'
-                    alt=''
+                    alt='/images/inhouse.webp'
                     class='w-full h-full object-cover rounded-t-[8px]'
                   />
                   <span class='bg-blue-600 py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6'>
@@ -61,7 +64,7 @@ import BtnLink from '../../components/shared/BtnLink.astro'
             ))
           }
         </div>
-        <div class="mt-10 flex items-center justify-center">
+        <div class='mt-10 flex items-center justify-center'>
           <BtnLink
             text='View All Courses'
             href='/training/courses'

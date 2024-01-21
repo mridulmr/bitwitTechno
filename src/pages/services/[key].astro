@@ -8,6 +8,7 @@ import Layout from '../../layouts/Layout.astro'
 import { ServiceDetails } from '../../utils/service'
 import Technologies from '../../components/sections/Technologies.astro'
 import CTA from '../../components/sections/CTA.astro'
+import { Image } from 'astro:assets'
 
 export async function getStaticPaths() {
   return ServiceDetails.map((item) => ({
@@ -137,7 +138,7 @@ if (!data) return Astro.redirect('/404')
         >
           <div class='flex flex-1 justify-center lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl'>
             <div class='p-5 rounded-full'>
-              <img
+              <Image
                 src={item.body.image}
                 alt={item.body.image}
                 width='500'
