@@ -116,6 +116,49 @@ if (!BlogDetails) return Astro.redirect('/404')
                   </li>
                 ))}
               </ul>
+              <div class='pt-0 p-5 md:p-10 md:pt-0'>
+                <p class='text-xl font-bold text-blue-950 dark:text-white'>
+                  Share On:
+                </p>
+                <div class='flex gap-3 flex-wrap mt-3'>
+                  <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+                    target='_blank'
+                    rel='noopener'
+                  >
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/logos/facebook.jpeg'
+                      alt='/logos/facebook.webp'
+                    />
+                  </a>
+                  <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+                    target='_blank'
+                    rel='noopener'
+                  >
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/logos/facebook.jpeg'
+                      alt='/logos/facebook.webp'
+                    />
+                  </a>
+                  <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+                    target='_blank'
+                    rel='noopener'
+                  >
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/logos/facebook.jpeg'
+                      alt='/logos/facebook.webp'
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
             <div class='lg:col-span-4 col-span-12'>
               <div class='space-y-[30px]'>
