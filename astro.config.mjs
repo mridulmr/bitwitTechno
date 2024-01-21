@@ -52,7 +52,19 @@ export default defineConfig({
       ]
     }),
     robotsTxt(),
-    compressor(),
+    compressor({
+      fileExtensions: [
+        '.css',
+        '.js',
+        '.html',
+        '.xml',
+        '.cjs',
+        '.mjs',
+        '.svg',
+        '.txt',
+        '.webp'
+      ]
+    }),
     webmanifest({
       name: 'Bitwit Techno',
       icon: 'public/logos/bitwit-logo.webp',
@@ -64,5 +76,5 @@ export default defineConfig({
       background_color: '#3367D6',
       display: 'standalone'
     })
-  ],
+  ]
 })
