@@ -1,0 +1,209 @@
+---
+import { Image } from 'astro:assets'
+import { GetBlog } from '../../api'
+import HeroBlogs from '../../components/sections/HeroBlogs.astro'
+import Button from '../../components/shared/Button.astro'
+import Container from '../../components/shared/Container.astro'
+import Layout from '../../layouts/Layout.astro'
+import Title from '../../components/shared/Title.astro'
+import moment from 'moment'
+
+export async function getStaticPaths() {
+  const { Blogs, Users, Categories, Tags } = await GetBlog()
+
+  return Blogs.map((item) => {
+    return {
+      params: { slug: item.slug },
+      props: {
+        BlogDetails: Blogs.filter((data) => data.slug === item.slug),
+        Users: Users.filter((data) => data.id === item.user),
+        Blogs,
+        Tags,
+        Categories
+      }
+    }
+  })
+}
+const { BlogDetails, Blogs, Tags, Categories, Users } = Astro.props
+if (!BlogDetails) return Astro.redirect('/404')
+---
+
+{
+  BlogDetails && (
+    <Layout title='Blogs | Bitwit Techno' description='' image=''>
+      <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
+        <HeroBlogs />
+        <Container>
+          <div class='grid grid-cols-12 gap-[30px]'>
+            <div class='lg:col-span-8 col-span-12 pb-10 rounded-md bg-gray-50'>
+              {BlogDetails[0].image && (
+                <Image
+                  src={BlogDetails[0].image}
+                  alt='avatar'
+                  width={100}
+                  height={100}
+                  class='w-full'
+                  loading='lazy'
+                  decoding='async'
+                />
+              )}
+              <div class='p-10'>
+                <Title>{BlogDetails[0].title}</Title>
+                <ul class='flex justify-between items-center mt-5'>
+                  <li class='flex items-center gap-2'>
+                    {Users[0].avatar && (
+                      <Image
+                        src={Users[0].avatar}
+                        alt='avatar'
+                        width='30'
+                        height='30'
+                        class='rounded-full shadow-lg'
+                        loading='lazy'
+                        decoding='async'
+                      />
+                    )}
+                    <span>
+                      {'  '}
+                      {Users[0].full_name}
+                    </span>
+                  </li>
+                  <li class='flex items-center gap-2'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='21'
+                      height='21'
+                      viewBox='0 0 21 21'
+                      fill='none'
+                    >
+                      <g clip-path='url(#clip0_228_2359)'>
+                        <path
+                          d='M16.75 2.41374H15.5V1.16374C15.5 0.933737 15.3133 0.74707 15.0833 0.74707C14.8533 0.74707 14.6667 0.933737 14.6667 1.16374V2.41374H6.33333V1.16374C6.33333 0.933737 6.14667 0.74707 5.91667 0.74707C5.68667 0.74707 5.5 0.933737 5.5 1.16374V2.41374H4.25C2.1825 2.41374 0.5 4.09624 0.5 6.16374V16.9971C0.5 19.0646 2.1825 20.7471 4.25 20.7471H16.75C18.8175 20.7471 20.5 19.0646 20.5 16.9971V6.16374C20.5 4.09624 18.8175 2.41374 16.75 2.41374ZM4.25 3.24707H16.75C18.3583 3.24707 19.6667 4.5554 19.6667 6.16374V7.41374H1.33333V6.16374C1.33333 4.5554 2.64167 3.24707 4.25 3.24707ZM16.75 19.9137H4.25C2.64167 19.9137 1.33333 18.6054 1.33333 16.9971V8.24707H19.6667V16.9971C19.6667 18.6054 18.3583 19.9137 16.75 19.9137ZM16.3333 11.9971C16.3333 12.2271 16.1467 12.4137 15.9167 12.4137H5.08333C4.85333 12.4137 4.66667 12.2271 4.66667 11.9971C4.66667 11.7671 4.85333 11.5804 5.08333 11.5804H15.9167C16.1467 11.5804 16.3333 11.7671 16.3333 11.9971ZM10.5 16.1637C10.5 16.3937 10.3133 16.5804 10.0833 16.5804H5.08333C4.85333 16.5804 4.66667 16.3937 4.66667 16.1637C4.66667 15.9337 4.85333 15.7471 5.08333 15.7471H10.0833C10.3133 15.7471 10.5 15.9337 10.5 16.1637Z'
+                          fill='currentColor'
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id='clip0_228_2359'>
+                          <rect
+                            width='20'
+                            height='20'
+                            fill='white'
+                            transform='translate(0.5 0.74707)'
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <span>
+                      {BlogDetails[0].created_at &&
+                        BlogDetails[0].created_at.seconds &&
+                        moment
+                          .unix(BlogDetails[0].created_at.seconds)
+                          .format('MMMM DD, YYYY')}
+                    </span>
+                  </li>
+                </ul>
+                <div class='blog-details mt-5'>
+                  <div class='small' set:html={BlogDetails[0].content} />
+                </div>
+              </div>
+            </div>
+            <div class='lg:col-span-4 col-span-12'>
+              <div class='space-y-[30px]'>
+                <form
+                  action='#'
+                  class='py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow
+                      border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary'
+                >
+                  <input
+                    type='text'
+                    name='search'
+                    id='search'
+                    placeholder='Search Blog'
+                    class='w-full py-3 outline-none bg-transparent'
+                  />
+                  <Button
+                    variant={'primary'}
+                    className={'min-w-max text-white'}
+                    type='button'
+                    title='get-started'
+                  >
+                    <span class='hidden sm:flex relative z-[5]'>Search</span>
+                    <span class='flex sm:hidden relative z-[5]'>
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        fill='none'
+                        viewBox='0 0 24 24'
+                        stroke-width='1.5'
+                        stroke='currentColor'
+                        class='w-5 h-5'
+                      >
+                        <path
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                          d='M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5'
+                        />
+                      </svg>
+                    </span>
+                  </Button>
+                </form>
+                <div class='bg-white dark:bg-box-bg p-5 rounded-lg shadow-lg shadow-box-shadow'>
+                  <h4 class='font-bold text-xl text-blue-950 dark:text-gray-400'>
+                    Categories
+                  </h4>
+
+                  <ul class='mt-4 space-y-4'>
+                    {Categories?.map((item: any) => (
+                      <li class='block'>
+                        <a
+                          href={`#${item.id}`}
+                          class='flex justify-between bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 py-4 px-5 rounded-md hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white transition-all
+                              duration-150'
+                        >
+                          <span>
+                            {item.name} ({item.count})
+                          </span>
+                          <span class='text-2xl'>
+                            <svg
+                              xmlns='http://www.w3.org/2000/svg'
+                              width='1em'
+                              height='1em'
+                              viewBox='0 0 20 20'
+                            >
+                              <path
+                                fill='currentColor'
+                                fill-rule='evenodd'
+                                d='M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10L8.22 6.28a.75.75 0 0 1 0-1.06'
+                                clip-rule='evenodd'
+                              />
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div class='bg-white dark:bg-box-bg p-5 rounded-lg shadow-lg shadow-box-shadow'>
+                  <h4 class='font-bold text-xl text-blue-950 dark:text-gray-400'>
+                    Popular Tags
+                  </h4>
+                  <ul class='mt-4 flex flex-wrap'>
+                    {Tags?.map((item: any) => (
+                      <li class='mr-2 mb-2'>
+                        <a
+                          href={`#${item.id}`}
+                          class='px-3 py-1 rounded text-base transition-all duration-150 bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white'
+                        >
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </main>
+    </Layout>
+  )
+}
