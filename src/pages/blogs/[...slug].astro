@@ -30,7 +30,11 @@ if (!BlogDetails) return Astro.redirect('/404')
 
 {
   BlogDetails && (
-    <Layout title='Blogs | Bitwit Techno' description='' image=''>
+    <Layout
+      title={`${BlogDetails[0].meta.description} | Bitwit Techno`}
+      description={BlogDetails[0].meta.description}
+      image={BlogDetails[0].image}
+    >
       <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
         <HeroBlogs breadcrumb={true} />
         <Container>
