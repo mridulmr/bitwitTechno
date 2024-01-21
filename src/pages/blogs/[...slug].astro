@@ -32,7 +32,7 @@ if (!BlogDetails) return Astro.redirect('/404')
   BlogDetails && (
     <Layout title='Blogs | Bitwit Techno' description='' image=''>
       <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
-        <HeroBlogs />
+        <HeroBlogs breadcrumb={true} />
         <Container>
           <div class='grid grid-cols-12 gap-[30px]'>
             <div class='lg:col-span-8 col-span-12 pb-10 rounded-md bg-gray-50'>
