@@ -211,10 +211,12 @@ if (!data) return Astro.redirect('/404')
                       <span class='bg-blue-950 text-white w-10 h-10 flex items-center justify-center rounded-md'>
                         {index + 1}
                       </span>
-                      <h3 class='font-bold dark:text-white'>{item.question}</h3>
+                      <h3 class='flex-1 font-bold dark:text-white mb-0 text-start text-base md:text-lg'>
+                        {item.question}
+                      </h3>
                     </div>
                     <div class='accordion-content transition-all px-5 pt-0 overflow-hidden max-h-0'>
-                      <p class='leading-6 font-light pl-9 pb-5 text-justify dark:text-white'>
+                      <p class='leading-6 font-light text-justify dark:text-white'>
                         {item.answer}
                       </p>
                     </div>
