@@ -203,6 +203,7 @@ const {
         --heading-1: 23 37 84;
         --heading-2: 31 41 55;
         --heading-3: 55 65 81;
+        --opacity: 1;
       }
 
       .dark {
@@ -214,6 +215,7 @@ const {
         --heading-1: 255 255 255;
         --heading-2: 243 244 246;
         --heading-3: 209 213 219;
+        --opacity: 0.5;
       }
 
       html {
@@ -274,6 +276,8 @@ const {
       .blog-details p {
         font-size: 16px;
         margin-bottom: 1rem;
+        color: rgb(var(--heading-1));
+        opacity: var(--opacity);
       }
 
       .blog-details h2,
@@ -281,12 +285,29 @@ const {
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 1rem;
+        color: rgb(var(--heading-1));
       }
       .blog-details h3 {
         font: 18px;
         font-weight: 700;
       }
-      .blog-details ul li {
+      .blog-details ul,
+      .blog-details ol {
+        color: rgb(var(--heading-1));
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      .blog-details ol {
+        list-style-type: decimal;
+      }
+
+      .blog-details ul p,
+      .blog-details ol p {
+        color: rgb(var(--heading-1));
+        opacity: var(--opacity);
+        margin-top: 0.5rem;
+        font-weight: normal;
       }
     </style>
   </body>
