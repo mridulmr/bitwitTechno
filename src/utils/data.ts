@@ -282,7 +282,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Enhance network performance, streamline operations, and ensure data security in Telecommunication. Our IT solution optimizes connectivity, reduces downtime, and enables efficient data management, delivering seamless, reliable services to customers.',
-    image: '/images/solution/telecommunication.png'
+    image: '/images/solution/telecommunication.webp'
   },
   {
     id: 7,
@@ -292,7 +292,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Streamline logistics operations, enhance efficiency, and ensure real-time visibility across your supply chain. Optimize the movement of goods, reduce costs, and improve customer satisfaction with our IT solution for logistics.',
-    image: '/images/solution/logistics.png'
+    image: '/images/solution/logistics.webp'
   },
   {
     id: 22,
@@ -302,7 +302,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our DevOps IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/devops-services.png'
+    image: '/images/solution/devops-services.webp'
   },
   {
     id: 6,
@@ -312,7 +312,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Witness the rise of online education post-COVID. Enable children to use smart devices and educational apps for improved study habits. Our Education solution supports the evolving landscape of digital learning.',
-    image: '/images/solution/education.png'
+    image: '/images/solution/education.webp'
   },
   {
     id: 26,
@@ -322,7 +322,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Digital Transformation IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/digital-transformation-services.png'
+    image: '/images/solution/digital-transformation-services.webp'
   },
   {
     id: 23,
@@ -332,7 +332,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Deliver seamless user experiences, enable efficient data access, and promote collaboration with our Software Solutions for Startups. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/software-solutions-for-startups.png'
+    image: '/images/solution/software-solutions-for-startups.webp'
   },
   {
     id: 13,
@@ -342,7 +342,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Optimize logistics, inventory, and procurement processes in supply chain management. Our IT solution enhances visibility, efficiency, and responsiveness, enabling companies to reduce costs and streamline end-to-end supply chain operations.',
-    image: '/images/solution/supply-chain.png'
+    image: '/images/solution/supply-chain.webp'
   },
   {
     id: 20,
@@ -352,7 +352,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Deliver seamless user experiences with our Cloud Computing IT solution. Tailored for your needs, it enables efficient data access and collaboration while ensuring robust security measures are in place. Elevate your online presence with our cloud solution.',
-    image: '/images/solution/cloud-computing-solution.png'
+    image: '/images/solution/cloud-computing-solution.webp'
   },
   {
     id: 9,
@@ -362,7 +362,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Enhance efficiency and innovation across automotive operations. Our Automotive IT solution leverages cutting-edge technologies to optimize production processes, improve vehicle performance, and elevate the overall customer experience.',
-    image: '/images/solution/automotive.png'
+    image: '/images/solution/automotive.webp'
   },
   {
     id: 24,
@@ -372,7 +372,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Deliver seamless user experiences, enable efficient data access, and enhance collaboration with our Product Engineering IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures.',
-    image: '/images/solution/product-engineering-solutions.png'
+    image: '/images/solution/product-engineering-solutions.webp'
   },
   {
     id: 18,
@@ -382,7 +382,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Deliver seamless user experiences with our Web Portals IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, enhances engagement, and ensures robust security measures, elevating your online presence.',
-    image: '/images/solution/web-portals.png'
+    image: '/images/solution/web-portals.webp'
   },
   {
     id: 17,
@@ -392,7 +392,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Optimize operational efficiency, grid management, and renewable energy integration in the energy sector. Our IT solution leverages advanced technologies like IoT and AI to allocate resources efficiently and enable smart energy monitoring.',
-    image: '/images/solution/energy.png'
+    image: '/images/solution/energy.webp'
   },
   {
     id: 14,
@@ -402,7 +402,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Empower businesses with data-driven insights, automation, and precision targeting in Marketing & Advertising. Elevate campaigns, optimize ad spend, and enhance customer engagement with our IT solution for Marketing & Advertising.',
-    image: '/images/solution/marketing-advertising.png'
+    image: '/images/solution/marketing-advertising.webp'
   },
   {
     id: 11,
@@ -412,7 +412,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Optimize banking operations, enhance security, and improve customer experiences. Our Banking IT solution streamlines processes, ensures compliance, and enables seamless digital banking services with cutting-edge technology.',
-    image: '/images/solution/banking.png'
+    image: '/images/solution/banking.webp'
   },
   {
     id: 10,
@@ -422,7 +422,7 @@ export const solution = [
     type: 'Industries Solution 2',
     description:
       'Deliver seamless efficiency in retail operations, elevating customer experiences. Our Retail IT solution, with tailored software and cutting-edge technology, optimizes sales channels, streamlines processes, and drives growth in the retail industry.',
-    image: '/images/solution/retail.png'
+    image: '/images/solution/retail.webp'
   },
   {
     id: 3,
@@ -432,7 +432,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Take healthcare to the next level with efficient technology. Increase patient involvement through customer-centric applications that simplify their lives and serve as their health coach. Our Healthcare solution enhances the overall healthcare experience.',
-    image: '/images/solution/healthcare.png'
+    image: '/images/solution/healthcare.webp'
   },
   {
     id: 19,
@@ -442,7 +442,7 @@ export const solution = [
     type: 'Technology Solution',
     description:
       'Enhance user experiences, enable efficient data access, and promote collaboration with our Enterprise Mobility IT solution. Tailored for your needs, it optimizes information sharing, streamlines processes, and ensures robust security measures are in place.',
-    image: '/images/solution/enterprise-mobility-solutions.png'
+    image: '/images/solution/enterprise-mobility-solutions.webp'
   },
   {
     id: 5,
@@ -452,7 +452,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Optimize your business processes, tackle challenges, increase productivity, and improve customer service. Our Corporate Mobility Solutions empower businesses to make informed decisions and boost revenue.',
-    image: '/images/solution/business.png'
+    image: '/images/solution/business.webp'
   },
   {
     id: 1,
@@ -462,7 +462,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       "Revolutionize your consumers' digital banking and investing experiences, eliminating hassles such as lengthy queues. Our Fintech solution ensures a seamless, user-friendly interface for efficient financial management.",
-    image: '/images/solution/fintech.png'
+    image: '/images/solution/fintech.webp'
   },
   {
     id: 2,
@@ -472,7 +472,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       "Elevate your clients' shopping experience by providing not just high-quality items but also a personalized touch. Our E-commerce solution optimizes efficiency across the value chain, making your organization more responsive.",
-    image: '/images/solution/e-commerce.png'
+    image: '/images/solution/e-commerce.webp'
   },
   {
     id: 4,
@@ -482,7 +482,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Provide simple, modern services for buying, selling, or renting properties. Our Real Estate App Development Solutions help you achieve your goals by adopting a contemporary approach to real estate transactions.',
-    image: '/images/solution/realEstate.png'
+    image: '/images/solution/realEstate.webp'
   },
   {
     id: 28,
@@ -492,7 +492,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Explore exceptional travel experiences with Bitwit Techno. Redefining travel technology for seamless, innovative, and personalized services in hospitality.',
-    image: '/images/solution/travel.png'
+    image: '/images/solution/travel.webp'
   },
   {
     id: 27,
@@ -502,7 +502,7 @@ export const solution = [
     type: 'Industries Solution 1',
     description:
       'Develop software for HR processes, including recruitment, employee management, payroll, and performance evaluation.',
-    image: '/images/solution/hrms.png'
+    image: '/images/solution/hrms.webp'
   }
 ]
 
