@@ -10,7 +10,6 @@
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
-    "@astrojs/node": "^8.0.0",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.2.1",
     "astro-compress": "^2.2.7",

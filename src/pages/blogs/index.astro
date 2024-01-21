@@ -4,9 +4,9 @@ import HeroBlogs from '../../components/sections/HeroBlogs.astro'
 import Container from '../../components/shared/Container.astro'
 import Button from '../../components/shared/Button.astro'
 import BlogItem from '../../components/elements/BlogItem.astro'
-import { getBlogs } from '../../../api'
+import { GetBlog } from '../../api'
 
-const { Blogs, Users, Tags, Categories } = await getBlogs(Astro.request)
+const { Blogs, Users, Categories, Tags } = await GetBlog()
 ---
 
 <Layout title='Blogs | Bitwit Techno' description='' image=''>

@@ -5,13 +5,12 @@ import sitemap from '@astrojs/sitemap'
 import babelScripts from 'astro-babel'
 import robotsTxt from 'astro-robots-txt'
 import compressor from 'astro-compressor'
-import node from '@astrojs/node'
 import webmanifest from 'astro-webmanifest'
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
-  output: 'hybrid',
+  output: 'static',
   experimental: {
     contentCollectionCache: true,
     optimizeHoistedScript: true
@@ -66,7 +65,4 @@ export default defineConfig({
       display: 'standalone'
     })
   ],
-  adapter: node({
-    mode: 'middleware'
-  })
 })
