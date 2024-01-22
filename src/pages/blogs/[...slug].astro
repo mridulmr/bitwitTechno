@@ -41,7 +41,7 @@ if (!BlogDetails) return Astro.redirect('/404')
         <HeroBlogs breadcrumb={true} />
         <Container>
           <div class='grid grid-cols-12 gap-[30px]'>
-            <div class='lg:col-span-8 col-span-12 pb-10 rounded-md bg-gray-50 dark:bg-box-bg'>
+            <div class='lg:col-span-8 col-span-12 pb-10 rounded-lg bg-gray-50 dark:bg-box-bg overflow-hidden'>
               {BlogDetails[0].image && (
                 <Image
                   src={BlogDetails[0].image}
