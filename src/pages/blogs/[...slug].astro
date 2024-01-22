@@ -120,7 +120,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                 <p class='text-xl font-bold text-blue-950 dark:text-white'>
                   Share On:
                 </p>
-                <div class='flex gap-3 flex-wrap mt-3'>
+                <div class='flex flex-wrap mt-3'>
                   <a
                     href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
                     target='_blank'
@@ -129,32 +129,32 @@ if (!BlogDetails) return Astro.redirect('/404')
                     <Image
                       width={40}
                       height={40}
-                      src='/logos/facebook.jpeg'
+                      src='/logos/facebook.webp'
                       alt='/logos/facebook.webp'
                     />
                   </a>
                   <a
-                    href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+                    href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`}
                     target='_blank'
                     rel='noopener'
                   >
                     <Image
                       width={40}
                       height={40}
-                      src='/logos/facebook.jpeg'
-                      alt='/logos/facebook.webp'
+                      src='/logos/linkedin.webp'
+                      alt='/logos/linkedin.webp'
                     />
                   </a>
                   <a
-                    href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+                    href={`http://twitter.com/share?text=${BlogDetails[0].title}&url=${Astro.url.href}`}
                     target='_blank'
                     rel='noopener'
                   >
                     <Image
                       width={40}
                       height={40}
-                      src='/logos/facebook.jpeg'
-                      alt='/logos/facebook.webp'
+                      src='/logos/twitter.webp'
+                      alt='/logos/twitter.webp'
                     />
                   </a>
                 </div>
