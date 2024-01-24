@@ -131,18 +131,18 @@ const { data, user, category } = Astro.props
         >
       </a>
     </div>
-    <h4 class='text-xl mb-5 font-bold'>
+    <h6 class='text-xl mb-5 font-bold'>
       <a
         href={`/blogs/${data.slug}`}
         class='dark:text-white hover:text-primary hover:dark:text-primary transition duration-150'
       >
         {data.title}
       </a>
-    </h4>
+    </h6>
     <a
       href={`/blogs/${data.slug}`}
       class='text-black dark:text-white font-semibold hover:underline transition duration-150'
-      >Read More</a
+      aria-label='ReadMore'><span>Read More</span></a
     >
   </div>
 </div>
