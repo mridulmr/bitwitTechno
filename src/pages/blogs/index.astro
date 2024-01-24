@@ -5,8 +5,10 @@ import Container from '../../components/shared/Container.astro'
 import Button from '../../components/shared/Button.astro'
 import BlogItem from '../../components/elements/BlogItem.astro'
 import { GetBlog } from '../../api'
+import { filterBlogs } from '../../utils/helper'
 
 const { Blogs, Users, Categories, Tags } = await GetBlog()
+const FilteredBlogs = filterBlogs(Blogs, { filterByTags: 'asdad' })
 ---
 
 <Layout title='Blogs | Bitwit Techno' description='' image=''>

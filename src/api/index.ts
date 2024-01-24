@@ -13,11 +13,12 @@ export const GetBlog = async () => {
   const Users = []
   const Tags = []
   const Categories = []
-  try {
+  try {    
     const getBlogs = await getDocs(
       query(
         collection(db, 'blogs'),
         where('publish', '==', true),
+        // where("category","==",""),
         orderBy('created_at', 'desc')
       )
     )

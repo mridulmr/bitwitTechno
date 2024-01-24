@@ -7,6 +7,7 @@ import Container from '../../components/shared/Container.astro'
 import Layout from '../../layouts/Layout.astro'
 import Title from '../../components/shared/Title.astro'
 import moment from 'moment'
+import { database } from 'firebase-admin'
 
 export async function getStaticPaths() {
   const { Blogs, Users, Categories, Tags } = await GetBlog()
@@ -16,6 +17,7 @@ export async function getStaticPaths() {
       params: { slug: item.slug },
       props: {
         BlogDetails: Blogs.filter((data) => data.slug === item.slug),
+        BlogIndex: Blogs.findIndex((data) => data.slug === item.slug),
         Users: Users.filter((data) => data.id === item.user),
         Blogs,
         Tags,
@@ -25,7 +27,7 @@ export async function getStaticPaths() {
     }
   })
 }
-const { BlogDetails, Blogs, Tags, Categories, Users, FilteredTags } =
+const { BlogDetails, BlogIndex, Blogs, Tags, Categories, Users, FilteredTags } =
   Astro.props
 if (!BlogDetails) return Astro.redirect('/404')
 ---
@@ -160,7 +162,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                     </span>
                   </li>
                 </ul>
-                <div class='blog-details mt-5'>
+                <div class='blog-details mt-10'>
                   <div class='small' set:html={BlogDetails[0].content} />
                 </div>
               </div>
