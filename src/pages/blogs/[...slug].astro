@@ -221,7 +221,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                 {BlogIndex === 0 ? (
                   <div class='flex-1' />
                 ) : (
-                  <div class='flex items-center justify-center gap-3 flex-1 bg-white p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
+                  <div class='flex items-center justify-center gap-3 flex-1 bg-white dark:bg-blue-900 dark:bg-opacity-10 p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
                     <Image
                       width={100}
                       height={100}
@@ -230,10 +230,10 @@ if (!BlogDetails) return Astro.redirect('/404')
                       class='w-[60px] h-[60px]'
                     />
                     <div class="w-[100%] overflow-hidden">
-                      <a href={`/blogs/${Blogs[BlogIndex - 1].slug}`} class="hover:text-blue-500 transition-all">
+                      <a href={`/blogs/${Blogs[BlogIndex - 1].slug}`} class="dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all">
                         Prev Blog
                       </a>
-                      <p class='whitespace-nowrap'>
+                      <p class='whitespace-nowrap dark:text-white'>
                         {Blogs[BlogIndex - 1].title}
                       </p>
                     </div>
@@ -242,7 +242,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                 {BlogIndex === Blogs.length - 1 ? (
                   <div class='flex-1' />
                 ) : (
-                <div class='flex items-center justify-center gap-3 flex-1 bg-white p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
+                <div class='flex items-center justify-center gap-3 flex-1 bg-white dark:bg-blue-900 dark:bg-opacity-10 p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
                     <Image
                       width={100}
                       height={100}
@@ -251,10 +251,10 @@ if (!BlogDetails) return Astro.redirect('/404')
                       class='w-[60px] h-[60px]'
                     />
                     <div class="w-[100%] overflow-hidden">
-                      <a href={`/blogs/${Blogs[BlogIndex + 1].slug}`} class="hover:text-blue-500 transition-all">
-                        Next Blog
+                      <a href={`/blogs/${Blogs[BlogIndex + 1].slug}`} class="dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all">
+                        Prev Blog
                       </a>
-                      <p class='whitespace-nowrap'>
+                      <p class='whitespace-nowrap dark:text-white'>
                         {Blogs[BlogIndex + 1].title}
                       </p>
                     </div>
