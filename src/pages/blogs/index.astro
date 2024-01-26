@@ -8,7 +8,10 @@ import { GetBlog } from '../../api'
 import { filterBlogs } from '../../utils/helper'
 
 const { Blogs, Users, Categories, Tags } = await GetBlog()
-const FilteredBlogs = filterBlogs(Blogs, { filterByTags: 'asdad' })
+const FilteredBlogs = filterBlogs(Blogs, {
+  filterByCategory: Astro.url.searchParams.get('category'),
+  filterByTags: Astro.url.searchParams.get('tag')
+})
 ---
 
 <Layout title='Blogs | Bitwit Techno' description='' image=''>
@@ -19,7 +22,7 @@ const FilteredBlogs = filterBlogs(Blogs, { filterByTags: 'asdad' })
         <div class='lg:col-span-8 col-span-12 pb-10'>
           <div class='grid md:grid-cols-2 grid-cols-1 gap-[30px]'>
             {
-              Blogs?.map((blogItem: any) => {
+              FilteredBlogs?.map((blogItem: any) => {
                 const user = Users?.filter(
                   (item: any) => blogItem.user === item.id
                 )
@@ -87,7 +90,7 @@ const FilteredBlogs = filterBlogs(Blogs, { filterByTags: 'asdad' })
                 {
                   Categories?.map((item: any) => (
                     <a
-                      href={`#${item.id}`}
+                      href={`/blogs?category=${item.id}`}
                       class='flex justify-between bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 py-4 px-5 rounded-md hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white transition-all
                             duration-150'
                     >
@@ -125,7 +128,7 @@ const FilteredBlogs = filterBlogs(Blogs, { filterByTags: 'asdad' })
                 {
                   Tags?.map((item: any) => (
                     <a
-                      href={`#${item.id}`}
+                      href={`/blogs?tag=${item.id}`}
                       class='px-3 py-1 rounded text-base transition-all duration-150 bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white'
                     >
                       {item.name}

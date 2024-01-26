@@ -3,9 +3,23 @@ export const filterBlogs = (
   { filterByCategory, filterByTags }: any
 ) => {
   const filteredBlogs = blogs.reduce((acc: any, blog: any) => {
-    if (blog.tags.includes(filterByTags)) return acc
-    acc.push(blog)
-    return acc;
+    if (filterByTags) {
+      if (blog.tags.includes(filterByTags) === false) {
+        return acc
+      } else {
+        acc.push(blog)
+        return acc
+      }
+    }
+    if (filterByCategory) {
+      if (blog.category !== filterByCategory) {
+        return acc
+      } else {
+        acc.push(blog)
+        return acc
+      }
+    }
+    return blogs
   }, [])
   return filteredBlogs
 }

@@ -7,8 +7,6 @@ import Container from '../../components/shared/Container.astro'
 import Layout from '../../layouts/Layout.astro'
 import Title from '../../components/shared/Title.astro'
 import moment from 'moment'
-import { database } from 'firebase-admin'
-import BlogItem from '../../components/elements/BlogItem.astro'
 
 export async function getStaticPaths() {
   const { Blogs, Users, Categories, Tags } = await GetBlog()

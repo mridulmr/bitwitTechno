@@ -6,15 +6,19 @@ import babelScripts from 'astro-babel'
 import robotsTxt from 'astro-robots-txt'
 import compressor from 'astro-compressor'
 import webmanifest from 'astro-webmanifest'
+import node from '@astrojs/node'
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
-  output: 'static',
+  output: 'hybrid',
   experimental: {
     contentCollectionCache: true,
     optimizeHoistedScript: true
   },
+  adapter: node({
+    mode: "middleware"
+  }),
   integrations: [
     tailwind(),
     partytown({
