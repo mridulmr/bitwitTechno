@@ -2764,13 +2764,13 @@ export const solutionDetailsList = [
     metaTitle:
       'Empowering Success with Innovative Services and Solution | Bitwit Techno',
     metaDescription:
-      'Jarvisbitz: Your Tech Powerhouse. Unleash Potential with Custom Solutions & Cutting-Edge Innovation. Get a Free Consultation!',
+      'Bitwit: Your Tech Powerhouse. Unleash Potential with Custom Solutions & Cutting-Edge Innovation. Get a Free Consultation!',
     metaKeywords: [
       'Innovative solutions',
       'Technology services',
       'Business empowerment',
       'Customized solutions',
-      'Jarvisbitz services',
+      'Bitwit services',
       'Digital transformation',
       'Strategic consulting',
       'Advanced technology solutions',
@@ -2782,7 +2782,7 @@ export const solutionDetailsList = [
       'Secure your data with our cutting-edge cloud computing solutions designed for hosting and maintenance.',
     chooseUs: {
       description:
-        'Choose Jarvisbitz for Cloud Computing Solutions and experience unparalleled scalability, security, and efficiency. Our expertise ensures seamless integration, optimizing your business operations in the cloud.',
+        'Choose Bitwit for Cloud Computing Solutions and experience unparalleled scalability, security, and efficiency. Our expertise ensures seamless integration, optimizing your business operations in the cloud.',
       types: [
         {
           title: 'Digital Strategy',

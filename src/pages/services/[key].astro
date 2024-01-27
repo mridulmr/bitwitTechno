@@ -9,6 +9,7 @@ import { ServiceDetails } from '../../utils/service'
 import Technologies from '../../components/sections/Technologies.astro'
 import CTA from '../../components/sections/CTA.astro'
 import { Image } from 'astro:assets'
+import BlogsScroll from '../../components/shared/BlogsScroll.astro'
 
 export async function getStaticPaths() {
   return ServiceDetails.map((item) => ({
@@ -179,6 +180,7 @@ if (!data) return Astro.redirect('/404')
           </div>
         </Container>
         <Technologies />
+        <BlogsScroll />
         <CTA />
       </main>
     </Layout>

@@ -7,6 +7,7 @@ import Paragraph from '../../components/shared/Paragraph.astro'
 import Title from '../../components/shared/Title.astro'
 import Layout from '../../layouts/Layout.astro'
 import { solutionDetailsList } from '../../utils/solution'
+import BlogsScroll from '../../components/shared/BlogsScroll.astro'
 
 export async function getStaticPaths() {
   return solutionDetailsList.map((item) => ({
@@ -226,6 +227,7 @@ if (!data) return Astro.redirect('/404')
             </div>
           </Container>
         )}
+        <BlogsScroll />
         <CTA />
       </main>
     </Layout>

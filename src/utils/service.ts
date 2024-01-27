@@ -1218,7 +1218,7 @@ export const ServiceDetails = [
         {
           title: 'Expert animators',
           description:
-            'Backed by our in-house artists and animators, Jarvisbtiz brings exciting virtual experience to your users, enabling them to witness surreal world.'
+            'Backed by our in-house artists and animators, Bitwit brings exciting virtual experience to your users, enabling them to witness surreal world.'
         },
         {
           title: 'Immersive experience',

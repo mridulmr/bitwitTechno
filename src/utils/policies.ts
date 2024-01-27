@@ -103,7 +103,7 @@ export const privacyPolicyListing = {
     {
       title: 'Inquiries and Clarifications',
       content:
-        'For inquiries or concerns regarding this Privacy Policy, please contact us at services@jarvisbitz.com. We value transparency and are committed to addressing your questions promptly, ensuring a clear understanding of our privacy practices and policies for a secure and informed user experience.'
+        'For inquiries or concerns regarding this Privacy Policy, please contact us at services@bitwittechno.com. We value transparency and are committed to addressing your questions promptly, ensuring a clear understanding of our privacy practices and policies for a secure and informed user experience.'
     }
   ],
   Conclusion: [
@@ -176,7 +176,7 @@ export const termsAndConditionListing = {
     {
       title: 'Reversal Procedures',
       content:
-        'If you have any concern regarding the delivery then at first go report it immediately to project coordinator and assigned technical lead. If the reported issue has not been resolved then inform the same to your account manager from Business Development team. The concern account manager will surely do the needful to address to any of your concern. If Account Manager also fails to address your concern then do write to us about your concern on services@jarvisbitz.com. Upon receiving the details of your concern, it is sole discretion of Management as to whether provide you full refund or partial refund.',
+        'If you have any concern regarding the delivery then at first go report it immediately to project coordinator and assigned technical lead. If the reported issue has not been resolved then inform the same to your account manager from Business Development team. The concern account manager will surely do the needful to address to any of your concern. If Account Manager also fails to address your concern then do write to us about your concern on services@bitwittechno.com. Upon receiving the details of your concern, it is sole discretion of Management as to whether provide you full refund or partial refund.',
       additionalContent:
         'While submitting your concern, we request users to claim the refund by mentioning the reason of discomfort. That will enable us to enhance our offering and overcome with the bottleneck or problem area if any.'
     }
@@ -224,7 +224,7 @@ export const termsAndConditionListing = {
   Testimonials: [
     {
       content:
-        'Upon your authorization for testimonial publication, we may include your name and relevant personal information. Prior to posting, you will have the opportunity to review and approve the testimonial. If you wish to update or remove your testimonial, please contact us at services@jarvisbitz.com, emphasizing our commitment to addressing privacy concerns with diligence and transparency.'
+        'Upon your authorization for testimonial publication, we may include your name and relevant personal information. Prior to posting, you will have the opportunity to review and approve the testimonial. If you wish to update or remove your testimonial, please contact us at services@bitwittechno.com, emphasizing our commitment to addressing privacy concerns with diligence and transparency.'
     }
   ],
   'Non-Disclosure Agreement (NDA) Policy': [
@@ -250,13 +250,13 @@ export const termsAndConditionListing = {
   Blogs: [
     {
       content:
-        'While we provide publicly accessible blogs, exercise caution as information shared may be read and used by others. Bitwit disclaims responsibility for publicly disclosed personal information. Even after account termination, posts and select profile details may persist. To request information removal from our blogs, please email us at services@jarvisbitz.com, emphasizing our commitment to addressing privacy concerns with diligence and transparency.'
+        'While we provide publicly accessible blogs, exercise caution as information shared may be read and used by others. Bitwit disclaims responsibility for publicly disclosed personal information. Even after account termination, posts and select profile details may persist. To request information removal from our blogs, please email us at services@bitwittechno.com, emphasizing our commitment to addressing privacy concerns with diligence and transparency.'
     }
   ],
   'Contact Information': [
     {
       content:
-        'For any inquiries or concerns regarding these Terms and Conditions, please reach out to us at services@jarvisbitz.com. We welcome your communication and are here to assist you.'
+        'For any inquiries or concerns regarding these Terms and Conditions, please reach out to us at services@bitwittechno.com. We welcome your communication and are here to assist you.'
     }
   ],
   Endnote: [

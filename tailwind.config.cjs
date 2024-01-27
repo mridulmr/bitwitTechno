@@ -30,7 +30,7 @@ module.exports = {
       },
       animation: {
         parallax: 'parallax linear both'
-      }
+      },
     }
   },
   plugins: []
