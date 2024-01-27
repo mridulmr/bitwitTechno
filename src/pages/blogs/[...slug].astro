@@ -227,8 +227,11 @@ if (!BlogDetails) return Astro.redirect('/404')
                       alt={Blogs[BlogIndex - 1].image}
                       class='w-[60px] h-[60px]'
                     />
-                    <div class="w-[100%] overflow-hidden">
-                      <a href={`/blogs/${Blogs[BlogIndex - 1].slug}`} class="dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all">
+                    <div class='w-[100%] overflow-hidden'>
+                      <a
+                        href={`/blogs/${Blogs[BlogIndex - 1].slug}`}
+                        class='dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all'
+                      >
                         Prev Blog
                       </a>
                       <p class='whitespace-nowrap dark:text-white'>
@@ -240,7 +243,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                 {BlogIndex === Blogs.length - 1 ? (
                   <div class='flex-1' />
                 ) : (
-                <div class='flex items-center justify-center gap-3 flex-1 bg-white dark:bg-blue-900 dark:bg-opacity-10 p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
+                  <div class='flex items-center justify-center gap-3 flex-1 bg-white dark:bg-blue-900 dark:bg-opacity-10 p-4 overflow-hidden shadow-lg shadow-box-shadow rounded-lg'>
                     <Image
                       width={100}
                       height={100}
@@ -248,8 +251,11 @@ if (!BlogDetails) return Astro.redirect('/404')
                       alt={Blogs[BlogIndex + 1].image}
                       class='w-[60px] h-[60px]'
                     />
-                    <div class="w-[100%] overflow-hidden">
-                      <a href={`/blogs/${Blogs[BlogIndex + 1].slug}`} class="dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all">
+                    <div class='w-[100%] overflow-hidden'>
+                      <a
+                        href={`/blogs/${Blogs[BlogIndex + 1].slug}`}
+                        class='dark:text-white hover:dark:text-blue-500 hover:text-blue-500 transition-all'
+                      >
                         Next Blog
                       </a>
                       <p class='whitespace-nowrap dark:text-white'>
@@ -265,7 +271,7 @@ if (!BlogDetails) return Astro.redirect('/404')
                 <form
                   action='#'
                   class='py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow
-                      border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary'
+                    border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary'
                 >
                   <input
                     type='text'
@@ -304,52 +310,50 @@ if (!BlogDetails) return Astro.redirect('/404')
                     Categories
                   </h4>
 
-                  <ul class='mt-4 space-y-4'>
+                  <div class='mt-4 space-y-4'>
                     {Categories?.map((item: any) => (
-                      <li class='block'>
-                        <a
-                          href={`#${item.id}`}
-                          class='flex justify-between bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 py-4 px-5 rounded-md hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white transition-all
-                              duration-150'
-                        >
-                          <span>
-                            {item.name} ({item.count})
-                          </span>
-                          <span class='text-2xl'>
-                            <svg
-                              xmlns='http://www.w3.org/2000/svg'
-                              width='1em'
-                              height='1em'
-                              viewBox='0 0 20 20'
-                            >
-                              <path
-                                fill='currentColor'
-                                fill-rule='evenodd'
-                                d='M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10L8.22 6.28a.75.75 0 0 1 0-1.06'
-                                clip-rule='evenodd'
-                              />
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
+                      <a
+                        href={`/blogs?category=${item.id}`}
+                        class='flex justify-between bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 py-4 px-5 rounded-md hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white transition-all
+                            duration-150'
+                      >
+                        <span>
+                          {item.name} ({item.count})
+                        </span>
+                        <span class='text-2xl'>
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            width='1em'
+                            height='1em'
+                            viewBox='0 0 20 20'
+                          >
+                            <path
+                              fill='currentColor'
+                              fill-rule='evenodd'
+                              d='M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10L8.22 6.28a.75.75 0 0 1 0-1.06'
+                              clip-rule='evenodd'
+                            />
+                          </svg>
+                        </span>
+                      </a>
                     ))}
-                  </ul>
+                  </div>
                 </div>
 
                 <div class='bg-white dark:bg-box-bg p-5 rounded-lg shadow-lg shadow-box-shadow'>
                   <h4 class='font-bold text-xl text-blue-950 dark:text-gray-400'>
                     Popular Tags
                   </h4>
-                  <ul class='mt-4 flex gap-3 flex-wrap'>
+                  <div class='mt-4 flex gap-3 flex-wrap'>
                     {Tags?.map((item: any) => (
                       <a
-                        href={`#${item.id}`}
+                        href={`/blogs?tag=${item.id}`}
                         class='px-3 py-1 rounded text-base transition-all duration-150 bg-gray-50 dark:bg-blue-500 dark:bg-opacity-10 hover:dark:bg-blue-500 hover:bg-blue-500 hover:text-white dark:text-gray-500 hover:dark:text-white'
                       >
                         {item.name}
                       </a>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </div>
             </div>
