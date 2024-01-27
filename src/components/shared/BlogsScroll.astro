@@ -68,7 +68,7 @@ const { Blogs } = await GetBlog()
               </p>
               <BtnLink
                 text='Find out More'
-                href='/contact-us'
+                href={`/blogs/${item.slug}`}
                 className='flex justify-center w-full sm:w-max'
                 variant='primary'
               />
