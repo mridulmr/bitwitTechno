@@ -1,16 +1,18 @@
 ---
 export interface Props {
   className?: string
+  containerClassName?: string
   label: string
   error: string
   name: string
   placeholder: string
 }
 
-const { name, label, placeholder, className, error } = Astro.props
+const { name, label, placeholder, className, containerClassName, error } =
+  Astro.props
 ---
 
-<div class='flex flex-col'>
+<div class={`flex flex-col ${containerClassName}`}>
   <label class='font-semibold text-gray-900 dark:text-white' for={name}
     >{label}</label
   >
@@ -18,7 +20,7 @@ const { name, label, placeholder, className, error } = Astro.props
     id={name}
     name={name}
     placeholder={placeholder}
-    class='transition-all w-full p-4 border rounded-lg bg-transparent backdrop-blur-sm outline-none outline-offset-0 focus:outline-1 focus:outline-blue-500 focus:border-blue-700 resize-none'
+    class={`transition-all w-full p-4 border rounded-lg bg-transparent backdrop-blur-sm outline-none outline-offset-0 focus:outline-1 focus:outline-blue-500 focus:border-blue-700 resize-none ${className}`}
   ></textarea>
   {error && <p class='text-sm text-end'>{error}</p>}
 </div>

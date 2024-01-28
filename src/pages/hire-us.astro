@@ -1,14 +1,118 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Hero from '../components/sections/Hero.astro'
+import BlogsScroll from '../components/shared/BlogsScroll.astro'
+import HeroHireUs from '../components/sections/HeroHireUs.astro'
+import Title from '../components/shared/Title.astro'
+import Paragraph from '../components/shared/Paragraph.astro'
+import Container from '../components/shared/Container.astro'
+import Input from '../components/shared/Input.astro'
+import TextArea from '../components/shared/TextArea.astro'
+import Checkbox from '../components/shared/Checkbox.astro'
+import Button from '../components/shared/Button.astro'
 ---
 
 <Layout
-  title='Home | Bitwit Techno'
-  description="Empower your journey with Bitwit Techno's avant-garde IT solutions, fusing technology and creativity for unparalleled innovation and future-proof success."
+  title='Hire Us | Bitwit Techno'
+  description='Are you seeking unparalleled expertise to elevate your projects? Look no further. We specialize in delivering tailored solutions that align with your unique needs. Our seasoned team brings a wealth of experience and a commitment to excellence.'
   image=''
 >
   <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
-    
+    <HeroHireUs />
+    <Container>
+      <section
+        class='flex flex-col items-center justify-center text-center gap-2'
+      >
+        <Title>Feel free to express your mind.</Title>
+        <Paragraph className='w-[70%]'>
+          Unlock success with agile solutions. Share your business model
+          securely. We'll craft a tailored, thriving product while keeping your
+          idea safe.
+        </Paragraph>
+      </section>
+      <form class='w-[100%] md:w-[80%] m-auto mt-16 flex flex-col gap-5'>
+        <Input
+          name='fullname'
+          label='FullName'
+          type='text'
+          placeholder='Enter your fullname'
+          error=''
+        />
+        <div class='flex gap-5'>
+          <Input
+            name='email'
+            label='Email'
+            type='email'
+            placeholder='Enter your email'
+            error=''
+            containerClassName='w-[100%]'
+          />
+          <Input
+            name='phone'
+            label='Phone Number'
+            type='number'
+            placeholder='Enter your phone number'
+            error=''
+            containerClassName='w-[100%]'
+          />
+        </div>
+        <div class='flex gap-5'>
+          <Input
+            name='address'
+            label='Address'
+            type='text'
+            placeholder='Enter your address'
+            error=''
+            containerClassName='w-[100%]'
+          />
+          <Input
+            name='buget'
+            label='Your Budget'
+            type='number'
+            placeholder='Enter your project budget'
+            error=''
+            containerClassName='w-[100%]'
+          />
+        </div>
+        <TextArea
+          name='message'
+          label='Message'
+          placeholder='Enter your message describing your project'
+          error=''
+          containerClassName='w-[100%]'
+        />
+        <Checkbox
+          name='authorize'
+          label='I authorize project discussions with Bitwit Techno.'
+        />
+        <Button
+          title='submit'
+          type='submit'
+          variant={'primary'}
+          className={'w-fit text-white ml-auto'}
+        >
+          <span
+            class='hidden sm:flex relative items-center justify-center z-[5]'
+            >Submit Your Idea</span
+          >
+          <span class='flex sm:hidden relative z-[5]'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke-width='1.5'
+              stroke='currentColor'
+              class='w-5 h-5'
+            >
+              <path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                d='M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5'
+              ></path>
+            </svg>
+          </span>
+        </Button>
+      </form>
+    </Container>
+    <BlogsScroll />
   </main>
 </Layout>
