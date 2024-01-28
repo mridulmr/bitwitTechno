@@ -1,7 +1,7 @@
 import {
   collection,
   getDocs,
-  getFirestore,
+  addDoc,
   query,
   where,
   orderBy
@@ -13,7 +13,7 @@ export const GetBlog = async () => {
   const Users = []
   const Tags = []
   const Categories = []
-  try {    
+  try {
     const getBlogs = await getDocs(
       query(
         collection(db, 'blogs'),
@@ -58,4 +58,12 @@ export const GetBlog = async () => {
     console.error('Error fetching data: ', e)
   }
   return { Blogs, Users, Tags, Categories }
+}
+
+export const SubmitContact = async (data: any) => {
+  try {
+    await addDoc(collection(db, 'contacts'), data)
+  } catch (error) {
+    console.log(error)
+  }
 }

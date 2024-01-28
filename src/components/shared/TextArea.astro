@@ -22,5 +22,5 @@ const { name, label, placeholder, className, containerClassName, error } =
     placeholder={placeholder}
     class={`transition-all w-full p-4 border rounded-lg bg-transparent backdrop-blur-sm outline-none outline-offset-0 focus:outline-1 focus:outline-blue-500 focus:border-blue-700 resize-none ${className}`}
   ></textarea>
-  {error && <p class='text-sm text-end'>{error}</p>}
+  {error && <p class='text-sm text-end text-red-400'>{error}</p>}
 </div>
