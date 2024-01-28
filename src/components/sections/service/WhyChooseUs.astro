@@ -24,9 +24,9 @@ const { tabList } = Astro.props
             <span class='text-4xl font-thin block text-right dark:text-white'>
               {index + 1}
             </span>
-            <h4 class='text-xl font-bold block text-right dark:text-white'>
+            <p class='text-xl font-bold block text-right dark:text-white'>
               {item.title}
-            </h4>
+            </p>
             <p class='mt-5 text-right dark:text-white'>{item.description}</p>
           </div>
           <Image
@@ -34,6 +34,8 @@ const { tabList } = Astro.props
             height={100}
             src={item.image}
             alt={item.image}
+            decoding='async'
+            loading='lazy'
             class='w-[120%] h-[120%] rounded-lg absolute top-0 left-0 bottom-0 right-0 -z-10'
           />
         </div>

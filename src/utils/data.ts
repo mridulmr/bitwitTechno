@@ -612,3 +612,16 @@ export const technologies = {
     }
   ]
 }
+
+export const ourTeam = [
+  {
+    id: 1,
+    title: 'Mridul Rathore',
+    designation: 'CEO/Founder',
+    image: '/images/solution/business.webp',
+    facebook: '',
+    linkedin: '',
+    instagram: '',
+    github: ''
+  }
+]

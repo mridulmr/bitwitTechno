@@ -62,6 +62,8 @@ const { Blogs } = await GetBlog()
                 height={100}
                 src={item.image}
                 alt={item.image}
+                decoding="async"
+                loading="lazy"
               />
               <p class='text-lg font-bold mb-4 text-clip whitespace-nowrap overflow-clip dark:text-gray-50'>
                 {item.title}
