@@ -1,4 +1,6 @@
 ---
+import Container from './Container.astro'
+
 export interface Props {
   href: string
   text: string
@@ -6,7 +8,7 @@ export interface Props {
 const { href, text } = Astro.props
 ---
 
-<li>
+<li class=''>
   <a
     href={href}
     class='duration-300 font-medium ease-linear hover:text-primary py-3'
