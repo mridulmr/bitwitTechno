@@ -25,8 +25,10 @@ const { key, image, description, grid } = Astro.props
           alt={image}
           class='block w-full h-full object-cover object-center absolute right-0 animate-parallax [animation-timeline:view(x)]'
         />
-        <div class='bg-[#ffffff90] dark:bg-blue-950 rounded-3xl backdrop-blur-lg text-center absolute top-[100%] invisible items-center bottom-0 left-0 right-0 p-5 group-hover:visible group-hover:top-[15%] transition-all'>
-          <Paragraph className='whitespace-normal'>{description}</Paragraph>
+        <div class='bg-[#ffffff90] dark:bg-blue-950 rounded-3xl backdrop-blur-lg text-center absolute bottom-0 top-[60%] p-3'>
+          <Paragraph className='whitespace-normal !text-sm'>
+            {description}
+          </Paragraph>
         </div>
       </div>
     </a>
