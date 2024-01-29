@@ -14,9 +14,9 @@ const { title, description, icon, href } = Astro.props
 <div
   class='group p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden'
 >
-  <a href={href} class="hover:group-hover:scale-50">
+  <a href={href}>
     <div
-      class='rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative'
+      class='group-hover:scale-110 rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative transition-all'
     >
       <slot set:html={icon} />
     </div>
@@ -29,7 +29,7 @@ const { title, description, icon, href } = Astro.props
       </Paragraph>
     </div>
     <span
-      class='absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full'
+      class='group-hover:scale-150 absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full transition-all'
     ></span>
   </a>
 </div>
