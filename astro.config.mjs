@@ -8,8 +8,6 @@ import compressor from 'astro-compressor'
 import webmanifest from 'astro-webmanifest'
 import node from '@astrojs/node'
 
-import critters from 'astro-critters'
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
@@ -82,6 +80,5 @@ export default defineConfig({
       background_color: '#3367D6',
       display: 'standalone'
     }),
-    critters()
   ]
 })
