@@ -57,6 +57,8 @@ export default defineConfig({
     }),
     robotsTxt(),
     compressor({
+      gzip: false,
+      brotli: false,
       fileExtensions: [
         '.css',
         '.js',
