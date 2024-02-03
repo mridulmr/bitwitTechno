@@ -8,6 +8,8 @@ import compressor from 'astro-compressor'
 import webmanifest from 'astro-webmanifest'
 import node from '@astrojs/node'
 
+import critters from 'astro-critters'
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bitwit-techno-site.web.app',
@@ -17,7 +19,7 @@ export default defineConfig({
     optimizeHoistedScript: true
   },
   adapter: node({
-    mode: "middleware"
+    mode: 'middleware'
   }),
   integrations: [
     tailwind(),
@@ -67,7 +69,7 @@ export default defineConfig({
         '.svg',
         '.txt',
         '.webp'
-      ]
+      ],
     }),
     webmanifest({
       name: 'Bitwit Techno',
@@ -79,6 +81,7 @@ export default defineConfig({
       theme_color: '#3367D6',
       background_color: '#3367D6',
       display: 'standalone'
-    })
+    }),
+    critters()
   ]
 })
